@@ -1,121 +1,109 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+export default function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolled = window.scrollY > 10;
-      setScrolled(isScrolled);
-    };
+    useEffect(() => {
+        const onScroll = () => setScrolled(window.scrollY > 10);
+        window.addEventListener("scroll", onScroll);
+        return () => window.removeEventListener("scroll", onScroll);
+    }, []);
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    const navItems = [
+        { name: "Home", href: "/" },
+        { name: "Schedule", href: "/Schedule" },
+        { name: "Legacy", href: "/Legacy" },
+        { name: "Gallery", href: "/Gallery" },
+        { name: "Team", href: "/Team" },
+        { name: "Contact", href: "/contact" },
+    ];
 
-  const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Contact', href: '/contact' },
-  ];
+    return (
+        <nav
+            className={`fixed top-0 left-0 w-full z-50 h-16 transition-colors duration-300 border-b ${scrolled
+                    ? "bg-white/95 backdrop-blur-md shadow-sm border-gray-200"
+                    : "bg-transparent border-transparent"
+                }`}
+        >
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
+                <div className="flex items-center justify-between h-full">
+                    {/* Logo */}
+                    <Link href="/" className="flex items-center h-full">
+                        <div className="relative h-12 sm:h-14 md:h-16 w-auto">
+                            <Image
+                                src="/images/interiitlogo.webp"
+                                alt="InterIIT Logo"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
+                        </div>
+                    </Link>
 
-  return (
-    <nav className={`fixed w-full  z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg py-2' : 'bg-black py-4'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
-          {/* Logo */}
-          <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="flex items-center">
-              <div className="relative h-10 w-40"> {/* Adjust width based on your logo aspect ratio */}
-                <Image
-                  src="/images/lo.png" // Replace with your logo path
-                  alt="Company Logo"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
-            </Link>
-          </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex md:items-center md:space-x-2">
-            {navItems.map((item, index) => (
-              <Link
-                key={index}
-                href={item.href}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 ${scrolled ? 'text-gray-700 hover:text-blue-600 hover:bg-blue-50' : 'text-white hover:text-blue-200 hover:bg-white/10'}`}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
+                    {/* Desktop navigation */}
+                    <div className="hidden md:flex items-center space-x-6">
+                        {navItems.map((item) => (
+                            <Link
+                                key={item.name}
+                                href={item.href}
+                                className={`relative inline-block text-base font-medium transition-colors duration-200 ${scrolled ? "text-gray-800 hover:text-sky-600" : "text-black hover:text-sky-600"
+                                    } group`}
+                            >
+                                {item.name}
+                                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-sky-600 transition-all duration-300 group-hover:w-full" />
+                            </Link>
+                        ))}
+                    </div>
 
-          {/* Auth Buttons - Desktop */}
-          <div className="hidden md:flex md:items-center space-x-3">
-            <button className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 ${scrolled ? 'text-blue-600 hover:bg-blue-50' : 'text-white hover:bg-white/10'}`}>
-              Sign in
-            </button>
-            <button className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-md hover:bg-blue-700 transition-all duration-300 shadow-md">
-              Sign up
-            </button>
-          </div>
+                    {/* Mobile menu button */}
+                    <div className="md:hidden flex items-center">
+                        <button
+                            onClick={() => setIsOpen((s) => !s)}
+                            aria-expanded={isOpen}
+                            aria-label={isOpen ? "Close menu" : "Open menu"}
+                            className={`p-2 rounded-md focus:outline-none transition-colors duration-200 ${scrolled ? "text-gray-800 hover:bg-gray-100" : "text-black hover:bg-black/10"
+                                }`}
+                        >
+                            {!isOpen ? (
+                                <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                                </svg>
+                            ) : (
+                                <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            )}
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className={`inline-flex items-center justify-center p-2 rounded-md focus:outline-none transition-all duration-300 ${scrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/10'}`}
-              aria-expanded="false"
+            {/* Mobile panel (absolute overlay below navbar) */}
+            <div
+                className={`md:hidden absolute top-full left-0 w-full z-40 transform origin-top transition-all duration-200 ${isOpen ? "opacity-100 scale-y-100 pointer-events-auto" : "opacity-0 scale-y-0 pointer-events-none"
+                    }`}
             >
-              <span className="sr-only">Open main menu</span>
-              {!isOpen ? (
-                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              ) : (
-                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              )}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Navigation */}
-      <div className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-        <div className={`px-2 pt-2 pb-4 space-y-1 ${scrolled ? 'bg-white' : 'bg-gray-900'}`}>
-          {navItems.map((item, index) => (
-            <Link
-              key={index}
-              href={item.href}
-              className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${scrolled ? 'text-gray-700 hover:bg-blue-50 hover:text-blue-600' : 'text-white hover:bg-white/10'}`}
-              onClick={() => setIsOpen(false)}
-            >
-              {item.name}
-            </Link>
-          ))}
-          <div className="pt-4 border-t border-gray-200">
-            <button className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium mb-2 ${scrolled ? 'text-blue-600 hover:bg-blue-50' : 'text-white hover:bg-white/10'}`}>
-              Sign in
-            </button>
-            <button className="block w-full text-left px-3 py-2 rounded-md text-base font-medium bg-blue-600 text-white hover:bg-blue-700">
-              Sign up
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;
+                <div className={`w-full ${scrolled ? "bg-white/95 border-t border-gray-200 shadow-md" : "bg-white/95 border-t border-gray-200"}`}>
+                    <div className="px-4 pt-3 pb-5 space-y-2">
+                        {navItems.map((item) => (
+                            <Link
+                                key={item.name}
+                                href={item.href}
+                                onClick={() => setIsOpen(false)}
+                                className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-150"
+                            >
+                                {item.name}
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </nav>
+    );
+}
