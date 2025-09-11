@@ -17,9 +17,9 @@ export default function Navbar() {
     const navItems = [
         { name: "Home", href: "/" },
         { name: "Schedule", href: "/Schedule" },
-        { name: "Legacy", href: "/Legacy" },
-        { name: "Gallery", href: "/Gallery" },
-        { name: "Team", href: "/Team" },
+        { name: "Legacy", href: "/legacy" },
+        { name: "Gallery", href: "/gallery" },
+        { name: "Team", href: "/team" },
         { name: "Contact", href: "/contact" },
     ];
 
@@ -27,7 +27,7 @@ export default function Navbar() {
         <nav
             className={`fixed top-0 left-0 w-full z-50 h-16 transition-colors duration-300 border-b ${scrolled
                     ? "bg-white/95 backdrop-blur-md shadow-sm border-gray-200"
-                    : "bg-transparent border-transparent"
+                    : "bg-gray-200 border-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
