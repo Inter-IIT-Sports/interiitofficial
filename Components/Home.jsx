@@ -25,8 +25,6 @@ export default function HeroWithText() {
           alt="Hero Background"
           className="absolute top-0 left-0 w-full h-full object-cover"
         />
-
-
       </section>
 
       {/* Video Carousel */}
@@ -45,7 +43,6 @@ export default function HeroWithText() {
       <section className="w-full px-4 md:px-8 overflow-hidden">
         <ParticipatingIITs />
       </section>
-
     </>
   );
 }
