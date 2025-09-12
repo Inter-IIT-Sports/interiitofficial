@@ -1,33 +1,204 @@
+// "use client";
+// import { useState, useEffect } from "react";
+// import VideoCarousel from "./VideoCarousel";
+// import DirectorsSection from "./DirectorsSection";
+// import DeansSection from "./Deans";
+// import CommitteesSection from "./CommitteesSection";
+// import ParticipatingIITs from "./ParticipatingIITs";
+
+
+// export default function HeroWithText() {
+//   const [showText, setShowText] = useState(false);
+
+//   useEffect(() => {
+//     const timer = setTimeout(() => setShowText(true), 300);
+//     return () => clearTimeout(timer);
+//   }, []);
+
+//   return (
+//     <>
+//       {/* Hero Section */}
+//       <section className="relative w-full h-screen overflow-hidden">
+//         {/* Background Image */}
+//         <img
+//           src="/images/background/slider1.png"
+//           alt="Hero Background"
+//           className="absolute top-0 left-0 w-full h-full object-cover"
+//         />
+//       </section>
+
+//       {/* Video Carousel */}
+//       <section className="w-full px-4 md:px-8 overflow-hidden">
+//         <VideoCarousel />
+//       </section>
+//       <section className="w-full px-4 md:px-8 overflow-hidden">
+//         <DirectorsSection />
+//       </section>
+//       <section className="w-full px-4 md:px-8 overflow-hidden">
+//         <DeansSection />
+//       </section>
+//       <section className="w-full px-4 md:px-8 overflow-hidden">
+//         <CommitteesSection />
+//       </section>
+//       <section className="w-full px-4 md:px-8 overflow-hidden">
+//         <ParticipatingIITs />
+//       </section>
+//     </>
+//   );
+// }
+
 "use client";
-import { useState, useEffect } from "react";
 import VideoCarousel from "./VideoCarousel";
 import DirectorsSection from "./DirectorsSection";
 import DeansSection from "./Deans";
 import CommitteesSection from "./CommitteesSection";
 import ParticipatingIITs from "./ParticipatingIITs";
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import TextType from "./TextType";
 
-
-export default function HeroWithText() {
-  const [showText, setShowText] = useState(false);
+export default function HeroSection2025() {
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowText(true), 300);
-    return () => clearTimeout(timer);
+    const targetDate = new Date("December 14, 2025 00:00:00").getTime();
+    const timer = setInterval(() => {
+      const now = new Date().getTime();
+      const diff = targetDate - now;
+      if (diff > 0) {
+        setTimeLeft({
+          days: Math.floor(diff / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((diff / (1000 * 60)) % 60),
+          seconds: Math.floor((diff / 1000) % 60),
+        });
+      }
+    }, 1000);
+    return () => clearInterval(timer);
   }, []);
+
+  const mainMeetIITs = [
+    { name: "IIT Madras", logo: "/images/alliits/IIT Madras.webp", dates: "Dec 14 – 21" },
+    { name: "IIT Hyderabad", logo: "/images/alliits/IIT Hyderabad.webp", dates: "Dec 14 – 21" },
+    { name: "IIT Tirupati", logo: "/images/alliits/IIT TIRUPATI.webp", dates: "Dec 14 – 21" },
+  ];
+
+  const aquaticsMeet = {
+    name: "IIT Madras",
+    logo: "/images/alliits/IIT Madras.webp",
+    meet: "39th Aquatics Meet",
+    dates: "sep 31 -- oct 5",
+  };
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative w-full h-screen overflow-hidden">
-        {/* Background Image */}
-        <img
-          src="/images/background/slider1.png"
-          alt="Hero Background"
-          className="absolute top-0 left-0 w-full h-full object-cover"
-        />
-      </section>
+      <section className="w-full bg-gray-50 py-16 px-6">
+        {/* Inter IIT Logo */}
+        <div className="flex justify-center mb-6">
+          <Image
+            src="/logo_2.png"
+            alt="Inter IIT Sports Meet Logo"
+            width={150}
+            height={150}
+          />
+        </div>
 
-      {/* Video Carousel */}
+        {/* Title + Description */}
+        <div className="max-w-4xl mx-auto text-center space-y-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <TextType
+              text={["Inter IIT Sports Meet"]}
+              typingSpeed={75}
+              pauseDuration={1500}
+              showCursor={true}
+              cursorCharacter="|"
+            />
+          </h1>
+          <p className="text-gray-700 text-lg md:text-xl mt-2">
+            The Inter IIT Sports Meet 2025 brings together athletes from all IITs,
+            showcasing talent, energy, and sportsmanship in a week-long celebration
+            of competitive spirit.
+          </p>
+        </div>
+
+        {/* 58th Inter IIT Sports Meet + Countdown */}
+        <div className="mt-12 max-w-5xl mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold text-sky-600 mb-6">
+            58th Inter IIT Sports Meet
+          </h2>
+
+          {/* Countdown Timer */}
+
+          <span className="text-gray-600 ">Event starts In</span>
+          <div className="flex justify-center gap-4 flex-wrap mb-12">
+            {Object.entries(timeLeft).map(([unit, value]) => (
+              <div
+                key={unit}
+                className="bg-white border-gray-400 mt-4 shadow-md rounded-xl px-4 py-3 w-20 flex flex-col items-center"
+              >
+                <span className="text-2xl md:text-3xl font-bold text-gray-900">
+                  {value}
+                </span>
+                <span className="text-sm md:text-base text-gray-600 capitalize">
+                  {unit}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          {/* Hosting IITs for Main Meet (Inline, modern) */}
+          <p className="text-gray-600 font-medium mb-4">Co-hosted by</p>
+          <div className="flex flex-wrap justify-center items-center gap-12">
+            {mainMeetIITs.map((iit) => (
+              <div key={iit.name} className="flex flex-col items-center">
+                <div className="w-20 h-20 md:w-24 md:h-24 mb-2">
+                  <Image
+                    src={iit.logo}
+                    alt={iit.name}
+                    width={100}
+                    height={100}
+                    className="object-contain"
+                  />
+                </div>
+                <p className="text-lg font-semibold text-gray-900">{iit.name}</p>
+                <p className="text-gray-700 text-sm">{iit.dates}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* 39th Aquatics Meet (Side Highlight) */}
+        <div className="mt-16 max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between bg-white border-gray-400 shadow-md rounded-xl p-6">
+          {/* Text on left */}
+          <div className="md:w-2/3 text-left">
+            <h2 className="text-xl md:text-2xl font-semibold text-sky-600 mb-2">
+              39th Aquatics Meet
+            </h2>
+            <p className="text-gray-700 text-lg md:text-xl mb-1">{aquaticsMeet.name}</p>
+            <p className="text-gray-800 font-medium">{aquaticsMeet.dates}</p>
+            <p className="mt-2 text-gray-600">
+              Hosted exclusively by IIT Madras. A highlight of the year, showcasing
+              top aquatic talent alongside the main sports meet.
+            </p>
+          </div>
+
+          {/* Logo on right */}
+          <div className="md:w-1/3 flex justify-center md:justify-end mt-4 md:mt-0">
+            <Image
+              src={aquaticsMeet.logo}
+              alt={aquaticsMeet.name}
+              width={120}
+              height={120}
+              className="object-contain"
+            />
+          </div>
+        </div>
+      </section>
       <section className="w-full px-4 md:px-8 overflow-hidden">
         <VideoCarousel />
       </section>
@@ -47,171 +218,8 @@ export default function HeroWithText() {
   );
 }
 
-// "use client";
-
-// import { useState, useEffect } from "react";
-// import Image from "next/image";
-// import TextType from "./TextType";
-// import VideoCarousel from "./VideoCarousel";
-// import DirectorsSection from "./DirectorsSection";
-
-
-// export default function Home() {
-//     const [timeLeft, setTimeLeft] = useState({
-//         days: 0,
-//         hours: 0,
-//         minutes: 0,
-//         seconds: 0,
-//     });
-
-//     useEffect(() => {
-//         const calculateTimeLeft = () => {
-//             const eventDate = new Date("December 14, 2025 00:00:00").getTime();
-//             const now = new Date().getTime();
-//             const difference = eventDate - now;
-
-//             if (difference > 0) {
-//                 setTimeLeft({
-//                     days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-//                     hours: Math.floor(
-//                         (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-//                     ),
-//                     minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-//                     seconds: Math.floor((difference % (1000 * 60)) / 1000),
-//                 });
-//             }
-//         };
-
-//         calculateTimeLeft();
-//         const timer = setInterval(calculateTimeLeft, 1000);
-//         return () => clearInterval(timer);
-//     }, []);
-
-//     return (
-//         <>
-//         <section className="relative w-full bg-[#f8f4ee] my-0 py-10 md:py-16 overflow-hidden">
-//             {/* Background texture */}
-//             {/* <div className="absolute inset-0 opacity-15">
-//                 <Image
-//                     src="/bg-pattern.png"
-//                     alt="background texture"
-//                     fill
-//                     className="object-cover"
-//                 />
-//             </div> */}
-
-//             <div className="relative z-10  mx-auto px-4 md:px-8 text-center">
-//                 {/* Top Logo */}
-//                 <div className="flex justify-center mb-4 md:mb-6">
-//                     <Image
-//                         src="/logo_2.png"
-//                         alt="Inter IIT Logo"
-//                         width={170}
-//                         height={150}
-//                         priority
-//                     />
-//                 </div>
-
-//                 {/* Title */}
-//                 <h2 className="text-base md:text-[28px] font-semibold tracking-wide mb-1 text-gray-800">
-//                     WELCOME TO THE
-//                 </h2>
-//                 <h1 className="text-2xl sm:text-4xl md:text-6xl font-extrabold text-[#7b1e1e] mb-2">
-//                     <TextType
-//                         text={["58TH INTER IIT SPORTS MEET 2025", ""]}
-//                         typingSpeed={75}
-//                         pauseDuration={1500}
-//                         showCursor={true}
-//                         cursorCharacter="|"
-//                     />
-//                 </h1>
-//                 <p className="italic text-sm md:text-[26px] text-gray-500 mb-8 md:mb-10">
-//                     Co-hosted by
-//                 </p>
-
-
-//                 {/* Co-host logos */}
-//                 <div className="mt-10 px-4">
-//                     <div className="flex flex-col md:flex-row justify-evenly items-center space-y-3 md:space-y-0 md:space-x-6">
-//                         {/* IIT Madras */}
-//                         <div className="flex flex-col items-center flex-shrink-0 w-28 sm:w-32 md:w-36">
-//                             <Image
-//                                 src="/images/alliits/IIT Madras.webp"
-//                                 alt="IIT Madras Logo"
-//                                 width={150}
-//                                 height={150}
-//                                 className="object-contain"
-//                             />
-//                             <p className="mt-2 font-semibold text-sm md:text-base text-gray-800">
-//                                 IIT MADRAS
-//                             </p>
-//                         </div>
-
-//                         {/* IIT Hyderabad */}
-//                         <div className="flex flex-col items-center flex-shrink-0 w-32 sm:w-36 md:w-40">
-//                             <Image
-//                                 src="/images/alliits/IIT Hyderabad.webp"
-//                                 alt="IIT Hyderabad Logo"
-//                                 width={190}
-//                                 height={190}
-//                                 className="object-contain"
-//                             />
-//                             {/* <p className="mt-2 font-semibold text-sm md:text-base text-gray-800">
-//                                 IIT HYDERABAD
-//                             </p> */}
-//                         </div>
-
-//                         {/* IIT Tirupati */}
-//                         <div className="flex flex-col items-center flex-shrink-0 w-28 sm:w-32 md:w-36">
-//                             <Image
-//                                 src="/images/alliits/IIT TIRUPATI.webp"
-//                                 alt="IIT Tirupati Logo"
-//                                 width={200}
-//                                 height={190}
-//                                 className="object-contain"
-//                             />
-//                             <p className="mt-2 font-semibold text-sm md:text-base text-gray-800">
-//                                 IIT TIRUPATHI
-//                             </p>
-//                         </div>
-//                     </div>
-//                 </div>
 
 
 
-//                 {/* Countdown Timer */}
-//                 {/* <div className="mt-10">
-//                     <h3 className="text-base md:text-xl text-gray-800 mb-4 font-semibold">
-//                         Main Meet Starts In
-//                     </h3>
-//                     <div className="flex gap-3 md:gap-5 justify-center flex-wrap">
-//                         {Object.entries(timeLeft).map(([unit, value]) => (
-//                             <div
-//                                 key={unit}
-//                                 className="w-20 h-20 md:w-24 md:h-24 bg-white shadow-md rounded-xl flex flex-col items-center justify-center"
-//                             >
-//                                 <span className="text-lg md:text-2xl font-bold text-[#7b1e1e]">
-//                                     {value}
-//                                 </span>
-//                                 <span className="text-xs md:text-sm font-medium capitalize text-gray-600">
-//                                     {unit}
-//                                 </span>
-//                             </div>
-//                         ))}
-//                     </div>
-//                 </div> */}
-
-                
-//             </div>
-//         </section>
-//         <section>
-//             <VideoCarousel/>
-//         </section>
-//         <section>
-//             {/* <DirectorsSection/> */}
-//         </section>
-//         </>
-//     );
-// }
 
 
