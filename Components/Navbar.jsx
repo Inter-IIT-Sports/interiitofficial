@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: "Legacy", href: "/legacy" },
     { name: "Gallery", href: "/gallery" },
     { name: "Team", href: "/team" },
-    { name: "Contact", href: "/contact" },
+    { name: "Contact Us", href: "/contactus" },
   ];
 
   return (
