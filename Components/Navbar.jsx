@@ -10,10 +10,10 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "Schedule", href: "/Schedule" },
-    { name: "Legacy", href: "/legacy" },
-    { name: "Gallery", href: "/gallery" },
-    { name: "Team", href: "/team" },
-    { name: "Contact Us", href: "/contactus" },
+    { name: "Legacy", href: "/Legacy" },
+    { name: "Gallery", href: "/Gallery" },
+    { name: "Team", href: "/Team" },
+    { name: "Contact Us", href: "/Contact" },
   ];
 
   return (
