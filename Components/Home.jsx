@@ -92,7 +92,7 @@ export default function HeroSection2025() {
     name: "IIT Madras",
     logo: "/images/alliits/IIT Madras.webp",
     meet: "39th Aquatics Meet",
-    dates: "sep 31 -- oct 5",
+    dates: "Sep 31 – Oct 5",
   };
 
   return (
