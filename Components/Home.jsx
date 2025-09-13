@@ -79,7 +79,7 @@ export default function HeroSection2025() {
         </div>
 
         {/* Meets side by side */}
-        <div className="mt-12 max-w-6xl mx-auto flex flex-col md:flex-row gap-6 items-stretch">
+        <div className="mt-12 max-w-6xl mx-auto flex flex-col-reverse md:flex-row-reverse gap-6 items-stretch">
 
           {/* 58th Inter IIT Sports Meet */}
           <div className="flex-1 text-center flex flex-col justify-between items-center bg-white p-6 rounded-xl shadow-md">
