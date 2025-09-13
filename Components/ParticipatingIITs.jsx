@@ -32,7 +32,7 @@ export default function ParticipatingIITs() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">PARTICIPATING IITS</h2>
+        <h2 className="text-3xl md:text-4xl text-[#800000] font-bold mb-4">PARTICIPATING IITS</h2>
         <p className="text-gray-700 text-base md:text-lg leading-relaxed">
           The following IITs are participating in the Inter IIT Sports Meet 2025.
         </p>

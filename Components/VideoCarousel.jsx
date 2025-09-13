@@ -37,7 +37,7 @@ export default function VideoCarousel() {
 };
 
   return (
-    <div className="container mx-auto my-10">
+    <div className="cursor-pointer container mx-auto my-10">
       <h3 className="text-center text-2xl font-semibold mb-6">Inter IIT Sports 2025 videos</h3>
       <Slider {...settings}>
         {videos.map((video, index) => (

@@ -34,7 +34,7 @@ export default function CommitteesSection() {
   }, {});
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className=" py-16 bg-gray-50">
       {/* Section Intro */}
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">COMMITTEES AND COORDINATION</h2>
@@ -47,21 +47,21 @@ export default function CommitteesSection() {
       </div>
 
       {/* IIT Tabs */}
-      <div className="flex justify-center mb-12 space-x-4 px-4 flex-wrap">
+      <div className="flex flex-wrap justify-center gap-4 mb-12 px-4">
         {Object.keys(committees).map((iit) => (
           <button
             key={iit}
             onClick={() => setSelectedIIT(iit)}
-            className={`px-5 py-2 font-semibold rounded-lg transition-all duration-300 ${
-              selectedIIT === iit
+            className={`px-5 py-2 font-semibold rounded-lg transition-all duration-300 ${selectedIIT === iit
                 ? "bg-[#7b1e1e] text-white shadow-lg"
-                : "bg-white text-gray-700 hover:bg-gray-200 shadow"
-            }`}
+                : "bg-white text-gray-700 cursor-pointer hover:bg-sky-300 shadow"
+              }`}
           >
             {iit}
           </button>
         ))}
       </div>
+
 
       {/* Modern Table */}
       <div className="max-w-6xl mx-auto px-4 overflow-x-auto">

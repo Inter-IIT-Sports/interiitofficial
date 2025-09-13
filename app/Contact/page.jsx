@@ -7,7 +7,7 @@ export const metadata = {
 import React from "react";
 
 const Contact = () => (
-    <div className="min-h-75"></div>
+    <div className="min-h-20"></div>
 
 );
 
