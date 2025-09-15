@@ -70,8 +70,8 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/images/favicon.ico",
-    shortcut: "/images/favicon.png",
+    icon: "/images/interiitlog.webp",
+    shortcut: "/images/interiitlog.webp",
   },
 };
 

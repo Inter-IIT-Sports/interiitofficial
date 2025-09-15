@@ -18,10 +18,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className="cursor-pointer fixed top-0 left-0 w-full z-50 h-16 md:h-20 bg-white shadow-md"
+      className=" fixed top-0 left-0 w-full z-50 h-16 md:h-20 bg-white shadow-md"
       style={{ fontFamily: "'Playfair Display', serif" }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
+      <div className="px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex items-center justify-between h-full">
           {/* Logo + Title */}
           <Link href="/" className="flex items-center h-full space-x-2">
@@ -46,7 +46,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop navigation */}
-          <div className="hidden md:flex items-center space-x-8 lg:space-x-10">
+          <div className="cursor-pointer hidden md:flex items-center space-x-8 lg:space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.name}
@@ -74,7 +74,7 @@ export default function Navbar() {
             >
               {!isOpen ? (
                 <svg
-                  className="h-6 w-6 text-sky-600"
+                  className="h-6 w-6 text-sky-600 cursor-pointer font-bold"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -88,7 +88,7 @@ export default function Navbar() {
                 </svg>
               ) : (
                 <svg
-                  className="h-6 w-6 text-[#800000]"
+                  className="h-6 w-6 text-[#800000] cursor-pointer font-bold"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -105,33 +105,31 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
-      {/* Mobile panel */}
+      {/* mobile pannel */}
       <div
-        className={`cursor-pointer md:hidden absolute top-full left-0 w-full z-40 transform origin-top transition-all duration-200 ${
-          isOpen
-            ? "opacity-100 scale-y-100 pointer-events-auto"
-            : "opacity-0 scale-y-0 pointer-events-none"
-        }`}
+        className={`md:hidden fixed top-16 left-0 h-[calc(100vh-4rem)] w-64 z-40 transform transition-transform duration-300 ease-in-out
+    ${isOpen ? "translate-x-0" : "-translate-x-full"}
+    bg-white/40 backdrop-blur-lg border-r border-sky-600/40 shadow-xl`}
       >
-        <div className="w-full bg-white shadow-md">
-          {/* Separator line under navbar before links */}
-          <hr className="border-t border-gray-300" />
-
-          <div className="px-4 pt-3 pb-5 space-y-2">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-black transition-colors duration-200 hover:bg-gradient-to-r hover:from-sky-600 hover:via-black hover:to-red-600 hover:text-white"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
+        <div className="flex flex-col items-start px-6 pt-6 space-y-2">
+          {navItems.map((item) => (
+            <Link
+              key={item.name}
+              href={item.href}
+              onClick={() => setIsOpen(false)}
+              className="w-full text-left px-4 py-2 rounded-md  sm:text-lg font-medium text-gray-900
+                   transition-colors duration-300
+                   hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:via-black hover:to-[#800000] border border-transparent "
+            >
+              {item.name}
+            </Link>
+          ))}
         </div>
       </div>
+
+
+
+
     </nav>
   );
 }
