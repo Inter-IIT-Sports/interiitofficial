@@ -7,6 +7,7 @@ import ParticipatingIITs from "./ParticipatingIITs";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import TextType from "./TextType";
+import FluidGlass from "./FluidGlass";
 
 export default function HeroSection2025() {
   const [sportsTimeLeft, setSportsTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -59,13 +60,56 @@ export default function HeroSection2025() {
 
   return (
     <>
-      <section className="w-full bg-gray-50 py-16 px-6" style={{ fontFamily: '"Poppins", sans-serif' }}>
-        <div className="flex justify-center mb-6">
-          <Image src="/logo_2.png" alt="Inter IIT Sports Meet Logo" width={150} height={150} />
+      <div style={{ height: '600px', position: 'relative',fontFamily: '"Poppins", sans-serif' }}>
+        <FluidGlass
+          mode="cube" // or "bar", "cube"
+          lensProps={{
+            scale: 0.25,
+            ior: 1.15,
+            thickness: 5,
+            chromaticAberration: 0.1,
+            anisotropy: 0.01
+          }}
+        // barProps={ } // add specific props if using bar mode
+        // cubeProps={ } // add specific props if using cube mode
+        />
+        <div
+          className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pointer-events-none"
+        >
+          {/* Logo */}
+          <div className="relative w-32 md:w-40 lg:w-48 h-32 md:h-40 lg:h-48">
+            <Image
+              src="/logo_2.png"
+              alt="Inter IIT Sports Meet Logo"
+              fill
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+
+          {/* Title with TextType */}
+          <h1 className="font-semibold flex flex-wrap justify-center gap-2 mt-4 text-[2rem] md:text-[3rem] lg:text-[4rem]">
+            <TextType text={["Inter IIT"]} typingSpeed={75} pauseDuration={1500} showCursor={false} className="text-black" />
+            <TextType text={["Sports"]} typingSpeed={75} pauseDuration={1500} showCursor={false} className="text-sky-600" />
+            <TextType text={["Meet"]} typingSpeed={75} pauseDuration={1500} showCursor={true} className="text-[#800000]" />
+          </h1>
+
+          <p className="text-gray-900 font-semibold text-base md:text-lg lg:text-xl mt-2 max-w-2xl">
+            The Inter IIT Sports Meet 2025 brings together athletes from all IITs,
+            showcasing talent, energy, and sportsmanship in a week-long celebration
+            of competitive spirit.
+          </p>
         </div>
 
+
+
+      </div>
+      <section className="w-full bg-gray-50 py-16 px-6" style={{ fontFamily: '"Poppins", sans-serif' }}>
+        {/* <div className="flex justify-center mb-6">
+          <Image src="/logo_2.png" alt="Inter IIT Sports Meet Logo" width={150} height={150} />
+        </div> */}
+
         {/* Title */}
-        <div className="max-w-4xl mx-auto text-center space-y-4">
+        {/* <div className="max-w-4xl mx-auto text-center space-y-4">
           <h1 className="text-3xl md:text-4xl font-bold flex justify-center flex-wrap gap-2">
             <TextType text={["Inter IIT"]} typingSpeed={75} pauseDuration={1500} showCursor={false} className="text-black" />
             <TextType text={["Sports"]} typingSpeed={75} pauseDuration={1500} showCursor={false} className="text-sky-600" />
@@ -76,10 +120,10 @@ export default function HeroSection2025() {
             showcasing talent, energy, and sportsmanship in a week-long celebration
             of competitive spirit.
           </p>
-        </div>
+        </div> */}
 
         {/* Meets side by side */}
-        <div className="mt-12 max-w-6xl mx-auto flex flex-col-reverse md:flex-row-reverse gap-6 items-stretch">
+        <div className="mt-0 max-w-6xl mx-auto flex flex-col-reverse md:flex-row-reverse gap-6 items-stretch">
 
           {/* 58th Inter IIT Sports Meet */}
           <div className="flex-1 text-center flex flex-col justify-between items-center bg-white p-6 rounded-xl shadow-md">
@@ -137,9 +181,9 @@ export default function HeroSection2025() {
               <Image src={aquaticsMeet.logo} alt={aquaticsMeet.name} width={100} height={100} className="object-contain" />
             </div>
             <p className="text-lg font-semibold text-gray-900">{aquaticsMeet.name}</p>
-            <p className="text-gray-700 text-sm mb-4">{aquaticsMeet.dates}</p>
+            <p className="text-gray-700 text-sm mb-1">{aquaticsMeet.dates}</p>
 
-            <p className="text-gray-600 max-w-md text-center mt-auto">
+            <p className="text-gray-600 max-w-md text-center mt-0">
               Hosted exclusively by IIT Madras. A highlight of the year, showcasing top aquatic
               talent alongside the main sports meet.
             </p>
