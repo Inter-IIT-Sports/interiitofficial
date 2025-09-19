@@ -14,18 +14,18 @@ const DATA = [
         label: "Gymkhana Team",
         icon: "👥",
         members: [
-          { id: "iitm-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-2", name: "Dr. Vasudeva Rao V", role: "Sports Officer", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-3", name: "Mr. G.Jayavel", role: "P.T.I.Gr I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-4", name: "Mr. Rajendran G", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-5", name: "Mr. Ashok Samrat Yadav", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-6", name: "Mr. Ashok M", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-7", name: "Mr.C.Dhanasekaran", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-8", name: "Mr. Vedan Shatish Raj K", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-9", name: "Mr. M.Saravanan", role: "Jr. Supereintendent", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-10", name: "Mr. A. Sethuraman", role: "Sr. Assistant", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-11", name: "Mr. J.Karthikeyan", role: "Executive Associate", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
-          { id: "iitm-f-12", name: "Ms.S.S. Thanushree", role: "Jr. Executive", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-2", name: "Dr. Vasudeva Rao V", role: "Sports Officer", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-3", name: "Mr. G.Jayavel", role: "P.T.I.Gr I", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-4", name: "Mr. Rajendran G", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-5", name: "Mr. Ashok Samrat Yadav", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-6", name: "Mr. Ashok M", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-7", name: "Mr.C.Dhanasekaran", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-8", name: "Mr. Vedan Shatish Raj K", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-9", name: "Mr. M.Saravanan", role: "Jr. Supereintendent", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-10", name: "Mr. A. Sethuraman", role: "Sr. Assistant", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-11", name: "Mr. J.Karthikeyan", role: "Executive Associate", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
+          { id: "iitm-f-12", name: "Ms.S.S. Thanushree", role: "Jr. Executive", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
         ],
       },
       {
@@ -48,7 +48,7 @@ const DATA = [
         label: "Gymkhana Team",
         icon: "👥",
         members: [
-          { id: "iith-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iith-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
         ],
       },
       {
@@ -56,7 +56,7 @@ const DATA = [
         label: "Student Team",
         icon: "🎓",
         members: [
-          { id: "iith-s-1", name: "Arjun Verma", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iith-s-1", name: "Arjun Verma", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
         ],
       },
     ],
@@ -71,7 +71,7 @@ const DATA = [
         label: "Gymkhana Team",
         icon: "👥",
         members: [
-          { id: "iitt-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitt-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
         ],
       },
       {
@@ -79,7 +79,7 @@ const DATA = [
         label: "Student Team",
         icon: "🎓",
         members: [
-          { id: "iitt-s-1", name: "Meera Nair", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitt-s-1", name: "Meera Nair", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/dummy.png" },
         ],
       },
     ],
@@ -89,7 +89,7 @@ const DATA = [
 // Bulletproof ProfileCard - Cannot fail
 const ProfileCard = ({ m = {} }) => {
   const [imageError, setImageError] = useState(false);
-  
+
   // Safe data extraction with fallbacks
   const name = m?.name || "Unknown Person";
   const role = m?.role || "No Role";
@@ -124,7 +124,7 @@ const ProfileCard = ({ m = {} }) => {
   return (
     <div className="group relative bg-white backdrop-blur-sm border border-gray-200 rounded-2xl p-6 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 hover:-translate-y-2 transform">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-      
+
       <div className="relative z-10 text-center">
         <div className="relative inline-block mb-4">
           {/* Image or Fallback */}
@@ -141,7 +141,7 @@ const ProfileCard = ({ m = {} }) => {
               {getInitials(name)}
             </div>
           )}
-          
+
           <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
 
@@ -160,12 +160,11 @@ const ProfileCard = ({ m = {} }) => {
 };
 
 // Bulletproof Toast
-const Toast = ({ message = "Notification", type = "success", onClose = () => {} }) => (
-  <div className={`fixed top-4 right-4 z-50 p-4 rounded-xl shadow-xl backdrop-blur-sm border transform transition-all duration-300 ${
-    type === 'success' 
-      ? 'bg-green-500 border-green-400 text-white' 
-      : 'bg-red-500 border-red-400 text-white'
-  }`}>
+const Toast = ({ message = "Notification", type = "success", onClose = () => { } }) => (
+  <div className={`fixed top-4 right-4 z-50 p-4 rounded-xl shadow-xl backdrop-blur-sm border transform transition-all duration-300 ${type === 'success'
+    ? 'bg-green-500 border-green-400 text-white'
+    : 'bg-red-500 border-red-400 text-white'
+    }`}>
     <div className="flex items-center gap-3">
       <span className="text-xl">{type === 'success' ? '✅' : '❌'}</span>
       <span className="font-medium">{message}</span>
@@ -237,7 +236,7 @@ const Contact = () => {
       if (!/^[0-9+\-\s()]{7,}$/.test(form.dzPhoneNumber || "")) errors.dzPhoneNumber = "Valid phone is required";
       if (!(form.subject || "").trim()) errors.subject = "Subject is required";
       if ((form.dzMessage || "").trim().length < 10) errors.dzMessage = "Message must be at least 10 characters";
-      
+
       setFieldErrors(errors);
       return Object.keys(errors).length === 0;
     } catch {
@@ -258,10 +257,10 @@ const Contact = () => {
     try {
       e?.preventDefault();
       if (!validate()) return;
-      
+
       setStatus({ loading: true, success: "", error: "" });
       await new Promise(r => setTimeout(r, 1500));
-      
+
       showToast("Message sent successfully! We'll get back to you soon.", "success");
       setForm({ dzName: "", dzEmail: "", dzPhoneNumber: "", subject: "", dzMessage: "", inquiryType: "" });
       setStatus({ loading: false, success: "", error: "" });
@@ -275,8 +274,44 @@ const Contact = () => {
   return (
     <>
       <Head>
+        {/* Title */}
         <title>Contact Us | Inter IIT Sports Meet 2025</title>
-        <meta name="description" content="Connect with the organizers of Inter IIT Sports Meet 2025." />
+
+        {/* Meta Description & Keywords */}
+        <meta
+          name="description"
+          content="Get in touch with the organizers of the Inter IIT Sports Meet 2025. Reach out for registration, queries, sponsorships, and general information."
+        />
+        <meta
+          name="keywords"
+          content="Inter IIT Sports Meet contact, Inter IIT registration help, IIT sports meet queries, Contact organizers IIT sports"
+        />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Contact Us | Inter IIT Sports Meet 2025" />
+        <meta
+          property="og:description"
+          content="Reach out to the Inter IIT Sports Meet 2025 organizers for registration, queries, or sponsorship opportunities."
+        />
+        <meta property="og:url" content="https://interiitsports.in/contact" />
+        <meta property="og:site_name" content="Inter IIT Sports Meet 2025" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:image" content="https://interiitsports.in/logo_2.png" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us | Inter IIT Sports Meet 2025" />
+        <meta
+          name="twitter:description"
+          content="Get in touch with the organizers of the Inter IIT Sports Meet 2025 for registration and other queries."
+        />
+        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://interiitsports.in/contact" />
       </Head>
 
       {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
@@ -285,14 +320,14 @@ const Contact = () => {
         {/* Hero Section */}
         <div className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-purple-900 h-96">
           <div className="absolute inset-0 bg-black/20"></div>
-          
+
           <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center text-center">
             <div>
               <h1 className="text-4xl md:text-6xl font-black text-white mb-4 tracking-tight">
                 Get in <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Touch</span>
               </h1>
               <p className="text-lg md:text-xl text-blue-100 font-light max-w-2xl mx-auto leading-relaxed">
-                Ready to be part of India's premier inter-collegiate sports championship? 
+                Ready to be part of India's premier inter-collegiate sports championship?
                 We're here to help you every step of the way.
               </p>
             </div>
@@ -364,11 +399,10 @@ const Contact = () => {
                     {/* Accordion Header */}
                     <button
                       onClick={() => toggleAccordion(instId)}
-                      className={`w-full text-left p-8 transition-all duration-300 ${
-                        isOpen 
-                          ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white' 
-                          : 'bg-white text-gray-800 hover:bg-gray-50'
-                      }`}
+                      className={`w-full text-left p-8 transition-all duration-300 ${isOpen
+                        ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                        : 'bg-white text-gray-800 hover:bg-gray-50'
+                        }`}
                     >
                       <div className="flex items-center justify-between">
                         <div>
@@ -393,16 +427,15 @@ const Contact = () => {
                             const isActive = activeTab[instId] === tabId;
                             const tabLabel = tab.label || "Tab";
                             const tabIcon = tab.icon || "📋";
-                            
+
                             return (
                               <button
                                 key={tabId}
                                 onClick={() => switchTab(instId, tabId)}
-                                className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 ${
-                                  isActive
-                                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
-                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                                }`}
+                                className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 ${isActive
+                                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
+                                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                  }`}
                               >
                                 <span>{tabIcon}</span>
                                 {tabLabel}
@@ -417,9 +450,9 @@ const Contact = () => {
                             const tabId = tab.id || Math.random();
                             const isActive = activeTab[instId] === tabId;
                             const members = tab.members || [];
-                            
+
                             if (!isActive) return null;
-                            
+
                             return members.map((member = {}) => (
                               <ProfileCard key={member.id || Math.random()} m={member} />
                             ));
@@ -457,11 +490,10 @@ const Contact = () => {
                         key={type}
                         type="button"
                         onClick={() => setForm(prev => ({ ...prev, inquiryType: type }))}
-                        className={`p-3 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${
-                          form.inquiryType === type
-                            ? 'border-blue-500 bg-blue-50 text-blue-600 font-semibold scale-105'
-                            : 'border-gray-200 hover:border-gray-300 text-gray-700'
-                        }`}
+                        className={`p-3 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${form.inquiryType === type
+                          ? 'border-blue-500 bg-blue-50 text-blue-600 font-semibold scale-105'
+                          : 'border-gray-200 hover:border-gray-300 text-gray-700'
+                          }`}
                       >
                         {type}
                       </button>
@@ -477,9 +509,8 @@ const Contact = () => {
                       name="dzName"
                       value={form.dzName || ""}
                       onChange={handleChange}
-                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
-                        fieldErrors.dzName ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
-                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${fieldErrors.dzName ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                        } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
                       placeholder="Enter your full name"
                     />
                     {fieldErrors.dzName && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzName}</p>}
@@ -492,9 +523,8 @@ const Contact = () => {
                       type="email"
                       value={form.dzEmail || ""}
                       onChange={handleChange}
-                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
-                        fieldErrors.dzEmail ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
-                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${fieldErrors.dzEmail ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                        } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
                       placeholder="your.email@example.com"
                     />
                     {fieldErrors.dzEmail && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzEmail}</p>}
@@ -506,9 +536,8 @@ const Contact = () => {
                       name="dzPhoneNumber"
                       value={form.dzPhoneNumber || ""}
                       onChange={handleChange}
-                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
-                        fieldErrors.dzPhoneNumber ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
-                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${fieldErrors.dzPhoneNumber ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                        } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
                       placeholder="+91 98765 43210"
                     />
                     {fieldErrors.dzPhoneNumber && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzPhoneNumber}</p>}
@@ -520,9 +549,8 @@ const Contact = () => {
                       name="subject"
                       value={form.subject || ""}
                       onChange={handleChange}
-                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
-                        fieldErrors.subject ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
-                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${fieldErrors.subject ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                        } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
                       placeholder="Brief subject of your inquiry"
                     />
                     {fieldErrors.subject && <p className="text-red-500 text-sm mt-1">{fieldErrors.subject}</p>}
@@ -536,9 +564,8 @@ const Contact = () => {
                     rows={6}
                     value={form.dzMessage || ""}
                     onChange={handleChange}
-                    className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm resize-none ${
-                      fieldErrors.dzMessage ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
-                    } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                    className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm resize-none ${fieldErrors.dzMessage ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
                     placeholder="Tell us more about your inquiry."
                   />
                   {fieldErrors.dzMessage && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzMessage}</p>}

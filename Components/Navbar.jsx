@@ -3,9 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation"; // ✅ import to track route
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // ✅ get current path
 
   const navItems = [
     { name: "Home", href: "/" },
@@ -47,21 +49,33 @@ export default function Navbar() {
 
           {/* Desktop navigation */}
           <div className="cursor-pointer hidden md:flex items-center space-x-8 lg:space-x-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="relative inline-block text-base md:text-lg lg:text-xl font-medium text-black transition-colors duration-300 group"
-              >
-                <span className="relative z-10">{item.name}</span>
-                {/* Underline animation in theme */}
-                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-sky-600 via-black to-red-600 transition-all duration-300 group-hover:w-full" />
-                {/* Gradient text hover */}
-                <span className="absolute inset-0 bg-gradient-to-r from-sky-600 via-black to-red-600 bg-clip-text text-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  {item.name}
-                </span>
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive = pathname === item.href;
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="relative inline-block text-base md:text-lg lg:text-xl font-medium text-black transition-colors duration-300 group"
+                >
+                  {/* Normal text (behind gradient) */}
+                  <span className="relative z-10">{item.name}</span>
+
+                  {/* Underline animation */}
+                  <span
+                    className={`absolute left-0 -bottom-1 h-[2px] bg-gradient-to-r from-sky-600 via-black to-red-600 transition-all duration-300
+                      ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
+                  />
+
+                  {/* Gradient text */}
+                  <span
+                    className={`absolute inset-0 bg-gradient-to-r from-sky-600 via-black to-red-[#800000]  bg-clip-text text-transparent transition-opacity duration-300
+                      ${isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}
+                  >
+                    {item.name}
+                  </span>
+                </Link>
+              );
+            })}
           </div>
 
           {/* Mobile menu button */}
@@ -105,31 +119,31 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      {/* mobile pannel */}
+
+      {/* Mobile panel */}
       <div
-        className={`md:hidden fixed top-16 left-0 h-[calc(100vh-4rem)] w-64 z-40 transform transition-transform duration-300 ease-in-out
-    ${isOpen ? "translate-x-0" : "-translate-x-full"}
-    bg-white/40 backdrop-blur-lg border-r border-sky-600/40 shadow-xl`}
+        className={`md:hidden fixed top-16 left-0  h-[calc(100vh-4rem)] w-64 z-40 transform transition-transform duration-300 ease-in-out
+          ${isOpen ? "translate-x-0" : "-translate-x-full"}
+          bg-white/40 backdrop-blur-lg border-r border-sky-600/40 shadow-xl`}
       >
-        <div className="flex flex-col items-start px-6 pt-6 space-y-2">
-          {navItems.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              onClick={() => setIsOpen(false)}
-              className="w-full text-left px-4 py-2 rounded-md  sm:text-lg font-medium text-gray-900
-                   transition-colors duration-300
-                   hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:via-black hover:to-[#800000] border border-transparent "
-            >
-              {item.name}
-            </Link>
-          ))}
+        <div className="flex flex-col  items-start px-6 pt-6 space-y-2">
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`relative  cursor-pointer block px-4 py-2 font-medium transition-colors duration-300
+    ${pathname === item.href ? "border-l-4 border-[#800000] font-semibold" : "text-black"}
+  `}
+              >
+                {item.name}
+              </Link>
+
+            );
+          })}
         </div>
       </div>
-
-
-
-
     </nav>
   );
 }

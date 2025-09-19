@@ -103,7 +103,7 @@ export default function HeroSection2025() {
 
 
       </div>
-      <section className="w-full bg-gray-50 py-16 px-6" style={{ fontFamily: '"Poppins", sans-serif' }}>
+      <section className="w-full bg-gray-200  to-black py-16 px-6" style={{ fontFamily: '"Poppins", sans-serif' }}>
         {/* <div className="flex justify-center mb-6">
           <Image src="/logo_2.png" alt="Inter IIT Sports Meet Logo" width={150} height={150} />
         </div> */}
