@@ -1,17 +1,47 @@
-import Head from 'next/head';
+
 import Image from 'next/image';
+
+export const metadata = {
+  title: "Legacy | Inter IIT Sports Meet 2025",
+  description:
+    "Explore the rich legacy of the Inter IIT Sports Meet, showcasing historic moments, past champions, and milestones from previous editions of this prestigious IIT sports event.",
+  keywords: [
+    "Inter IIT Sports Meet legacy",
+    "IIT sports history",
+    "Inter IIT past champions",
+    "IIT sports milestones",
+    "Historic IIT sports events"
+  ],
+  openGraph: {
+    title: "Legacy | Inter IIT Sports Meet 2025",
+    description:
+      "Discover the history and legacy of the Inter IIT Sports Meet, highlighting past champions, historic moments, and milestones across all IITs.",
+    url: "https://interiitsports.in/legacy",
+    siteName: "Inter IIT Sports Meet 2025",
+    images: [
+      {
+        url: "https://interiitsports.in/logo_2.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Legacy | Inter IIT Sports Meet 2025",
+    description:
+      "Explore the historic moments and champions of the Inter IIT Sports Meet over the years.",
+    images: ["https://interiitsports.in/logo_2.png"],
+  },
+};
+
 
 export default function Legacy() {
   return (
     <>
-      <Head>
-        <title>Inter IIT Sports Meet 2025</title>
-        <meta
-          name="description"
-          content="Inter IIT Sports Meet Legacy - A Legacy Through Time"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
 
       <div className="min-h-screen flex flex-col">
         {/* Hero Section with Responsive Image */}
@@ -29,11 +59,6 @@ export default function Legacy() {
         <div className="bg-black/50 py-2">
           <div className="container mx-auto px-4">
             <ul className="flex flex-wrap items-center text-sm text-white">
-              {/* <li className="after:content-['/'] after:mx-2 after:text-white/70 last:after:content-none"> */}
-                {/* <a href="#" className="hover:text-gray-300">
-                  Home
-                </a> */}
-              {/* </li> */}
               <li className="truncate">
                 A Legacy Through Time: Inter IIT Sports Meet Over the Years
               </li>

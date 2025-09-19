@@ -1,5 +1,9 @@
 "use client";
+import Head from "next/head";
 import { useState } from "react";
+
+
+
 
 export default function Schedules() {
   const schedules = {
@@ -143,11 +147,11 @@ export default function Schedules() {
   );
 
   const timeTo24 = (t) => {
-  const [time, modifier] = t.split(" ");
-  let [hours, minutes] = time.split(":").map(Number);
-  if (modifier === "PM" && hours !== 12) hours += 12;
-  if (modifier === "AM" && hours === 12) hours = 0;
-  return hours * 60 + minutes;
+    const [time, modifier] = t.split(" ");
+    let [hours, minutes] = time.split(":").map(Number);
+    if (modifier === "PM" && hours !== 12) hours += 12;
+    if (modifier === "AM" && hours === 12) hours = 0;
+    return hours * 60 + minutes;
   };
 
 
@@ -169,137 +173,174 @@ export default function Schedules() {
   const liveMatch = filteredMatches.find(m => m.status === "Live");
 
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <div className="max-w-6xl mx-auto p-4 pt-20">
-        {/* Top Tabs + Filters */}
-        <div className="bg-white rounded-lg shadow p-4 mb-6">
-          <div className="flex mb-4 border-b-2">
-            <button
-              className={`px-4 py-2 ${activeTab === "aquatics" ? "border-b-4 border-blue-500 font-semibold" : ""}`}
-              onClick={() => { setActiveTab("aquatics"); setSelectedDate(""); setSelectedHost("All"); }}
-            >
-              Aquatics
-            </button>
-            <button
-              className={`px-4 py-2 ${activeTab === "mainMeet" ? "border-b-4 border-blue-500 font-semibold" : ""}`}
-              onClick={() => { setActiveTab("mainMeet"); setSelectedDate(""); setSelectedHost("All"); }}
-            >
-              Main Meet
-            </button>
-          </div>
-          {/* Filters */}
-          <div className="flex flex-col sm:flex-row justify-between gap-2">
-            {/* Date filter */}
-            <div className="flex overflow-x-auto space-x-2 mb-2 sm:mb-0">
-              {dates.map(date => (
+    <>
+      <Head>
+        <title>Schedule & Live Matches | 58th Inter IIT Sports Meet 2025</title>
+        <meta
+          name="description"
+          content="Check the live schedule and updates of ongoing matches for the 58th Inter IIT Sports Meet 2025, including the 39th Aquatics Meet and other sports events across all IITs."
+        />
+        <meta
+          name="keywords"
+          content="Inter IIT Sports Meet 2025, 58th Inter IIT Sports Meet, 39th Aquatics Meet 2025, IIT sports schedule, live IIT matches, athletics schedule, cricket schedule, football schedule, volleyball schedule"
+        />
+        {/* Open Graph */}
+        <meta property="og:title" content="Schedule & Live Matches | 58th Inter IIT Sports Meet 2025" />
+        <meta
+          property="og:description"
+          content="Stay updated with the live schedule and results of the 58th Inter IIT Sports Meet 2025, including the 39th Aquatics Meet and other events across all IITs."
+        />
+        <meta property="og:url" content="https://interiitsports.in/schedule" />
+        <meta property="og:site_name" content="Inter IIT Sports Meet 2025" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://interiitsports.in/logo_2.png"
+        />
+        <meta property="og:locale" content="en_IN" />
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Schedule & Live Matches | 58th Inter IIT Sports Meet 2025" />
+        <meta
+          name="twitter:description"
+          content="Live schedule and results for the 58th Inter IIT Sports Meet 2025, including the 39th Aquatics Meet and other events across all IITs."
+        />
+        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
+        {/* Canonical */}
+        <link rel="canonical" href="https://interiitsports.in/schedule" />
+      </Head>
+      <section>
+        <div className="bg-gray-100 min-h-screen">
+          <div className="max-w-6xl mx-auto p-4 pt-20">
+            {/* Top Tabs + Filters */}
+            <div className="bg-white rounded-lg shadow p-4 mb-6">
+              <div className="flex mb-4 border-b-2">
                 <button
-                  key={date}
-                  className={`px-3 py-1 rounded-full border ${
-                    selectedDate === date ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-800'
-                  }`}
-                  onClick={() => setSelectedDate(date)}
+                  className={`px-4 py-2 ${activeTab === "aquatics" ? "border-b-4 border-blue-500 font-semibold" : ""}`}
+                  onClick={() => { setActiveTab("aquatics"); setSelectedDate(""); setSelectedHost("All"); }}
                 >
-                  {date}
+                  Aquatics
                 </button>
-              ))}
-            </div>
-            {/* Host filter */}
-            <div className="flex space-x-2">
-              {hosts.map(host => (
                 <button
-                  key={host}
-                  className={`px-3 py-1 rounded-full border ${
-                    selectedHost === host ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-800'
-                  }`}
-                  onClick={() => setSelectedHost(host)}
+                  className={`px-4 py-2 ${activeTab === "mainMeet" ? "border-b-4 border-blue-500 font-semibold" : ""}`}
+                  onClick={() => { setActiveTab("mainMeet"); setSelectedDate(""); setSelectedHost("All"); }}
                 >
-                  {host}
+                  Main Meet
                 </button>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Matches grid: sorted with upcoming on top */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left side: match cards */}
-          <div className="lg:col-span-2">
-            <div className="space-y-6">
-              {filteredMatches.length > 0 ? (
-                filteredMatches.map((match, idx) => (
-                  <div
-                    key={idx}
-                    className="border rounded-lg p-6 shadow-md hover:shadow-lg transition bg-white w-full"
-                  >
-                    <div className="flex justify-between items-center mb-2">
-                      <h3 className="font-semibold text-xl">
-                        {match.sport} | {match.stage}
-                      </h3>
-                      <span className={`px-2 py-1 text-sm rounded ${hostColors[match.host]}`}>
-                        {match.host}
-                      </span>
-                    </div>
-                    <div className="text-base text-gray-600 mb-2">
-                      <p>📅 {match.date} | ⏰ {match.time}</p>
-                      <p>📍 {match.venue}</p>
-                    </div>
-                    {/* Show only teams here */}
-                    <div className="font-medium text-gray-800 mb-1 text-base">
-                      {match.teams[0]} 🆚 {match.teams[1]}
-                    </div>
-                    <div className="text-sm text-gray-500">
-                      {match.status}
-                      {match.status === "Live" && (
-                        <span className="ml-2 text-red-600 font-bold flex items-center gap-1">
-                          <span className="relative flex h-2 w-2">
-                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                            <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
-                          </span>
-                          LIVE
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                ))
-              ) : (
-                <p className="text-gray-500">No matches found for selected filters.</p>
-              )}
-            </div>
-          </div>
-          {/* Right side: Live match panel */}
-          <div className="hidden lg:block">
-            <div className="sticky top-20">
-              <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-6">
-                <div className="flex items-center gap-3 mb-5">
-                  <span className="relative inline-flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600" />
-                  </span>
-                  <span className="text-lg font-semibold text-red-600">Live Match</span>
+              </div>
+              {/* Filters */}
+              <div className="flex flex-col sm:flex-row justify-between gap-2">
+                {/* Date filter */}
+                <div className="flex overflow-x-auto space-x-2 mb-2 sm:mb-0">
+                  {dates.map(date => (
+                    <button
+                      key={date}
+                      className={`px-3 py-1 rounded-full border ${selectedDate === date ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-800'
+                        }`}
+                      onClick={() => setSelectedDate(date)}
+                    >
+                      {date}
+                    </button>
+                  ))}
                 </div>
-                {liveMatch ? (
-                  <>
-                    <div className="font-bold text-2xl mb-2">{liveMatch.sport}</div>
-                    <div className="text-base text-gray-700 mb-2">{liveMatch.stage}</div>
-                    <div className="text-base text-gray-700 mb-2">
-                      {liveMatch.teams[0]} <span className="text-lg font-extrabold text-red-600">🆚</span> {liveMatch.teams[1]}
+                {/* Host filter */}
+                <div className="flex space-x-2">
+                  {hosts.map(host => (
+                    <button
+                      key={host}
+                      className={`px-3 py-1 rounded-full border ${selectedHost === host ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-800'
+                        }`}
+                      onClick={() => setSelectedHost(host)}
+                    >
+                      {host}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Matches grid: sorted with upcoming on top */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Left side: match cards */}
+              <div className="lg:col-span-2">
+                <div className="space-y-6">
+                  {filteredMatches.length > 0 ? (
+                    filteredMatches.map((match, idx) => (
+                      <div
+                        key={idx}
+                        className="border rounded-lg p-6 shadow-md hover:shadow-lg transition bg-white w-full"
+                      >
+                        <div className="flex justify-between items-center mb-2">
+                          <h3 className="font-semibold text-xl">
+                            {match.sport} | {match.stage}
+                          </h3>
+                          <span className={`px-2 py-1 text-sm rounded ${hostColors[match.host]}`}>
+                            {match.host}
+                          </span>
+                        </div>
+                        <div className="text-base text-gray-600 mb-2">
+                          <p>📅 {match.date} | ⏰ {match.time}</p>
+                          <p>📍 {match.venue}</p>
+                        </div>
+                        {/* Show only teams here */}
+                        <div className="font-medium text-gray-800 mb-1 text-base">
+                          {match.teams[0]} 🆚 {match.teams[1]}
+                        </div>
+                        <div className="text-sm text-gray-500">
+                          {match.status}
+                          {match.status === "Live" && (
+                            <span className="ml-2 text-red-600 font-bold flex items-center gap-1">
+                              <span className="relative flex h-2 w-2">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
+                              </span>
+                              LIVE
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <p className="text-gray-500">No matches found for selected filters.</p>
+                  )}
+                </div>
+              </div>
+              {/* Right side: Live match panel */}
+              <div className="hidden lg:block">
+                <div className="sticky top-20">
+                  <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-6">
+                    <div className="flex items-center gap-3 mb-5">
+                      <span className="relative inline-flex h-3 w-3">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+                        <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600" />
+                      </span>
+                      <span className="text-lg font-semibold text-red-600">Live Match</span>
                     </div>
-                    <div className="text-base text-gray-700 mb-2">Venue: {liveMatch.venue}</div>
-                    <div className="flex justify-between text-base text-gray-700 mb-2">
-                      <div>Host: <span className={hostColors[liveMatch.host]}>{liveMatch.host}</span></div>
-                      <div>{liveMatch.date} | {liveMatch.time}</div>
-                    </div>
-                  </>
-                ) : (
-                  <div className="rounded-lg bg-gray-50 p-4 text-gray-600 font-medium text-center">
-                    No live matches at the moment.
+                    {liveMatch ? (
+                      <>
+                        <div className="font-bold text-2xl mb-2">{liveMatch.sport}</div>
+                        <div className="text-base text-gray-700 mb-2">{liveMatch.stage}</div>
+                        <div className="text-base text-gray-700 mb-2">
+                          {liveMatch.teams[0]} <span className="text-lg font-extrabold text-red-600">🆚</span> {liveMatch.teams[1]}
+                        </div>
+                        <div className="text-base text-gray-700 mb-2">Venue: {liveMatch.venue}</div>
+                        <div className="flex justify-between text-base text-gray-700 mb-2">
+                          <div>Host: <span className={hostColors[liveMatch.host]}>{liveMatch.host}</span></div>
+                          <div>{liveMatch.date} | {liveMatch.time}</div>
+                        </div>
+                      </>
+                    ) : (
+                      <div className="rounded-lg bg-gray-50 p-4 text-gray-600 font-medium text-center">
+                        No live matches at the moment.
+                      </div>
+                    )}
                   </div>
-                )}
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }

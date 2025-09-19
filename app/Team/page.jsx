@@ -1,5 +1,42 @@
 // app/legacy/Content.tsx
-
+export const metadata = {
+  title: "Team | Inter IIT Sports Meet 2025",
+  description:
+    "Meet the organizing team behind the 58th Inter IIT Sports Meet 2025. Learn about the officials, coordinators, and volunteers making this event possible across all IITs.",
+  keywords: [
+    "Inter IIT Sports Meet team",
+    "IIT sports organizers",
+    "IIT sports coordinators",
+    "IIT volunteers 2025",
+    "Inter IIT officials"
+  ],
+  openGraph: {
+    title: "Team | Inter IIT Sports Meet 2025",
+    description:
+      "Discover the team of organizers, officials, and volunteers behind the 58th Inter IIT Sports Meet 2025, making it a successful event across all IITs.",
+    url: "https://interiitsports.in/team",
+    siteName: "Inter IIT Sports Meet 2025",
+    images: [
+      {
+        url: "https://interiitsports.in/logo_2.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Team | Inter IIT Sports Meet 2025",
+    description:
+      "Meet the organizers, officials, and volunteers making the 58th Inter IIT Sports Meet 2025 possible across all IITs.",
+    images: ["https://interiitsports.in/logo_2.png"],
+  },
+  alternates: {
+    canonical: "https://interiitsports.in/team",
+  },
+};
 export default function LegacyContent() {
   const sections = [
     {
@@ -32,6 +69,7 @@ export default function LegacyContent() {
   ];
 
   return (
+    <section>
     <div className="page-content bg-gray-50 mt-8">
       <div className="section-full content-inner">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -74,5 +112,6 @@ export default function LegacyContent() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

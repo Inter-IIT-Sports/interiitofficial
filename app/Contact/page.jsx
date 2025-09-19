@@ -2,6 +2,41 @@
 import React, { useState, useMemo, useCallback } from "react";
 
 // Data
+export const metadata = {
+  title: "Contact Us | Inter IIT Sports Meet 2025",
+  description:
+    "Get in touch with the organizers of the Inter IIT Sports Meet 2025. Reach out for registration, queries, sponsorships, and general information.",
+  keywords: [
+    "Inter IIT Sports Meet contact",
+    "Inter IIT registration help",
+    "IIT sports meet queries",
+    "Contact organizers IIT sports"
+  ],
+  openGraph: {
+    title: "Contact Us | Inter IIT Sports Meet 2025",
+    description:
+      "Reach out to the Inter IIT Sports Meet 2025 organizers for registration, queries, or sponsorship opportunities.",
+    url: "https://interiitsports.in/contact",
+    siteName: "Inter IIT Sports Meet 2025",
+    images: [
+      {
+        url: "https://interiitsports.in/logo_2.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Inter IIT Sports Meet 2025",
+    description:
+      "Get in touch with the organizers of the Inter IIT Sports Meet 2025 for registration and other queries.",
+    images: ["https://interiitsports.in/logo_2.png"],
+  },
+};
+
 const DATA = [
   {
     id: "iitm",
@@ -230,11 +265,10 @@ const Contact = () => {
                                 <li className="nav-item" key={`${inst.id}-${tab.id}`} role="presentation">
                                   <button
                                     type="button"
-                                    className={`nav-link px-5 py-2.5 rounded-md border text-[14px] font-medium transition ${
-                                      isActive
-                                        ? "bg-[#6c291f] text-white border-[#6c291f] shadow"
-                                        : "bg-transparent text-[#6c291f] border-[#6c291f] hover:bg-[#6c291f]/10"
-                                    }`}
+                                    className={`nav-link px-5 py-2.5 rounded-md border text-[14px] font-medium transition ${isActive
+                                      ? "bg-[#6c291f] text-white border-[#6c291f] shadow"
+                                      : "bg-transparent text-[#6c291f] border-[#6c291f] hover:bg-[#6c291f]/10"
+                                      }`}
                                     aria-selected={isActive ? "true" : "false"}
                                     aria-controls={`${inst.id}-pane-${tab.id}`}
                                     onClick={() => switchTab(inst.id, tab.id)}

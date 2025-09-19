@@ -3,6 +3,9 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import Head from "next/head";
+
+
 
 // Data (extend later for other IITs)
 const GALLERY_DATA = [
@@ -105,28 +108,63 @@ export default function Page() {
   const nothingToShow = filteredItems.length === 0;
 
   return (
-    <div>
-      <section
-  className="dez-bnr-inr overlay-black-middle h-64 sm:h-80 lg:h-[26rem] bg-center bg-cover"
-  style={{ backgroundImage: "url(/images/gallery/gallerybanner.png)" }}
-  aria-label="Gallery banner"
->
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full">
-    <div className="dez-bnr-inr-entry h-full flex items-end sm:items-center py-8 sm:py-10">
-      <h1 className="text-white text-3xl sm:text-4xl font-extrabold">Gallery</h1>
-    </div>
-  </div>
+    <>
+      <Head>
+        <title>Gallery | Inter IIT Sports Meet 2025</title>
+        <meta
+          name="description"
+          content="Explore the official photo and video gallery of the Inter IIT Sports Meet 2025. See highlights from athletics, cricket, football, volleyball, and other events across all IITs."
+        />
+        <meta
+          name="keywords"
+          content="Inter IIT Sports Meet gallery, IIT sports photos 2025, IIT event videos, Inter IIT highlights, IIT athletics, cricket, football, volleyball gallery"
+        />
 
-  <div className="breadcrumb-row">
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <ul className="list-inline flex items-center gap-2 text-white/90">
-        <li><a href="/" className="hover:underline">Home</a></li>
-        <li className="opacity-80">/</li>
-        <li>Gallery</li>
-      </ul>
-    </div>
-  </div>
-</section>
+        {/* Open Graph */}
+        <meta property="og:title" content="Gallery | Inter IIT Sports Meet 2025" />
+        <meta
+          property="og:description"
+          content="View official images and videos from the Inter IIT Sports Meet 2025. Highlights of all sports and events across IITs."
+        />
+        <meta property="og:url" content="https://interiitsports.in/gallery" />
+        <meta property="og:site_name" content="Inter IIT Sports Meet 2025" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:image" content="https://interiitsports.in/logo_2.png" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Gallery | Inter IIT Sports Meet 2025" />
+        <meta
+          name="twitter:description"
+          content="Check out official photos and videos from the Inter IIT Sports Meet 2025, including athletics, cricket, football, volleyball, and more."
+        />
+        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
+      </Head>
+
+      <section
+        className="dez-bnr-inr overlay-black-middle h-64 sm:h-80 lg:h-[26rem] bg-center bg-cover"
+        style={{ backgroundImage: "url(/images/gallery/gallerybanner.png)" }}
+        aria-label="Gallery banner"
+      >
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full">
+          <div className="dez-bnr-inr-entry h-full flex items-end sm:items-center py-8 sm:py-10">
+            <h1 className="text-white text-3xl sm:text-4xl font-extrabold">Gallery</h1>
+          </div>
+        </div>
+
+        <div className="breadcrumb-row">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <ul className="list-inline flex items-center gap-2 text-white/90">
+              <li><a href="/" className="hover:underline">Home</a></li>
+              <li className="opacity-80">/</li>
+              <li>Gallery</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
 
       {/* Content */}
@@ -214,6 +252,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
