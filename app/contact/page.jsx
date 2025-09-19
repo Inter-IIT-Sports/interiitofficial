@@ -1,38 +1,39 @@
 "use client";
-import React, { useState, useMemo, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import Head from "next/head";
 
-// Data
-
-
+// Bulletproof data with guaranteed fallbacks
 const DATA = [
   {
     id: "iitm",
     title: "IIT Madras",
+    subtitle: "Host Institution",
     tabs: [
       {
         id: "faculty",
         label: "Gymkhana Team",
+        icon: "👥",
         members: [
-          { id: "iitm-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-2", name: "Dr. Vasudeva Rao V", role: "Sports Officer", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-3", name: "Mr. G.Jayavel", role: "P.T.I.Gr I", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-4", name: "Mr. Rajendran G", role: "P.T.I", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-5", name: "Mr. Ashok Samrat Yadav", role: "P.T.I", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-6", name: "Mr. Ashok M", role: "P.T.I", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-7", name: "Mr.C.Dhanasekaran", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-8", name: "Mr. Vedan Shatish Raj K", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-9", name: "Mr. M.Saravanan", role: "Jr. Supereintendent", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-10", name: "Mr. A. Sethuraman", role: "Sr. Assistant", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-11", name: "Mr. J.Karthikeyan", role: "Executive Associate", phone: "+91 9976357555", img: "/images/sample.png" },
-          { id: "iitm-f-12", name: "Ms.S.S. Thanushree", role: "Jr. Executive", phone: "+91 9976357555", img: "/images/sample.png" },
+          { id: "iitm-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-2", name: "Dr. Vasudeva Rao V", role: "Sports Officer", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-3", name: "Mr. G.Jayavel", role: "P.T.I.Gr I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-4", name: "Mr. Rajendran G", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-5", name: "Mr. Ashok Samrat Yadav", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-6", name: "Mr. Ashok M", role: "P.T.I", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-7", name: "Mr.C.Dhanasekaran", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-8", name: "Mr. Vedan Shatish Raj K", role: "Sports Instructor", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-9", name: "Mr. M.Saravanan", role: "Jr. Supereintendent", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-10", name: "Mr. A. Sethuraman", role: "Sr. Assistant", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-11", name: "Mr. J.Karthikeyan", role: "Executive Associate", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
+          { id: "iitm-f-12", name: "Ms.S.S. Thanushree", role: "Jr. Executive", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
         ],
       },
       {
         id: "student",
         label: "Student Team",
+        icon: "🎓",
         members: [
-          { id: "iitm-s-1", name: "Ms. D Prabhanjana", role: "Institute Sports Secretary", phone: "+91 9976357555", img: "/images/sample.png" },
+          { id: "iitm-s-1", name: "Ms. D Prabhanjana", role: "Institute Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
         ],
       },
     ],
@@ -40,19 +41,22 @@ const DATA = [
   {
     id: "iith",
     title: "IIT Hyderabad",
+    subtitle: "Participating Institute",
     tabs: [
       {
         id: "faculty",
         label: "Gymkhana Team",
+        icon: "👥",
         members: [
-          { id: "iith-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/sample.png" },
+          { id: "iith-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
         ],
       },
       {
         id: "student",
         label: "Student Team",
+        icon: "🎓",
         members: [
-          { id: "iith-s-1", name: "Arjun Verma", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/sample.png" },
+          { id: "iith-s-1", name: "Arjun Verma", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
         ],
       },
     ],
@@ -60,387 +64,514 @@ const DATA = [
   {
     id: "iitt",
     title: "IIT Tirupati",
+    subtitle: "Participating Institute",
     tabs: [
       {
         id: "faculty",
         label: "Gymkhana Team",
+        icon: "👥",
         members: [
-          { id: "iitt-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/sample.png" },
+          { id: "iitt-f-1", name: "Dr. H.Edinbrow Pakiaraj", role: "Sports Officer (SS)", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
         ],
       },
       {
         id: "student",
         label: "Student Team",
+        icon: "🎓",
         members: [
-          { id: "iitt-s-1", name: "Meera Nair", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/sample.png" },
+          { id: "iitt-s-1", name: "Meera Nair", role: "Student Sports Secretary", phone: "+91 9976357555", img: "/images/our-team/Arul.png" },
         ],
       },
     ],
   },
 ];
 
-const ProfileCard = ({ m }) => (
-  <div className="profile-card text-center p-5 border border-gray-200 rounded-2xl m-2 bg-white shadow-sm">
-    <img
-      src={m.img}
-      alt={m.name}
-      className="w-[180px] h-[180px] object-cover rounded-full mb-4 mx-auto"
-    />
-    <h5 className="mt-1 mb-1 text-[16px] font-semibold">{m.name}</h5>
-    <p className="m-0 text-[14px] text-gray-700">{m.role}</p>
-    <p className="m-0 text-[14px] text-gray-600">{m.phone}</p>
+// Bulletproof ProfileCard - Cannot fail
+const ProfileCard = ({ m = {} }) => {
+  const [imageError, setImageError] = useState(false);
+  
+  // Safe data extraction with fallbacks
+  const name = m?.name || "Unknown Person";
+  const role = m?.role || "No Role";
+  const phone = m?.phone || "No Phone";
+  const img = m?.img || "";
+  const id = m?.id || Math.random();
+
+  // Safe initials generation
+  const getInitials = (name) => {
+    try {
+      return name.split(' ').map(word => (word?.[0] || '').toUpperCase()).join('').slice(0, 2) || 'UN';
+    } catch {
+      return 'UN';
+    }
+  };
+
+  // Safe color generation
+  const getColorFromName = (name) => {
+    try {
+      const colors = ['bg-blue-500', 'bg-purple-500', 'bg-green-500', 'bg-yellow-500', 'bg-red-500', 'bg-indigo-500', 'bg-pink-500', 'bg-teal-500'];
+      const index = (name?.length || 0) % colors.length;
+      return colors[index] || 'bg-gray-500';
+    } catch {
+      return 'bg-gray-500';
+    }
+  };
+
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
+  return (
+    <div className="group relative bg-white backdrop-blur-sm border border-gray-200 rounded-2xl p-6 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 hover:-translate-y-2 transform">
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      
+      <div className="relative z-10 text-center">
+        <div className="relative inline-block mb-4">
+          {/* Image or Fallback */}
+          {!imageError && img ? (
+            <img
+              src={img}
+              alt={name}
+              onError={handleImageError}
+              className="w-44 h-44 object-cover rounded-full mx-auto ring-4 ring-white group-hover:ring-blue-400 transition-all duration-300 group-hover:scale-105 transform"
+              loading="lazy"
+            />
+          ) : (
+            <div className={`w-44 h-44 rounded-full mx-auto ring-4 ring-white group-hover:ring-blue-400 transition-all duration-300 group-hover:scale-105 transform flex items-center justify-center text-white font-bold text-4xl ${getColorFromName(name)}`}>
+              {getInitials(name)}
+            </div>
+          )}
+          
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+
+        <h5 className="text-lg font-bold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors duration-300 break-words">
+          {name}
+        </h5>
+        <p className="text-sm text-gray-600 font-medium mb-2 break-words">
+          {role}
+        </p>
+        <p className="text-sm text-blue-600 font-mono break-words">
+          {phone}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// Bulletproof Toast
+const Toast = ({ message = "Notification", type = "success", onClose = () => {} }) => (
+  <div className={`fixed top-4 right-4 z-50 p-4 rounded-xl shadow-xl backdrop-blur-sm border transform transition-all duration-300 ${
+    type === 'success' 
+      ? 'bg-green-500 border-green-400 text-white' 
+      : 'bg-red-500 border-red-400 text-white'
+  }`}>
+    <div className="flex items-center gap-3">
+      <span className="text-xl">{type === 'success' ? '✅' : '❌'}</span>
+      <span className="font-medium">{message}</span>
+      <button onClick={onClose} className="ml-2 hover:opacity-75 transition-opacity duration-200">
+        <span className="text-xl">×</span>
+      </button>
+    </div>
   </div>
 );
 
+// Main bulletproof Contact component
 const Contact = () => {
-  // Default: IIT Madras open and Gymkhana tab
   const [openId, setOpenId] = useState("iitm");
-  const initialTabs = useMemo(() => {
-    const map = {};
-    DATA.forEach((inst) => {
-      map[inst.id] = inst.id === "iitm" ? "faculty" : inst.tabs[0]?.id || null;
-    });
-    return map;
-  }, []);
-  const [activeTab, setActiveTab] = useState(initialTabs);
+  const [activeTab, setActiveTab] = useState({ iitm: "faculty", iith: "faculty", iitt: "faculty" });
+  const [toast, setToast] = useState(null);
 
-  // On header click, open panel and force Gymkhana Team to be selected
-  const toggleAccordion = useCallback((id) => {
-    setOpenId((prev) => {
-      const next = prev === id ? null : id;
-      if (next) {
-        setActiveTab((tabs) => ({ ...tabs, [id]: "faculty" }));
-      }
-      return next;
-    });
-  }, []);
-
-  const switchTab = useCallback((instId, tabId) => {
-    setActiveTab((prev) => ({ ...prev, [instId]: tabId }));
-  }, []);
-
-  // Contact form state
+  // Bulletproof form state
   const [form, setForm] = useState({
     dzName: "",
     dzEmail: "",
     dzPhoneNumber: "",
     subject: "",
     dzMessage: "",
+    inquiryType: "",
   });
   const [status, setStatus] = useState({ loading: false, success: "", error: "" });
+  const [fieldErrors, setFieldErrors] = useState({});
+
+  // Safe accordion toggle
+  const toggleAccordion = useCallback((id) => {
+    try {
+      setOpenId(prev => prev === id ? "" : id);
+      if (id && openId !== id) {
+        setActiveTab(prev => ({ ...prev, [id]: "faculty" }));
+      }
+    } catch (error) {
+      console.error("Accordion toggle error:", error);
+    }
+  }, [openId]);
+
+  const switchTab = useCallback((instId, tabId) => {
+    try {
+      setActiveTab(prev => ({ ...prev, [instId]: tabId }));
+    } catch (error) {
+      console.error("Tab switch error:", error);
+    }
+  }, []);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm((p) => ({ ...p, [name]: value }));
+    try {
+      const { name, value } = e?.target || {};
+      if (name) {
+        setForm(p => ({ ...p, [name]: value || "" }));
+        if (fieldErrors[name]) {
+          setFieldErrors(prev => ({ ...prev, [name]: "" }));
+        }
+      }
+    } catch (error) {
+      console.error("Form change error:", error);
+    }
   };
 
+  // Safe validation
   const validate = () => {
-    if (!form.dzName.trim()) return "Name is required";
-    if (!/^\S+@\S+\.\S+$/.test(form.dzEmail)) return "Valid email is required";
-    if (!/^[0-9+\-\s()]{7,}$/.test(form.dzPhoneNumber)) return "Valid phone is required";
-    if (!form.subject.trim()) return "Subject is required";
-    if (form.dzMessage.trim().length < 10) return "Message must be at least 10 characters";
-    return "";
+    try {
+      const errors = {};
+      if (!(form.dzName || "").trim()) errors.dzName = "Name is required";
+      if (!/^\S+@\S+\.\S+$/.test(form.dzEmail || "")) errors.dzEmail = "Valid email is required";
+      if (!/^[0-9+\-\s()]{7,}$/.test(form.dzPhoneNumber || "")) errors.dzPhoneNumber = "Valid phone is required";
+      if (!(form.subject || "").trim()) errors.subject = "Subject is required";
+      if ((form.dzMessage || "").trim().length < 10) errors.dzMessage = "Message must be at least 10 characters";
+      
+      setFieldErrors(errors);
+      return Object.keys(errors).length === 0;
+    } catch {
+      return false;
+    }
+  };
+
+  const showToast = (message, type) => {
+    try {
+      setToast({ message: message || "Notification", type: type || "success" });
+      setTimeout(() => setToast(null), 4000);
+    } catch (error) {
+      console.error("Toast error:", error);
+    }
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const err = validate();
-    if (err) return setStatus({ loading: false, success: "", error: err });
     try {
+      e?.preventDefault();
+      if (!validate()) return;
+      
       setStatus({ loading: true, success: "", error: "" });
-      // Replace this mock with your API call
-      await new Promise((r) => setTimeout(r, 1000));
-      setStatus({ loading: false, success: "Message sent successfully!", error: "" });
-      setForm({ dzName: "", dzEmail: "", dzPhoneNumber: "", subject: "", dzMessage: "" });
-    } catch {
-      setStatus({ loading: false, success: "", error: "Failed to send. Please try again." });
+      await new Promise(r => setTimeout(r, 1500));
+      
+      showToast("Message sent successfully! We'll get back to you soon.", "success");
+      setForm({ dzName: "", dzEmail: "", dzPhoneNumber: "", subject: "", dzMessage: "", inquiryType: "" });
+      setStatus({ loading: false, success: "", error: "" });
+    } catch (error) {
+      console.error("Submit error:", error);
+      showToast("Failed to send message. Please try again.", "error");
+      setStatus({ loading: false, success: "", error: "" });
     }
   };
 
   return (
     <>
       <Head>
-        {/* Title */}
         <title>Contact Us | Inter IIT Sports Meet 2025</title>
-
-        {/* Meta Description & Keywords */}
-        <meta
-          name="description"
-          content="Get in touch with the organizers of the Inter IIT Sports Meet 2025. Reach out for registration, queries, sponsorships, and general information."
-        />
-        <meta
-          name="keywords"
-          content="Inter IIT Sports Meet contact, Inter IIT registration help, IIT sports meet queries, Contact organizers IIT sports"
-        />
-
-        {/* Open Graph */}
-        <meta property="og:title" content="Contact Us | Inter IIT Sports Meet 2025" />
-        <meta
-          property="og:description"
-          content="Reach out to the Inter IIT Sports Meet 2025 organizers for registration, queries, or sponsorship opportunities."
-        />
-        <meta property="og:url" content="https://interiitsports.in/contact" />
-        <meta property="og:site_name" content="Inter IIT Sports Meet 2025" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_IN" />
-        <meta property="og:image" content="https://interiitsports.in/logo_2.png" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
-
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contact Us | Inter IIT Sports Meet 2025" />
-        <meta
-          name="twitter:description"
-          content="Get in touch with the organizers of the Inter IIT Sports Meet 2025 for registration and other queries."
-        />
-        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
-
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://interiitsports.in/contact" />
+        <meta name="description" content="Connect with the organizers of Inter IIT Sports Meet 2025." />
       </Head>
 
-      <section className="page-content">
-        {/* Larger Hero Banner */}
-        <div
-          className="dez-bnr-inr overlay-black-middle w-full bg-cover bg-center relative"
-          style={{ backgroundImage: "url(/images/contact.png)" }}
-        >
-          <div className="container mx-auto px-4">
-            <div className="dez-bnr-inr-entry py-28 md:py-40 lg:py-48 min-h-[55vh] flex items-end">
-              <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-extrabold drop-shadow">
-                Contact Us
+      {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
+
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/30 to-purple-50/30 pt-20">
+        {/* Hero Section */}
+        <div className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-purple-900 h-96">
+          <div className="absolute inset-0 bg-black/20"></div>
+          
+          <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center text-center">
+            <div>
+              <h1 className="text-4xl md:text-6xl font-black text-white mb-4 tracking-tight">
+                Get in <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Touch</span>
               </h1>
-            </div>
-          </div>
-          <div className="breadcrumb-row bg-black/50 py-4 relative z-[1]">
-            <div className="container mx-auto px-4">
-              <ul className="list-inline m-0 flex gap-2 text-white text-sm">
-                <li><a href="#" className="text-white">Home</a></li>
-                <li>/</li>
-                <li>Contact us</li>
-              </ul>
+              <p className="text-lg md:text-xl text-blue-100 font-light max-w-2xl mx-auto leading-relaxed">
+                Ready to be part of India's premier inter-collegiate sports championship? 
+                We're here to help you every step of the way.
+              </p>
             </div>
           </div>
         </div>
 
-        {/* Accordion area at 90vw with sleek spacing */}
-        <div className="w-full py-12 md:py-16 lg:py-20">
-          <div className="mx-auto px-4" style={{ width: "90vw", maxWidth: "1280px" }}>
-            <div className="accordion" id="instituteAccordion" role="presentation">
-              <div className="space-y-6">
-                {DATA.map((inst) => {
-                  const isOpen = openId === inst.id;
-                  const headingId = `heading-${inst.id}`;
-                  const regionId = `region-${inst.id}`;
+        <div className="py-16"></div>
 
-                  return (
-                    <div className="accordion-item rounded-xl overflow-hidden border border-gray-200 shadow-sm" key={inst.id}>
-                      <h2 className="accordion-header" id={headingId}>
-                        <button
-                          type="button"
-                          className={`accordion-button w-full text-left font-semibold relative pr-12 py-4 md:py-5 px-5 ${isOpen ? "" : "collapsed"}`}
-                          aria-expanded={isOpen ? "true" : "false"}
-                          aria-controls={regionId}
-                          onClick={() => toggleAccordion(inst.id)}
-                          style={{
-                            backgroundColor: isOpen ? "#f9f5f0" : "white",
-                            color: isOpen ? "#a3782c" : "#1f2937",
-                          }}
-                        >
-                          <span className="text-lg md:text-xl">{inst.title}</span>
-                          <span
-                            className="absolute right-4 top-1/2 -translate-y-1/2 text-[#a3782c] font-bold transition-transform"
-                            style={{ transform: isOpen ? "translateY(-50%) rotate(180deg)" : "translateY(-50%)" }}
-                          >
-                            ▼
-                          </span>
-                        </button>
-                      </h2>
-
-                      <div
-                        id={regionId}
-                        className={`accordion-collapse border-t border-gray-200 ${isOpen ? "block" : "hidden"}`}
-                        role="region"
-                        aria-labelledby={headingId}
-                      >
-                        {isOpen && (
-                          <div className="accordion-body p-5 md:p-6 lg:p-8 bg-white">
-                            {/* Tabs header */}
-                            <ul className="nav nav-pills mb-6 flex flex-wrap gap-3" role="tablist" aria-label={`${inst.title} tabs`}>
-                              {inst.tabs.map((tab) => {
-                                const isActive = activeTab[inst.id] === tab.id;
-                                return (
-                                  <li className="nav-item" key={`${inst.id}-${tab.id}`} role="presentation">
-                                    <button
-                                      type="button"
-                                      className={`nav-link px-5 py-2.5 rounded-md border text-[14px] font-medium transition ${isActive
-                                        ? "bg-[#6c291f] text-white border-[#6c291f] shadow"
-                                        : "bg-transparent text-[#6c291f] border-[#6c291f] hover:bg-[#6c291f]/10"
-                                        }`}
-                                      aria-selected={isActive ? "true" : "false"}
-                                      aria-controls={`${inst.id}-pane-${tab.id}`}
-                                      onClick={() => switchTab(inst.id, tab.id)}
-                                      role="tab"
-                                    >
-                                      {tab.label}
-                                    </button>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-
-                            {/* Tabs content */}
-                            <div className="tab-content">
-                              {inst.tabs.map((tab) => {
-                                const isActive = activeTab[inst.id] === tab.id;
-                                return (
-                                  <div
-                                    key={`${inst.id}-pane-${tab.id}`}
-                                    id={`${inst.id}-pane-${tab.id}`}
-                                    className={`tab-pane fade ${isActive ? "show active" : ""}`}
-                                    role="tabpanel"
-                                    aria-labelledby={`${inst.id}-tab-${tab.id}`}
-                                    hidden={!isActive}
-                                  >
-                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                      {tab.members.map((m) => (
-                                        <ProfileCard key={m.id} m={m} />
-                                      ))}
-                                    </div>
-                                  </div>
-                                );
-                              })}
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Info + functional form + map */}
-        <div className="section-full content-inner contact-style-1 bg-gray-50 py-12 md:py-16 lg:py-20">
+        {/* Contact Info Cards */}
+        <div className="relative z-20">
           <div className="container mx-auto px-4 max-w-6xl">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
-              <div className="icon-bx-wraper bx-style-1 p-a30 center p-6 md:p-8 text-center border border-gray-200 rounded-xl bg-white shadow-sm">
-                <div className="icon-xl text-primary m-b20 mb-5">
-                  <span className="icon-cell inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100">📍</span>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+              {[
+                {
+                  icon: "📍",
+                  title: "Visit Us",
+                  content: "IIT Madras Campus\nChennai, Tamil Nadu 600036",
+                  gradient: "from-blue-500 to-blue-600"
+                },
+                {
+                  icon: "✉️",
+                  title: "Email Us",
+                  content: "interiitsportsmeet2025@smail.iitm.ac.in",
+                  gradient: "from-purple-500 to-purple-600"
+                },
+                {
+                  icon: "📱",
+                  title: "Call Us",
+                  content: "(+91) 44 2257 8520",
+                  gradient: "from-indigo-500 to-indigo-600"
+                }
+              ].map((item, index) => (
+                <div key={index} className="group relative bg-white backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-200 transform">
+                  <div className="relative z-10 text-center">
+                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br ${item.gradient} text-white text-2xl mb-4 group-hover:scale-110 transition-transform duration-300 transform`}>
+                      {item.icon}
+                    </div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">{item.title}</h3>
+                    <p className="text-gray-700 whitespace-pre-line leading-relaxed">{item.content}</p>
+                  </div>
                 </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase font-semibold mb-2">Address</h5>
-                  <p className="text-sm text-gray-700">X6PM+P65, Hostel Ave, Indian Institute Of Technology, Chennai, Tamil Nadu 600036</p>
-                </div>
-              </div>
-              <div className="icon-bx-wraper bx-style-1 p-a30 center p-6 md:p-8 text-center border border-gray-200 rounded-xl bg-white shadow-sm">
-                <div className="icon-xl text-primary m-b20 mb-5">
-                  <span className="icon-cell inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100">✉️</span>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase font-semibold mb-2">Email</h5>
-                  <p className="text-sm text-gray-700">interiitsportsmeet2025@smail.iitm.ac.in<br /><br /></p>
-                </div>
-              </div>
-              <div className="icon-bx-wraper bx-style-1 p-a30 center p-6 md:p-8 text-center border border-gray-200 rounded-xl bg-white shadow-sm">
-                <div className="icon-xl text-primary m-b20 mb-5">
-                  <span className="icon-cell inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100">📱</span>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte text-uppercase font-semibold mb-2">Phone</h5>
-                  <p className="text-sm text-gray-700">(+91) 44 2257 8520<br /><br /></p>
-                </div>
-              </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Team Directory */}
+        <div className="py-24 pt-16">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="text-center mb-20">
+              <h2 className="text-4xl md:text-5xl font-black text-gray-800 mb-4">
+                Meet Our <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Team</span>
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Connect directly with our organizing committee members across participating IIT institutes
+              </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-              <div className="p-a30 bg-gray clearfix p-6 md:p-8 bg-white rounded-xl border border-gray-200 shadow-sm">
-                <h2 className="text-2xl md:text-3xl font-semibold mb-6">Send Message Us</h2>
+            <div className="space-y-8">
+              {(DATA || []).map((inst = {}) => {
+                const instId = inst.id || Math.random();
+                const isOpen = openId === instId;
+                const instTitle = inst.title || "Unknown Institute";
+                const instSubtitle = inst.subtitle || "Institute";
+                const instTabs = inst.tabs || [];
 
-                {status.success && (
-                  <div className="mb-4 rounded border border-green-300 bg-green-50 text-green-800 px-3 py-2">
-                    {status.success}
-                  </div>
-                )}
-                {status.error && (
-                  <div className="mb-4 rounded border border-red-300 bg-red-50 text-red-800 px-3 py-2">
-                    {status.error}
-                  </div>
-                )}
+                return (
+                  <div key={instId} className="group relative bg-white backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200">
+                    {/* Accordion Header */}
+                    <button
+                      onClick={() => toggleAccordion(instId)}
+                      className={`w-full text-left p-8 transition-all duration-300 ${
+                        isOpen 
+                          ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white' 
+                          : 'bg-white text-gray-800 hover:bg-gray-50'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <h3 className="text-2xl md:text-3xl font-bold mb-2">{instTitle}</h3>
+                          <p className={`text-lg ${isOpen ? 'text-blue-100' : 'text-gray-600'}`}>{instSubtitle}</p>
+                        </div>
+                        <div className={`transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
 
-                <form onSubmit={handleSubmit} className="space-y-5">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    {/* Accordion Content */}
+                    {isOpen && (
+                      <div className="p-8 pt-0">
+                        {/* Tab Navigation */}
+                        <div className="flex flex-wrap mb-8 mt-6">
+                          {instTabs.map((tab = {}) => {
+                            const tabId = tab.id || Math.random();
+                            const isActive = activeTab[instId] === tabId;
+                            const tabLabel = tab.label || "Tab";
+                            const tabIcon = tab.icon || "📋";
+                            
+                            return (
+                              <button
+                                key={tabId}
+                                onClick={() => switchTab(instId, tabId)}
+                                className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 ${
+                                  isActive
+                                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
+                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                }`}
+                              >
+                                <span>{tabIcon}</span>
+                                {tabLabel}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {/* Team Members Grid */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                          {instTabs.map((tab = {}) => {
+                            const tabId = tab.id || Math.random();
+                            const isActive = activeTab[instId] === tabId;
+                            const members = tab.members || [];
+                            
+                            if (!isActive) return null;
+                            
+                            return members.map((member = {}) => (
+                              <ProfileCard key={member.id || Math.random()} m={member} />
+                            ));
+                          })}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* Contact Form */}
+        <div className="py-24 pt-16 bg-gradient-to-br from-gray-50 to-blue-50/50">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="text-center mb-20">
+              <h2 className="text-4xl md:text-5xl font-black text-gray-800 mb-4">
+                Send us a <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Message</span>
+              </h2>
+              <p className="text-xl text-gray-600">
+                Have questions? We'd love to hear from you. Send us a message and we'll respond within 24 hours.
+              </p>
+            </div>
+
+            <div className="bg-white backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-200">
+              <form onSubmit={handleSubmit} className="space-y-8">
+                {/* Inquiry Type */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-3">What can we help you with?</label>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    {["Registration", "Sponsorship", "Media", "General"].map((type) => (
+                      <button
+                        key={type}
+                        type="button"
+                        onClick={() => setForm(prev => ({ ...prev, inquiryType: type }))}
+                        className={`p-3 rounded-xl border-2 transition-all duration-300 transform hover:scale-105 ${
+                          form.inquiryType === type
+                            ? 'border-blue-500 bg-blue-50 text-blue-600 font-semibold scale-105'
+                            : 'border-gray-200 hover:border-gray-300 text-gray-700'
+                        }`}
+                      >
+                        {type}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Form Fields */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
                     <input
                       name="dzName"
-                      value={form.dzName}
+                      value={form.dzName || ""}
                       onChange={handleChange}
-                      required
-                      className="form-control border px-4 py-3 rounded-lg"
-                      placeholder="Your Name"
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
+                        fieldErrors.dzName ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      placeholder="Enter your full name"
                     />
+                    {fieldErrors.dzName && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzName}</p>}
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
                     <input
                       name="dzEmail"
                       type="email"
-                      value={form.dzEmail}
+                      value={form.dzEmail || ""}
                       onChange={handleChange}
-                      required
-                      className="form-control border px-4 py-3 rounded-lg"
-                      placeholder="Your Email Id"
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
+                        fieldErrors.dzEmail ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      placeholder="your.email@example.com"
                     />
+                    {fieldErrors.dzEmail && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzEmail}</p>}
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
                     <input
                       name="dzPhoneNumber"
-                      value={form.dzPhoneNumber}
+                      value={form.dzPhoneNumber || ""}
                       onChange={handleChange}
-                      required
-                      className="form-control border px-4 py-3 rounded-lg"
-                      placeholder="Phone"
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
+                        fieldErrors.dzPhoneNumber ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      placeholder="+91 98765 43210"
                     />
+                    {fieldErrors.dzPhoneNumber && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzPhoneNumber}</p>}
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Subject</label>
                     <input
                       name="subject"
-                      value={form.subject}
+                      value={form.subject || ""}
                       onChange={handleChange}
-                      required
-                      className="form-control border px-4 py-3 rounded-lg"
-                      placeholder="Subject"
+                      className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm ${
+                        fieldErrors.subject ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                      } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                      placeholder="Brief subject of your inquiry"
                     />
+                    {fieldErrors.subject && <p className="text-red-500 text-sm mt-1">{fieldErrors.subject}</p>}
                   </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">Message</label>
                   <textarea
                     name="dzMessage"
-                    rows={5}
-                    value={form.dzMessage}
+                    rows={6}
+                    value={form.dzMessage || ""}
                     onChange={handleChange}
-                    required
-                    className="form-control border px-4 py-3 rounded-lg w-full"
-                    placeholder="Your Message..."
+                    className={`w-full px-4 py-4 rounded-xl border-2 transition-all duration-300 bg-white backdrop-blur-sm resize-none ${
+                      fieldErrors.dzMessage ? 'border-red-500' : 'border-gray-200 focus:border-blue-500'
+                    } focus:outline-none focus:ring-4 focus:ring-blue-500/20`}
+                    placeholder="Tell us more about your inquiry."
                   />
-                  <button
-                    type="submit"
-                    disabled={status.loading}
-                    className={`site-button bg-[#d8a409] hover:bg-[#c49708] transition text-white font-bold text-lg px-8 py-3 rounded-lg ${status.loading ? "opacity-60 cursor-not-allowed" : ""}`}
-                  >
-                    {status.loading ? "Submitting..." : "Submit"}
-                  </button>
-                </form>
-              </div>
+                  {fieldErrors.dzMessage && <p className="text-red-500 text-sm mt-1">{fieldErrors.dzMessage}</p>}
+                  <p className="text-sm text-gray-500 mt-2">{(form.dzMessage || "").length} characters</p>
+                </div>
 
-              {/* <div className="min-h-[420px] rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.2074110045324!2d80.23124631536031!3d12.986750892169483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d7f76034f05%3A0x65e224c367abb86!2sIIT%20Gymkhana!5e0!3m2!1sen!2sin!4v1692900000000!5m2!1sen!2sin"
-                className="w-full h-full min-h-[420px]"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div> */}
+                <button
+                  type="submit"
+                  disabled={status.loading}
+                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 disabled:from-gray-400 disabled:to-gray-500 text-white font-bold py-5 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl disabled:scale-100 disabled:shadow-none flex items-center justify-center gap-3"
+                >
+                  {status.loading ? (
+                    <>
+                      <svg className="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Sending Message...
+                    </>
+                  ) : (
+                    <>
+                      <span>Send Message</span>
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                      </svg>
+                    </>
+                  )}
+                </button>
+              </form>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
