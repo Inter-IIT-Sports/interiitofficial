@@ -1,10 +1,14 @@
-import Image from "next/image";
-import Slider from "@/Components/Slider";
+import Home from "../Components/Home"
 
-export default function Home() {
+export default function Page() {
   return (
-<>
-<Slider/>
-</>
+    <>
+      {/* Adjust padding to match navbar height */}
+      <div className="pt-16"
+            // style={{fontFamily: '"Nunito Sans", sans-serif'}}
+>
+        <Home />
+      </div>
+    </>
   );
 }
