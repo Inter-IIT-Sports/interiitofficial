@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MailIcon className="h-5 w-5 text-red-400" />
-                <span><strong>Email:</strong> interiitsportsmeet2025@smail.iitm.ac.in</span>
+                <span><strong>Email:</strong> interiitoc2025@smail.iitm.ac.in</span>
               </li>
             </ul>
           </div>
