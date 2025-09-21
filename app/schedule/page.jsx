@@ -1,176 +1,48 @@
 "use client";
+import { useState, useEffect } from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../../lib/firebase";
 import Head from "next/head";
-import { useState } from "react";
 
+export default function AquaticsSchedule() {
+  const [schedule, setSchedule] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [activeDay, setActiveDay] = useState(null);
 
-
-
-export default function Schedules() {
-  const schedules = {
-    aquatics: [
-      {
-        sport: "100m Freestyle",
-        stage: "Finals",
-        date: "2025-09-30",
-        time: "10:00 AM",
-        venue: "IIT Madras Aquatics Center",
-        host: "IIT Madras",
-        teams: ["IIT Madras", "IIT Hyderabad"],
-        status: "Scheduled"
-      },
-      {
-        sport: "200m Butterfly",
-        stage: "Semi Finals",
-        date: "2025-10-01",
-        time: "11:00 AM",
-        venue: "IIT Madras Aquatics Center",
-        host: "IIT Madras",
-        teams: ["IIT Madras", "IIT Tirupati"],
-        status: "Scheduled"
-      },
-      {
-        sport: "400m Medley Relay",
-        stage: "Heats",
-        date: "2025-10-02",
-        time: "09:00 AM",
-        venue: "IIT Madras Aquatics Center",
-        host: "IIT Madras",
-        teams: ["IIT Hyderabad", "IIT Tirupati"],
-        status: "Live"
-      },
-      {
-        sport: "200m IM",
-        stage: "Finals",
-        date: "2025-10-03",
-        time: "01:00 PM",
-        venue: "IIT Madras Aquatics Center",
-        host: "IIT Madras",
-        teams: ["IIT Madras", "IIT Hyderabad"],
-        status: "Scheduled"
-      },
-      {
-        sport: "100m Butterfly",
-        stage: "Heats",
-        date: "2025-10-04",
-        time: "12:00 PM",
-        venue: "IIT Madras Aquatics Center",
-        host: "IIT Madras",
-        teams: ["IIT Tirupati", "IIT Hyderabad"],
-        status: "Scheduled"
-      },
-      {
-        sport: "4x100m Freestyle Relay",
-        stage: "Finals",
-        date: "2025-10-05",
-        time: "03:00 PM",
-        venue: "IIT Madras Aquatics Center",
-        host: "IIT Madras",
-        teams: ["IIT Madras", "IIT Tirupati"],
-        status: "Scheduled"
+  useEffect(() => {
+    const fetchSchedule = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, "schedules/aquatics/days"));
+        const allDays = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        allDays.sort((a, b) => parseInt(a.id.replace("day", "")) - parseInt(b.id.replace("day", "")));
+        setSchedule(allDays);
+      } catch (error) {
+        console.error("Error fetching schedule:", error);
+      } finally {
+        setLoading(false);
       }
-    ],
-    mainMeet: [
-      {
-        sport: "Basketball",
-        stage: "Quarter Finals",
-        date: "2025-12-17",
-        time: "4:30 PM",
-        venue: "IIT Hyderabad Main Court",
-        host: "IIT Hyderabad",
-        teams: ["IIT Madras", "IIT Hyderabad"],
-        status: "Scheduled"
-      },
-      {
-        sport: "Football",
-        stage: "Group Match",
-        date: "2025-12-18",
-        time: "6:00 PM",
-        venue: "IIT Tirupati Stadium",
-        host: "IIT Tirupati",
-        teams: ["IIT Madras", "IIT Tirupati"],
-        status: "Live"
-      },
-      {
-        sport: "Volleyball",
-        stage: "Semi Finals",
-        date: "2025-12-19",
-        time: "3:00 PM",
-        venue: "IIT Madras Indoor Stadium",
-        host: "IIT Madras",
-        teams: ["IIT Hyderabad", "IIT Tirupati"],
-        status: "Scheduled"
-      },
-      {
-        sport: "Table Tennis",
-        stage: "Finals",
-        date: "2025-12-20",
-        time: "5:30 PM",
-        venue: "IIT Madras Sports Complex",
-        host: "IIT Madras",
-        teams: ["IIT Madras", "IIT Hyderabad"],
-        status: "Scheduled"
-      },
-      {
-        sport: "Cricket",
-        stage: "Heats",
-        date: "2025-12-21",
-        time: "9:00 AM",
-        venue: "IIT Tirupati Grounds",
-        host: "IIT Tirupati",
-        teams: ["IIT Madras", "IIT Tirupati"],
-        status: "Scheduled"
-      },
-      {
-        sport: "Hockey",
-        stage: "Finals",
-        date: "2025-12-22",
-        time: "7:00 PM",
-        venue: "IIT Hyderabad Hockey Field",
-        host: "IIT Hyderabad",
-        teams: ["IIT Hyderabad", "IIT Tirupati"],
-        status: "Scheduled"
-      }
-    ]
-  };
+    };
+    fetchSchedule();
+  }, []);
 
-  const [activeTab, setActiveTab] = useState("mainMeet");
-  const [selectedDate, setSelectedDate] = useState("");
-  const [selectedHost, setSelectedHost] = useState("All");
+  if (loading)
+    return <p className="text-center mt-10 text-gray-500 text-lg md:text-xl">Loading schedule...</p>;
 
-  const currentData = schedules[activeTab];
-  const dates = [...new Set(currentData.map(m => m.date))];
-  const hosts = ["All", ...new Set(currentData.map(m => m.host))];
+  const displayedDay = activeDay
+    ? schedule.find(day => day.id === activeDay)
+    : [...schedule].reverse().find(day =>
+      ["forenoon", "afternoon"].some(session =>
+        Object.keys(day.sessions[session] || {}).length > 0
+      )
+    );
 
-  let filteredMatches = currentData.filter(m =>
-    (selectedDate ? m.date === selectedDate : true) &&
-    (selectedHost !== "All" ? m.host === selectedHost : true)
-  );
-
-  const timeTo24 = (t) => {
-    const [time, modifier] = t.split(" ");
-    let [hours, minutes] = time.split(":").map(Number);
-    if (modifier === "PM" && hours !== 12) hours += 12;
-    if (modifier === "AM" && hours === 12) hours = 0;
-    return hours * 60 + minutes;
-  };
-
-
-  filteredMatches = filteredMatches
-    .slice()
-    .sort((a, b) => {
-      if (a.date < b.date) return -1;
-      if (a.date > b.date) return 1;
-      return timeTo24(a.time) - timeTo24(b.time);
-    });
-
-  const hostColors = {
-    "IIT Madras": "bg-blue-200 text-blue-800",
-    "IIT Hyderabad": "bg-green-200 text-green-800",
-    "IIT Tirupati": "bg-orange-200 text-orange-800",
-  };
-
-  // Find the first live match for the live panel
-  const liveMatch = filteredMatches.find(m => m.status === "Live");
+  const liveMatch = schedule
+    .flatMap(day =>
+      ["forenoon", "afternoon"].flatMap(s =>
+        Object.values(day.sessions[s] || {}).flat()
+      )
+    )
+    .find(m => m.status === "Live");
 
   return (
     <>
@@ -209,138 +81,127 @@ export default function Schedules() {
         {/* Canonical */}
         <link rel="canonical" href="https://interiitsports.in/schedule" />
       </Head>
-      <section>
-        <div className="bg-gray-100 min-h-screen">
-          <div className="max-w-6xl mx-auto p-4 pt-20">
-            {/* Top Tabs + Filters */}
-            <div className="bg-white rounded-lg shadow p-4 mb-6">
-              <div className="flex mb-4 border-b-2">
-                <button
-                  className={`px-4 py-2 ${activeTab === "aquatics" ? "border-b-4 border-blue-500 font-semibold" : ""}`}
-                  onClick={() => { setActiveTab("aquatics"); setSelectedDate(""); setSelectedHost("All"); }}
-                >
-                  Aquatics
-                </button>
-                <button
-                  className={`px-4 py-2 ${activeTab === "mainMeet" ? "border-b-4 border-blue-500 font-semibold" : ""}`}
-                  onClick={() => { setActiveTab("mainMeet"); setSelectedDate(""); setSelectedHost("All"); }}
-                >
-                  Main Meet
-                </button>
-              </div>
-              {/* Filters */}
-              <div className="flex flex-col sm:flex-row justify-between gap-2">
-                {/* Date filter */}
-                <div className="flex overflow-x-auto space-x-2 mb-2 sm:mb-0">
-                  {dates.map(date => (
-                    <button
-                      key={date}
-                      className={`px-3 py-1 rounded-full border ${selectedDate === date ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-800'
-                        }`}
-                      onClick={() => setSelectedDate(date)}
-                    >
-                      {date}
-                    </button>
-                  ))}
-                </div>
-                {/* Host filter */}
-                <div className="flex space-x-2">
-                  {hosts.map(host => (
-                    <button
-                      key={host}
-                      className={`px-3 py-1 rounded-full border ${selectedHost === host ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-800'
-                        }`}
-                      onClick={() => setSelectedHost(host)}
-                    >
-                      {host}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
+      <div className="text-[#800000] bg-gray-50 pt-28 px-4 md:px-12 lg:px-20 pb-20" style={{ fontFamily: '"Poppins", sans-serif' }}>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-10">
+          Aquatics Schedule | Inter IIT 2025
+        </h1>
 
-            {/* Matches grid: sorted with upcoming on top */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Left side: match cards */}
-              <div className="lg:col-span-2">
-                <div className="space-y-6">
-                  {filteredMatches.length > 0 ? (
-                    filteredMatches.map((match, idx) => (
-                      <div
-                        key={idx}
-                        className="border rounded-lg p-6 shadow-md hover:shadow-lg transition bg-white w-full"
-                      >
-                        <div className="flex justify-between items-center mb-2">
-                          <h3 className="font-semibold text-xl">
-                            {match.sport} | {match.stage}
-                          </h3>
-                          <span className={`px-2 py-1 text-sm rounded ${hostColors[match.host]}`}>
-                            {match.host}
-                          </span>
-                        </div>
-                        <div className="text-base text-gray-600 mb-2">
-                          <p>📅 {match.date} | ⏰ {match.time}</p>
-                          <p>📍 {match.venue}</p>
-                        </div>
-                        {/* Show only teams here */}
-                        <div className="font-medium text-gray-800 mb-1 text-base">
-                          {match.teams[0]} 🆚 {match.teams[1]}
-                        </div>
-                        <div className="text-sm text-gray-500">
-                          {match.status}
-                          {match.status === "Live" && (
-                            <span className="ml-2 text-red-600 font-bold flex items-center gap-1">
-                              <span className="relative flex h-2 w-2">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
-                              </span>
-                              LIVE
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    ))
-                  ) : (
-                    <p className="text-gray-500">No matches found for selected filters.</p>
-                  )}
-                </div>
-              </div>
-              {/* Right side: Live match panel */}
-              <div className="hidden lg:block">
-                <div className="sticky top-20">
-                  <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-6">
-                    <div className="flex items-center gap-3 mb-5">
-                      <span className="relative inline-flex h-3 w-3">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                        <span className="relative inline-flex rounded-full h-3 w-3 bg-red-600" />
+        {/* Live Match Banner */}
+        {liveMatch && (
+          <div className="mb-10 p-4 md:p-5 rounded-xl bg-red-50 border border-red-300 shadow-md flex flex-col md:flex-row justify-between items-start md:items-center animate-pulse gap-3 md:gap-0">
+            <div>
+              <h2 className="text-lg md:text-2xl font-bold text-red-600">
+                {liveMatch.event || liveMatch.teams.join(" 🆚 ")}
+              </h2>
+              <p className="text-gray-700 text-sm md:text-base mt-1">
+                {liveMatch.type} | Venue: {liveMatch.venue}
+              </p>
+            </div>
+            <span className="px-3 py-1 text-xs md:text-sm bg-red-600 text-white rounded-full font-semibold self-start md:self-center">
+              LIVE
+            </span>
+          </div>
+        )}
+
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Sidebar for Days */}
+          <div className="flex-shrink-0 w-full md:w-48 bg-white rounded-xl shadow-md p-4 max-h-[calc(100vh-10rem)] overflow-y-auto md:mr-6">
+            <h3 className="font-semibold text-gray-700 mb-4 text-center md:text-left text-base md:text-lg">Aquatic Days</h3>
+            <div className="flex flex-row md:flex-col gap-2 overflow-x-auto md:overflow-x-visible px-1">
+              {schedule.map((day) => {
+                const isActive = activeDay === day.id;
+                return (
+                  <div
+                    key={day.id}
+                    onClick={() => setActiveDay(day.id)}
+                    className={`flex-shrink-0 cursor-pointer flex items-center md:flex-row md:items-center px-3 py-2 rounded transition-all duration-300
+              ${isActive
+                        ? "border-b-2 md:border-l-4 border-[#800000] bg-[#800000]/5 md:bg-transparent"
+                        : "hover:bg-gray-100 md:hover:bg-gray-100"
+                      }
+            `}
+                  >
+                    {/* Dot for active indicator */}
+                    <span
+                      className={`w-3 h-3 rounded-full mr-2 transition-colors duration-300
+                ${isActive ? "bg-[#800000]" : "bg-gray-300"}
+              `}
+                    ></span>
+
+                    {/* Day text */}
+                    <div className="flex flex-col">
+                      <span className={`text-sm md:text-base font-medium ${isActive ? "text-[#800000] font-semibold" : "text-black font-medium"}`}>
+                        Day {day.id.replace("day", "")}
                       </span>
-                      <span className="text-lg font-semibold text-red-600">Live Match</span>
+                      <span className="text-xs md:text-sm text-gray-500">{day.date}</span>
                     </div>
-                    {liveMatch ? (
-                      <>
-                        <div className="font-bold text-2xl mb-2">{liveMatch.sport}</div>
-                        <div className="text-base text-gray-700 mb-2">{liveMatch.stage}</div>
-                        <div className="text-base text-gray-700 mb-2">
-                          {liveMatch.teams[0]} <span className="text-lg font-extrabold text-red-600">🆚</span> {liveMatch.teams[1]}
-                        </div>
-                        <div className="text-base text-gray-700 mb-2">Venue: {liveMatch.venue}</div>
-                        <div className="flex justify-between text-base text-gray-700 mb-2">
-                          <div>Host: <span className={hostColors[liveMatch.host]}>{liveMatch.host}</span></div>
-                          <div>{liveMatch.date} | {liveMatch.time}</div>
-                        </div>
-                      </>
-                    ) : (
-                      <div className="rounded-lg bg-gray-50 p-4 text-gray-600 font-medium text-center">
-                        No live matches at the moment.
-                      </div>
-                    )}
                   </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
           </div>
+
+
+
+          {/* Schedule Content */}
+          <div className="flex-1 flex flex-col gap-10">
+            {displayedDay &&
+              ["forenoon", "afternoon"].map(sessionKey => (
+                <div key={sessionKey}>
+                  <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold text-[#800000] mb-6 capitalize">
+                    {sessionKey} Session
+                  </h3>
+
+                  {Object.keys(displayedDay.sessions[sessionKey]).length === 0 ? (
+                    <p className="text-gray-500 text-sm md:text-base mb-8">No events scheduled.</p>
+                  ) : (
+                    Object.keys(displayedDay.sessions[sessionKey])
+                      .sort()
+                      .map(sport => {
+                        const events = displayedDay.sessions[sessionKey][sport].slice();
+                        events.sort((a, b) => (a.eventNo || a.matchNo || 0) - (b.eventNo || b.matchNo || 0));
+
+                        return (
+                          <div key={sport} className="mb-8 md:mb-10">
+                            <h4 className="font-semibold text-sky-600 text-lg md:text-xl mb-4">{sport}</h4>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                              {events.map(event => (
+                                <div
+                                  key={event.eventNo || event.matchNo}
+                                  className="bg-white p-3 md:p-4 rounded-xl shadow hover:shadow-lg transition border-l-4 border-gray-600"
+                                >
+                                  <p className="font-bold text-gray-800 text-sm md:text-base mb-1">
+                                    {event.event || event.teams.join(" 🆚 ")}
+                                    {(event.eventNo || event.matchNo) && (
+                                      <span className="ml-2 text-xs md:text-sm text-gray-500 font-medium">
+                                        {event.eventNo ? `Event ${event.eventNo}` : ""}
+                                        {event.matchNo ? `Match ${event.matchNo}` : ""}
+                                      </span>
+                                    )}
+                                  </p>
+                                  <p className="text-gray-600 text-xs md:text-sm mb-1">{event.type}</p>
+                                  <p className="text-gray-600 text-xs md:text-sm mb-2">Venue: {event.venue}</p>
+                                  <span
+                                    className={`px-2 py-0.5 rounded-full text-[10px] md:text-xs font-semibold ${event.status === "Live"
+                                      ? "bg-red-100 text-red-700 animate-pulse"
+                                      : "bg-green-100 text-green-700"
+                                      }`}
+                                  >
+                                    {event.status}
+                                  </span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        );
+                      })
+                  )}
+                </div>
+              ))}
+          </div>
         </div>
-      </section>
+      </div>
     </>
+
   );
 }
