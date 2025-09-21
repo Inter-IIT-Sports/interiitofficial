@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs,doc } from "firebase/firestore";
 import { db } from "../../lib/firebase";
 import Head from "next/head";
 
@@ -12,8 +12,11 @@ export default function AquaticsSchedule() {
   useEffect(() => {
     const fetchSchedule = async () => {
       try {
-        const querySnapshot = await getDocs(collection(db, "schedules/aquatics/days"));
+        const parentDocRef = doc(db, "schedules", "aquatics"); // parent document
+        const daysColRef = collection(parentDocRef, "days"); 
+        const querySnapshot = await getDocs(daysColRef);
         const allDays = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+
         allDays.sort((a, b) => parseInt(a.id.replace("day", "")) - parseInt(b.id.replace("day", "")));
         setSchedule(allDays);
       } catch (error) {

@@ -11,7 +11,7 @@ const iits = [
   { name: "IIT (ISM) Dhanbad", logo: "/images/alliits/IIT (ISM) Dhanbad.webp"},
   { name: "IIT Dharwad", logo: "/images/alliits/IIT Dharwad.webp" },
   { name: "IIT Gandhinagar", logo: "/images/alliits/IIT Gandhinagar.webp" },
-  { name: "IIT Goa", logo: "/images/alliits/IIT Goa.webp" },
+  { name: "IIT Goa", logo: "/images/alliits/IIT GOA.webp" },
   { name: "IIT Guwahati", logo: "/images/alliits/IIT Guwahati.webp" },
   { name: "IIT Hyderabad", logo: "/images/alliits/IIT Hyderabad.webp"},
   { name: "IIT Indore", logo: "/images/alliits/IIT Indore.webp"},
