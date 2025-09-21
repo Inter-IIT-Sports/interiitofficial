@@ -1,14 +1,14 @@
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-sky-500 via-black to-red-800 text-white">
+    <footer className="bg-gradient-to-r from-sky-500 via-black to-red-800 text-white" style={{ fontFamily: "'Poppins', sans-serif" }}>
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         {/* 3 columns grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Left column */}
           <div>
-            <h4 className="text-xl font-semibold mb-3">IIT Madras Important Contacts</h4>
+            <h4 className="text-xl font-semibold mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>IIT Madras Important Contacts</h4>
             <div className="w-20 h-1 bg-sky-300 rounded mb-5"></div>
-            <ul className="space-y-3 text-sm leading-relaxed">
+            <ul className="space-y-3 text-sm leading-relaxed" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
               <li className="flex items-start gap-3">
                 <PhoneIcon className="h-5 w-5 text-sky-300" />
                 <span><strong>Security:</strong> +91 44 2257 9999 / 8280</span>
@@ -30,9 +30,9 @@ export default function Footer() {
 
           {/* Middle column */}
           <div className="md:justify-self-center">
-            <h4 className="text-xl font-semibold mb-3">Additional Contacts</h4>
+            <h4 className="text-xl font-semibold mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>Additional Contacts</h4>
             <div className="w-20 h-1 bg-sky-300 rounded mb-5"></div>
-            <ul className="space-y-3 text-sm leading-relaxed">
+            <ul className="space-y-3 text-sm leading-relaxed" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
               <li className="flex items-start gap-3">
                 <PhoneIcon className="h-5 w-5 text-sky-300" />
                 <span><strong>Computer Centre:</strong> +91 44 2257 5999</span>
@@ -52,9 +52,9 @@ export default function Footer() {
 
           {/* Right column */}
           <div>
-            <h4 className="text-xl font-semibold mb-3">Contact Us</h4>
+            <h4 className="text-xl font-semibold mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>Contact Us</h4>
             <div className="w-20 h-1 bg-red-400 rounded mb-5"></div>
-            <ul className="space-y-3 text-sm leading-relaxed">
+            <ul className="space-y-3 text-sm leading-relaxed" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
               <li className="flex items-start gap-3">
                 <PinIcon className="h-5 w-5 text-red-400" />
                 <span>X6PM+P65, Hostel Ave, IIT Madras, Chennai, Tamil Nadu 600036</span>
@@ -74,9 +74,9 @@ export default function Footer() {
 
       {/* Bottom strip */}
       <div className="bg-black/70 border-t border-white/10 py-4">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center text-sm">
-          <p className="text-gray-300">
-            © {new Date().getFullYear()} IIT Madras · All Rights Reserved
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center text-sm" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+          <p className="text-gray-400 text-sm md:text-base">
+            © Official Website of INTER IIT Sports Meet 2025 · Copyright © {new Date().getFullYear()}, IIT Madras · All rights reserved
           </p>
         </div>
       </div>
@@ -109,7 +109,7 @@ function PinIcon({ className = "" }) {
       stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 21s-6.5-4.33-6.5-10A6.5 6.5 0 1 1 
         18.5 11c0 5.67-6.5 10-6.5 10z"/>
-      <circle cx="12" cy="11" r="2.5"/>
+      <circle cx="12" cy="11" r="2.5" />
     </svg>
   );
 }
@@ -118,8 +118,8 @@ function MailIcon({ className = "" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none"
       stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="5" width="18" height="14" rx="2"/>
-      <path d="M3 7l9 6 9-6"/>
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 7l9 6 9-6" />
     </svg>
   );
 }

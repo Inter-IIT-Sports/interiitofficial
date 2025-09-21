@@ -30,10 +30,12 @@ const iits = [
 
 export default function ParticipatingIITs() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50" style={{ fontFamily: "'Poppins', sans-serif" }}>
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl text-[#800000] font-bold mb-4">PARTICIPATING IITS</h2>
-        <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+        <h2 className="text-3xl md:text-4xl text-[#800000] font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+          PARTICIPATING IITS
+        </h2>
+        <p className="text-gray-700 text-base md:text-lg leading-relaxed" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
           The following IITs are participating in the Inter IIT Sports Meet 2025.
         </p>
       </div>
@@ -48,7 +50,7 @@ export default function ParticipatingIITs() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <p className="mt-2 text-sm font-medium text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="mt-2 text-sm font-medium text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
               {iit.name}
             </p>
           </div>
