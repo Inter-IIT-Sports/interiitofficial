@@ -15,28 +15,16 @@ I take pride in the athletes who compete with passion, the volunteers who serve 
 My heartfelt wish is that every participant carries from this Meet not just achievements, but memories of camaraderie, lessons of discipline, and the inspiration to lead a healthier, fuller life.`,
   },
   {
-    name: "Prof.R Prasanth Kumar",
+    name: "Prof. R Prasanth Kumar",
     position: "Dean, IIT Hyderabad",
     image: "/images/our-team/team-5.png",
-message: `As IIT Madras leads this edition of Inter IIT Sports in collaboration with IIT Hyderabad and IIT Tirupati, this meet stands as a testament to the IIT fraternity’s shared commitment to sports, health, leadership, and holistic student growth. The Inter IIT Sports Meet 2025 is a celebration of youthful spirit, resilience, and unity.
-
-This Meet is not only about winning medals but about building character, forging friendships, and nurturing values that last a lifetime. Sports have the power to unite people. Sports are not only about competition; it is a medium to bring society together and inspire youth towards a healthier life.
-
-I take pride in the athletes who compete with passion, the volunteers who serve with dedication, and the spectators who cheer with heart. Behind this grand event are the tireless efforts of many committees, volunteers, steered by the Executive Committee, ensuring smooth execution and a memorable experience for all.
-
-My heartfelt wish is that every participant carries from this Meet not just achievements, but memories of camaraderie, lessons of discipline, and the inspiration to lead a healthier, fuller life.`,
+message: ``,
    },
   {
-    name: "Prof. S. Rao",
+    name: "Prof. N. N. Murty",
     position: "Dean, IIT Tirupati",
     image: "/images/our-team/team5.png",
-message: `As IIT Madras leads this edition of Inter IIT Sports in collaboration with IIT Hyderabad and IIT Tirupati, this meet stands as a testament to the IIT fraternity’s shared commitment to sports, health, leadership, and holistic student growth. The Inter IIT Sports Meet 2025 is a celebration of youthful spirit, resilience, and unity.
-
-This Meet is not only about winning medals but about building character, forging friendships, and nurturing values that last a lifetime. Sports have the power to unite people. Sports are not only about competition; it is a medium to bring society together and inspire youth towards a healthier life.
-
-I take pride in the athletes who compete with passion, the volunteers who serve with dedication, and the spectators who cheer with heart. Behind this grand event are the tireless efforts of many committees, volunteers, steered by the Executive Committee, ensuring smooth execution and a memorable experience for all.
-
-My heartfelt wish is that every participant carries from this Meet not just achievements, but memories of camaraderie, lessons of discipline, and the inspiration to lead a healthier, fuller life.`,
+message: ``,
    },
 ];
 

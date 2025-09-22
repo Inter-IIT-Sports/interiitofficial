@@ -12,14 +12,14 @@ const committees = {
   ],
   "IIT Hyderabad": [
     { role: "Chairperson", name: "Prof. B. S. Murty", designation: "Director" },
-    { role: "Members", name: "Prof. R. Singh", designation: "Dean Students" },
-    { role: "Members", name: "Prof. A. K. Rao", designation: "Advisor Sports" },
-    { role: "Secretary", name: "Dr. Lakshmi P", designation: "Sports Officer" },
+    { role: "Members", name: "Prof. R Prasanth Kumar", designation: "Dean Students" },
+    // { role: "Members", name: "", designation: "Advisor Sports" },
+    { role: "Secretary", name: "Md. Akbar", designation: "Sports Officer" },
   ],
   "IIT Tirupati": [
-    { role: "Chairperson", name: "Prof. G. Prasad", designation: "Director" },
-    { role: "Members", name: "Prof. S. Rao", designation: "Dean Students" },
-    { role: "Secretary", name: "Dr. Anil K", designation: "Sports Officer" },
+    { role: "Chairperson", name: "K. N. Satyanarayana", designation: "Director" },
+    { role: "Members", name: "Prof. N. N. Murty", designation: "Dean Students" },
+    // { role: "Secretary", name: "Dr. Anil K", designation: "Sports Officer" },
   ],
 };
 

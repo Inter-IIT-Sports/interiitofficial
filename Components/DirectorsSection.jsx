@@ -20,29 +20,13 @@ I extend my best wishes to every athlete, volunteer, supporter, and stakeholder.
     name: "Prof. B. S. Murty",
     position: "Director, IIT Hyderabad",
     image: "/images/our-team/director2.png",
-    message: `The IITs were established with a national vision — to nurture leaders, innovators, and nation-builders. Alongside academics and research, sports are integral to this mission, for they foster resilience, discipline, teamwork, and leadership.
-
-The Inter IIT Sports Meet 2025, hosted by IIT Madras with IIT Hyderabad and IIT Tirupati, is not just a competition but a celebration of unity, friendship, and holistic student growth. It embodies the spirit of Ek Bharat Shreshtha Bharat and strengthens our collective journey towards Viksit Bharat.
-
-In line with the NEP 2020 and the National Sports Policy 2025, IIT Madras has expanded its sporting ecosystem. The recently established SITARA Centre, made possible through the generosity of its benefactor, stands as a beacon of sporting excellence. Together with Sports Admissions through JEE Advanced, it reflects our commitment to integrating education and sports for holistic development.
-
-This Sports Meet, therefore, is more than medals and trophies. It represents the IIT fraternity’s belief in sports as a pathway to character-building, national integration, and preparing youth to serve India on the global stage.
-
-I extend my best wishes to every athlete, volunteer, supporter, and stakeholder..`,
+    message: ""
   },
   {
-    name: "Prof. G. Prasad",
+    name: "Prof. K. N. Satyanarayana",
     position: "Director, IIT Tirupati",
     image: "/images/our-team/director3.png",
-    message: `The IITs were established with a national vision — to nurture leaders, innovators, and nation-builders. Alongside academics and research, sports are integral to this mission, for they foster resilience, discipline, teamwork, and leadership.
-
-The Inter IIT Sports Meet 2025, hosted by IIT Madras with IIT Hyderabad and IIT Tirupati, is not just a competition but a celebration of unity, friendship, and holistic student growth. It embodies the spirit of Ek Bharat Shreshtha Bharat and strengthens our collective journey towards Viksit Bharat.
-
-In line with the NEP 2020 and the National Sports Policy 2025, IIT Madras has expanded its sporting ecosystem. The recently established SITARA Centre, made possible through the generosity of its benefactor, stands as a beacon of sporting excellence. Together with Sports Admissions through JEE Advanced, it reflects our commitment to integrating education and sports for holistic development.
-
-This Sports Meet, therefore, is more than medals and trophies. It represents the IIT fraternity’s belief in sports as a pathway to character-building, national integration, and preparing youth to serve India on the global stage.
-
-I extend my best wishes to every athlete, volunteer, supporter, and stakeholder.`,
+    message: ``,
   },
 ];
 
