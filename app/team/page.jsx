@@ -51,19 +51,19 @@ export default function LegacyContent() {
     {
       title: "IIT Hyderabad",
       people: [
-        { name: "Prof. Arul Prakash K", role: "Advisor Sports", img: "/images/our-team/dummy.png" },
-        { name: "Prof. Shruti Dubey", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
-        { name: "Prof. Sudakar Chandran", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
-        { name: "Dr. Edinbrow Pakiaraj", role: "Sports Officer", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Advisor Sports", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Sports Officer", img: "/images/our-team/dummy.png" },
       ],
     },
     {
       title: "IIT Tirupati",
       people: [
-        { name: "Prof. Arul Prakash K", role: "Advisor Sports", img: "/images/our-team/dummy.png" },
-        { name: "Prof. Shruti Dubey", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
-        { name: "Prof. Sudakar Chandran", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
-        { name: "Dr. Edinbrow Pakiaraj", role: "Sports Officer", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Advisor Sports", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Co Advisor Sports", img: "/images/our-team/dummy.png" },
+        { name: "", role: "Sports Officer", img: "/images/our-team/dummy.png" },
       ],
     },
   ];
