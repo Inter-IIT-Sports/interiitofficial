@@ -21,7 +21,6 @@ export default function Navbar() {
   return (
     <nav
       className="fixed top-0 left-0 w-full z-50 h-16 md:h-20 bg-white shadow-md"
-      style={{ fontFamily: "'Nunito Sans', sans-serif" }}
     >
       <div className="px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex items-center justify-between h-full">
@@ -36,7 +35,7 @@ export default function Navbar() {
                 priority
               />
             </div>
-            <div className="flex flex-col leading-tight font-playfair">
+            <div className="flex flex-col leading-tight" style={{ fontFamily: "'Mukta', sans-serif" }}>
               <span className="font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl tracking-wide text-black">
                 Inter IIT
               </span>
@@ -48,14 +47,15 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop navigation */}
-          <div className="cursor-pointer hidden md:flex items-center space-x-8 lg:space-x-8 font-poppins">
+          <div className="cursor-pointer hidden md:flex items-center space-x-8 lg:space-x-8"
+          style={{ fontFamily: "'Mukta',sans-serif" }}>
             {navItems.map((item) => {
               const isActive = pathname === item.href;
               return (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="relative inline-block text-base md:text-lg lg:text-xl font-medium text-black transition-colors duration-300 group"
+                  className="relative inline-block text-base md:text-lg lg:text-xl  text-black transition-colors duration-300 group"
                 >
                   <span className="relative z-10">{item.name}</span>
 
@@ -85,7 +85,7 @@ export default function Navbar() {
             >
               {!isOpen ? (
                 <svg
-                  className="h-6 w-6 text-sky-600 cursor-pointer font-bold"
+                  className="h-6 w-6 text-black cursor-pointer font-bold"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -121,7 +121,7 @@ export default function Navbar() {
       <div
         className={`md:hidden fixed top-16 left-0 h-[calc(100vh-4rem)] w-64 z-40 transform transition-transform duration-300 ease-in-out
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
-          bg-white/40 backdrop-blur-lg border-r border-sky-600/40 shadow-xl font-nunito`}
+          bg-white/40 backdrop-blur-lg border-r border-sky-600/40 shadow-xl`} style={{ fontFamily: "'Mukta', sans-serif" }}
       >
         <div className="flex flex-col items-start px-6 pt-6 space-y-2">
           {navItems.map((item) => {
