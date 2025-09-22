@@ -61,7 +61,7 @@ export const metadata = {
     title: "Inter IIT Sports Meet 2025",
     description:
       "The largest inter-collegiate sports event among IITs – fostering sportsmanship, excellence, and unity.",
-    images: ["/images/interiitlog.webp"],
+    images: ["/favicon.ico"],
   },
 
   robots: {

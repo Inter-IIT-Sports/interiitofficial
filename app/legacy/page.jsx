@@ -20,7 +20,7 @@ export const metadata = {
     siteName: "Inter IIT Sports Meet 2025",
     images: [
       {
-        url: "https://interiitsports.in/logo_2.png",
+        url: "https://interiitsports.in/favicon.ico",
         width: 800,
         height: 600,
       },

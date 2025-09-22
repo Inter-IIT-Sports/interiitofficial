@@ -25,7 +25,7 @@ export const metadata = {
     siteName: "Inter IIT Sports Meet 2025",
     images: [
       {
-        url: "https://interiitsports.in/logo_2.png",
+        url: "https://interiitsports.in/favicon.ico",
         width: 800,
         height: 600,
       },
@@ -38,7 +38,7 @@ export const metadata = {
     title: "Inter IIT Sports Meet 2025 | Official Event Website",
     description:
       "Official registration and updates for the Inter IIT Sports Meet 2025. Join athletics, cricket, football, and more across all IITs.",
-    images: ["https://interiitsports.in/logo_2.png"],
+    images: ["https://interiitsports.in/favicon.ico"],
   },
 };
 

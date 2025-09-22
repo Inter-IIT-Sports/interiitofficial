@@ -130,7 +130,7 @@ export default function Page() {
         <meta property="og:site_name" content="Inter IIT Sports Meet 2025" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
-        <meta property="og:image" content="https://interiitsports.in/logo_2.png" />
+        <meta property="og:image" content="https://interiitsports.in/favicon.ico" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
 
@@ -141,7 +141,7 @@ export default function Page() {
           name="twitter:description"
           content="Check out official photos and videos from the Inter IIT Sports Meet 2025, including athletics, cricket, football, volleyball, and more."
         />
-        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
+        <meta name="twitter:image" content="https://interiitsports.in/favicon.ico" />
       </Head>
 
       <section

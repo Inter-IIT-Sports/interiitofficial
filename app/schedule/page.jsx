@@ -67,7 +67,7 @@ export default function AquaticsSchedule() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://interiitsports.in/logo_2.png"
+          content="https://interiitsports.in/favicon.ico"
         />
         <meta property="og:locale" content="en_IN" />
         {/* Twitter */}
@@ -77,7 +77,7 @@ export default function AquaticsSchedule() {
           name="twitter:description"
           content="Live schedule and results for the 58th Inter IIT Sports Meet 2025, including the 39th Aquatics Meet and other events across all IITs."
         />
-        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
+        <meta name="twitter:image" content="https://interiitsports.in/favicon.ico" />
         {/* Canonical */}
         <link rel="canonical" href="https://interiitsports.in/schedule" />
       </Head>
