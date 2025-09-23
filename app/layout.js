@@ -23,6 +23,7 @@ export const metadata = {
     "The Inter IIT Sports Meet is the premier annual sporting event of all Indian Institutes of Technology, uniting athletes across IITs in a celebration of competition, teamwork, and excellence.",
   keywords: [
     "Inter IIT Sports Meet 2025",
+    "Inter IIT Sports Meet host By IIT Madras IIT Hyderabad IIT Tirupati", 
     "Inter IIT official website",
     "58th Inter IIT Sports Meet",
     "39th Aquatics Meet",
@@ -32,7 +33,7 @@ export const metadata = {
     "Inter IIT registration",
     "IIT athletics, cricket, football, volleyball",
     "IIT sports events",
-    "All IITs sports meet 2025"
+    "All IITs sports meet 2025",
   ],
   metadataBase: new URL("https://interiitsports.in"),
 

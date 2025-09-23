@@ -1,10 +1,11 @@
 import Home from "../Components/Home"
 
 export const metadata = {
-  title: "Inter IIT Sports Meet 2025 | Official Event Website",
+  title: "Inter IIT Sports Meet",
   description:
     "Official registration and updates for the Inter IIT Sports Meet 2025. Participate in athletics, cricket, football, volleyball, and more across all IITs.",
   keywords: [
+    "Inter IIT Sports Meet",
     "Inter IIT Sports Meet 2025",
     "Inter IIT official website",
     "58th Inter IIT Sports Meet",
@@ -60,10 +61,10 @@ export default function Page() {
     "address": "India"
   },
   "url": "https://interiitsports.in",
-  "image": "https://interiitsports.in/logo_2.png",
+  "image": "https://interiitsports.in/favicon.ico",
   "performer": {
-    "@type": "Organization",
-    "name": "All IITs"
+    "@type": "CollegeOrUniversity",
+    "name": "Indian Institute of Technologies (IITs)"
   }
 }
 `}} />
