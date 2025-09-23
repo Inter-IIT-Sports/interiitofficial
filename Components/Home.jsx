@@ -83,13 +83,13 @@ export default function HeroSection2025() {
           </div>
 
           {/* Title with TextType */}
-          <h1 className="font-semibold flex flex-wrap justify-center gap-2 mt-4 text-[2rem] md:text-[3rem] lg:text-[4rem]" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <h1 className="font-semibold flex flex-wrap justify-center gap-2 mt-4 text-[2rem] md:text-[3rem] lg:text-[4rem]" style={{ fontFamily: "'Montserrat', sans-serif" }}>
             <TextType text={["Inter IIT"]} typingSpeed={75} pauseDuration={1500} showCursor={false} className="text-black" />
             <TextType text={["Sports"]} typingSpeed={75} pauseDuration={1500} showCursor={false} className="text-sky-600" />
             <TextType text={["Meet"]} typingSpeed={75} pauseDuration={1500} showCursor={true} className="text-[#800000]" />
           </h1>
 
-          <p className="text-gray-500 font-semibold text-base md:text-lg lg:text-xl mt-2 max-w-2xl" style={{ fontFamily: "'Poppins', sans-serif" }}>
+          <p className="text-gray-500 font-semibold text-base md:text-lg lg:text-xl mt-2 max-w-2xl" style={{ fontFamily: "'Mukta', sans-serif" }}>
             The Inter IIT Sports Meet 2025 brings together athletes from all IITs,
             showcasing talent, energy, and sportsmanship in a week-long celebration
             of competitive spirit.
@@ -97,12 +97,12 @@ export default function HeroSection2025() {
         </div>
       </div>
 
-      <section className="w-full bg-gray-200 py-16 px-6" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <section className="w-full bg-gray-200 py-16 px-6" style={{ fontFamily: "'s', sans-serif" }}>
         <div className="mt-0 max-w-6xl mx-auto flex flex-col-reverse md:flex-row-reverse gap-6 items-stretch">
 
           {/* 58th Inter IIT Sports Meet */}
           <div className="flex-1 text-center flex flex-col justify-between items-center bg-white p-6 rounded-xl shadow-md">
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#800000] mb-6" style={{ fontFamily: "'Lora', serif" }}>
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#800000] mb-6" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               58th Inter IIT Sports Meet
             </h2>
 
@@ -137,7 +137,7 @@ export default function HeroSection2025() {
 
           {/* 39th Aquatics Meet */}
           <div className="flex-1 text-center flex flex-col justify-between items-center bg-white p-6 rounded-xl shadow-md">
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#800000] mb-6" style={{ fontFamily: "'Lora', serif" }}>
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#800000] mb-6" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               39th Aquatics Meet
             </h2>
 

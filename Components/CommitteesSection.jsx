@@ -37,7 +37,7 @@ export default function CommitteesSection() {
     <section className="py-16 bg-gray-50" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Section Intro */}
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Montserrat', serif" }}>
           COMMITTEES AND COORDINATION
         </h2>
         <p className="text-gray-700 text-base md:text-lg leading-relaxed" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
