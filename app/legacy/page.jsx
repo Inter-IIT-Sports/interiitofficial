@@ -107,31 +107,44 @@ export default function Legacy() {
   ];
 
   return (
-    <main className="min-h-screen font-sans bg-gray-50 text-gray-800">
+<main className="min-h-screen font-sans bg-gray-50 text-gray-800">
 
-      {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center md:justify-between gap-10" style={{ fontFamily: "'Poppins', sans-serif" }} >
-        {/* Left Content */}
-        <div className="flex-1 md:pr-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#481311] leading-snug md:leading-tight mb-6"  style={{ fontFamily: "'Montserrat', serif" }} >
-            Legacy of the Inter IIT Sports Meet
-          </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed md:leading-loose">
-            Celebrating decades of champions, milestones, and sporting excellence across all IITs. Explore the history, memorable moments, and the spirit of sportsmanship.
-          </p>
-        </div>
+  {/* Hero Section */}
+  <section
+    className="container mx-auto px-4 pt-20 md:pt-28 pb-16 md:pb-24 flex flex-col md:flex-row items-center md:justify-between gap-8"
+    style={{ fontFamily: "'Poppins', sans-serif" }}
+  >
+    {/* Left Content */}
+    <div className="flex-1 md:pr-12">
+      <h1
+        className="text-3xl sm:text-3xl md:text-4xl font-extrabold text-[#481311] leading-snug mb-4"
+        style={{ fontFamily: "'Montserrat', serif" }}
+      >
+        Legacy of the Inter IIT Sports Meet
+      </h1>
+      <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
+        Celebrating decades of champions, milestones, and sporting excellence across all IITs. Explore the history, memorable moments, and the spirit of sportsmanship.
+      </p>
+    </div>
 
-        {/* Right Quote Box */}
-        <div className="flex-1 bg-gradient-to-br from-[#fde0dc] to-[#daf1fb] p-8 md:p-12 rounded-3xl shadow-xl flex items-center justify-center min-h-[320px] md:min-h-[400px] hover:shadow-2xl transition duration-300">
-          <blockquote className="text-[#481311] text-lg sm:text-xl md:text-2xl lg:text-3xl italic text-center max-w-md"  style={{ fontFamily: "'Mukta',sans-serif" }}>
-            "Sports do not build character. They reveal it." – Heywood Broun
-          </blockquote>
-        </div>
-      </section>
+    {/* Right Quote Box */}
+    <div className="flex-1 bg-gradient-to-br from-[#fde0dc] to-[#daf1fb] p-6 md:p-10 rounded-3xl shadow-lg flex items-center justify-center min-h-[300px] md:min-h-[380px] hover:shadow-xl transition duration-300">
+      <blockquote
+        className="text-[#481311] text-base sm:text-[20px] md:text-xl italic text-center max-w-md"
+        style={{ fontFamily: "'Mukta', sans-serif", lineHeight: '1.5' }}
+      >
+        "Sports do not build character. They reveal it." – Heywood Broun
+      </blockquote>
+    </div>
+  </section>
+
+
+
+
 
 
       {/* Introduction Section */}
-      <section className="container mx-auto px-4 py-10 md:py-16 max-w-4xl text-gray-800 text-justify space-y-6 md:space-y-8"  style={{ fontFamily: "'Poppins', sans-serif" }} >
+      <section className="container mx-auto px-4 py-10 md:py-16 max-w-4xl text-gray-800 text-justify space-y-6 md:space-y-8" style={{ fontFamily: "'Poppins', sans-serif" }} >
         <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose tracking-wide">
           The Inter IIT Sports Meet, first held in 1961 at IIT Bombay, is one of the oldest and most prestigious traditions of the IIT system. It fosters resilience, leadership, discipline, and camaraderie among students across all IITs.
         </p>
@@ -145,7 +158,7 @@ export default function Legacy() {
 
 
       {/* Champions Table */}
-      <section className="container mx-auto px-4 py-12"  style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <section className="container mx-auto px-4 py-12" style={{ fontFamily: "'Poppins', sans-serif" }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-[#481311]" style={{ fontFamily: "'Montserrat', sans-serif" }}>
           Inter IIT Sports Meet Champions
         </h2>
@@ -173,7 +186,7 @@ export default function Legacy() {
       </section>
 
       {/* Women's Championship Table */}
-      <section className="container mx-auto px-4 py-12"  style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <section className="container mx-auto px-4 py-12" style={{ fontFamily: "'Poppins', sans-serif" }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-[#481311]" style={{ fontFamily: "'Montserrat', sans-serif" }}>
           Women's Championship
         </h2>
