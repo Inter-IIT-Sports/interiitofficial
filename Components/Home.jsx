@@ -166,7 +166,7 @@ export default function HeroSection2025() {
 
         </div>
       </section>
-      <section className="w-full px-4 md:px-8 overflow-hidden"><VideoCarousel /></section>
+      {/* <section className="w-full px-4 md:px-8 overflow-hidden"><VideoCarousel /></section> */}
       <section className="w-full px-4 md:px-8 overflow-hidden"><DirectorsSection/></section>
       <section className="w-full px-4 md:px-8 overflow-hidden"><DeansSection/></section>
 
