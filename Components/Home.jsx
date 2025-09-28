@@ -48,7 +48,7 @@ export default function HeroSection2025() {
   const mainMeetIITs = [
     { name: "IIT Madras", logo: "/images/alliits/IIT Madras.webp", dates: "Dec 14 – 21" },
     { name: "IIT Hyderabad", logo: "/images/alliits/IIT Hyderabad.webp", dates: "Dec 14 – 21" },
-    { name: "IIT Tirupati", logo: "/images/alliits/IIT TIRUPATI.webp", dates: "Dec 14 – 21" },
+    { name: "IIT Tirupati", logo: "/images/alliits/IIT_Tirupati_logo.svg.png", dates: "Dec 14 – 21" },
   ];
 
   const aquaticsMeet = {
@@ -121,7 +121,14 @@ export default function HeroSection2025() {
               {mainMeetIITs.map((iit) => (
                 <div key={iit.name} className="flex flex-col items-center" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                   <div className="w-20 h-20 md:w-24 md:h-24 mb-2">
-                    <Image src={iit.logo} alt={iit.name} width={100} height={100} className="object-contain" />
+                    <Image
+                      src={iit.logo}
+                      alt={iit.name}
+                      width={100}
+                      height={100}
+                      className={`object-contain ${iit.name === "IIT Tirupati" ? "my-8" : ""
+                        }`}
+                    />
                   </div>
                   <p className="text-lg font-semibold text-gray-900 mb-1">{iit.name}</p>
                   <p className="text-gray-700 text-sm">{iit.dates}</p>
@@ -167,8 +174,8 @@ export default function HeroSection2025() {
         </div>
       </section>
       {/* <section className="w-full px-4 md:px-8 overflow-hidden"><VideoCarousel /></section> */}
-      <section className="w-full px-4 md:px-8 overflow-hidden"><DirectorsSection/></section>
-      <section className="w-full px-4 md:px-8 overflow-hidden"><DeansSection/></section>
+      <section className="w-full px-4 md:px-8 overflow-hidden"><DirectorsSection /></section>
+      <section className="w-full px-4 md:px-8 overflow-hidden"><DeansSection /></section>
 
 
       <section className="w-full px-4 md:px-8 overflow-hidden"><CommitteesSection /></section>

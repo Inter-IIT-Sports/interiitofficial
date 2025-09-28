@@ -249,8 +249,8 @@ function Images() {
                 url="/tt.jpg"
             />
 
-            <Image position={[-2, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
-            <Image position={[2, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
+            <Image position={[-2.2, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
+            <Image position={[2.5, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
 
 
 

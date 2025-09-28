@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { db } from "../lib/firebase"; // Adjust the path if needed
+import { doc, getDoc, updateDoc, setDoc } from "firebase/firestore";
+import { db } from "../lib/firebase";
+import { waterPoloPools, getPool } from "../lib/waterPoloPools";
 
 export default function LiveAdminPanel() {
   const [eventNo, setEventNo] = useState("");
@@ -18,7 +19,7 @@ export default function LiveAdminPanel() {
     setLoading(true);
 
     try {
-      const dayIds = ["day1", "day2", "day3", "day4", "day5"]; // adjust according to your DB
+      const dayIds = ["day1", "day2", "day3", "day4", "day5"];
       let foundEvent = null;
 
       for (const dayId of dayIds) {
@@ -32,13 +33,8 @@ export default function LiveAdminPanel() {
           Object.keys(sessionData).forEach(sport => {
             const eventsArray = sessionData[sport] || [];
             eventsArray.forEach(event => {
-              if ((event.eventNo == eventNo || event.matchNo == eventNo) && event.status !== "completed") {
-                foundEvent = {
-                  ...event,
-                  day: dayId,
-                  session,
-                  sport
-                };
+              if (event.matchNo == eventNo) {
+                foundEvent = { ...event, day: dayId, session, sport };
               }
             });
           });
@@ -53,10 +49,9 @@ export default function LiveAdminPanel() {
         setNotes(foundEvent.notes || "");
         setScores(foundEvent.scores || {});
       } else {
-        alert("Event not found or already completed!");
+        alert("Event not found!");
         setEventData(null);
       }
-
     } catch (err) {
       console.error(err);
       alert("Error fetching event.");
@@ -65,46 +60,26 @@ export default function LiveAdminPanel() {
     }
   };
 
-  // Toggle Live Status
-  const toggleLiveStatus = async () => {
+  // Increment/decrement scores for water polo dynamically
+  const incrementScore = (team, delta) => {
     if (!eventData) return;
-    try {
-      const dayRef = doc(db, "schedules", "aquatics", "days", eventData.day);
-      const daySnap = await getDoc(dayRef);
-      const dayData = daySnap.data();
-
-      const eventsArray = dayData.sessions[eventData.session][eventData.sport];
-      const updatedEvents = eventsArray.map(ev => {
-        if (ev.eventNo == eventNo || ev.matchNo == eventNo) {
-          return { ...ev, status: "live" };
-        }
-        return ev;
-      });
-
-      await updateDoc(dayRef, {
-        [`sessions.${eventData.session}.${eventData.sport}`]: updatedEvents
-      });
-
-      alert("Event is now LIVE!");
-      fetchEvent();
-
-    } catch (err) {
-      console.error(err);
-      alert("Failed to set live status.");
-    }
+    const newScore = Math.max(0, (scores[team] || 0) + delta);
+    setScores(prev => ({ ...prev, [team]: newScore }));
   };
 
-  // Update Results (marks completed automatically)
+  // Update Results & Pool Points
   const updateResults = async () => {
     if (!eventData) return alert("No event loaded!");
+
     try {
       const dayRef = doc(db, "schedules", "aquatics", "days", eventData.day);
       const daySnap = await getDoc(dayRef);
       const dayData = daySnap.data();
 
+      // Update match result
       const eventsArray = dayData.sessions[eventData.session][eventData.sport];
       const updatedEvents = eventsArray.map(ev => {
-        if (ev.eventNo == eventNo || ev.matchNo == eventNo) {
+        if (ev.matchNo == eventNo) {
           return { ...ev, status: "completed", winner, notes, scores };
         }
         return ev;
@@ -114,50 +89,58 @@ export default function LiveAdminPanel() {
         [`sessions.${eventData.session}.${eventData.sport}`]: updatedEvents
       });
 
-      alert("Results updated! Event marked as COMPLETED.");
+      // Update points table in Firestore
+      // inside updateResults
+      for (const team of eventData.teams) {
+        const pool = getPool(team);
+        if (!pool) continue;
+
+        const teamRef = doc(db, "pointsTable", "waterpolo", pool, team);
+        const teamSnap = await getDoc(teamRef);
+
+        let P = 0, W = 0, L = 0, T = 0, points = 0;
+        if (teamSnap.exists()) {
+          const data = teamSnap.data();
+          P = data.P || 0;
+          W = data.W || 0;
+          L = data.L || 0;
+          T = data.T || 0;
+          points = data.points || 0;
+        }
+
+        let earned = 0;
+        const normalizedWinner = winner.trim().toLowerCase();
+
+        if (normalizedWinner === "draw") {
+          T += 1;
+          earned = 1;
+        } else if (team.toLowerCase() === normalizedWinner) {
+          W += 1;
+          earned = 2;
+        } else {
+          L += 1;
+          earned = 0;
+        }
+
+        P += 1;
+        points += earned;
+
+        await setDoc(teamRef, { P, W, L, T, points });
+      }
+
+
+      alert("Results updated and pool points table updated!");
       setEventData(null);
       setEventNo("");
-
+      setScores({});
+      setWinner("");
+      setNotes("");
     } catch (err) {
       console.error(err);
       alert("Failed to update results.");
     }
   };
 
-  // Increment/decrement scores for water polo dynamically
-  const incrementScore = async (team, delta) => {
-    if (!eventData) return;
-    const newScore = Math.max(0, (scores[team] || 0) + delta);
-    setScores(prev => ({ ...prev, [team]: newScore }));
-
-    // Update Firestore immediately
-    try {
-      const dayRef = doc(db, "schedules", "aquatics", "days", eventData.day);
-      const daySnap = await getDoc(dayRef);
-      const dayData = daySnap.data();
-
-      const eventsArray = dayData.sessions[eventData.session][eventData.sport];
-      const updatedEvents = eventsArray.map(ev => {
-        if (ev.eventNo == eventNo || ev.matchNo == eventNo) {
-          return { ...ev, scores: { ...ev.scores, [team]: newScore } };
-        }
-        return ev;
-      });
-
-      await updateDoc(dayRef, {
-        [`sessions.${eventData.session}.${eventData.sport}`]: updatedEvents
-      });
-    } catch (err) {
-      console.error(err);
-      alert("Failed to update score.");
-    }
-  };
-
-  const statusColor = status => {
-    if (status === "live") return "bg-red-100 text-red-700 animate-pulse";
-    if (status === "completed") return "bg-gray-200 text-gray-700";
-    return "bg-green-100 text-green-700";
-  };
 
   return (
     <div className="min-h-screen p-6 md:p-10 bg-gray-100 font-sans">
@@ -167,7 +150,7 @@ export default function LiveAdminPanel() {
       <div className="max-w-2xl mx-auto mb-8 flex flex-col md:flex-row gap-3">
         <input
           type="number"
-          placeholder="Enter Event No / Match No"
+          placeholder="Enter Match No"
           value={eventNo}
           onChange={e => setEventNo(e.target.value)}
           className="flex-1 border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-[#800000] focus:outline-none shadow-sm"
@@ -187,80 +170,67 @@ export default function LiveAdminPanel() {
           {/* Event Info */}
           <div className="space-y-3">
             <h2 className="text-2xl font-semibold text-[#800000]">Event Info</h2>
-            <p><strong>Event / Match:</strong> {eventData.event || eventData.teams?.join(" 🆚 ")}</p>
-            <p><strong>Event No / Match No:</strong> {eventData.eventNo || eventData.matchNo}</p>
-            <p><strong>Sport:</strong> {eventData.sport}</p>
-            <p className={`inline-block px-2 py-1 rounded-full text-sm font-medium ${statusColor(eventData.status)}`}>
-              {eventData.status.toUpperCase()}
-            </p>
+            <p><strong>Match No:</strong> {eventData.matchNo}</p>
+            <p><strong>Teams:</strong> {eventData.teams.join(" 🆚 ")}</p>
+            <p><strong>Type:</strong> {eventData.type}</p>
+            <p><strong>Venue:</strong> {eventData.venue}</p>
           </div>
 
           {/* Update Form */}
           <div className="flex flex-col gap-4">
-            {eventData.status === "upcoming" && (
-              <label className="flex items-center gap-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  className="w-5 h-5 accent-[#800000]"
-                  onChange={toggleLiveStatus}
-                />
-                <span className="font-medium">Mark Event as Live</span>
-              </label>
-            )}
-
-            {eventData.status === "live" && (
-              <>
-                {/* Water Polo Dynamic Scoring */}
-                {eventData.sport === "waterPolo" && eventData.teams && (
-                  <div className="space-y-3">
-                    <p className="font-medium">Live Scores</p>
-                    {eventData.teams.map(team => (
-                      <div key={team} className="flex items-center gap-3">
-                        <span className="w-32">{team}</span>
-                        <button
-                          className="bg-red-500 text-white px-2 rounded"
-                          onClick={() => incrementScore(team, -1)}
-                        >
-                          -
-                        </button>
-                        <span className="w-8 text-center">{scores[team] || 0}</span>
-                        <button
-                          className="bg-green-500 text-white px-2 rounded"
-                          onClick={() => incrementScore(team, 1)}
-                        >
-                          +
-                        </button>
-                      </div>
-                    ))}
+            {/* Water Polo Dynamic Scoring */}
+            {eventData.teams && (
+              <div className="space-y-3">
+                <p className="font-medium">Scores</p>
+                {eventData.teams.map(team => (
+                  <div key={team} className="flex items-center gap-3">
+                    <span className="w-32">{team}</span>
+                    <button
+                      className="bg-red-500 text-white px-2 rounded"
+                      onClick={() => incrementScore(team, -1)}
+                    >
+                      -
+                    </button>
+                    <span className="w-8 text-center">{scores[team] || 0}</span>
+                    <button
+                      className="bg-green-500 text-white px-2 rounded"
+                      onClick={() => incrementScore(team, 1)}
+                    >
+                      +
+                    </button>
                   </div>
-                )}
-
-                {/* Winner & Notes */}
-                <label className="font-medium">Winner / Result</label>
-                <input
-                  type="text"
-                  placeholder="Winner / Result"
-                  value={winner}
-                  onChange={e => setWinner(e.target.value)}
-                  className="border border-gray-300 rounded-lg p-2"
-                />
-
-                <label className="font-medium">Notes</label>
-                <textarea
-                  placeholder="Notes"
-                  value={notes}
-                  onChange={e => setNotes(e.target.value)}
-                  className="border border-gray-300 rounded-lg p-2"
-                />
-
-                <button
-                  className="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition font-semibold mt-2"
-                  onClick={updateResults}
-                >
-                  Update Results
-                </button>
-              </>
+                ))}
+              </div>
             )}
+
+            {/* Winner & Notes */}
+            <label className="font-medium">Winner / Result</label>
+            <select
+              value={winner}
+              onChange={e => setWinner(e.target.value)}
+              className="border border-gray-300 rounded-lg p-2"
+            >
+              <option value="">Select Winner / Result</option>
+              {eventData.teams.map(team => (
+                <option key={team} value={team}>{team}</option>
+              ))}
+              <option value="Draw">Draw</option>
+            </select>
+
+            <label className="font-medium">Notes</label>
+            <textarea
+              placeholder="Notes"
+              value={notes}
+              onChange={e => setNotes(e.target.value)}
+              className="border border-gray-300 rounded-lg p-2"
+            />
+
+            <button
+              className="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700 transition font-semibold mt-2"
+              onClick={updateResults}
+            >
+              Update Results
+            </button>
           </div>
         </div>
       )}

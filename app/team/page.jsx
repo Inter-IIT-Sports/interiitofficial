@@ -96,7 +96,7 @@ export default function LegacyContent() {
                           src={p.img}
                           alt={p.name}
                           loading="lazy"
-                          className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105"
+                          className="w-64 h-64 object-cover object-top transition-transform duration-500 hover:scale-105"
                         />
                       </a>
                     </div>

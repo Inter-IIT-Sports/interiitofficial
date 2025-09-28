@@ -1,7 +1,7 @@
 import Home from "../Components/Home"
 
 export const metadata = {
-  title: "Inter IIT Sports Meet",
+  title: "Inter IIT Sports Meet 2025",
   description:
     "Official registration and updates for the Inter IIT Sports Meet 2025. Participate in athletics, cricket, football, volleyball, and more across all IITs.",
   keywords: [
@@ -16,10 +16,11 @@ export const metadata = {
     "Inter IIT registration",
     "IIT athletics, cricket, football, volleyball",
     "IIT sports events",
-    "All IITs sports meet 2025"
+    "All IITs sports meet 2025",
+    "Inter IIT Sports Meet Official Website"
   ],
   openGraph: {
-    title: "Inter IIT Sports Meet 2025 | Official Event Website",
+    title: "Inter IIT Sports Meet",
     description:
       "Register and get updates for the Inter IIT Sports Meet 2025. Athletics, Cricket, Football, Volleyball, and more for all participating IITs.",
     url: "https://interiitsports.in",

@@ -35,12 +35,12 @@ export default function Navbar() {
                 priority
               />
             </div>
-            <div className="flex flex-col leading-tight" style={{ fontFamily: "'Mukta', sans-serif" }}>
+            <div className="flex flex-col  leading-tight" style={{ fontFamily: "'Mukta', sans-serif" }}>
               <span className="font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl tracking-wide text-black">
                 Inter IIT
               </span>
               <span className="font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl tracking-wide">
-                <span className="text-sky-600">Sports</span>{" "}
+                <span className="text-sky-600">Sports</span>
                 <span className="text-[#800000]">Meet</span>
               </span>
             </div>

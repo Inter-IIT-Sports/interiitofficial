@@ -37,8 +37,8 @@ export default function DirectorsSection() {
     <section className="py-16 bg-gray-50" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Intro text */}
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Montserrat', serif" }}>
-          JOINT LEADERSHIP AND PRIDE OF THE IITS
+        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+          Joint Leadership And Pride Of The IITs
         </h2>
         <p className="text-gray-700 text-base md:text-lg leading-relaxed">
           IITs are delighted that IIT Madras, IIT Hyderabad, and IIT Tirupathi are
