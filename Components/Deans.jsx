@@ -35,8 +35,8 @@ export default function DeansSection() {
     <section className="py-16 bg-gray-50" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Intro text */}
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Montserrat', serif" }}>
-          LEADERSHIP AND GUIDANCE OF THE DEANS
+        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+          Leadership And Guidance Of The Deans
         </h2>
         <p className="text-gray-700 text-base md:text-lg leading-relaxed">
           The Deans of IIT Madras, IIT Hyderabad, and IIT Tirupati provide guidance and
