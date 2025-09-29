@@ -33,7 +33,7 @@ export default function ContactPage() {
             className="px-5 py-2 bg-gray-800 text-white rounded-xl hover:bg-gray-700"
             disabled
           >
-            🚧 Coming Soon
+             Coming Soon
           </button>
         </div>
       </div>

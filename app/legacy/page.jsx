@@ -121,7 +121,7 @@ export default function Legacy() {
     <div className="flex-1 md:pr-12">
       <h1
         className="text-3xl sm:text-3xl md:text-4xl font-extrabold text-[#481311] leading-snug mb-4"
-        style={{ fontFamily: "'Montserrat', serif" }}
+        style={{ fontFamily: "'Montserrat', sans-serif" }}
       >
         Legacy of the Inter IIT Sports Meet
       </h1>
@@ -136,7 +136,8 @@ export default function Legacy() {
         className="text-[#481311] text-base sm:text-[20px] md:text-xl italic text-center max-w-md"
         style={{ fontFamily: "'Mukta', sans-serif", lineHeight: '1.5' }}
       >
-        "Sports do not build character. They reveal it." – Heywood Broun
+        "Sports do not build character. They reveal it." 
+        <p>– Heywood Broun</p>
       </blockquote>
     </div>
   </section>

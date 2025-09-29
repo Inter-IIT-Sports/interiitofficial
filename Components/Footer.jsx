@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Left column */}
           <div>
-            <h4 className="text-xl font-semibold mb-3">IIT Madras  Contacts</h4>
+            <h4 className="text-xl font-semibold mb-3">IIT Madras</h4>
             <div className="w-20 h-1 bg-sky-300 rounded mb-5"></div>
 
             {/* Contact List */}
@@ -127,7 +127,7 @@ export default function Footer() {
           </div> */}
 
           <div>
-            <h4 className="text-xl font-semibold mb-3">IIT Hyderabad  Contacts</h4>
+            <h4 className="text-xl font-semibold mb-3">IIT Hyderabad</h4>
             <div className="w-20 h-1 bg-sky-300 rounded mb-5"></div>
 
             {/* Contact List */}
@@ -243,7 +243,7 @@ export default function Footer() {
             </ul>
           </div> */}
           <div >
-            <h4 className="text-xl font-semibold mb-3">IIT Tirupati  Contacts</h4>
+            <h4 className="text-xl font-semibold mb-3">IIT Tirupati</h4>
             <div className="w-20 h-1 bg-sky-300 rounded mb-5"></div>
 
             {/* Contact List */}
@@ -272,7 +272,7 @@ export default function Footer() {
             </ul>
 
             {/* Social Media Icons */}
-            <div className="flex items-center justify-start mx-6 gap-4 mt-6 cursor-pointer">
+            <div className="flex items-center justify-start mx-6 gap-4 mt-8 cursor-pointer">
               {/* Instagram */}
               <Link
                 href=""
