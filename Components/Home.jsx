@@ -142,55 +142,70 @@ export default function HeroSection2025() {
 
           {/* Aquatics Meet */}
           <div className="flex-1 text-center flex flex-col justify-between items-center bg-white p-6 rounded-xl shadow-md">
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#800000] mb-6" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#800000] mb-6">
               39th Aquatics Meet
             </h2>
 
-            <span className="text-gray-600 mb-2">Event Status</span>
+            {/* Event Status & Day */}
             {(() => {
               const now = new Date().getTime();
               const aquaticsStart = new Date("September 30, 2025 00:00:00").getTime();
               const aquaticsEnd = new Date("October 5, 2025 23:59:59").getTime();
+              let dayNumber = Math.floor((now - aquaticsStart) / (1000 * 60 * 60 * 24));
+              dayNumber = Math.max(0, Math.min(dayNumber, 5));
+              const liveStreamLinks = [
+                "https://www.youtube.com/live/Idu9FgJKrNk",
+                "https://example.com/day1",
+                "https://example.com/day2",
+                "https://example.com/day3",
+                "https://example.com/day4",
+                "https://example.com/day5",
+              ];
 
-              if (now >= aquaticsStart && now <= aquaticsEnd) {
-                return (
-                  <div className="inline-flex items-center px-6 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-sky-200 shadow-lg shadow-sky-200/30 animate-pulse-slow mb-6">
-                    <span className="w-3 h-3 bg-sky-600 rounded-full mr-3 animate-ping-slow"></span>
-                    <p className="text-[20px] font-semibold text-sky-600 tracking-wide">
-                      Event Ongoing 🎉
-                    </p>
-                  </div>
-                );
+              if (now < aquaticsStart) return <p className="text-gray-500 font-medium text-lg mb-6">Event Not Started</p>;
+              if (now > aquaticsEnd) return <p className="text-gray-500 font-medium text-lg mb-6">Event Concluded ✅</p>;
 
-              } else if (now > aquaticsEnd) {
-                return <p className="text-lg font-semibold text-gray-600 mb-6">Event Concluded ✅</p>;
-              } else {
-                return (
-                  <div className="flex justify-center gap-4 flex-wrap mb-6">
-                    {Object.entries(aquaticsTimeLeft).map(([unit, value]) => (
-                      <div key={unit} className="bg-white border border-gray-300 shadow-md rounded-xl px-4 py-3 w-20 flex flex-col items-center">
-                        <span className="text-2xl md:text-3xl font-bold text-gray-900">{value}</span>
-                        <span className="text-sm md:text-base text-gray-600 capitalize">{unit}</span>
-                      </div>
-                    ))}
-                  </div>
-                );
-              }
+              return (
+                <div className="flex flex-col items-center gap-2 mb-6">
+                  {/* Event Ongoing */}
+                  <p className="flex items-center gap-2 text-sky-600 font-semibold text-lg">
+                    <span className="w-2 h-2 bg-sky-500 rounded-full animate-pulse"></span>
+                    Event Ongoing 🎉
+                  </p>
+
+                  {/* Day */}
+                  <p className="text-gray-800 font-semibold text-lg">Day {dayNumber}</p>
+
+                  {/* Watch Live Button */}
+                  <a
+                    href={liveStreamLinks[dayNumber]}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white bg-sky-600 px-4 py-1 rounded-full text-sm font-medium mt-1 hover:bg-sky-700 transition-all duration-200"
+                  >
+                    Watch Live
+                  </a>
+                </div>
+              );
             })()}
 
-            <p className="text-gray-600 font-medium mb-4">Hosted by</p>
+            <p className="text-gray-600 font-medium mb-2">Hosted by</p>
             <div className="flex justify-center mb-4">
               <Image src={aquaticsMeet.logo} alt={aquaticsMeet.name} width={100} height={100} className="object-contain" />
             </div>
 
             <p className="text-lg font-semibold text-gray-900">{aquaticsMeet.name}</p>
-            <p className="text-gray-700 text-sm mb-1">{aquaticsMeet.dates}</p>
+            <p className="text-gray-700 text-sm mb-2">{aquaticsMeet.dates}</p>
 
-            <p className="text-gray-600 max-w-md text-start mt-0">
-              Organized by IIT Madras, the 39th Aquatics Meet marks the opening chapter of the Inter IIT season —
-              highlighting speed, strength, and teamwork across swimming, diving, and water polo disciplines.
+            <p className="text-gray-600 max-w-md text-center mt-2">
+              Organized by IIT Madras, the 39th Aquatics Meet marks the opening chapter of the Inter IIT season — highlighting speed, strength, and teamwork across swimming, diving, and water polo disciplines.
             </p>
           </div>
+
+
+
+
+
         </div>
       </section>
 
