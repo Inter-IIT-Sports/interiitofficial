@@ -29,7 +29,7 @@ export default function FluidGlass({ mode = 'lens', lensProps = {}, barProps = {
     } = rawOverrides;
 
     return (
-        <Canvas camera={{ position: [0, 0, 20], fov: 15 }} gl={{ alpha: true }}>
+        <Canvas camera={{ position: [0, 0, 20], fov: 15 }} gl={{ alpha: true,antialias:true }} dpr={[1, 2]}>
             <ScrollControls damping={0.2} pages={3} distance={0.4}>
                 {mode === 'bar' && <NavItems items={navItems} />}
                 <Wrapper modeProps={modeProps}>
