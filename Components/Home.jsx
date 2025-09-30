@@ -154,7 +154,7 @@ export default function HeroSection2025() {
               let dayNumber = Math.floor((now - aquaticsStart) / (1000 * 60 * 60 * 24));
               dayNumber = Math.max(0, Math.min(dayNumber, 5));
               const liveStreamLinks = [
-                "https://www.youtube.com/live/Idu9FgJKrNk",
+                "https://www.youtube.com/live/6SBnH-Th7Z4?si=dAdkB8vVNdBH0-aF",
                 "https://example.com/day1",
                 "https://example.com/day2",
                 "https://example.com/day3",
