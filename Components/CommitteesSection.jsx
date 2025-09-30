@@ -69,11 +69,11 @@ export default function CommitteesSection() {
       <div className="max-w-6xl mx-auto px-4 overflow-x-auto">
         <table className="min-w-full border border-gray-300 divide-y divide-gray-200" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
           <thead>
-            <tr className="bg-gray-200">
+            {/* <tr className="bg-gray-200">
               <th className="py-2 px-4 border-r border-gray-300 text-left">#</th>
               <th className="py-2 px-4 border-r border-gray-300 text-left">Name</th>
               <th className="py-2 px-4 text-left">Designation</th>
-            </tr>
+            </tr> */}
           </thead>
           <tbody>
             {Object.entries(groupedMembers).map(([role, members]) => (
@@ -92,7 +92,7 @@ export default function CommitteesSection() {
                 {/* Member rows */}
                 {members.map((member, idx) => (
                   <tr key={member.name} className="hover:bg-gray-50 transition">
-                    <td className="py-2 px-4 border-r border-gray-300">{idx + 1}</td>
+                    {/* <td className="py-2 px-4 border-r border-gray-300">{idx + 1}</td> */}
                     <td className="py-2 px-4 border-r border-gray-300">{member.name}</td>
                     <td className="py-2 px-4">{member.designation}</td>
                   </tr>
