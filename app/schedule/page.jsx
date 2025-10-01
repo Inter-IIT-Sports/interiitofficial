@@ -178,14 +178,13 @@ export default function AquaticsSchedule() {
                               <h4 className="text-sky-600 font-semibold text-lg md:text-xl mb-2 tracking-wide">{sport}</h4>
                               <div className="flex flex-col gap-3">
                                 {events.map(event => (
-                                  console.log(event) ||
                                   <div key={event.eventNo || event.matchNo} className="flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
                                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                                       <div className="flex flex-col gap-1">
                                         <span className="font-bold text-gray-800 text-sm md:text-base">{event.event || event.teams.join(" 🆚 ")}</span>
                                         <p className="text-gray-600 text-xs md:text-sm">{event.type} | Venue: {event.venue}</p>
                                         {(event.eventNo || event.matchNo) && <span className="text-gray-500 text-xs md:text-sm">{event.eventNo ? `Event ${event.eventNo}` : `Match ${event.matchNo}`}</span>}
-                                        {event.notes && <p className="text-gray-500 text-xs md:text-sm italic">Notes: {event.notes}</p>}
+                                        {/* {event.notes && <p className="text-gray-500 text-xs md:text-sm italic">Notes: {event.notes}</p>} */}
 
                                         {/* Swimming winners */}
                                         {(() => {
