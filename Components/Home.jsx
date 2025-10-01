@@ -155,7 +155,7 @@ export default function HeroSection2025() {
               dayNumber = Math.max(0, Math.min(dayNumber, 5));
               const liveStreamLinks = [
                 "https://www.youtube.com/live/6SBnH-Th7Z4?si=dAdkB8vVNdBH0-aF",
-                "https://example.com/day1",
+                "https://www.youtube.com/live/67Mj4P1R__I?si=d5fvnDFRr2tx0CwV",
                 "https://example.com/day2",
                 "https://example.com/day3",
                 "https://example.com/day4",
