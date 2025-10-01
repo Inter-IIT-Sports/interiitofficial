@@ -88,30 +88,24 @@ export default function AquaticsSchedule() {
   return (
     <>
       <Head>
-        <title>Schedule & Live Matches | 58th Inter IIT Sports Meet 2025 | 39th Aquatics Meet</title>
-        <meta name="description" content="Check the full schedule and live updates for the 58th Inter IIT Sports Meet 2025, including Aquatics events, IIT points table, and Water Polo pools." />
-
-        {/* Open Graph / Facebook */}
+        <title>Schedule | 58th Inter IIT Sports Meet 2025 | 39th Aquatics Meet</title>
+        <meta name="description" content="Check the full schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
         <meta property="og:title" content="Inter IIT Sports Schedule | 58th Inter IIT Sports Meet 2025" />
-        <meta property="og:description" content="View the complete schedule, live matches, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
+        <meta property="og:description" content="View the complete schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://interiitsports.in/schedule" />
         <meta property="og:image" content="https://interiitsports.in/logo_2.png" />
-
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Inter IIT Sports Schedule | 58th Inter IIT Sports Meet 2025" />
-        <meta name="twitter:description" content="Check the full schedule, live matches, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
+        <meta name="twitter:description" content="Check the full schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
         <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
-
         <link rel="canonical" href="https://interiitsports.in/schedule" />
       </Head>
 
-
-      <div className="pt-24 px-4 md:px-6 lg:px-8 pb-16 bg-gray-50 min-h-screen  text-gray-800" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <div className="pt-24 px-4 md:px-6 lg:px-8 pb-16 bg-gray-50 min-h-screen text-gray-800" style={{ fontFamily: "'Poppins', sans-serif" }}>
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4 md:gap-0">
-          <h1 className="text-2xl md:text-3xl font-bold text-center  text-[#800000] tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+          <h1 className="text-2xl md:text-3xl font-bold text-center text-[#800000] tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
             Inter IIT Sports Schedule
           </h1>
           <div className="flex gap-2 md:gap-3 bg-white rounded-full shadow-md px-2 py-1">
@@ -136,7 +130,7 @@ export default function AquaticsSchedule() {
           <div className="flex flex-col lg:flex-row gap-6">
             {/* Sidebar */}
             <div className="bg-white rounded-xl shadow-lg p-4 max-h-[calc(100vh-8rem)] overflow-y-auto sticky top-24 w-full lg:w-56">
-              <h3 className="text-gray-700 font-semibold mb-4 text-lg  tracking-wide hidden lg:block">
+              <h3 className="text-gray-700 font-semibold mb-4 text-lg tracking-wide hidden lg:block">
                 Aquatic Days
               </h3>
               <div className="flex lg:flex-col gap-2 overflow-x-auto pb-2">
@@ -168,7 +162,7 @@ export default function AquaticsSchedule() {
               <div className="flex-1 flex flex-col gap-6">
                 {displayedDay && ["forenoon", "afternoon"].map(sessionKey => (
                   <div key={sessionKey} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
-                    <h3 className="text-xl md:text-2xl font-semibold text-[#800000] mb-4  capitalize border-b border-gray-200 pb-2 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+                    <h3 className="text-xl md:text-2xl font-semibold text-[#800000] mb-4 capitalize border-b border-gray-200 pb-2 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                       {sessionKey} Session
                     </h3>
                     {Object.keys(displayedDay.sessions[sessionKey]).length === 0 ? (
@@ -181,21 +175,62 @@ export default function AquaticsSchedule() {
                           events.sort((a, b) => (a.eventNo || a.matchNo || 0) - (b.eventNo || b.matchNo || 0));
                           return (
                             <div key={sport} className="mb-6">
-                              <h4 className="text-sky-600 font-semibold text-lg md:text-xl mb-2  tracking-wide">{sport}</h4>
+                              <h4 className="text-sky-600 font-semibold text-lg md:text-xl mb-2 tracking-wide">{sport}</h4>
                               <div className="flex flex-col gap-3">
                                 {events.map(event => (
-                                  <div key={event.eventNo || event.matchNo} className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
-                                    <div className="flex flex-col gap-1">
-                                      <span className="font-bold text-gray-800 text-sm md:text-base">{event.event || event.teams.join(" 🆚 ")}</span>
-                                      <p className="text-gray-600 text-xs md:text-sm">{event.type} | Venue: {event.venue}</p>
-                                      {(event.eventNo || event.matchNo) && (
-                                        <span className="text-gray-500 text-xs md:text-sm ">{event.eventNo ? `Event ${event.eventNo}` : `Match ${event.matchNo}`}</span>
-                                      )}
+                                  console.log(event) ||
+                                  <div key={event.eventNo || event.matchNo} className="flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
+                                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                                      <div className="flex flex-col gap-1">
+                                        <span className="font-bold text-gray-800 text-sm md:text-base">{event.event || event.teams.join(" 🆚 ")}</span>
+                                        <p className="text-gray-600 text-xs md:text-sm">{event.type} | Venue: {event.venue}</p>
+                                        {(event.eventNo || event.matchNo) && <span className="text-gray-500 text-xs md:text-sm">{event.eventNo ? `Event ${event.eventNo}` : `Match ${event.matchNo}`}</span>}
+                                        {event.notes && <p className="text-gray-500 text-xs md:text-sm italic">Notes: {event.notes}</p>}
+
+                                        {/* Swimming winners */}
+                                        {(() => {
+                                          const sportNormalized = sport.toLowerCase(); // normalize sport
+                                          const statusNormalized = event.status?.toLowerCase() || ""; // normalize status safely
+
+                                          if (sportNormalized.includes("swimming") && event.winner) {
+                                            // Swimming winners
+                                            return (
+                                              <div className="mt-1 text-gray-700 text-sm flex flex-col gap-0.5">
+                                                {event.winner.first && (
+                                                  <span className="px-2 py-1 rounded-full text-xs font-semibold">🥇 {event.winner.first}</span>
+                                                )}
+                                                {event.winner.second && (
+                                                  <span className="px-2 py-1 rounded-full text-xs font-semibold">🥈 {event.winner.second}</span>
+                                                )}
+                                                {event.winner.third && (
+                                                  <span className="px-2 py-1 rounded-full text-xs font-semibold">🥉 {event.winner.third}</span>
+                                                )}
+                                              </div>
+                                            );
+                                          } else if (sportNormalized.includes("waterpolo") && statusNormalized === "completed") {
+                                            // Water Polo winner + notes
+                                            return (
+                                              <div className="mt-1 text-gray-700 text-sm flex flex-col gap-0.5">
+                                                {event.winner && <span className="font-semibold">Winner: {event.winner}</span>}
+                                                {event.notes && <span className="italic text-gray-600">Score: {event.notes}</span>}
+                                              </div>
+                                            );
+                                          }
+
+                                          return null; // No winner to show (upcoming events are ignored)
+                                        })()}
+
+
+                                      </div>
+
+                                      {/* Status */}
+                                      <span className={`px-3 py-1 rounded-full text-xs md:text-sm font-semibold self-start sm:self-auto
+                                        ${event.status === "Live" ? "bg-red-100 text-red-700 animate-pulse"
+                                          : event.status.toLowerCase() === "completed" ? "bg-gray-100 text-gray-700"
+                                            : "bg-green-100 text-green-700"}`}>
+                                        {event.status}
+                                      </span>
                                     </div>
-                                    <span className={`px-3 py-1 rounded-full text-xs md:text-sm font-semibold self-start sm:self-auto
-                                      ${event.status === "Live" ? "bg-red-100 text-red-700 animate-pulse" : "bg-green-100 text-green-700"}`}>
-                                      {event.status}
-                                    </span>
                                   </div>
                                 ))}
                               </div>
@@ -211,7 +246,7 @@ export default function AquaticsSchedule() {
               <div className="w-full lg:w-96 flex-shrink-0 flex flex-col gap-6 lg:sticky lg:top-24">
                 {/* IIT Points */}
                 <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition overflow-x-auto">
-                  <h3 className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4  tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>Overall IIT Points</h3>
+                  <h3 className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>Overall IIT Points</h3>
                   <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm">
                     <thead className="bg-[#800000]/10">
                       <tr>
@@ -242,10 +277,10 @@ export default function AquaticsSchedule() {
 
                 {/* Water Polo Pools */}
                 <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition overflow-x-auto">
-                  <h3 className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4  tracking-wide " style={{ fontFamily: "'Montserrat', sans-serif" }}>Water Polo Pools</h3>
+                  <h3 className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>Water Polo Pools</h3>
                   {waterPoloPoints.map(pool => (
                     <div key={pool.id} className="mb-6">
-                      <h4 className="font-semibold text-sky-600 mb-3  tracking-wide">{pool.name}</h4>
+                      <h4 className="font-semibold text-sky-600 mb-3 tracking-wide">{pool.name}</h4>
                       <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm font-mukta">
                         <thead className="bg-[#800000]/10">
                           <tr>
@@ -273,6 +308,7 @@ export default function AquaticsSchedule() {
                     </div>
                   ))}
                 </div>
+
               </div>
             </div>
           </div>

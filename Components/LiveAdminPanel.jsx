@@ -33,8 +33,11 @@ export default function LiveAdminPanel() {
           Object.keys(sessionData).forEach((sport) => {
             const eventsArray = sessionData[sport] || [];
             eventsArray.forEach((event) => {
-              // ✅ FIX: Check both matchNo and eventNo
-              if (event.matchNo == eventNo || event.eventNo == eventNo) {
+              // ✅ Check both matchNo and eventNo AND status not completed
+              if (
+                (event.matchNo == eventNo || event.eventNo == eventNo) &&
+                event.status !== "completed"
+              ) {
                 foundEvent = { ...event, day: dayId, session, sport };
               }
             });
@@ -49,7 +52,7 @@ export default function LiveAdminPanel() {
         setWinner(foundEvent.winner || "");
         setNotes(foundEvent.notes || "");
       } else {
-        alert("Event not found!");
+        alert("Event not found or already completed!");
         setEventData(null);
       }
     } catch (err) {
@@ -185,11 +188,9 @@ export default function LiveAdminPanel() {
             <p>
               <strong>{eventData.matchNo ? "Match No" : "Event No"}:</strong>{" "}
               {eventData.matchNo || eventData.eventNo}
-              
             </p>
             <p>
-              <strong>{eventData.matchNo ? "Match No" : "Event No"}:</strong>{" "}
-              {eventData.event || eventData.event}
+              <strong>Event:</strong> {eventData.event || eventData.event}
             </p>
             {eventData.teams && (
               <p>
