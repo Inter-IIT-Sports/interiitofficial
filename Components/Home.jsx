@@ -12,6 +12,26 @@ import FluidGlass from "./FluidGlass";
 export default function HeroSection2025() {
   const [sportsTimeLeft, setSportsTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [aquaticsTimeLeft, setAquaticsTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  const iitPoints = [
+  { name: "IIT Madras", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Bombay", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Delhi", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Kanpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Kharagpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Guwahati", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Roorkee", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT BHU", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Hyderabad", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Indore", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Mandi", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Palakkad", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Patna", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Gandhinagar", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT Jodhpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+  { name: "IIT (ISM) Dhanbad", g: 0, s: 0, b: 0, f: 0, total: 0 }
+];
+
 
   useEffect(() => {
     const sportsDate = new Date("December 14, 2025 00:00:00").getTime();
@@ -156,7 +176,7 @@ export default function HeroSection2025() {
               const liveStreamLinks = [
                 "https://www.youtube.com/live/6SBnH-Th7Z4?si=dAdkB8vVNdBH0-aF",
                 "https://www.youtube.com/live/67Mj4P1R__I?si=d5fvnDFRr2tx0CwV",
-                "https://example.com/day2",
+                "https://www.youtube.com/live/E2XZV3TZuFI",
                 "https://example.com/day3",
                 "https://example.com/day4",
                 "https://example.com/day5",

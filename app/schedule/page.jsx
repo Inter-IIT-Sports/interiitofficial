@@ -10,8 +10,29 @@ export default function AquaticsSchedule() {
   const [loading, setLoading] = useState(true);
   const [activeDay, setActiveDay] = useState(null);
   const [selectedMeet, setSelectedMeet] = useState("Aquatics");
-  const [iitPoints, setIITPoints] = useState([]);
+  // const [iitPoints, setIITPoints] = useState([]);
   const [waterPoloPoints, setWaterPoloPoints] = useState([]);
+
+  const iitPoints = [
+    { name: "IIT BHU", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Bombay", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Delhi", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT (ISM) Dhanbad", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Gandhinagar", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Guwahati", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Hyderabad", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Indore", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Jodhpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Kanpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Kharagpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Madras", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Mandi", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Palakkad", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Patna", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Roorkee", g: 0, s: 0, b: 0, f: 0, total: 0 }
+  ];
+
 
   // Fetch Aquatics schedule
   useEffect(() => {
@@ -40,7 +61,7 @@ export default function AquaticsSchedule() {
       try {
         const pointsSnapshot = await getDocs(collection(db, "pointsTable", "aquatics", "iitPoints"));
         const pointsData = pointsSnapshot.docs.map(doc => doc.data());
-        setIITPoints(pointsData);
+        // setIITPoints(pointsData);
       } catch (error) {
         console.error("Error fetching IIT points:", error);
       }
@@ -245,11 +266,16 @@ export default function AquaticsSchedule() {
               <div className="w-full lg:w-96 flex-shrink-0 flex flex-col gap-6 lg:sticky lg:top-24">
                 {/* IIT Points */}
                 <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition overflow-x-auto">
-                  <h3 className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>Overall IIT Points</h3>
+                  <h3
+                    className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide"
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
+                  >
+                    Overall IIT Points
+                  </h3>
+
                   <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm">
-                    <thead className="bg-[#800000]/10">
+                    <thead className="bg-[#800000]/10" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                       <tr>
-                        <th className="px-3 py-2">Rank</th>
                         <th className="px-3 py-2">IIT</th>
                         <th className="px-3 py-2">G</th>
                         <th className="px-3 py-2">S</th>
@@ -258,16 +284,18 @@ export default function AquaticsSchedule() {
                         <th className="px-3 py-2">Total</th>
                       </tr>
                     </thead>
+
                     <tbody className="divide-y divide-gray-200">
-                      {iitPoints.map((iit, index) => (
-                        <tr key={iit.name} className="hover:bg-gray-50">
-                          <td className="px-3 py-2">{index + 1}</td>
-                          <td className="px-3 py-2 font-medium">{iit.name}</td>
+                      {iitPoints.map((iit) => (
+                        <tr key={iit.name} className="hover:bg-gray-50 transition">
+                          <td className="px-3 py-2 font-medium text-gray-800">{iit.name}</td>
                           <td className="px-3 py-2">{iit.g}</td>
                           <td className="px-3 py-2">{iit.s}</td>
                           <td className="px-3 py-2">{iit.b}</td>
                           <td className="px-3 py-2">{iit.f}</td>
-                          <td className="px-3 py-2 font-semibold">{iit.total}</td>
+                          <td className="px-3 py-2 font-semibold text-gray-900">
+                            {iit.total}
+                          </td>
                         </tr>
                       ))}
                     </tbody>
