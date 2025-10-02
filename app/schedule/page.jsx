@@ -16,23 +16,22 @@ export default function AquaticsSchedule() {
   const iitPoints = [
     { name: "IIT BHU", g: 0, s: 0, b: 0, f: 0, total: 0 },
     { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Bombay", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Delhi", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Bombay", g: 0, s: 0, b: 0, f: 1, total: 1 },
+    { name: "IIT Delhi", g: 0, s: 2, b: 1, f: 0, total: 8 },
     { name: "IIT (ISM) Dhanbad", g: 0, s: 0, b: 0, f: 0, total: 0 },
     { name: "IIT Gandhinagar", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Guwahati", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Hyderabad", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Guwahati", g: 0, s: 0, b: 2, f: 1, total: 5 },
+    { name: "IIT Hyderabad", g: 3, s: 0, b: 0, f: 0, total: 15 },
     { name: "IIT Indore", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Jodhpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Jodhpur", g: 0, s: 0, b: 1, f: 0, total: 2 },
     { name: "IIT Kanpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Kharagpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Madras", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    { name: "IIT Kharagpur", g: 1, s: 0, b: 0, f: 1, total: 6 },
+    { name: "IIT Madras", g: 1, s: 1, b: 1, f: 2, total: 12 },
     { name: "IIT Mandi", g: 0, s: 0, b: 0, f: 0, total: 0 },
     { name: "IIT Palakkad", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Patna", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Roorkee", g: 0, s: 0, b: 0, f: 0, total: 0 }
+    { name: "IIT Patna", g: 0, s: 2, b: 0, f: 0, total: 6 },
+    { name: "IIT Roorkee", g: 0, s: 0, b: 0, f: 0, total: 0 },
   ];
-
 
   // Fetch Aquatics schedule
   useEffect(() => {
@@ -42,8 +41,15 @@ export default function AquaticsSchedule() {
           const parentDocRef = doc(db, "schedules", "aquatics");
           const daysColRef = collection(parentDocRef, "days");
           const querySnapshot = await getDocs(daysColRef);
-          const allDays = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-          allDays.sort((a, b) => parseInt(a.id.replace("day", "")) - parseInt(b.id.replace("day", "")));
+          const allDays = querySnapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
+          allDays.sort(
+            (a, b) =>
+              parseInt(a.id.replace("day", "")) -
+              parseInt(b.id.replace("day", ""))
+          );
           setSchedule(allDays);
         } catch (error) {
           console.error("Error fetching schedule:", error);
@@ -59,8 +65,10 @@ export default function AquaticsSchedule() {
   useEffect(() => {
     const fetchIITPoints = async () => {
       try {
-        const pointsSnapshot = await getDocs(collection(db, "pointsTable", "aquatics", "iitPoints"));
-        const pointsData = pointsSnapshot.docs.map(doc => doc.data());
+        const pointsSnapshot = await getDocs(
+          collection(db, "pointsTable", "aquatics", "iitPoints")
+        );
+        const pointsData = pointsSnapshot.docs.map((doc) => doc.data());
         // setIITPoints(pointsData);
       } catch (error) {
         console.error("Error fetching IIT points:", error);
@@ -77,11 +85,14 @@ export default function AquaticsSchedule() {
         for (const poolKey of Object.keys(waterPoloPools)) {
           const poolRef = collection(db, "pointsTable", "waterpolo", poolKey);
           const snapshot = await getDocs(poolRef);
-          const teams = snapshot.docs.map(doc => ({ name: doc.id, ...doc.data() }));
+          const teams = snapshot.docs.map((doc) => ({
+            name: doc.id,
+            ...doc.data(),
+          }));
           poolsData.push({
             id: poolKey,
             name: `Pool ${poolKey}`,
-            teams: teams
+            teams: teams,
           });
         }
         setWaterPoloPoints(poolsData);
@@ -93,49 +104,108 @@ export default function AquaticsSchedule() {
   }, []);
 
   if (loading)
-    return <p className="text-center mt-10 text-gray-500 text-lg md:text-xl font-nunito">Loading schedule...</p>;
+    return (
+      <p className="text-center mt-10 text-gray-500 text-lg md:text-xl font-nunito">
+        Loading schedule...
+      </p>
+    );
 
   const displayedDay =
     selectedMeet === "Aquatics"
       ? activeDay
-        ? schedule.find(day => day.id === activeDay)
-        : [...schedule].reverse().find(day =>
-          ["forenoon", "afternoon"].some(session =>
-            Object.keys(day.sessions[session] || {}).length > 0
-          )
-        )
+        ? schedule.find((day) => day.id === activeDay)
+        : [...schedule]
+            .reverse()
+            .find((day) =>
+              ["forenoon", "afternoon"].some(
+                (session) => Object.keys(day.sessions[session] || {}).length > 0
+              )
+            )
       : null;
+
+  // Add this function before the return statement (after all the useEffect hooks)
+  // Calculate total points for each IIT
+  const sortedIITPoints = iitPoints
+    .map((iit) => ({
+      ...iit,
+      total: iit.g * 5 + iit.s * 3 + iit.b * 2 + iit.f * 1,
+    }))
+    .sort((a, b) => {
+      // Sort by total points first (descending)
+      if (b.total !== a.total) return b.total - a.total;
+      // If total is same, sort by gold (descending)
+      if (b.g !== a.g) return b.g - a.g;
+      // If gold is same, sort by silver (descending)
+      if (b.s !== a.s) return b.s - a.s;
+      // If silver is same, sort by bronze (descending)
+      if (b.b !== a.b) return b.b - a.b;
+      // If bronze is same, sort by fourth place (descending)
+      return b.f - a.f;
+    });
 
   return (
     <>
       <Head>
-        <title>Schedule | 58th Inter IIT Sports Meet 2025 | 39th Aquatics Meet</title>
-        <meta name="description" content="Check the full schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
-        <meta property="og:title" content="Inter IIT Sports Schedule | 58th Inter IIT Sports Meet 2025" />
-        <meta property="og:description" content="View the complete schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
+        <title>
+          Schedule | 58th Inter IIT Sports Meet 2025 | 39th Aquatics Meet
+        </title>
+        <meta
+          name="description"
+          content="Check the full schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025."
+        />
+        <meta
+          property="og:title"
+          content="Inter IIT Sports Schedule | 58th Inter IIT Sports Meet 2025"
+        />
+        <meta
+          property="og:description"
+          content="View the complete schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025."
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://interiitsports.in/schedule" />
-        <meta property="og:image" content="https://interiitsports.in/logo_2.png" />
+        <meta
+          property="og:image"
+          content="https://interiitsports.in/logo_2.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Inter IIT Sports Schedule | 58th Inter IIT Sports Meet 2025" />
-        <meta name="twitter:description" content="Check the full schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025." />
-        <meta name="twitter:image" content="https://interiitsports.in/logo_2.png" />
+        <meta
+          name="twitter:title"
+          content="Inter IIT Sports Schedule | 58th Inter IIT Sports Meet 2025"
+        />
+        <meta
+          name="twitter:description"
+          content="Check the full schedule, IIT points table, and Water Polo pools for the 58th Inter IIT Sports Meet 2025."
+        />
+        <meta
+          name="twitter:image"
+          content="https://interiitsports.in/logo_2.png"
+        />
         <link rel="canonical" href="https://interiitsports.in/schedule" />
       </Head>
 
-      <div className="pt-24 px-4 md:px-6 lg:px-8 pb-16 bg-gray-50 min-h-screen text-gray-800" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <div
+        className="pt-24 px-4 md:px-6 lg:px-8 pb-16 bg-gray-50 min-h-screen text-gray-800"
+        style={{ fontFamily: "'Poppins', sans-serif" }}
+      >
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4 md:gap-0">
-          <h1 className="text-2xl md:text-3xl font-bold text-center text-[#800000] tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+          <h1
+            className="text-2xl md:text-3xl font-bold text-center text-[#800000] tracking-wide"
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
+          >
             Inter IIT Sports Schedule
           </h1>
           <div className="flex gap-2 md:gap-3 bg-white rounded-full shadow-md px-2 py-1">
-            {["Aquatics", "Main Meet"].map(meet => (
+            {["Aquatics", "Main Meet"].map((meet) => (
               <button
                 key={meet}
                 onClick={() => setSelectedMeet(meet)}
                 className={`px-4 py-1 rounded-full font-medium text-sm md:text-base font-poppins transition-all duration-200
-                  ${selectedMeet === meet ? "bg-[#800000] text-white shadow-lg" : "text-gray-600 hover:bg-gray-100"}`}
+                  ${
+                    selectedMeet === meet
+                      ? "bg-[#800000] text-white shadow-lg"
+                      : "text-gray-600 hover:bg-gray-100"
+                  }`}
               >
                 {meet}
               </button>
@@ -144,7 +214,10 @@ export default function AquaticsSchedule() {
         </div>
 
         {selectedMeet === "Main Meet" ? (
-          <p className="text-center text-gray-500 text-lg md:text-xl mt-20" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+          <p
+            className="text-center text-gray-500 text-lg md:text-xl mt-20"
+            style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+          >
             Main Meet schedule is not available yet. Please check back later.
           </p>
         ) : (
@@ -155,21 +228,37 @@ export default function AquaticsSchedule() {
                 Aquatic Days
               </h3>
               <div className="flex lg:flex-col gap-2 overflow-x-auto pb-2">
-                {schedule.map(day => {
+                {schedule.map((day) => {
                   const isActive = activeDay === day.id;
                   return (
                     <div
                       key={day.id}
                       onClick={() => setActiveDay(day.id)}
                       className={`flex items-center cursor-pointer px-3 py-2 rounded-lg transition-all duration-300 whitespace-nowrap
-                        ${isActive ? "bg-[#800000]/10 border-l-4 border-[#800000] shadow-sm" : "hover:bg-gray-100"}`}
+                        ${
+                          isActive
+                            ? "bg-[#800000]/10 border-l-4 border-[#800000] shadow-sm"
+                            : "hover:bg-gray-100"
+                        }`}
                     >
-                      <span className={`w-3 h-3 rounded-full mr-2 ${isActive ? "bg-[#800000]" : "bg-gray-300"}`}></span>
+                      <span
+                        className={`w-3 h-3 rounded-full mr-2 ${
+                          isActive ? "bg-[#800000]" : "bg-gray-300"
+                        }`}
+                      ></span>
                       <div className="flex flex-col">
-                        <span className={`${isActive ? "text-[#800000] font-semibold" : "text-gray-800"} text-sm`}>
+                        <span
+                          className={`${
+                            isActive
+                              ? "text-[#800000] font-semibold"
+                              : "text-gray-800"
+                          } text-sm`}
+                        >
                           Day {day.id.replace("day", "")}
                         </span>
-                        <span className="text-xs text-gray-500 font-nunito hidden sm:block">{day.date}</span>
+                        <span className="text-xs text-gray-500 font-nunito hidden sm:block">
+                          {day.date}
+                        </span>
                       </div>
                     </div>
                   );
@@ -181,85 +270,147 @@ export default function AquaticsSchedule() {
             <div className="flex-1 flex flex-col lg:flex-row gap-6">
               {/* Schedule */}
               <div className="flex-1 flex flex-col gap-6">
-                {displayedDay && ["forenoon", "afternoon"].map(sessionKey => (
-                  <div key={sessionKey} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
-                    <h3 className="text-xl md:text-2xl font-semibold text-[#800000] mb-4 capitalize border-b border-gray-200 pb-2 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                      {sessionKey} Session
-                    </h3>
-                    {Object.keys(displayedDay.sessions[sessionKey]).length === 0 ? (
-                      <p className="text-gray-500 text-sm md:text-base mb-4">No events scheduled.</p>
-                    ) : (
-                      Object.keys(displayedDay.sessions[sessionKey])
-                        .sort()
-                        .map(sport => {
-                          const events = displayedDay.sessions[sessionKey][sport].slice();
-                          events.sort((a, b) => (a.eventNo || a.matchNo || 0) - (b.eventNo || b.matchNo || 0));
-                          return (
-                            <div key={sport} className="mb-6">
-                              <h4 className="text-sky-600 font-semibold text-lg md:text-xl mb-2 tracking-wide">{sport}</h4>
-                              <div className="flex flex-col gap-3">
-                                {events.map(event => (
-                                  <div key={event.eventNo || event.matchNo} className="flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
-                                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-                                      <div className="flex flex-col gap-1">
-                                        <span className="font-bold text-gray-800 text-sm md:text-base">{event.event || event.teams.join(" 🆚 ")}</span>
-                                        <p className="text-gray-600 text-xs md:text-sm">{event.type} | Venue: {event.venue}</p>
-                                        {(event.eventNo || event.matchNo) && <span className="text-gray-500 text-xs md:text-sm">{event.eventNo ? `Event ${event.eventNo}` : `Match ${event.matchNo}`}</span>}
-                                        {/* {event.notes && <p className="text-gray-500 text-xs md:text-sm italic">Notes: {event.notes}</p>} */}
+                {displayedDay &&
+                  ["forenoon", "afternoon"].map((sessionKey) => (
+                    <div
+                      key={sessionKey}
+                      className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition"
+                    >
+                      <h3
+                        className="text-xl md:text-2xl font-semibold text-[#800000] mb-4 capitalize border-b border-gray-200 pb-2 tracking-wide"
+                        style={{ fontFamily: "'Montserrat', sans-serif" }}
+                      >
+                        {sessionKey} Session
+                      </h3>
+                      {Object.keys(displayedDay.sessions[sessionKey]).length ===
+                      0 ? (
+                        <p className="text-gray-500 text-sm md:text-base mb-4">
+                          No events scheduled.
+                        </p>
+                      ) : (
+                        Object.keys(displayedDay.sessions[sessionKey])
+                          .sort()
+                          .map((sport) => {
+                            const events =
+                              displayedDay.sessions[sessionKey][sport].slice();
+                            events.sort(
+                              (a, b) =>
+                                (a.eventNo || a.matchNo || 0) -
+                                (b.eventNo || b.matchNo || 0)
+                            );
+                            return (
+                              <div key={sport} className="mb-6">
+                                <h4 className="text-sky-600 font-semibold text-lg md:text-xl mb-2 tracking-wide">
+                                  {sport}
+                                </h4>
+                                <div className="flex flex-col gap-3">
+                                  {events.map((event) => (
+                                    <div
+                                      key={event.eventNo || event.matchNo}
+                                      className="flex flex-col gap-3 p-4 border border-gray-200 rounded-lg hover:shadow-md transition"
+                                    >
+                                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                                        <div className="flex flex-col gap-1">
+                                          <span className="font-bold text-gray-800 text-sm md:text-base">
+                                            {event.event ||
+                                              event.teams.join(" 🆚 ")}
+                                          </span>
+                                          <p className="text-gray-600 text-xs md:text-sm">
+                                            {event.type} | Venue: {event.venue}
+                                          </p>
+                                          {(event.eventNo || event.matchNo) && (
+                                            <span className="text-gray-500 text-xs md:text-sm">
+                                              {event.eventNo
+                                                ? `Event ${event.eventNo}`
+                                                : `Match ${event.matchNo}`}
+                                            </span>
+                                          )}
+                                          {/* {event.notes && <p className="text-gray-500 text-xs md:text-sm italic">Notes: {event.notes}</p>} */}
 
-                                        {/* Swimming winners */}
-                                        {(() => {
-                                          const sportNormalized = sport.toLowerCase(); // normalize sport
-                                          const statusNormalized = event.status?.toLowerCase() || ""; // normalize status safely
+                                          {/* Swimming winners */}
+                                          {(() => {
+                                            const sportNormalized =
+                                              sport.toLowerCase(); // normalize sport
+                                            const statusNormalized =
+                                              event.status?.toLowerCase() || ""; // normalize status safely
 
-                                          if (sportNormalized.includes("swimming") && event.winner) {
-                                            // Swimming winners
-                                            return (
-                                              <div className="mt-1 text-gray-700 text-sm flex flex-col gap-0.5">
-                                                {event.winner.first && (
-                                                  <span className="px-2 py-1 rounded-full text-xs font-semibold">🥇 {event.winner.first}</span>
-                                                )}
-                                                {event.winner.second && (
-                                                  <span className="px-2 py-1 rounded-full text-xs font-semibold">🥈 {event.winner.second}</span>
-                                                )}
-                                                {event.winner.third && (
-                                                  <span className="px-2 py-1 rounded-full text-xs font-semibold">🥉 {event.winner.third}</span>
-                                                )}
-                                              </div>
-                                            );
-                                          } else if (sportNormalized.includes("waterpolo") && statusNormalized === "completed") {
-                                            // Water Polo winner + notes
-                                            return (
-                                              <div className="mt-1 text-gray-700 text-sm flex flex-col gap-0.5">
-                                                {event.winner && <span className="font-semibold">Winner: {event.winner}</span>}
-                                                {event.notes && <span className="italic text-gray-600">Score: {event.notes}</span>}
-                                              </div>
-                                            );
-                                          }
+                                            if (
+                                              sportNormalized.includes(
+                                                "swimming"
+                                              ) &&
+                                              event.winner
+                                            ) {
+                                              // Swimming winners
+                                              return (
+                                                <div className="mt-1 text-gray-700 text-sm flex flex-col gap-0.5">
+                                                  {event.winner.first && (
+                                                    <span className="px-2 py-1 rounded-full text-xs font-semibold">
+                                                      🥇 {event.winner.first}
+                                                    </span>
+                                                  )}
+                                                  {event.winner.second && (
+                                                    <span className="px-2 py-1 rounded-full text-xs font-semibold">
+                                                      🥈 {event.winner.second}
+                                                    </span>
+                                                  )}
+                                                  {event.winner.third && (
+                                                    <span className="px-2 py-1 rounded-full text-xs font-semibold">
+                                                      🥉 {event.winner.third}
+                                                    </span>
+                                                  )}
+                                                </div>
+                                              );
+                                            } else if (
+                                              sportNormalized.includes(
+                                                "waterpolo"
+                                              ) &&
+                                              statusNormalized === "completed"
+                                            ) {
+                                              // Water Polo winner + notes
+                                              return (
+                                                <div className="mt-1 text-gray-700 text-sm flex flex-col gap-0.5">
+                                                  {event.winner && (
+                                                    <span className="font-semibold">
+                                                      Winner: {event.winner}
+                                                    </span>
+                                                  )}
+                                                  {event.notes && (
+                                                    <span className="italic text-gray-600">
+                                                      Score: {event.notes}
+                                                    </span>
+                                                  )}
+                                                </div>
+                                              );
+                                            }
 
-                                          return null; // No winner to show (upcoming events are ignored)
-                                        })()}
+                                            return null; // No winner to show (upcoming events are ignored)
+                                          })()}
+                                        </div>
 
-
+                                        {/* Status */}
+                                        <span
+                                          className={`px-3 py-1 rounded-full text-xs md:text-sm font-semibold self-start sm:self-auto
+                                        ${
+                                          event.status === "Live"
+                                            ? "bg-red-100 text-red-700 animate-pulse"
+                                            : event.status.toLowerCase() ===
+                                              "completed"
+                                            ? "bg-gray-100 text-gray-700"
+                                            : "bg-green-100 text-green-700"
+                                        }`}
+                                        >
+                                          {event.status}
+                                        </span>
                                       </div>
-
-                                      {/* Status */}
-                                      <span className={`px-3 py-1 rounded-full text-xs md:text-sm font-semibold self-start sm:self-auto
-                                        ${event.status === "Live" ? "bg-red-100 text-red-700 animate-pulse"
-                                          : event.status.toLowerCase() === "completed" ? "bg-gray-100 text-gray-700"
-                                            : "bg-green-100 text-green-700"}`}>
-                                        {event.status}
-                                      </span>
                                     </div>
-                                  </div>
-                                ))}
+                                  ))}
+                                </div>
                               </div>
-                            </div>
-                          );
-                        })
-                    )}
-                  </div>
-                ))}
+                            );
+                          })
+                      )}
+                    </div>
+                  ))}
               </div>
 
               {/* Right Panels */}
@@ -274,7 +425,10 @@ export default function AquaticsSchedule() {
                   </h3>
 
                   <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm">
-                    <thead className="bg-[#800000]/10" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                    <thead
+                      className="bg-[#800000]/10"
+                      style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                    >
                       <tr>
                         <th className="px-3 py-2">IIT</th>
                         <th className="px-3 py-2">G</th>
@@ -286,9 +440,14 @@ export default function AquaticsSchedule() {
                     </thead>
 
                     <tbody className="divide-y divide-gray-200">
-                      {iitPoints.map((iit) => (
-                        <tr key={iit.name} className="hover:bg-gray-50 transition">
-                          <td className="px-3 py-2 font-medium text-gray-800">{iit.name}</td>
+                      {sortedIITPoints.map((iit) => (
+                        <tr
+                          key={iit.name}
+                          className="hover:bg-gray-50 transition"
+                        >
+                          <td className="px-3 py-2 font-medium text-gray-800">
+                            {iit.name}
+                          </td>
                           <td className="px-3 py-2">{iit.g}</td>
                           <td className="px-3 py-2">{iit.s}</td>
                           <td className="px-3 py-2">{iit.b}</td>
@@ -304,10 +463,17 @@ export default function AquaticsSchedule() {
 
                 {/* Water Polo Pools */}
                 <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition overflow-x-auto">
-                  <h3 className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>Water Polo Pools</h3>
-                  {waterPoloPoints.map(pool => (
+                  <h3
+                    className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide"
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
+                  >
+                    Water Polo Pools
+                  </h3>
+                  {waterPoloPoints.map((pool) => (
                     <div key={pool.id} className="mb-6">
-                      <h4 className="font-semibold text-sky-600 mb-3 tracking-wide">{pool.name}</h4>
+                      <h4 className="font-semibold text-sky-600 mb-3 tracking-wide">
+                        {pool.name}
+                      </h4>
                       <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm font-mukta">
                         <thead className="bg-[#800000]/10">
                           <tr>
@@ -320,14 +486,18 @@ export default function AquaticsSchedule() {
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-200">
-                          {pool.teams.map(team => (
+                          {pool.teams.map((team) => (
                             <tr key={team.name} className="hover:bg-gray-50">
-                              <td className="px-3 py-2 font-medium text-gray-800">{team.name}</td>
+                              <td className="px-3 py-2 font-medium text-gray-800">
+                                {team.name}
+                              </td>
                               <td className="px-3 py-2">{team.P || 0}</td>
                               <td className="px-3 py-2">{team.W || 0}</td>
                               <td className="px-3 py-2">{team.L || 0}</td>
                               <td className="px-3 py-2">{team.T || 0}</td>
-                              <td className="px-3 py-2 font-semibold">{team.points || 0}</td>
+                              <td className="px-3 py-2 font-semibold">
+                                {team.points || 0}
+                              </td>
                             </tr>
                           ))}
                         </tbody>
@@ -335,7 +505,6 @@ export default function AquaticsSchedule() {
                     </div>
                   ))}
                 </div>
-
               </div>
             </div>
           </div>
