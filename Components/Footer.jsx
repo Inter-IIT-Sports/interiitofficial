@@ -159,7 +159,7 @@ export default function Footer() {
             <div className="flex items-center justify-start mx-6 gap-4 mt-6 cursor-pointer">
               {/* Instagram */}
               <Link
-                href=""
+                href="https://www.instagram.com/interiit_sportsmeet?igsh=MTN6YWlpeGc4M3VpeQ%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform"
@@ -175,7 +175,7 @@ export default function Footer() {
 
               {/* LinkedIn */}
               <Link
-                href=""
+                href="https://www.linkedin.com/company/107192725/admin/page-posts/published/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform"
@@ -191,7 +191,7 @@ export default function Footer() {
 
               {/* Email */}
               <Link
-                href="mailto:"
+                href="interiit.oc@iith.ac.in"
                 className="hover:scale-110 transition-transform"
               >
                 <svg
@@ -205,7 +205,7 @@ export default function Footer() {
 
               {/* YouTube */}
               <Link
-                href="https://www.youtube.com/@58th_IISM_Madras"
+                href="https://www.youtube.com/@interiit_sportsmeet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform"

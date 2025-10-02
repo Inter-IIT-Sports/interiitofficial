@@ -18,7 +18,7 @@ My heartfelt wish is that every participant carries from this Meet not just achi
     name: "Prof. R Prasanth Kumar",
     position: "Dean, IIT Hyderabad",
     image: "/images/our-team/team-5.png",
-message: ``,
+    message: "It gives me immense pride to welcome you all to the Inter IIT Sports Meet, jointly hosted this year by IIT Hyderabad, IIT Madras, and IIT Tirupati. This edition holds special significance for IIT Hyderabad, as we are taking up the responsibility of hosting the Inter IIT Sports Meet for the very first time since our inception. The Meet has always been a celebration of athletic spirit, camaraderie, and the shared values that unite the IIT community.\n\n           \t I encourage all participants to play with passion, fairness, and respect — for the game, for your opponents, and for yourselves. May this meet not only bring out the best in your sporting abilities but also forge friendships and memories that last a lifetime. On behalf of IIT Hyderabad, I extend a warm welcome and wish every athlete, staff member, and supporter a truly enriching and inspiring experience.",
    },
   {
     name: "Prof. N. N. Murty",
