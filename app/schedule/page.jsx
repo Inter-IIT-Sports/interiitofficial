@@ -14,7 +14,7 @@ export default function AquaticsSchedule() {
   const [waterPoloPoints, setWaterPoloPoints] = useState([]);
 
   const iitPoints = [
-    { name: "IIT BHU", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    // { name: "IIT BHU", g: 0, s: 0, b: 0, f: 0, total: 0 },
     { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, f: 0, total: 0 },
     { name: "IIT Bombay", g: 0, s: 0, b: 1, f: 1, total: 3 },
     { name: "IIT Delhi", g: 0, s: 3, b: 2, f: 3, total: 16 },
@@ -462,49 +462,53 @@ export default function AquaticsSchedule() {
                 </div>
 
                 {/* Water Polo Pools */}
-                <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition overflow-x-auto">
-                  <h3
-                    className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide"
-                    style={{ fontFamily: "'Montserrat', sans-serif" }}
-                  >
-                    Water Polo Pools
-                  </h3>
-                  {waterPoloPoints.map((pool) => (
-                    <div key={pool.id} className="mb-6">
-                      <h4 className="font-semibold text-sky-600 mb-3 tracking-wide">
-                        {pool.name}
-                      </h4>
-                      <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm font-mukta">
-                        <thead className="bg-[#800000]/10">
-                          <tr>
-                            <th className="px-3 py-2">Team</th>
-                            <th className="px-3 py-2">P</th>
-                            <th className="px-3 py-2">W</th>
-                            <th className="px-3 py-2">L</th>
-                            <th className="px-3 py-2">T</th>
-                            <th className="px-3 py-2">Points</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-gray-200">
-                          {pool.teams.map((team) => (
-                            <tr key={team.name} className="hover:bg-gray-50">
-                              <td className="px-3 py-2 font-medium text-gray-800">
-                                {team.name}
-                              </td>
-                              <td className="px-3 py-2">{team.P || 0}</td>
-                              <td className="px-3 py-2">{team.W || 0}</td>
-                              <td className="px-3 py-2">{team.L || 0}</td>
-                              <td className="px-3 py-2">{team.T || 0}</td>
-                              <td className="px-3 py-2 font-semibold">
-                                {team.points || 0}
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  ))}
-                </div>
+               <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition overflow-x-auto">
+  <h3
+    className="text-xl md:text-[1.4rem] font-semibold text-[#800000] mb-4 tracking-wide"
+    style={{ fontFamily: "'Montserrat', sans-serif" }}
+  >
+    Water Polo Pools
+  </h3>
+  {waterPoloPoints.map((pool) => (
+    <div key={pool.id} className="mb-6">
+      <h4 className="font-semibold text-sky-600 mb-3 tracking-wide">
+        {pool.name}
+      </h4>
+      <table className="min-w-full border border-gray-200 text-left divide-y divide-gray-200 text-sm font-mukta">
+        <thead className="bg-[#800000]/10">
+          <tr>
+            <th className="px-3 py-2">Team</th>
+            <th className="px-3 py-2">P</th>
+            <th className="px-3 py-2">W</th>
+            <th className="px-3 py-2">L</th>
+            <th className="px-3 py-2">T</th>
+            <th className="px-3 py-2">Points</th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-gray-200">
+          {pool.teams
+            .slice() // make a copy to avoid mutating original
+            .sort((a, b) => (b.points || 0) - (a.points || 0)) // descending by points
+            .map((team) => (
+              <tr key={team.name} className="hover:bg-gray-50">
+                <td className="px-3 py-2 font-medium text-gray-800">
+                  {team.name}
+                </td>
+                <td className="px-3 py-2">{team.P || 0}</td>
+                <td className="px-3 py-2">{team.W || 0}</td>
+                <td className="px-3 py-2">{team.L || 0}</td>
+                <td className="px-3 py-2">{team.T || 0}</td>
+                <td className="px-3 py-2 font-semibold">
+                  {team.points || 0}
+                </td>
+              </tr>
+            ))}
+        </tbody>
+      </table>
+    </div>
+  ))}
+</div>
+
               </div>
             </div>
           </div>
