@@ -14,23 +14,23 @@ export default function AquaticsSchedule() {
   const [waterPoloPoints, setWaterPoloPoints] = useState([]);
 
   const iitPoints = [
-    // { name: "IIT BHU", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Bombay", g: 0, s: 0, b: 1, f: 1, total: 3 },
-    { name: "IIT Delhi", g: 0, s: 3, b: 2, f: 3, total: 16 },
-    { name: "IIT (ISM) Dhanbad", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Gandhinagar", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Guwahati", g: 1, s: 0, b: 4, f: 1, total: 14 },
-    { name: "IIT Hyderabad", g: 3, s: 1, b: 0, f: 0, total: 18 },
-    { name: "IIT Indore", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Jodhpur", g: 0, s: 0, b: 3, f: 0, total: 6 },
-    { name: "IIT Kanpur", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Kharagpur", g: 2, s: 1, b: 1, f: 1, total: 16 },
-    { name: "IIT Madras", g: 4, s: 3, b: 1, f: 3, total: 34 },
-    { name: "IIT Mandi", g: 0, s: 1, b: 0, f: 0, total: 3 },
-    { name: "IIT Palakkad", g: 0, s: 0, b: 0, f: 0, total: 0 },
-    { name: "IIT Patna", g: 0, s: 2, b: 0, f: 1, total: 7 },
-    { name: "IIT Roorkee", g: 0, s: 0, b: 0, f: 0, total: 0 },
+    // Data from the 39th Inter IIT Aquatics Meet 2025
+    { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, total: 0 },
+    { name: "IIT Bombay", g: 0, s: 2, b: 1, total: 0 },
+    { name: "IIT Delhi", g: 1, s: 4, b: 3, total: 28 },
+    { name: "IIT (ISM) Dhanbad", g: 0, s: 0, b: 0, total: 0 },
+    { name: "IIT Gandhinagar", g: 0, s: 0, b: 0, total: 0 },
+    { name: "IIT Guwahati", g: 3, s: 1, b: 12, total: 53 },
+    { name: "IIT Hyderabad", g: 4, s: 4, b: 0, total: 39 },
+    { name: "IIT Indore", g: 0, s: 0, b: 0, total: 0 },
+    { name: "IIT Jodhpur", g: 0, s: 0, b: 2, total: 0 },
+    { name: "IIT Kanpur", g: 0, s: 0, b: 2, total: 0 },
+    { name: "IIT Kharagpur", g: 3, s: 3, b: 1, total: 37 },
+    { name: "IIT Madras", g: 12, s: 5, b: 3, total: 104 },
+    { name: "IIT Mandi", g: 1, s: 2, b: 0, total: 0 },
+    { name: "IIT Palakkad", g: 0, s: 0, b: 0, total: 0 },
+    { name: "IIT Patna", g: 1, s: 4, b: 0, total: 0 },
+    { name: "IIT Roorkee", g: 0, s: 0, b: 1, total: 0 },
   ];
 
   // Fetch Aquatics schedule
@@ -125,23 +125,22 @@ export default function AquaticsSchedule() {
 
   // Add this function before the return statement (after all the useEffect hooks)
   // Calculate total points for each IIT
-  const sortedIITPoints = iitPoints
-    .map((iit) => ({
-      ...iit,
-      total: iit.g * 5 + iit.s * 3 + iit.b * 2 + iit.f * 1,
-    }))
-    .sort((a, b) => {
-      // Sort by total points first (descending)
-      if (b.total !== a.total) return b.total - a.total;
-      // If total is same, sort by gold (descending)
-      if (b.g !== a.g) return b.g - a.g;
-      // If gold is same, sort by silver (descending)
-      if (b.s !== a.s) return b.s - a.s;
-      // If silver is same, sort by bronze (descending)
-      if (b.b !== a.b) return b.b - a.b;
-      // If bronze is same, sort by fourth place (descending)
-      return b.f - a.f;
-    });
+  const sortedIITPoints = iitPoints.sort((a, b) => {
+    // Sort by total points first (descending)
+    if (b.total !== a.total) {
+        return b.total - a.total;
+    }
+    // If total is same, sort by gold (descending)
+    if (b.g !== a.g) {
+        return b.g - a.g;
+    }
+    // If gold is same, sort by silver (descending)
+    if (b.s !== a.s) {
+        return b.s - a.s;
+    }
+    // If silver is same, sort by bronze (descending)
+    return b.b - a.b;
+});
 
   return (
     <>
@@ -434,7 +433,6 @@ export default function AquaticsSchedule() {
                         <th className="px-3 py-2">G</th>
                         <th className="px-3 py-2">S</th>
                         <th className="px-3 py-2">B</th>
-                        <th className="px-3 py-2">F</th>
                         <th className="px-3 py-2">Total</th>
                       </tr>
                     </thead>
@@ -451,7 +449,6 @@ export default function AquaticsSchedule() {
                           <td className="px-3 py-2">{iit.g}</td>
                           <td className="px-3 py-2">{iit.s}</td>
                           <td className="px-3 py-2">{iit.b}</td>
-                          <td className="px-3 py-2">{iit.f}</td>
                           <td className="px-3 py-2 font-semibold text-gray-900">
                             {iit.total}
                           </td>
