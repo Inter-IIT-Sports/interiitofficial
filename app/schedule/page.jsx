@@ -16,21 +16,21 @@ export default function AquaticsSchedule() {
   const iitPoints = [
     // Data from the 39th Inter IIT Aquatics Meet 2025
     { name: "IIT Bhubaneswar", g: 0, s: 0, b: 0, total: 0 },
-    { name: "IIT Bombay", g: 0, s: 2, b: 1, total: 0 },
+    { name: "IIT Bombay", g: 0, s: 2, b: 1, total: 8 },
     { name: "IIT Delhi", g: 1, s: 4, b: 3, total: 28 },
     { name: "IIT (ISM) Dhanbad", g: 0, s: 0, b: 0, total: 0 },
     { name: "IIT Gandhinagar", g: 0, s: 0, b: 0, total: 0 },
     { name: "IIT Guwahati", g: 3, s: 1, b: 12, total: 53 },
     { name: "IIT Hyderabad", g: 4, s: 4, b: 0, total: 39 },
     { name: "IIT Indore", g: 0, s: 0, b: 0, total: 0 },
-    { name: "IIT Jodhpur", g: 0, s: 0, b: 2, total: 0 },
-    { name: "IIT Kanpur", g: 0, s: 0, b: 2, total: 0 },
+    { name: "IIT Jodhpur", g: 0, s: 0, b: 2, total: 4 },
+    { name: "IIT Kanpur", g: 0, s: 0, b: 2, total: 4 },
     { name: "IIT Kharagpur", g: 3, s: 3, b: 1, total: 37 },
     { name: "IIT Madras", g: 12, s: 5, b: 3, total: 104 },
-    { name: "IIT Mandi", g: 1, s: 2, b: 0, total: 0 },
+    { name: "IIT Mandi", g: 1, s: 2, b: 0, total: 11 },
     { name: "IIT Palakkad", g: 0, s: 0, b: 0, total: 0 },
-    { name: "IIT Patna", g: 1, s: 4, b: 0, total: 0 },
-    { name: "IIT Roorkee", g: 0, s: 0, b: 1, total: 0 },
+    { name: "IIT Patna", g: 1, s: 4, b: 0, total: 17 },
+    { name: "IIT Roorkee", g: 0, s: 0, b: 1, total: 2 },
   ];
 
   // Fetch Aquatics schedule
