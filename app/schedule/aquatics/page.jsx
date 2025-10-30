@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import { collection, getDocs, doc } from "firebase/firestore";
-import { db } from "../../lib/firebase";
+import { db } from "../../../lib/firebase";
 import Head from "next/head";
-import { waterPoloPools } from "../../lib/waterPoloPools";
+import { waterPoloPools } from "../../../lib/waterPoloPools";
 
 export default function AquaticsSchedule() {
   const [schedule, setSchedule] = useState([]);
@@ -194,7 +194,7 @@ export default function AquaticsSchedule() {
           >
             Inter IIT Sports Schedule
           </h1>
-          <div className="flex gap-2 md:gap-3 bg-white rounded-full shadow-md px-2 py-1">
+          {/* <div className="flex gap-2 md:gap-3 bg-white rounded-full shadow-md px-2 py-1">
             {["Aquatics", "Main Meet"].map((meet) => (
               <button
                 key={meet}
@@ -209,7 +209,7 @@ export default function AquaticsSchedule() {
                 {meet}
               </button>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {selectedMeet === "Main Meet" ? (

@@ -75,7 +75,7 @@ export default function HeroSection2025() {
           }}
         />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pointer-events-none" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+        <div className=" absolute inset-0 flex flex-col items-center justify-center text-center px-4 pointer-events-none" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
           {/* Logo */}
           <div className="relative w-32 md:w-40 lg:w-48 h-32 md:h-40 lg:h-48">
             <Image src="/logo_2.png" alt="Inter IIT Sports Meet Logo" fill style={{ objectFit: 'contain' }} />
