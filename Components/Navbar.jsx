@@ -14,14 +14,22 @@ const DesktopScheduleDropdown = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className="absolute left-1/2 transform -translate-x-1/2 mt-6 w-[280px] rounded-[20px] bg-black/50 border border-gray-200 z-50"
+      className="absolute top-full left-1/2 transform  mt-6 w-[280px] rounded-[20px] bg-black/50 border border-gray-200 z-50 shadow-lg"
+      style={{ 
+        // Safari-safe: prevent blurry text from transform
+        WebkitTransform: 'translateX(-50%)',
+        transform: 'translateX(-50%)',
+        // Ensure sharp rendering
+        WebkitFontSmoothing: 'antialiased',
+        MozOsxFontSmoothing: 'grayscale',
+      }}
     >
       <div className="flex">
         <Link
           href="/schedule/aquatics"
           onClick={onClose}
           className="flex-1 flex items-center justify-center px-3 py-2.5 text-center text-sm md:text-base font-semibold text-gray-100
-             transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-[1.02] whitespace-nowrap"
+             transition-all duration-200 hover:-translate-y-0.5 hover:scale-[1.02] whitespace-nowrap"
         >
           🏊 Aquatics Meet
         </Link>
@@ -30,7 +38,7 @@ const DesktopScheduleDropdown = ({ isOpen, onClose }) => {
           href="/schedule/main-meet"
           onClick={onClose}
           className="flex-1 flex items-center justify-center px-3 py-2.5 text-center text-sm md:text-base font-semibold text-gray-100
-             transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-[1.02] whitespace-nowrap"
+             transition-all duration-200 hover:-translate-y-0.5 hover:scale-[1.02] whitespace-nowrap"
         >
           🏅 Main Meet
         </Link>
