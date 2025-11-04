@@ -14,7 +14,7 @@ const DesktopScheduleDropdown = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className="absolute top-full left-1/2 transform  mt-6 w-[280px] rounded-[20px] bg-black/50 border border-gray-200 z-50 shadow-lg"
+      className="absolute top-full left-1/2 transform  mt-6 w-[290px] rounded-[20px] bg-black/50 border border-gray-200 z-50 shadow-lg"
       style={{ 
         // Safari-safe: prevent blurry text from transform
         WebkitTransform: 'translateX(-50%)',
