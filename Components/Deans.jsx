@@ -15,28 +15,16 @@ I take pride in the athletes who compete with passion, the volunteers who serve 
 My heartfelt wish is that every participant carries from this Meet not just achievements, but memories of camaraderie, lessons of discipline, and the inspiration to lead a healthier, fuller life.`,
   },
   {
-    name: "Prof.R Prasanth Kumar",
+    name: "Prof. R Prasanth Kumar",
     position: "Dean, IIT Hyderabad",
     image: "/images/our-team/team-5.png",
-message: `As IIT Madras leads this edition of Inter IIT Sports in collaboration with IIT Hyderabad and IIT Tirupati, this meet stands as a testament to the IIT fraternity’s shared commitment to sports, health, leadership, and holistic student growth. The Inter IIT Sports Meet 2025 is a celebration of youthful spirit, resilience, and unity.
-
-This Meet is not only about winning medals but about building character, forging friendships, and nurturing values that last a lifetime. Sports have the power to unite people. Sports are not only about competition; it is a medium to bring society together and inspire youth towards a healthier life.
-
-I take pride in the athletes who compete with passion, the volunteers who serve with dedication, and the spectators who cheer with heart. Behind this grand event are the tireless efforts of many committees, volunteers, steered by the Executive Committee, ensuring smooth execution and a memorable experience for all.
-
-My heartfelt wish is that every participant carries from this Meet not just achievements, but memories of camaraderie, lessons of discipline, and the inspiration to lead a healthier, fuller life.`,
+    message: "It gives me immense pride to welcome you all to the Inter IIT Sports Meet, jointly hosted this year by IIT Hyderabad, IIT Madras, and IIT Tirupati. This edition holds special significance for IIT Hyderabad, as we are taking up the responsibility of hosting the Inter IIT Sports Meet for the very first time since our inception. The Meet has always been a celebration of athletic spirit, camaraderie, and the shared values that unite the IIT community.\n\n           \t I encourage all participants to play with passion, fairness, and respect — for the game, for your opponents, and for yourselves. May this meet not only bring out the best in your sporting abilities but also forge friendships and memories that last a lifetime. On behalf of IIT Hyderabad, I extend a warm welcome and wish every athlete, staff member, and supporter a truly enriching and inspiring experience.",
    },
   {
-    name: "Prof. S. Rao",
+    name: "Prof. N. N. Murty",
     position: "Dean, IIT Tirupati",
     image: "/images/our-team/team5.png",
-message: `As IIT Madras leads this edition of Inter IIT Sports in collaboration with IIT Hyderabad and IIT Tirupati, this meet stands as a testament to the IIT fraternity’s shared commitment to sports, health, leadership, and holistic student growth. The Inter IIT Sports Meet 2025 is a celebration of youthful spirit, resilience, and unity.
-
-This Meet is not only about winning medals but about building character, forging friendships, and nurturing values that last a lifetime. Sports have the power to unite people. Sports are not only about competition; it is a medium to bring society together and inspire youth towards a healthier life.
-
-I take pride in the athletes who compete with passion, the volunteers who serve with dedication, and the spectators who cheer with heart. Behind this grand event are the tireless efforts of many committees, volunteers, steered by the Executive Committee, ensuring smooth execution and a memorable experience for all.
-
-My heartfelt wish is that every participant carries from this Meet not just achievements, but memories of camaraderie, lessons of discipline, and the inspiration to lead a healthier, fuller life.`,
+message: ``,
    },
 ];
 
@@ -44,11 +32,11 @@ export default function DeansSection() {
   const [modalDean, setModalDean] = useState(null);
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Intro text */}
       <div className="max-w-4xl mx-auto text-center mb-12 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          LEADERSHIP AND GUIDANCE OF THE DEANS
+        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+          Leadership And Guidance Of The Deans
         </h2>
         <p className="text-gray-700 text-base md:text-lg leading-relaxed">
           The Deans of IIT Madras, IIT Hyderabad, and IIT Tirupati provide guidance and

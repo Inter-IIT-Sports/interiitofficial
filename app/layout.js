@@ -21,8 +21,20 @@ export const metadata = {
   title: "Inter IIT Sports Meet 2025",
   description:
     "The Inter IIT Sports Meet is the premier annual sporting event of all Indian Institutes of Technology, uniting athletes across IITs in a celebration of competition, teamwork, and excellence.",
-  keywords:
-    "Inter IIT Sports Meet, IIT Sports, Inter IITM 2025, Indian Institute of Technology sports, IIT tournament, student athletics, sports championship",
+  keywords: [
+    "Inter IIT Sports Meet 2025",
+    "Inter IIT Sports Meet host By IIT Madras IIT Hyderabad IIT Tirupati", 
+    "Inter IIT official website",
+    "58th Inter IIT Sports Meet",
+    "39th Aquatics Meet",
+    "IIT sports events 2025",
+    "IIT sports registration",
+    "Inter IIT updates",
+    "Inter IIT registration",
+    "IIT athletics, cricket, football, volleyball",
+    "IIT sports events",
+    "All IITs sports meet 2025",
+  ],
   metadataBase: new URL("https://interiitsports.in"),
 
   authors: [{ name: "Inter IIT Sports 2025 Web Team" }],
@@ -50,7 +62,7 @@ export const metadata = {
     title: "Inter IIT Sports Meet 2025",
     description:
       "The largest inter-collegiate sports event among IITs – fostering sportsmanship, excellence, and unity.",
-    images: ["/images/interiitlog.webp"],
+    images: ["/favicon.ico"],
   },
 
   robots: {

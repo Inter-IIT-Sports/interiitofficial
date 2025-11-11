@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const videos = [
-  "/video/madras1.mp4",
-  "/video/madras2.mp4",
-  "/video/directors.mp4",
-    "/video/directors.mp4",
+  "https://firebasestorage.googleapis.com/v0/b/firstproject-dbb92.appspot.com/o/madras1.mp4?alt=media&token=3392f600-0a5d-4d19-b7e5-5ff065f45e2e",
+  "https://firebasestorage.googleapis.com/v0/b/firstproject-dbb92.appspot.com/o/madras2.mp4?alt=media&token=75c0f11e-32bb-431e-a925-a64321420d57",
+  "https://firebasestorage.googleapis.com/v0/b/firstproject-dbb92.appspot.com/o/directors.mp4?alt=media&token=e4cd90e3-c681-4d85-9945-0c9b9df37cd4",
+  "https://firebasestorage.googleapis.com/v0/b/firstproject-dbb92.appspot.com/o/directors.mp4?alt=media&token=e4cd90e3-c681-4d85-9945-0c9b9df37cd4",
 
 ];
 

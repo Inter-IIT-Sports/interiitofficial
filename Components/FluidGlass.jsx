@@ -29,7 +29,7 @@ export default function FluidGlass({ mode = 'lens', lensProps = {}, barProps = {
     } = rawOverrides;
 
     return (
-        <Canvas camera={{ position: [0, 0, 20], fov: 15 }} gl={{ alpha: true }}>
+        <Canvas camera={{ position: [0, 0, 20], fov: 15 }} gl={{ alpha: true,antialias:true }} dpr={[1, 2]}>
             <ScrollControls damping={0.2} pages={3} distance={0.4}>
                 {mode === 'bar' && <NavItems items={navItems} />}
                 <Wrapper modeProps={modeProps}>
@@ -249,8 +249,8 @@ function Images() {
                 url="/tt.jpg"
             />
 
-            <Image position={[-2, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
-            <Image position={[2, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
+            <Image position={[-2.4, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
+            <Image position={[2.64, -2 * height, 9]} scale={[1.8, 2.5, 1]} url="/sports_1.jpg" />
 
 
 
