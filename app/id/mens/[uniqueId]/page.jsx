@@ -1,4 +1,4 @@
-import men from "@/../public/mens.json";
+import men from "../../../../public/mens.json";
 
 export default function MenStudentPage({ params }) {
   const student = men.find(

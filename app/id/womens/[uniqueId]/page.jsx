@@ -1,4 +1,4 @@
-import women from "@/../public/womens.json";
+import women from "../../../../public/womens.json";
 
 export default function WomenStudentPage({ params }) {
   const student = women.find(
