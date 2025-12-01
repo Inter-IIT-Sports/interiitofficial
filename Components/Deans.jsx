@@ -23,7 +23,7 @@ My heartfelt wish is that every participant carries from this Meet not just achi
   {
     name: "Prof. N. N. Murty",
     position: "Dean, IIT Tirupati",
-    image: "/images/our-team/team5.png",
+    image: "/images/dean_iit_tirupathi.jpg",
 message: ``,
    },
 ];
