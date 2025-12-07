@@ -1,9 +1,22 @@
 import men from "../../../../public/mens.json";
 
-export default function MenStudentPage({ params }) {
+export default async function MenStudentPage({ params }) {
+  const resolvedParams = await params; // ← Fix
+  const uniqueParam = resolvedParams?.uniqueId?.toString().trim().toLowerCase();
+
+  if (!uniqueParam) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+        <div className="bg-white border border-gray-300 shadow-sm rounded-lg p-8 text-center max-w-md w-full">
+          <h1 className="text-2xl font-semibold text-red-600">Invalid QR</h1>
+          <p className="mt-2 text-gray-600 text-sm">QR code is broken or missing.</p>
+        </div>
+      </div>
+    );
+  }
+
   const student = men.find(
-    (s) =>
-      s.uniqueId.trim().toLowerCase() === params.uniqueId.toLowerCase()
+    (s) => s.uniqueId.trim().toLowerCase() === uniqueParam
   );
 
   if (!student) {
@@ -22,7 +35,7 @@ export default function MenStudentPage({ params }) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="bg-white border border-gray-300 shadow-lg rounded-xl p-8 max-w-md w-full">
-        
+
         {/* Title */}
         <h1 className="text-xl font-semibold text-gray-900 text-center">
           Participant Verification
