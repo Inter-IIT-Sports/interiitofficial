@@ -1,16 +1,15 @@
 import { NextResponse } from "next/server";
 import { db } from "../../../lib/firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-
 import fs from "fs";
 import path from "path";
 
-// Meal Calculation
+// Determine current meal
 function getCurrentMeal() {
   const now = new Date();
-  const hour = now.getHours();
-  const minutes = now.getMinutes();
-  const hm = hour + minutes / 60;
+  const hr = now.getHours();
+  const min = now.getMinutes();
+  const hm = hr + min / 60;
 
   if (hm >= 6 && hm < 9.5) return "breakfast";
   if (hm >= 11 && hm < 15) return "lunch";
@@ -20,96 +19,108 @@ function getCurrentMeal() {
 
 export async function POST(req) {
   try {
-    const body = await req.json();
-    let qrRaw = body.qrRaw;
+    const { qrRaw } = await req.json();
 
-    if (!qrRaw) {
-      return NextResponse.json(
-        { ok: false, message: "No QR data found" },
-        { status: 400 }
-      );
+    if (!qrRaw || typeof qrRaw !== "string") {
+      return NextResponse.json({ ok: false, message: "Invalid QR" });
     }
 
-    // Parse QR Data
-    let parsed;
-    try {
-      parsed = JSON.parse(qrRaw); // { roll, name }
-    } catch (err) {
-      parsed = { roll: qrRaw.trim(), name: "" };
+    const text = qrRaw.trim();
+
+    // Validate QR format
+    if (!text.startsWith("http")) {
+      return NextResponse.json({ ok: false, message: "Invalid QR format" });
     }
 
-    const roll = parsed.roll?.trim();
-    const qrName = parsed.name?.trim();
-
-    if (!roll) {
-      return NextResponse.json(
-        { ok: false, message: "Invalid QR code" },
-        { status: 400 }
-      );
+    if (!text.includes("/id/mens/") && !text.includes("/id/womens/")) {
+      return NextResponse.json({ ok: false, message: "Invalid QR pattern" });
     }
 
-    // Load student list
-    const filePath = path.join(process.cwd(), "public", "students.json");
-    if (!fs.existsSync(filePath)) {
+    // Extract group and uniqueId
+    const parts = text.split("/").filter(Boolean);
+    const group = parts[parts.length - 2];     // "mens" or "womens"
+    const uniqueId = parts[parts.length - 1];  // IITB-STU-0001
+
+    if (!["mens", "womens"].includes(group)) {
+      return NextResponse.json({ ok: false, message: "Invalid group" });
+    }
+
+    // File paths
+    const menPath = path.join(process.cwd(), "public", "mens.json");
+    const womenPath = path.join(process.cwd(), "public", "womens.json");
+
+    if (!fs.existsSync(menPath) || !fs.existsSync(womenPath)) {
       return NextResponse.json(
-        { ok: false, message: "Students list missing" },
+        { ok: false, message: "Participants list missing" },
         { status: 500 }
       );
     }
 
-    const students = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    const student = students.find(
-      (s) => s.roll.toLowerCase() === roll.toLowerCase()
+    const men = JSON.parse(fs.readFileSync(menPath, "utf8"));
+    const women = JSON.parse(fs.readFileSync(womenPath, "utf8"));
+
+    // Load correct list
+    const list = group === "mens" ? men : women;
+
+    // Find student
+    const student = list.find(
+      (s) => String(s.uniqueId).toLowerCase() === uniqueId.toLowerCase()
     );
 
     if (!student) {
-      return NextResponse.json({
-        ok: false,
-        message: "❌ Not a registered participant",
-      });
+      return NextResponse.json({ ok: false, message: "Not registered" });
     }
 
-    // If QR contains name -> Check mismatch
-    if (qrName && student.name.toLowerCase() !== qrName.toLowerCase()) {
-      return NextResponse.json({
-        ok: false,
-        message: `❌ QR name mismatch (Expected ${student.name}, got ${qrName})`,
-      });
-    }
+    // Determine IIT
+    const iit = student.IIT.replace(/\s+/g, "-").toUpperCase();
 
-    // Determine meal & date
+    // Determine meal
     const meal = getCurrentMeal();
     if (!meal) {
-      return NextResponse.json({
-        ok: false,
-        message: "❌ Out of meal time",
-      });
+      return NextResponse.json({ ok: false, message: "Out of meal time" });
     }
 
+    // Today
     const date = new Date().toISOString().split("T")[0];
 
-    // Firestore document path
-    const documentId = `${date}#${meal}#${roll}`;
+    // Gender prefix based on file
+    const genderPrefix = group === "mens" ? "M" : "F";
+    const finalId = `${genderPrefix}-${uniqueId}`;
 
-    const entryRef = doc(db, "mess-entries", documentId);
+    // VALID FIRESTORE STRUCTURE:
+    // mess-entries / <date> / <meal> / <IIT> / entries / <gender-id>
+    const entryRef = doc(
+      db,
+      "mess-entries",
+      date,       // document
+      meal,       // collection
+      iit,        // document
+      "entries",  // collection
+      finalId     // document
+    );
+
     const entrySnap = await getDoc(entryRef);
+
 
     // Already eaten?
     if (entrySnap.exists()) {
-      const data = entrySnap.data();
       return NextResponse.json({
         ok: false,
-        message: `⚠️ Already eaten at ${data.time}`,
-        data,
+        message: `Already eaten at ${entrySnap.data().time}`,
       });
     }
 
-    // Log New Entry
+    // Store entry
     const nowTime = new Date().toLocaleTimeString();
 
     await setDoc(entryRef, {
-      roll,
-      name: student.name,
+      uniqueId,
+      genderId: finalId,
+      name: student.Name,
+      IIT: student.IIT,
+      gender: group === "mens" ? "M" : "F",
+      position: student.Position,
+      group,
       meal,
       date,
       time: nowTime,
@@ -118,14 +129,9 @@ export async function POST(req) {
 
     return NextResponse.json({
       ok: true,
-      message: `✅ Entry Allowed — ${student.name} (${roll})`,
-      data: {
-        roll,
-        name: student.name,
-        meal,
-        time: nowTime,
-      },
+      message: `Entry Allowed — ${student.Name} (${student.IIT})`,
     });
+
   } catch (err) {
     console.error("VERIFY ERROR:", err);
     return NextResponse.json(
