@@ -1,5 +1,181 @@
 [
     {
+        "iit": "MADRAS",
+        "Names": "Nivash T",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "NA22B058"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "SAAI SURAJ",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "EE23B066"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Siddharth Gunturi",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "ME25B121"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Amireddy Vinay Kumar Reddy",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "ch25m004"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Abhishek S",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "EP25B003"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Chetan Sambhariya",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "BS24B012"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Shreyas Kini",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "CH23B065"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Pradyun Goel",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "ED22B001"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Pranav S Ramanujam",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "EP23B038"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "V G Masilamani",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "DA25S005"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Kaustubh Vibhandik",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "EP24B031"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Harshal Patil",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "AE23B047"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Krishanthh Mohan",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "DA24B044"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Chirag V Gaonkar",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "AE22B070"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Niranjan S",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "AM23D200"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "P.N. Gautham Vigneswar",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "AM18D207"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Guru Prasaad V C",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "CH24S013"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Riddhibrata Bhaumik",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "EE23B064"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Mitansh Jain",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "AM25B018"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Aravind V U",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "NA23B005"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Om Yadav",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "ce22b082"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Pervaje Surya Prasad Bhat",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "ED23B035"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Atharva Moghe",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "cs23b096"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "Parth bhatia",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "ME24B047"
+    },
+    {
+        "iit": "MADRAS",
+        "Names": "PRABHAV GUPTA",
+        "Gender": "male",
+        "Position": "student",
+        "Unique id": "DA24B018"
+    },
+
+    {
         "Name": "Suryansh Raj",
         "Gender": "male",
         "Position": "Volunteer",
@@ -692,7 +868,6 @@
         "uniqueId": "iitmadras-stu-001",
         "IIT": "madras"
     },
-
     {
         "IIT": "BOMBAY",
         "Name": "EKAMNOOR SINGH",

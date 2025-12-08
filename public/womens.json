@@ -1,5 +1,158 @@
 [
     {
+        "iit": "MADRAS",
+        "Name": "Diya Patel",
+        "Position": "student",
+        "Unique id": "CH22B065"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Vinya",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CH24B113"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Ananya Nikam",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "ED25B007"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Indu Pulukunta",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CH23B087"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Harshita K Shenoy",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CH23B085"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Anupama",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CE25M108"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Mithralinni M A",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CE25C011"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Ananya Malela",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "AE24B101"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Gangavarapu Poojitha",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "AE24B007"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Khushi Maan",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CS25B039"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Hansini",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CE25B034"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Sahana K",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "AM25B030"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Ayati Agarwal",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CE23B056"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Vaibhavi A",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "me23b089"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Sharayu Funde",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CH23B111"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Nandini Jain",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CS24B035"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Rakshitha H A",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "PH20D028"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "B R Lahari",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CS24B070"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Durga Nair",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "ME22B123"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Shreya Tejal",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "ME23B202"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Bathula Poojitha",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "CS25B015"
+    },
+    {
+        "iit": "MADRAS",
+        "Name": "Gollapalli Loshini",
+        "Gender": "female",
+        "Position": "student",
+        "Unique id": "da25b014"
+    },
+    {
         "IIT": "BOMBAY",
         "Name": "SHARVANEE SONWANE",
         "Gender": "F",
@@ -2715,8 +2868,6 @@
         "Position": "Student",
         "uniqueId": "IITMOHN-STU-0006"
     },
-
-    
     {
         "Name": "Shanmuka Priya Marisetty",
         "Gender": "female",
@@ -2829,6 +2980,4 @@
         "uniqueId": "iitmadras-stu-002",
         "IIT": "madras"
     }
-
-
 ]
