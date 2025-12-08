@@ -4,18 +4,25 @@ import { doc, getDoc, setDoc } from "firebase/firestore";
 import fs from "fs";
 import path from "path";
 
-// Determine current meal
 function getCurrentMeal() {
-  const now = new Date();
-  const hr = now.getHours();
-  const min = now.getMinutes();
+  const nowIST = new Date(
+    new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" })
+  );
+
+  const hr = nowIST.getHours();
+  const min = nowIST.getMinutes();
   const hm = hr + min / 60;
 
-  if (hm >= 6 && hm < 9.5) return "breakfast";
+  if (hm >= 6 && hm < 10) return "breakfast";
   if (hm >= 11 && hm < 15) return "lunch";
   if (hm >= 19 && hm < 22) return "dinner";
+
   return null;
 }
+
+
+
+
 
 export async function POST(req) {
   try {

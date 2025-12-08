@@ -15,6 +15,16 @@ export default function ScanPage() {
   const [cameras, setCameras] = useState([]);
   const [torchOn, setTorchOn] = useState(false);
 
+  // ✅ Auto clear status
+  useEffect(() => {
+    if (!status) return;
+    const timer = setTimeout(() => {
+      setStatus("");
+      setStatusType("");
+    }, 1200);
+    return () => clearTimeout(timer);
+  }, [status]);
+
   // ====================== LOGIN ==========================
   async function handlePassword() {
     const res = await fetch("/api/scan-auth", {
@@ -33,7 +43,7 @@ export default function ScanPage() {
     if (cooldown.current) return;
 
     cooldown.current = true;
-    setTimeout(() => (cooldown.current = false), 1500);
+    setTimeout(() => (cooldown.current = false), 1200);
 
     setStatus("Checking...");
     setStatusType("loading");
@@ -69,7 +79,6 @@ export default function ScanPage() {
 
       setCameras(devices);
       cameraIdRef.current = devices[0].id;
-
       startScanner(devices[0].id);
     });
   }, [authenticated]);
@@ -93,30 +102,23 @@ export default function ScanPage() {
       (decodedText) => {
         const text = String(decodedText).trim();
 
-        // ======================== 🔥 FRONTEND FILTERING FIREWALL  🔥 ========================
-        // Prevents ALL 500 errors & SyntaxErrors
         if (!text.startsWith("http")) return;
         if (!text.includes("/id/mens/") && !text.includes("/id/womens/")) return;
-        // ====================================================================================
 
         verifyQR(text);
       },
-      () => {} // ignore scanner errors
+      () => {}
     );
   }
 
   // ====================== CAMERA SWITCH =======================
   async function switchCamera() {
-    if (cameras.length < 2) {
-      alert("Only one camera found");
-      return;
-    }
+    if (cameras.length < 2) return alert("Only one camera available");
 
     const currentIndex = cameras.findIndex((c) => c.id === cameraIdRef.current);
     const nextIndex = (currentIndex + 1) % cameras.length;
 
     cameraIdRef.current = cameras[nextIndex].id;
-
     startScanner(cameraIdRef.current);
   }
 
@@ -128,8 +130,8 @@ export default function ScanPage() {
         advanced: [{ torch: !torchOn }],
       });
       setTorchOn(!torchOn);
-    } catch (err) {
-      alert("Torch not supported on this device");
+    } catch {
+      alert("Torch not supported");
     }
   }
 
@@ -144,21 +146,21 @@ export default function ScanPage() {
   if (!authenticated) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
-        <div className="bg-white shadow-lg p-8 rounded-xl max-w-sm w-full">
-          <h1 className="text-2xl text-center mb-4 font-bold">
+        <div className="bg-white shadow-md p-8 rounded-xl w-full max-w-sm">
+          <h1 className="text-xl font-semibold text-center mb-4">
             Mess Scanner Login
           </h1>
 
           <input
             type="password"
-            className="w-full border p-3 rounded-lg"
+            className="w-full border p-3 rounded-lg mb-4"
             placeholder="Enter Password"
             value={pass}
             onChange={(e) => setPass(e.target.value)}
           />
 
           <button
-            className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg"
+            className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium"
             onClick={handlePassword}
           >
             Login
@@ -168,47 +170,56 @@ export default function ScanPage() {
     );
   }
 
-  // ====================== SCANNER UI =======================
+  // ====================== CLEAN MODERN SCANNER UI =======================
   return (
-    <div className="min-h-screen bg-gray-50 px-4 py-6">
-      <h1 className="text-3xl font-bold text-center mb-6">
-        Mess Entry Scanner
-      </h1>
+    <div className="min-h-screen flex flex-col items-center bg-gray-50 px-4 py-6">
 
-      <div
-        id="reader"
-        className="w-full max-w-lg mx-auto h-[430px] rounded-xl overflow-hidden border-4 border-blue-600 shadow-lg"
-      ></div>
-
-      <div className="flex justify-center gap-4 mt-4 max-w-lg mx-auto">
-        <button
-          onClick={switchCamera}
-          className="px-4 py-2 bg-gray-800 text-white rounded-lg"
-        >
-          Switch Camera
-        </button>
-
-        <button
-          onClick={toggleTorch}
-          className="px-4 py-2 bg-yellow-600 text-white rounded-lg"
-        >
-          {torchOn ? "Torch Off" : "Torch On"}
-        </button>
+      {/* Header */}
+      <div className="text-center mb-4">
+        <h1 className="text-2xl font-semibold">Mess Entry Scanner</h1>
+        <p className="text-sm text-gray-500">Secure QR Verification</p>
       </div>
 
-      <div
-        className={`mt-5 w-full max-w-lg mx-auto p-4 rounded-xl text-center text-lg font-semibold ${
-          statusType === "success"
-            ? "bg-green-100 text-green-700 border border-green-300"
-            : statusType === "error"
-            ? "bg-red-100 text-red-700 border border-red-300"
-            : statusType === "loading"
-            ? "bg-yellow-100 text-yellow-700 border border-yellow-300"
-            : "bg-gray-100 text-gray-600 border border-gray-200"
-        }`}
-      >
-        {status || "Scan a QR to begin"}
+      {/* Scanner */}
+      <div className="w-full max-w-md bg-white rounded-xl shadow p-3">
+        <div
+          id="reader"
+          className="w-full h-[300px] rounded-lg overflow-hidden bg-black"
+        ></div>
+
+        {/* Buttons */}
+        <div className="flex gap-3 mt-3">
+          <button
+            onClick={switchCamera}
+            className="flex-1 py-2 rounded-lg bg-gray-900 text-white"
+          >
+            Switch Camera
+          </button>
+
+          <button
+            onClick={toggleTorch}
+            className="flex-1 py-2 rounded-lg bg-gray-200 text-gray-900"
+          >
+            {torchOn ? "Torch Off" : "Torch On"}
+          </button>
+        </div>
+
+        {/* Status */}
+        <div
+          className={`mt-3 p-3 rounded-lg text-center text-sm font-medium ${
+            statusType === "success"
+              ? "bg-green-100 text-green-700"
+              : statusType === "error"
+              ? "bg-red-100 text-red-700"
+              : statusType === "loading"
+              ? "bg-yellow-100 text-yellow-700"
+              : "bg-gray-100 text-gray-600"
+          }`}
+        >
+          {status || "Scan QR to continue"}
+        </div>
       </div>
+
     </div>
   );
 }
