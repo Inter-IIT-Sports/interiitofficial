@@ -85,6 +85,36 @@ const GALLERY_DATA = [
     alt: "Championship trophy being lifted",
     tags: ["madras"],
   },
+  {
+    src: "/images/gallery/aqua1.JPG",
+    full: "/images/gallery/aqua1.JPG",
+    alt: "players playing water pollo with attacker trying to shoot past a defender",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua2.JPG",
+    full: "/images/gallery/aqua2.JPG",
+    alt: "two players face to face each other in water pollo",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua3.JPG",
+    full: "/images/gallery/aqua3.JPG",
+    alt: "team celebrating in a circle after win",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua4.JPG",
+    full: "/images/gallery/aqua4.JPG",
+    alt: "swimmers doing backstroke in the backstroke swimming competition",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua5.JPG",
+    full: "/images/gallery/aqua5.JPG",
+    alt: "player diving in the water",
+    tags: ["madras"],
+  },
 ];
 
 export default function Page() {
