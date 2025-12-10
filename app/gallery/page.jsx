@@ -115,6 +115,12 @@ const GALLERY_DATA = [
     alt: "player diving in the water",
     tags: ["madras"],
   },
+  {
+    src: "/images/gallery/aqua6.JPG",
+    full: "/images/gallery/aqua6.JPG",
+    alt: "player diving in the water",
+    tags: ["madras"],
+  },
 ];
 
 export default function Page() {
