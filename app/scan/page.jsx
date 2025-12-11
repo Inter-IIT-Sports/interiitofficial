@@ -6,11 +6,13 @@ import { Html5Qrcode, Html5QrcodeSupportedFormats } from "html5-qrcode";
 export default function ScanPage() {
   const [authenticated, setAuthenticated] = useState(false);
   const [pass, setPass] = useState("");
+  const [showPass, setShowPass] = useState(false); // 👈 NEW
+
   const [status, setStatus] = useState("");
   const [statusType, setStatusType] = useState("");
 
   const scannerRef = useRef(null);
-  const cooldown = useRef(false);
+  const cooldown = useRef(false); // modified for 2–3 sec delay
   const cameraIdRef = useRef(null);
   const [cameras, setCameras] = useState([]);
   const [torchOn, setTorchOn] = useState(false);
@@ -40,8 +42,9 @@ export default function ScanPage() {
   async function verifyQR(text) {
     if (cooldown.current) return;
 
+    // ⏳ NEW: lock scanner for 2.5 seconds
     cooldown.current = true;
-    setTimeout(() => (cooldown.current = false), 1200);
+    setTimeout(() => (cooldown.current = false), 2500);
 
     setStatus("Checking...");
     setStatusType("loading");
@@ -84,7 +87,7 @@ export default function ScanPage() {
     if (scannerRef.current) {
       try {
         await scannerRef.current.stop();
-      } catch (_) { }
+      } catch (_) {}
     }
 
     scannerRef.current = new Html5Qrcode("reader");
@@ -104,7 +107,7 @@ export default function ScanPage() {
 
         verifyQR(text);
       },
-      () => { }
+      () => {}
     );
   }
 
@@ -132,24 +135,35 @@ export default function ScanPage() {
 
   useEffect(() => {
     return () => {
-      scannerRef.current?.stop().catch(() => { });
+      scannerRef.current?.stop().catch(() => {});
     };
   }, []);
 
-  // ========================= LOGIN UI =========================
+  // =============== LOGIN UI ===============
   if (!authenticated) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50 px-5">
         <div className="w-full max-w-sm bg-white shadow-lg rounded-2xl p-6">
           <h1 className="text-xl font-semibold text-center mb-6">Mess Scanner Login</h1>
 
-          <input
-            type="password"
-            className="w-full border p-3 rounded-lg mb-4 focus:ring-2 focus:ring-blue-500 outline-none"
-            placeholder="Enter Password"
-            value={pass}
-            onChange={(e) => setPass(e.target.value)}
-          />
+          <div className="relative">
+            <input
+              type={showPass ? "text" : "password"} // 👈 NEW
+              className="w-full border p-3 rounded-lg mb-4 focus:ring-2 focus:ring-blue-500 outline-none"
+              placeholder="Enter Password"
+              value={pass}
+              onChange={(e) => setPass(e.target.value)}
+            />
+
+            {/* 👁 PASSWORD VISIBILITY BUTTON */}
+            <button
+              type="button"
+              className="absolute right-3 top-3 text-gray-600"
+              onClick={() => setShowPass(!showPass)}
+            >
+              {showPass ? "🙈" : "👁️"}
+            </button>
+          </div>
 
           <button
             className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition"
@@ -162,26 +176,22 @@ export default function ScanPage() {
     );
   }
 
-  // ========================= SCANNER UI =========================
+  // =============== SCANNER UI ===============
   return (
     <div className="min-h-screen w-full flex flex-col items-center bg-gray-50 px-4 pt-20 pb-10">
 
-      {/* Header */}
       <div className="text-center mb-5">
         <h1 className="text-2xl font-semibold">Mess Entry Scanner</h1>
         <p className="text-gray-500 text-sm">Scan student QR codes securely</p>
       </div>
 
-      {/* Scanner Container */}
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-4">
 
-        {/* Scanner Window */}
         <div
           id="reader"
           className="w-full h-[280px] sm:h-[320px] rounded-xl overflow-hidden bg-black"
         ></div>
 
-        {/* Buttons Row */}
         <div className="flex gap-3 mt-4">
           <button
             onClick={switchCamera}
@@ -198,16 +208,16 @@ export default function ScanPage() {
           </button>
         </div>
 
-        {/* Status Box */}
         <div
-          className={`mt-4 p-3 rounded-xl text-center text-sm font-medium transition ${statusType === "success"
+          className={`mt-4 p-3 rounded-xl text-center text-sm font-medium transition ${
+            statusType === "success"
               ? "bg-green-100 text-green-700"
               : statusType === "error"
-                ? "bg-red-100 text-red-700"
-                : statusType === "loading"
-                  ? "bg-yellow-100 text-yellow-700"
-                  : "bg-gray-100 text-gray-600"
-            }`}
+              ? "bg-red-100 text-red-700"
+              : statusType === "loading"
+              ? "bg-yellow-100 text-yellow-700"
+              : "bg-gray-100 text-gray-600"
+          }`}
         >
           {status || "Scan QR to continue"}
         </div>

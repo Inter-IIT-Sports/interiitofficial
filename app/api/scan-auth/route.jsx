@@ -10,6 +10,8 @@ export async function POST(req) {
     const storedHash = process.env.SCAN_PAGE_PASSWORD_HASH
     const salt = process.env.SCAN_PAGE_SALT;
 
+    console.log("Stored Hash:", storedHash);
+
     if (!storedHash || !salt) {
       return NextResponse.json(
         { ok: false, message: "Server config missing" },
