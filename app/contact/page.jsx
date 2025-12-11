@@ -15,6 +15,61 @@ const EMAIL_TEXT_COLOR = "text-[#2d7f8a]";
 // ----------------------------------------
 const staffCategories = [
   {
+    title: "Head Team",
+    members: [
+      {
+        name: "Ankit Raj",
+        designation: "Head",
+        image: "/images/our-team/Ankit Raj_Head.jpg",
+      },
+    ]
+  },
+  {
+    title: "Core Team",
+    members: [
+      {
+        name: "Aryan",
+        designation: "Hospitality Core",
+        image: "/images/our-team/Aryan_Hospitality_Core.jpg",
+      },
+      {
+        name: "Vikas M N",
+        designation: "Hospitality Core",
+        image: "/images/our-team/Vikas M N_Hospitality_Core.JPG",
+      },      
+      {
+        name: "Hitesh Singh",
+        designation: "Spons & Finance Core",
+        image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
+      },
+      {
+        name: "Aatman Vashi",
+        designation: "Media Core",
+        image: "/images/our-team/Aatman Vashi_Media_Core.jpg",
+      },
+      {
+        name: "Kaarthik Ellappan",
+        designation: "Media and Food Core",
+        image: "/images/our-team/Kaarthi Ellapan media and food core_.jpg",
+      },
+      {
+        name: "Neeraj",
+        designation: "Media Core",
+        image: "/images/our-team/Neeraj_Media_Core.jpg",
+      },
+      {
+        name: "Kartik Warrier",
+        designation: "Events Core",
+        image: "/images/our-team/Karthik Warrier_Events_core.jpg",
+      },
+      {
+        name: "Aakash",
+        designation: "Events Core",
+        image: "/images/our-team/Aakash_Events_core.jpg",
+      },
+    ],
+  },
+  {
     title: "Sports Officers",
     members: [
       {
@@ -118,61 +173,6 @@ const staffCategories = [
       },
     ],
   },
-  {
-    title: "Head Team",
-    members: [
-      {
-        name: "Ankit Raj",
-        designation: "Head",
-        image: "/images/our-team/Ankit Raj_Head.jpg",
-      },
-    ]
-  },
-  {
-    title: "Core Team",
-    members: [
-      {
-        name: "Aryan",
-        designation: "Hospitality Core",
-        image: "/images/our-team/Aryan_Hospitality_Core.jpg",
-      },
-      {
-        name: "Vikas M N",
-        designation: "Hospitality Core",
-        image: "/images/our-team/Vikas M N_Hospitality_Core.JPG",
-      },      
-      {
-        name: "Hitesh Singh",
-        designation: "Spons & Finance Core",
-        image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
-      },
-      {
-        name: "Aatman Vashi",
-        designation: "Media Core",
-        image: "/images/our-team/Aatman Vashi_Media_Core.jpg",
-      },
-      {
-        name: "Kaarthik Ellappan",
-        designation: "Media and Food Core",
-        image: "/images/our-team/Kaarthi Ellapan media and food core_.jpg",
-      },
-      {
-        name: "Neeraj",
-        designation: "Media Core",
-        image: "/images/our-team/Neeraj_Media_Core.jpg",
-      },
-      {
-        name: "Kartik Warrier",
-        designation: "Events Core",
-        image: "/images/our-team/Karthik Warrier_Events_core.jpg",
-      },
-      {
-        name: "Aakash",
-        designation: "Events Core",
-        image: "/images/our-team/Aakash_Events_core.jpg",
-      },
-    ],
-  },
 ];
 
 // ----------------------------------------
@@ -189,7 +189,7 @@ function StaffCard({ member }) {
 
     return (
         // Main container is relative for absolute children
-        <div className="relative h-96 rounded-2xl item-center overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.03]">
+        <div className="relative h-70 w-60 rounded-2xl item-center overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.03]">
             {/* 1. Background Image */}
             <img
                 src={avatar}
@@ -197,8 +197,7 @@ function StaffCard({ member }) {
                 className="absolute inset-0 w-full h-full object-cover"
             />
 
-            {/* 2. Gradient Overlay (Deep Purple to Rich Orange) */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#004080] to-[#8ed1fc]/60 opacity-90"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 
             {/* 3. Text Content (Bottom Aligned and CENTERED) */}
             <div className="absolute bottom-0 p-6 w-full text-center">
@@ -300,7 +299,7 @@ export default function ContactPage() {
             <TitleBar title={category.title} />
 
             {/* Adjusted grid for better use of space */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div className="flex flex-wrap justify-center gap-8">
               {category.members.map((member, i) => (
                 <StaffCard key={i} member={member} />
               ))}
