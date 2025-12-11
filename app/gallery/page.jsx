@@ -8,6 +8,42 @@ import Head from "next/head";
 // Data (extend later for other IITs)
 const GALLERY_DATA = [
   {
+    src: "/images/gallery/aqua1.JPG",
+    full: "/images/gallery/aqua1.JPG",
+    alt: "players playing water pollo with attacker trying to shoot past a defender",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua2.JPG",
+    full: "/images/gallery/aqua2.JPG",
+    alt: "two players face to face each other in water pollo",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua3.JPG",
+    full: "/images/gallery/aqua3.JPG",
+    alt: "team celebrating in a circle after win",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua4.JPG",
+    full: "/images/gallery/aqua4.JPG",
+    alt: "swimmers doing backstroke in the backstroke swimming competition",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua5.JPG",
+    full: "/images/gallery/aqua5.JPG",
+    alt: "player diving in the water",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/aqua6.JPG",
+    full: "/images/gallery/aqua6.JPG",
+    alt: "player diving in the water",
+    tags: ["madras"],
+  },
+  {
     src: "/images/gallery/pic1.jpg",
     full: "/images/gallery/pic1.jpg",
     alt: "Athletics team of IIT Madras during Inter IIT Sports Meet 2025",
@@ -83,42 +119,6 @@ const GALLERY_DATA = [
     src: "/images/gallery/win4.png",
     full: "/images/gallery/win4.png",
     alt: "Championship trophy being lifted",
-    tags: ["madras"],
-  },
-  {
-    src: "/images/gallery/aqua1.JPG",
-    full: "/images/gallery/aqua1.JPG",
-    alt: "players playing water pollo with attacker trying to shoot past a defender",
-    tags: ["madras"],
-  },
-  {
-    src: "/images/gallery/aqua2.JPG",
-    full: "/images/gallery/aqua2.JPG",
-    alt: "two players face to face each other in water pollo",
-    tags: ["madras"],
-  },
-  {
-    src: "/images/gallery/aqua3.JPG",
-    full: "/images/gallery/aqua3.JPG",
-    alt: "team celebrating in a circle after win",
-    tags: ["madras"],
-  },
-  {
-    src: "/images/gallery/aqua4.JPG",
-    full: "/images/gallery/aqua4.JPG",
-    alt: "swimmers doing backstroke in the backstroke swimming competition",
-    tags: ["madras"],
-  },
-  {
-    src: "/images/gallery/aqua5.JPG",
-    full: "/images/gallery/aqua5.JPG",
-    alt: "player diving in the water",
-    tags: ["madras"],
-  },
-  {
-    src: "/images/gallery/aqua6.JPG",
-    full: "/images/gallery/aqua6.JPG",
-    alt: "player diving in the water",
     tags: ["madras"],
   },
 ];
