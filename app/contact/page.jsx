@@ -17,7 +17,7 @@ const staffCategories = [
       {
         name: "Dr. EDINBROW PAKIARAJ",
         designation: "Sports Officer",
-        email: "ebrow@zmail.iitm.ac.in",
+        email: "ebrow@zmail.iitm.ac.ac",
         phone: "9840077074",
         image: "/images/staff/edinbrow.jpg",
       },
@@ -126,12 +126,18 @@ const staffCategories = [
 function StaffCard({ member }) {
   const avatar = member.image
     ? member.image
-    : `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=random&color=fff&size=128`;
+    : `https://ui-avatars.com/api/?name=${encodeURIComponent(
+        member.name
+      )}&background=random&color=fff&size=128`;
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 flex flex-col items-center text-center min-h-[330px]">
       <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-4 border-gray-50 shadow-inner">
-        <img src={avatar} alt={member.name} className="w-full h-full object-cover" />
+        <img
+          src={avatar}
+          alt={member.name}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       <h3 className="text-lg font-bold text-gray-900 mb-1">{member.name}</h3>
@@ -185,38 +191,15 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-slate-900/70"></div>
 
         <div className="max-w-7xl mx-auto text-center relative z-10">
-          <h1 className="text-4xl font-extrabold tracking-tight mb-4">Contact Our Team</h1>
+          <h1 className="text-4xl font-extrabold tracking-tight mb-4">
+            Contact Our Team
+          </h1>
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-            Get in touch with the Institute Gymkhana staff and Sports Officers for queries related
-            to Inter IIT Sports Meet 2025.
+            Get in touch with the Institute Gymkhana staff and Sports Officers for
+            queries related to Inter IIT Sports Meet 2025.
           </p>
         </div>
       </section>
-
-      <div className="max-w-7xl mx-auto px-6 -mt-8 mb-12 relative z-10">
-        <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 border border-gray-100">
-
-          <div className="flex items-center gap-4">
-            <div className="bg-blue-100 p-4 rounded-full text-blue-700">
-              <MapPin className="w-8 h-8" />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900">Office of the Gymkhana</h3>
-              <p className="text-gray-600">Indian Institute of Technology Madras, Chennai - 600036</p>
-            </div>
-          </div>
-
-          <a
-            href="https://maps.app.goo.gl/W3GciRchrTKCYrA99"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition shadow-md flex items-center gap-2"
-          >
-            <MapPin className="w-5 h-5" />
-            View Location
-          </a>
-        </div>
-      </div>
 
       <div className="max-w-7xl mx-auto px-6 pb-20 space-y-16">
         {staffCategories.map((category, index) => (
