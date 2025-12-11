@@ -45,7 +45,7 @@ const staffCategories = [
         {
           name: "Hitesh Singh",
           designation: "Spons & Finance Core",
-          image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
+          image: "/images/our-team/Hitesh Singh_ Spons&finance_Core.jpg",
         },
       ],
       [
@@ -57,7 +57,7 @@ const staffCategories = [
         {
           name: "Kaarthik Ellappan",
           designation: "Media and Food Core",
-          image: "/images/our-team/Kaarthi Ellapan media and food core_.jpg",
+          image: "/images/our-team/Kaarthik ellappan media and food core_.jpg",
         },
         {
           name: "Neeraj",
@@ -86,7 +86,7 @@ const staffCategories = [
         {
           name: "Kartik Warrier",
           designation: "Events Core",
-          image: "/images/our-team/Karthik Warrier_Events_core.jpg",
+          image: "/images/our-team/Kartik Warrier_Events_core.jpg",
         },
         {
           name: "Aakash",
