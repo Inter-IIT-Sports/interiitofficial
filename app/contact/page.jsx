@@ -118,6 +118,61 @@ const staffCategories = [
       },
     ],
   },
+  {
+    title: "Head Team",
+    members: [
+      {
+        name: "Ankit Raj",
+        designation: "Head",
+        image: "/images/our-team/Ankit Raj_Head.jpg",
+      },
+    ]
+  },
+  {
+    title: "Core Team",
+    members: [
+      {
+        name: "Aryan",
+        designation: "Hospitality Core",
+        image: "/images/our-team/Aryan_Hospitality_Core.jpg",
+      },
+      {
+        name: "Vikas M N",
+        designation: "Hospitality Core",
+        image: "/images/our-team/Vikas M N_Hospitality_Core.JPG",
+      },      
+      {
+        name: "Hitesh Singh",
+        designation: "Spons & Finance Core",
+        image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
+      },
+      {
+        name: "Aatman Vashi",
+        designation: "Media Core",
+        image: "/images/our-team/Aatman Vashi_Media_Core.jpg",
+      },
+      {
+        name: "Kaarthik Ellappan",
+        designation: "Media and Food Core",
+        image: "/images/our-team/Kaarthi Ellapan media and food core_.jpg",
+      },
+      {
+        name: "Neeraj",
+        designation: "Media Core",
+        image: "/images/our-team/Neeraj_Media_Core.jpg",
+      },
+      {
+        name: "Kartik Warrier",
+        designation: "Events Core",
+        image: "/images/our-team/Aakash_Events_core.jpg",
+      },
+      {
+        name: "Aakash",
+        designation: "Events Core",
+        image: "/images/our-team/Aakash_Events_core.jpg",
+      },
+    ],
+  },
 ];
 
 // ----------------------------------------
