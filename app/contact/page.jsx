@@ -164,7 +164,7 @@ const staffCategories = [
       {
         name: "Kartik Warrier",
         designation: "Events Core",
-        image: "/images/our-team/Aakash_Events_core.jpg",
+        image: "/images/our-team/Karthik Warrier_Events_core.jpg",
       },
       {
         name: "Aakash",
