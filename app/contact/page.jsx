@@ -345,6 +345,7 @@ export default function ContactPage() {
       </div>
 
       {/* Staff Categories Section */}
+
       <div className="max-w-7xl mx-auto px-6 pb-20 space-y-16">
         {staffCategories.map((category, index) => (
           <section key={index}>
