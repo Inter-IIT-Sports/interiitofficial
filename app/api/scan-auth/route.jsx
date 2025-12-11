@@ -7,8 +7,8 @@ export async function POST(req) {
   try {
     const { password } = await req.json();
 
-    const storedHash = process.env.NEXT_PUBLIC_SCAN_PAGE_PASSWORD_HASH
-    const salt = process.env.NEXT_PUBLIC_SCAN_PAGE_SALT;
+    const storedHash = process.env.SCAN_PAGE_PASSWORD_HASH
+    const salt = process.env.SCAN_PAGE_SALT;
 
     if (!storedHash || !salt) {
       return NextResponse.json(
