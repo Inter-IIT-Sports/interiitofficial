@@ -21,11 +21,17 @@ My heartfelt wish is that every participant carries from this Meet not just achi
     message: "It gives me immense pride to welcome you all to the Inter IIT Sports Meet, jointly hosted this year by IIT Hyderabad, IIT Madras, and IIT Tirupati. This edition holds special significance for IIT Hyderabad, as we are taking up the responsibility of hosting the Inter IIT Sports Meet for the very first time since our inception. The Meet has always been a celebration of athletic spirit, camaraderie, and the shared values that unite the IIT community.\n\n           \t I encourage all participants to play with passion, fairness, and respect — for the game, for your opponents, and for yourselves. May this meet not only bring out the best in your sporting abilities but also forge friendships and memories that last a lifetime. On behalf of IIT Hyderabad, I extend a warm welcome and wish every athlete, staff member, and supporter a truly enriching and inspiring experience.",
    },
   {
-    name: "Prof. N. N. Murty",
-    position: "Dean, IIT Tirupati",
-    image: "/images/our-team/team5.png",
-message: ``,
-   },
+
+  name: "Prof. N. N. Murty",
+  position: "Dean, IIT Tirupati",
+  image: "/images/dean_iit_tirupathi.jpg",
+  message: `Welcome to the 58th Inter IIT Sports Meet! This annual celebration showcases the spirit of teamwork, discipline, and resilience across IITs. IIT Tirupati is honoured to co-host this prestigious event alongside IIT Madras and IIT Hyderabad.
+
+Our organizing committee and dedicated volunteers have worked tirelessly to ensure a professional and enriching experience for every participant. We wish all teams success and encourage you to compete with integrity, respect, and true sportsmanship. May this tournament strengthen bonds among IITs and inspire the pursuit of excellence.
+
+We look forward to hosting you on our campus and witnessing outstanding performances at the highest level.`,
+}
+
 ];
 
 export default function DeansSection() {

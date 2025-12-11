@@ -85,6 +85,43 @@ const GALLERY_DATA = [
     alt: "Championship trophy being lifted",
     tags: ["madras"],
   },
+  {
+    src: "/images/gallery/iitT1.JPG",
+    full: "/images/gallery/iitT1.JPG",
+    alt: "Championship trophy being lifted",
+    tags: ["tirupati"],
+  },
+  {
+    src: "/images/gallery/iitT2.JPG",
+    full: "/images/gallery/iitT2.JPG",
+    alt: "Championship trophy being lifted",
+    tags: ["tirupati"],
+  },
+  {
+    src: "/images/gallery/T3.JPG",
+    full: "/images/gallery/T3.JPG",
+    alt: "Championship trophy being lifted",
+    tags: ["madras"],
+  },
+  {
+    src: "/images/gallery/T4.JPG",
+    full: "/images/gallery/T4.JPG",
+    alt: "Championship trophy being lifted",
+    tags: ["tirupati"],
+  },
+  {
+    src: "/images/gallery/T5.JPG",
+    full: "/images/gallery/T5.JPG",
+    alt: "Championship trophy being lifted",
+    tags: ["tirupati"],
+  },
+  {
+    src: "/images/gallery/T8.JPG",
+    full: "/images/gallery/T8.JPG",
+    alt: "Championship trophy being lifted",
+    tags: ["tirupati"],
+  },
+  
 ];
 
 export default function Page() {

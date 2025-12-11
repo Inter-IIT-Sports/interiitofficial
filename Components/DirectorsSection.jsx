@@ -23,11 +23,17 @@ I extend my best wishes to every athlete, volunteer, supporter, and stakeholder.
     message: ""
   },
   {
-    name: "Prof. K. N. Satyanarayana",
-    position: "Director, IIT Tirupati",
-    image: "/images/our-team/director3.png",
-    message: ``,
-  },
+  name: "Prof. K. N. Satyanarayana",
+  position: "Director, IIT Tirupati",
+  image: "/images/our-team/director3.png",
+  message: `Welcome to the 58th Inter IIT Sports Meet 2025! This iconic annual sporting festival—India’s biggest and oldest inter-college meet—brings together an enthusiastic contingent from the 23 IITs. This year marks a historic milestone, as IIT Tirupati—one of the newest third-generation IITs—co-hosts this legacy event for the first time, in collaboration with IIT Madras and IIT Hyderabad.
+
+This event is more than just a competition—it is a celebration of courage, discipline, sportsmanship, and the unbreakable spirit that binds the IIT community together. Over the next few days, we will witness extraordinary displays of skill, determination, teamwork, and resilience. Each sprint, each serve, each goal, and each point scored will reflect months of training and years of passion. The Inter IIT Sports Meet has always stood as a platform where rivalries exist only on the field and friendships flourish beyond it, reminding us that while winning is important, it is integrity and respect in play that truly define a champion.
+
+May you compete fiercely, push your limits, and inspire every spectator. Remember that you carry not only your institute’s colours but also the legacy of countless athletes who have stood where you stand today. With great pride and anticipation, I welcome you all once again to the INTER IIT Sports Meet 2025.`,
+}
+
+
 ];
 
 export default function DirectorsSection() {
