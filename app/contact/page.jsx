@@ -15,7 +15,7 @@ const EMAIL_TEXT_COLOR = "text-[#2d7f8a]";
 // ----------------------------------------
 const staffCategories = [
   {
-    title: "Head Team",
+    title: "Heads",
     members: [
       {
         name: "Ankit Raj",
@@ -25,7 +25,7 @@ const staffCategories = [
     ]
   },
   {
-    title: "Core Team",
+    title: "Hospitality",
     members: [
       {
         name: "Aryan",
@@ -36,12 +36,22 @@ const staffCategories = [
         name: "Vikas M N",
         designation: "Hospitality Core",
         image: "/images/our-team/Vikas M N_Hospitality_Core.JPG",
-      },      
+      },
+    ]
+  },
+  {
+    title: "Spons and Finance",
+    members: [      
       {
         name: "Hitesh Singh",
         designation: "Spons & Finance Core",
         image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
       },
+    ]
+  },
+  {
+    title: "Media",
+    members: [
       {
         name: "Aatman Vashi",
         designation: "Media Core",
@@ -57,6 +67,11 @@ const staffCategories = [
         designation: "Media Core",
         image: "/images/our-team/Neeraj_Media_Core.jpg",
       },
+    ]
+  },
+  {
+    title: "Events",
+    members: [
       {
         name: "Kartik Warrier",
         designation: "Events Core",
