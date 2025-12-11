@@ -10,182 +10,219 @@ const PHONE_TEXT_COLOR = "text-white";
 const EMAIL_BG_COLOR = "bg-[#a6e0e9]";
 const EMAIL_TEXT_COLOR = "text-[#2d7f8a]";
 
+// People to Add Heads: Priyasha, Core: Nagul(Design), Aparna(Hospitality), Piyush(Events)
 // ----------------------------------------
 // STAFF DATA (Keeping your original data)
 // ----------------------------------------
+
 const staffCategories = [
   {
-    title: "Heads",
+    title: "Head Team",
     members: [
-      {
-        name: "Ankit Raj",
-        designation: "Head",
-        image: "/images/our-team/Ankit Raj_Head.jpg",
-      },
-    ]
+      [
+        {
+          name: "Ankit Raj",
+          designation: "Head",
+          image: "/images/our-team/Ankit Raj_Head.jpg",
+        },
+        {
+          name: "Priyasha",
+          designation: "Head",
+          image: "/images/our-team/dummy.png",
+        },
+      ],
+    ],
   },
   {
-    title: "Hospitality",
+    title: "Core Team",
     members: [
-      {
-        name: "Aryan",
-        designation: "Hospitality Core",
-        image: "/images/our-team/Aryan_Hospitality_Core.jpg",
-      },
-      {
-        name: "Vikas M N",
-        designation: "Hospitality Core",
-        image: "/images/our-team/Vikas M N_Hospitality_Core.JPG",
-      },
-    ]
-  },
-  {
-    title: "Spons and Finance",
-    members: [      
-      {
-        name: "Hitesh Singh",
-        designation: "Spons & Finance Core",
-        image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
-      },
-    ]
-  },
-  {
-    title: "Media",
-    members: [
-      {
-        name: "Aatman Vashi",
-        designation: "Media Core",
-        image: "/images/our-team/Aatman Vashi_Media_Core.jpg",
-      },
-      {
-        name: "Kaarthik Ellappan",
-        designation: "Media and Food Core",
-        image: "/images/our-team/Kaarthi Ellapan media and food core_.jpg",
-      },
-      {
-        name: "Neeraj",
-        designation: "Media Core",
-        image: "/images/our-team/Neeraj_Media_Core.jpg",
-      },
-    ]
-  },
-  {
-    title: "Events",
-    members: [
-      {
-        name: "Kartik Warrier",
-        designation: "Events Core",
-        image: "/images/our-team/Karthik Warrier_Events_core.jpg",
-      },
-      {
-        name: "Aakash",
-        designation: "Events Core",
-        image: "/images/our-team/Aakash_Events_core.jpg",
-      },
+      [
+        {
+          name: "Imran",
+          designation: "Devops Core",
+          image: "/images/our-team/dummy.png",
+        },
+        {
+          name: "Hitesh Singh",
+          designation: "Spons & Finance Core",
+          image: "/images/our-team/Hitesh Singh_Spons&finance_Core.jpg",
+        },
+      ],
+      [
+        {
+          name: "Aatman Vashi",
+          designation: "Media Core",
+          image: "/images/our-team/Aatman Vashi_Media_Core.jpg",
+        },
+        {
+          name: "Kaarthik Ellappan",
+          designation: "Media and Food Core",
+          image: "/images/our-team/Kaarthi Ellapan media and food core_.jpg",
+        },
+        {
+          name: "Neeraj",
+          designation: "Media Core",
+          image: "/images/our-team/Neeraj_Media_Core.jpg",
+        },
+      ],
+      [
+        {
+          name: "Aryan",
+          designation: "Hospitality Core",
+          image: "/images/our-team/Aryan_Hospitality_Core.jpg",
+        },
+        {
+          name: "Vikas M N",
+          designation: "Hospitality Core",
+          image: "/images/our-team/Vikas M N_Hospitality_Core.JPG",
+        },
+        {
+          name: "Aparna",
+          designation: "Hospitality Core",
+          image: "/images/our-team/dummy.png"
+        },
+      ],
+      [
+        {
+          name: "Kartik Warrier",
+          designation: "Events Core",
+          image: "/images/our-team/Karthik Warrier_Events_core.jpg",
+        },
+        {
+          name: "Aakash",
+          designation: "Events Core",
+          image: "/images/our-team/Aakash_Events_core.jpg",
+        },
+        {
+          name: "Piyush",
+          designation: "Events Core",
+          image: "/images/our-team/dummy.png"
+        },
+      ],
+      [
+        {
+          name: "Nagul",
+          designation: "Design Core",
+          image: "/images/our-team/dummy.png"
+        },
+        {
+          name: "Rushwith",
+          designation: "Food Core",
+          image: "/images/our-team/dummy.png"
+        },
+      ],
     ],
   },
   {
     title: "Sports Officers",
     members: [
-      {
-        name: "Dr. EDINBROW PAKIARAJ",
-        designation: "Sports Officer",
-        email: "ebrow@zmail.iitm.ac.in",
-        phone: "9840077074",
-        image: "/images/staff/edinbrow.jpg",
-      },
-      {
-        name: "Dr. VASUDEVA RAO V",
-        designation: "Sports Officer",
-        email: "vvrao@iitm.ac.ac",
-        phone: "7978240032",
-        image: "/images/staff/vasudeva-rao.jpg",
-      },
+      [
+        {
+          name: "Dr. EDINBROW PAKIARAJ",
+          designation: "Sports Officer",
+          email: "ebrow@zmail.iitm.ac.in",
+          phone: "9840077074",
+          image: "/images/staff/edinbrow.jpg",
+        },
+        {
+          name: "Dr. VASUDEVA RAO V",
+          designation: "Sports Officer",
+          email: "vvrao@iitm.ac.ac",
+          phone: "7978240032",
+          image: "/images/staff/vasudeva-rao.jpg",
+        },
+      ],
     ],
   },
   {
     title: "Physical Training Instructors (PTIs)",
     members: [
-      {
-        name: "Mr. G JAYAVEL",
-        designation: "PTI Gr - I",
-        email: "gjayavel@zmail.iitm.ac.in",
-        phone: "9626064769",
-        image: "/images/staff/jayavel.jpg",
-      },
-      {
-        name: "Mr. RAJENDRAN G",
-        designation: "PTI",
-        email: "rajendrang03@gmail.com",
-        phone: "9790972294",
-        image: "/images/staff/rajendran.jpg",
-      },
-      {
-        name: "Mr. ASHOK SAMRAT YADHAV",
-        designation: "PTI",
-        email: "ashoksamrat222@gmail.com",
-        phone: "9810967049",
-        image: "/images/staff/ashok-samrat.jpg",
-      },
-      {
-        name: "Mr. ASHOK M",
-        designation: "PTI",
-        email: "ashokhoc07@gmail.com",
-        phone: "8754286553",
-        image: "/images/staff/ashok-m.jpg",
-      },
+      [
+        {
+          name: "Mr. G JAYAVEL",
+          designation: "PTI Gr - I",
+          email: "gjayavel@zmail.iitm.ac.in",
+          phone: "9626064769",
+          image: "/images/staff/jayavel.jpg",
+        },
+        {
+          name: "Mr. RAJENDRAN G",
+          designation: "PTI",
+          email: "rajendrang03@gmail.com",
+          phone: "9790972294",
+          image: "/images/staff/rajendran.jpg",
+        },
+        {
+          name: "Mr. ASHOK SAMRAT YADHAV",
+          designation: "PTI",
+          email: "ashoksamrat222@gmail.com",
+          phone: "9810967049",
+          image: "/images/staff/ashok-samrat.jpg",
+        },
+        {
+          name: "Mr. ASHOK M",
+          designation: "PTI",
+          email: "ashokhoc07@gmail.com",
+          phone: "8754286553",
+          image: "/images/staff/ashok-m.jpg",
+        },
+      ],
     ],
   },
   {
     title: "Instructors & Coaches",
     members: [
-      {
-        name: "Mr. DHANASEKARAN C",
-        designation: "Sports Instructor",
-        email: "dsdhana21@gmail.com",
-        phone: "8608539828",
-        image: "/images/staff/dhanasekaran.jpg",
-      },
-      {
-        name: "Mr. VEDAN SHATISH RAJ K",
-        designation: "Sports Instructor",
-        email: "soccervedan17@gmail.com",
-        phone: "8220324557",
-        image: "/images/staff/vedan.jpg",
-      },
+      [
+        {
+          name: "Mr. DHANASEKARAN C",
+          designation: "Sports Instructor",
+          email: "dsdhana21@gmail.com",
+          phone: "8608539828",
+          image: "/images/staff/dhanasekaran.jpg",
+        },
+        {
+          name: "Mr. VEDAN SHATISH RAJ K",
+          designation: "Sports Instructor",
+          email: "soccervedan17@gmail.com",
+          phone: "8220324557",
+          image: "/images/staff/vedan.jpg",
+        },
+      ],
     ],
   },
   {
     title: "Office Administration",
     members: [
-      {
-        name: "Mr. M SARAVANAN",
-        designation: "Junior Superintendent",
-        email: "msaravanan@iitm.ac.in",
-        phone: "9566120443",
-        image: "/images/staff/saravanan.jpg",
-      },
-      {
-        name: "Mr. SETHURAMAN",
-        designation: "Senior Assistant",
-        email: "sethuiit@iitm.ac.in",
-        phone: "6380397094",
-        image: "/images/staff/sethuraman.jpg",
-      },
-      {
-        name: "Mr. KARTHIKEYAN",
-        designation: "Secretary",
-        email: "karthik.j.king@gmail.com",
-        phone: "9791042980",
-        image: "/images/staff/karthikeyan.jpg",
-      },
-      {
-        name: "Ms. THANU SHREE SS",
-        designation: "Junior Executive",
-        email: "thanusrinivasan22@gmail.com",
-        phone: "8682084700",
-        image: "/images/staff/thanu-shree.jpg",
-      },
+      [
+        {
+          name: "Mr. M SARAVANAN",
+          designation: "Junior Superintendent",
+          email: "msaravanan@iitm.ac.in",
+          phone: "9566120443",
+          image: "/images/staff/saravanan.jpg",
+        },
+        {
+          name: "Mr. SETHURAMAN",
+          designation: "Senior Assistant",
+          email: "sethuiit@iitm.ac.in",
+          phone: "6380397094",
+          image: "/images/staff/sethuraman.jpg",
+        },
+        {
+          name: "Mr. KARTHIKEYAN",
+          designation: "Secretary",
+          email: "karthik.j.king@gmail.com",
+          phone: "9791042980",
+          image: "/images/staff/karthikeyan.jpg",
+        },
+        {
+          name: "Ms. THANU SHREE SS",
+          designation: "Junior Executive",
+          email: "thanusrinivasan22@gmail.com",
+          phone: "8682084700",
+          image: "/images/staff/thanu-shree.jpg",
+        },
+      ],
     ],
   },
 ];
@@ -314,10 +351,19 @@ export default function ContactPage() {
             <TitleBar title={category.title} />
 
             {/* Adjusted grid for better use of space */}
-            <div className="flex flex-wrap justify-center gap-8">
-              {category.members.map((member, i) => (
-                <StaffCard key={i} member={member} />
-              ))}
+            <div className="flex flex-col items-center gap-10">
+              {category.members.map((group, groupIndex) => (
+                  <div
+                    key={groupIndex}
+                    className="flex flex-wrap justify-center gap-8"
+                  >
+                    {(Array.isArray(group) ? group : [group])
+                      .filter(m => m && m.name)
+                      .map((member, i) => (
+                        <StaffCard key={i} member={member} />
+                      ))}
+                  </div>
+                ))}
             </div>
           </section>
         ))}
