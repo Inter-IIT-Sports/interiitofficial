@@ -20,6 +20,8 @@ const committees = {
     { role: "Chairperson", name: "K. N. Satyanarayana", designation: "Director" },
     { role: "Members", name: "Prof. N. N. Murty", designation: "Dean Students" },
     // { role: "Secretary", name: "Dr. Anil K", designation: "Sports Officer" },
+    { role: "Members", name: "Dr. S. Uday Kumar", designation: "Convener" },
+    { role: "Secretary", name: "Dr. Iyappan I", designation: "Organizing Secretary" }
   ],
 };
 
