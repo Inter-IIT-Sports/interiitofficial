@@ -28,7 +28,7 @@ const staffCategories = [
         {
           name: "Priyasha",
           designation: "Head",
-          image: "/images/our-team/dummy.png",
+          image: "/images/our-team/Priyasha_Head.jpg",
         },
       ],
     ],
@@ -96,7 +96,7 @@ const staffCategories = [
         {
           name: "Piyush",
           designation: "Events Core",
-          image: "/images/our-team/dummy.png"
+          image: "/images/our-team/Piyush_Events_Core.JPG"
         },
       ],
       [
@@ -108,7 +108,7 @@ const staffCategories = [
         {
           name: "Rushwith",
           designation: "Food Core",
-          image: "/images/our-team/dummy.png"
+          image: "/images/our-team/Rushwith_Food_Core.jpg"
         },
       ],
     ],
