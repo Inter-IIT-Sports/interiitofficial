@@ -4,10 +4,10 @@ const ScheduleCard = ({ item }) => {
   const matchTitle = `${item.sport}${item.gender ? ` - ${item.gender}'s` : ''} ${item.matchType}`;
 
   const details = [];
+  if (item.date) details.push(`${item.date} - ${item.time}`);
   // if (item.matchNo) details.push(`Match No: ${item.matchNo}`);
   if (item.pool) details.push(`Pool: ${item.pool}`);
   if (item.courtNo) details.push(`Court: ${item.courtNo}`);
-  if (item.time) details.push(`Time: ${item.time}`);
 
   const statusClasses = `px-3 py-1 rounded-full text-sm font-semibold capitalize border ${
     item.status && item.status.toLowerCase() === "completed"
@@ -22,16 +22,15 @@ const ScheduleCard = ({ item }) => {
         <Image
           src={item.backgroundImage}
           alt={`${item.sport} background`}
-          layout="fill"
-          objectFit="cover"
-          className="opacity-40"
+          fill
+          className="object-cover opacity-40"
         />
       </div>
       <div className="p-6 relative z-10">
         <div className="flex justify-between items-start">
           <div>
             <h2 className="text-lg md:text-2xl font-bold">{matchTitle}</h2>
-            <p className="text-md text-black">{details.join(' | ')}</p>
+            <p className="text-sm md:text-base text-black">{details.join(' | ')}</p>
           </div>
           {/* Status for desktop */}
           {item.status && (
@@ -46,7 +45,7 @@ const ScheduleCard = ({ item }) => {
         </div>
         {/* Status for mobile */}
         {item.status && (
-          <span className={`md:hidden absolute bottom-6 right-6 ${statusClasses}`}>
+          <span className={`md:hidden absolute bottom-6 right-3 ${statusClasses}`}>
             {item.status}
           </span>
         )}
