@@ -39,14 +39,29 @@ export default function ScanPage() {
     else alert("Incorrect Password");
   }
 
+  function pauseAndResumeScanner(delay = 2000) {
+  try {
+    scannerRef.current?.pause(true); // keep camera ON
+  } catch {}
+
+  setTimeout(() => {
+    try {
+      scannerRef.current?.resume();
+    } catch {}
+  }, delay);
+}
+
+
+
   async function verifyQR(text) {
     if (cooldown.current) return;
 
     cooldown.current = true;
-    setTimeout(() => (cooldown.current = false), 2500);
 
     setStatus("Checking...");
     setStatusType("loading");
+
+     pauseAndResumeScanner(2000);
 
     const res = await fetch("/api/mess-verify", {
       method: "POST",
@@ -65,7 +80,13 @@ export default function ScanPage() {
       setStatusType("error");
       navigator.vibrate?.([120, 80, 120]);
     }
+
+    // ⏳ Allow next scan only after restart
+    setTimeout(() => {
+      cooldown.current = false;
+    }, 3000);
   }
+
 
   useEffect(() => {
     if (!authenticated || scannerRef.current) return;
@@ -84,7 +105,7 @@ export default function ScanPage() {
   async function startScanner(cameraId) {
     try {
       await scannerRef.current?.stop();
-    } catch {}
+    } catch { }
 
     scannerRef.current = new Html5Qrcode("reader");
 
@@ -129,7 +150,7 @@ export default function ScanPage() {
 
   useEffect(() => {
     return () => {
-      scannerRef.current?.stop().catch(() => {});
+      scannerRef.current?.stop().catch(() => { });
     };
   }, []);
 
@@ -207,15 +228,14 @@ export default function ScanPage() {
 
         {/* STATUS */}
         <div
-          className={`mt-4 p-3 rounded-xl text-center text-sm font-medium ${
-            statusType === "success"
+          className={`mt-4 p-3 rounded-xl text-center text-sm font-medium ${statusType === "success"
               ? "bg-green-100 text-green-700"
               : statusType === "error"
-              ? "bg-red-100 text-red-700"
-              : statusType === "loading"
-              ? "bg-yellow-100 text-yellow-700"
-              : "bg-gray-100 text-gray-600"
-          }`}
+                ? "bg-red-100 text-red-700"
+                : statusType === "loading"
+                  ? "bg-yellow-100 text-yellow-700"
+                  : "bg-gray-100 text-gray-600"
+            }`}
         >
           {status || "Scan QR to continue"}
         </div>
