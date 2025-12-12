@@ -10,7 +10,6 @@ const PHONE_TEXT_COLOR = "text-white";
 const EMAIL_BG_COLOR = "bg-[#a6e0e9]";
 const EMAIL_TEXT_COLOR = "text-[#2d7f8a]";
 
-// People to Add Heads: Priyasha, Core: Nagul(Design), Aparna(Hospitality), Piyush(Events)
 // ----------------------------------------
 // STAFF DATA (Keeping your original data)
 // ----------------------------------------
@@ -108,7 +107,7 @@ const staffCategories = [
         {
           name: "Rushwith",
           designation: "Food Core",
-          image: "/images/our-team/Rushwith_Food_Core.jpg"
+          image: "/images/our-team/Rushwith_Food_Core."
         },
       ],
     ],
@@ -302,14 +301,14 @@ export default function ContactPage() {
     <main className="min-h-screen bg-[#f6f7f9] pt-30 relative">
       <div
         className="absolute right-0 top-0 w-[40%] h-full bg-no-repeat bg-right opacity-20 pointer-events-none"
-        style={{ backgroundImage: "url('/athlete-pattern.png')" }}
+        style={{ backgroundImage: "/sports_1.jpg" }}
       />
 
       {/* Main Heading Section */}
       <section className="relative text-center mb-10">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-[#aa0e0e]">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-[#aa0e0e]">
           Contact Our Team
-        </h1>
+        </h2>
         <p className="text-gray-600 mt-2 max-w-2xl mx-auto text-lg">
           Reach out to the Sports Officers and Gymkhana Staff of Inter IIT Sports
           Meet 2025.
@@ -317,14 +316,14 @@ export default function ContactPage() {
       </section>
 
       {/* Gymkhana Office Info Block */}
-      <div className="max-w-5xl mx-auto px-6 mb-12">
-        <div className="rounded-3xl bg-white/80 backdrop-blur-xl shadow-lg border border-gray-200 p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="w-4xl mx-auto px-6 mb-12">
+        <div className="rounded-3xl bg-white/80 backdrop-blur-l shadow-lg border border-gray-200 p-5 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <div className="p-4 rounded-full bg-[#aa0e0e] text-white shadow-md">
-              <MapPin className="w-7 h-7" />
+              <MapPin className="w-4 h-4" />
             </div>
             <div>
-              <h3 className="text-xl font-bold text-gray-900">
+              <h3 className="text-l font-bold text-gray-900">
                 Office of the Gymkhana
               </h3>
               <p className="text-gray-600 text-sm">
@@ -336,7 +335,7 @@ export default function ContactPage() {
           <a
             target="_blank"
             href="https://maps.app.goo.gl/W3GciRchrTKCYrA99"
-            className="px-6 py-3 rounded-xl bg-red-800 hover:bg-red-800 transition text-white font-medium shadow-md flex items-center gap-2"
+            className="px-4 py-3 rounded-xl bg-red-800 hover:bg-red-800 transition text-white font-medium shadow-md flex items-center gap-2"
           >
             <MapPin className="w-4 h-4" />
             View Location
