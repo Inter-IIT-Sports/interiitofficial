@@ -40,7 +40,7 @@ const staffCategories = [
         {
           name: "Imran",
           designation: "Devops Core",
-          image: "/images/our-team/imran_02.jpg",
+          image: "/images/our-team/imran_02.jpeg",
         },
         {
           name: "Hitesh Singh",

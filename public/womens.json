@@ -1,4 +1,233 @@
 [
+
+  
+  {
+    "Name": "PAKI GUPTA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "220743",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "MADNOORKAR AVANEE NAGESH",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "230614",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "DEVANJALI SHARMA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "251020611",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "DHARVI SINGHAL",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "220354",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "NANDINI VAID",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "220694",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "SHRUTI RAMCHANDRA DALVI",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "221040",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "SREEJA SRINIVASAN",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "241041",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "AKSHITA SINGH",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "240091",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "NAMYA JARAG",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "240681",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "RIA ASHISH INCHEKAR ",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "250893",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "MISHKA GUPT\u0410",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "240653",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "MUSKAN MEENA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "250690",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "LAVANAYA SINGH",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "240593",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "DISHITA BAJAJ",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "250355",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "MANASVI NIDUGALA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "220613",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "NIDHI RAWAT",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "20207266",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "ANISHYA MAURYA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "220151",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "RIDDHI SHINGTE",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "240864",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "PRAGYA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "242070627",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "NUPUR SEHGAL",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "250741",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "VEDIKA TAPARIA",
+    "Gender": "F",
+    "Position": "student",
+    "uniqueId": "231136",
+    "IIT": "KANPUR"
+  }
+,
+  
+  {
+    "Name": "Thamizharasi",
+    "Gender": "F",
+    "Position": "physio",
+    "uniqueId": "IITmadras-physio-001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Arthi V",
+    "Gender": "F",
+    "Position": "physio",
+    "uniqueId": "IITmadras-physio-002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Prithika",
+    "Gender": "F",
+    "Position": "physio",
+    "uniqueId": "IITmadras-physio-003",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Keerthana",
+    "Gender": "F",
+    "Position": "physio",
+    "uniqueId": "IITmadras-physio-004",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mrs. SS THANUSREE",
+    "Gender": "F",
+    "Position": "Jr. Executive",
+    "uniqueId": "IITmadras-Jr. Executive-005",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Ms. Raman",
+    "Gender": "F",
+    "Position": "bb official",
+    "uniqueId": "IITmadras-bb official-006",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Deepika",
+    "Gender": "F",
+    "Position": "sq official",
+    "uniqueId": "IITmadras-sq official-007",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "udaya",
+    "Gender": "F",
+    "Position": "Umpire",
+    "uniqueId": "IITmadras-ump-008",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mahalakshmi",
+    "Gender": "F",
+    "Position": "Line judge",
+    "uniqueId": "IITmadras-lj-009",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Boomika",
+    "Gender": "F",
+    "Position": "Line judge",
+    "uniqueId": "IITmadras-lj-010",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Madhu",
+    "Gender": "F",
+    "Position": "Line judge",
+    "uniqueId": "IITmadras-lj-011",
+    "IIT": "MADRAS"
+  }
+,
   {
     "Name": "SHARVANEE SONWANE",
     "Gender": "F",
