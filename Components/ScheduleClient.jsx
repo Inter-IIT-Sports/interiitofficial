@@ -106,7 +106,7 @@ export default function ScheduleClient({ initialSchedule }) {
                     id="sport-filter"
                     value={selectedSport}
                     onChange={(e) => setSelectedSport(e.target.value)}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none"
                   >
                     {availableSports.map((sport) => (
                       <option key={sport} value={sport}>
@@ -126,7 +126,7 @@ export default function ScheduleClient({ initialSchedule }) {
                     id="date-filter"
                     value={selectedDate}
                     onChange={(e) => setSelectedDate(e.target.value)}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none"
                   >
                     {dates.map((date) => (
                       <option key={date} value={date}>
@@ -142,7 +142,7 @@ export default function ScheduleClient({ initialSchedule }) {
                {showButton && (
                 <button
                   onClick={scrollToTop}
-                  className={`absolute z-10 p-2 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-100
+                  className={`absolute z-50 p-2 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-100
                     top-4 right-4 
                     lg:top-0 lg:-right-14 
                     ${isScrolling ? "opacity-0" : "opacity-100"}
