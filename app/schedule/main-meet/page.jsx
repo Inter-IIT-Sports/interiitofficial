@@ -17,6 +17,10 @@ const SCHEDULE_QUERY = `*[_type == "event"] | order(scheduledTime asc) {
   status,
   winner,
   scoreDetails,
+  results,
+  resultNotes,
+  event,
+  session
 }`;
 
 // This tells Next.js to check Sanity for updates every 60 seconds in production.
