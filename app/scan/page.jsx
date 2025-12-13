@@ -6,25 +6,25 @@ import { Html5Qrcode, Html5QrcodeSupportedFormats } from "html5-qrcode";
 export default function ScanPage() {
   const [authenticated, setAuthenticated] = useState(false);
   const [pass, setPass] = useState("");
-  const [showPass, setShowPass] = useState(false); // 👈 NEW
+  const [showPass, setShowPass] = useState(false);
 
   const [status, setStatus] = useState("");
   const [statusType, setStatusType] = useState("");
 
   const scannerRef = useRef(null);
-  const cooldown = useRef(false); // modified for 2–3 sec delay
+  const cooldown = useRef(false);
   const cameraIdRef = useRef(null);
   const [cameras, setCameras] = useState([]);
   const [torchOn, setTorchOn] = useState(false);
 
-  // Auto clear status
+  // Auto-clear status
   useEffect(() => {
     if (!status) return;
-    const timer = setTimeout(() => {
+    const t = setTimeout(() => {
       setStatus("");
       setStatusType("");
     }, 1500);
-    return () => clearTimeout(timer);
+    return () => clearTimeout(t);
   }, [status]);
 
   async function handlePassword() {
@@ -39,15 +39,29 @@ export default function ScanPage() {
     else alert("Incorrect Password");
   }
 
+  function pauseAndResumeScanner(delay = 2000) {
+  try {
+    scannerRef.current?.pause(true); // keep camera ON
+  } catch {}
+
+  setTimeout(() => {
+    try {
+      scannerRef.current?.resume();
+    } catch {}
+  }, delay);
+}
+
+
+
   async function verifyQR(text) {
     if (cooldown.current) return;
 
-    // ⏳ NEW: lock scanner for 2.5 seconds
     cooldown.current = true;
-    setTimeout(() => (cooldown.current = false), 2500);
 
     setStatus("Checking...");
     setStatusType("loading");
+
+     pauseAndResumeScanner(2000);
 
     const res = await fetch("/api/mess-verify", {
       method: "POST",
@@ -66,7 +80,13 @@ export default function ScanPage() {
       setStatusType("error");
       navigator.vibrate?.([120, 80, 120]);
     }
+
+    // ⏳ Allow next scan only after restart
+    setTimeout(() => {
+      cooldown.current = false;
+    }, 3000);
   }
+
 
   useEffect(() => {
     if (!authenticated || scannerRef.current) return;
@@ -76,7 +96,6 @@ export default function ScanPage() {
         alert("No camera found");
         return;
       }
-
       setCameras(devices);
       cameraIdRef.current = devices[0].id;
       startScanner(devices[0].id);
@@ -84,11 +103,9 @@ export default function ScanPage() {
   }, [authenticated]);
 
   async function startScanner(cameraId) {
-    if (scannerRef.current) {
-      try {
-        await scannerRef.current.stop();
-      } catch (_) {}
-    }
+    try {
+      await scannerRef.current?.stop();
+    } catch { }
 
     scannerRef.current = new Html5Qrcode("reader");
 
@@ -96,7 +113,7 @@ export default function ScanPage() {
       cameraId,
       {
         fps: 10,
-        qrbox: { width: 250, height: 250 },
+        qrbox: { width: 220, height: 220 }, // ✅ single scan box
         formatsToSupport: [Html5QrcodeSupportedFormats.QR_CODE],
       },
       (decodedText) => {
@@ -106,24 +123,22 @@ export default function ScanPage() {
           return;
 
         verifyQR(text);
-      },
-      () => {}
+      }
     );
   }
 
   async function switchCamera() {
     if (cameras.length < 2) return alert("Only one camera available");
-
-    const currentIndex = cameras.findIndex((c) => c.id === cameraIdRef.current);
-    const nextIndex = (currentIndex + 1) % cameras.length;
-
-    cameraIdRef.current = cameras[nextIndex].id;
+    const idx = cameras.findIndex((c) => c.id === cameraIdRef.current);
+    const next = (idx + 1) % cameras.length;
+    cameraIdRef.current = cameras[next].id;
     startScanner(cameraIdRef.current);
   }
 
   async function toggleTorch() {
     try {
-      const track = scannerRef.current.getState().stream.getVideoTracks()[0];
+      const track =
+        scannerRef.current.getState().stream.getVideoTracks()[0];
       await track.applyConstraints({
         advanced: [{ torch: !torchOn }],
       });
@@ -135,27 +150,27 @@ export default function ScanPage() {
 
   useEffect(() => {
     return () => {
-      scannerRef.current?.stop().catch(() => {});
+      scannerRef.current?.stop().catch(() => { });
     };
   }, []);
 
-  // =============== LOGIN UI ===============
+  // ================= LOGIN =================
   if (!authenticated) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50 px-5">
-        <div className="w-full max-w-sm bg-white shadow-lg rounded-2xl p-6">
-          <h1 className="text-xl font-semibold text-center mb-6">Mess Scanner Login</h1>
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+        <div className="w-full max-w-sm bg-white rounded-2xl shadow-lg p-6">
+          <h1 className="text-xl font-semibold text-center mb-6">
+            Mess Scanner Login
+          </h1>
 
           <div className="relative">
             <input
-              type={showPass ? "text" : "password"} // 👈 NEW
-              className="w-full border p-3 rounded-lg mb-4 focus:ring-2 focus:ring-blue-500 outline-none"
+              type={showPass ? "text" : "password"}
+              className="w-full border p-3 rounded-xl mb-4 focus:ring-2 focus:ring-blue-500 outline-none"
               placeholder="Enter Password"
               value={pass}
               onChange={(e) => setPass(e.target.value)}
             />
-
-            {/* 👁 PASSWORD VISIBILITY BUTTON */}
             <button
               type="button"
               className="absolute right-3 top-3 text-gray-600"
@@ -166,7 +181,7 @@ export default function ScanPage() {
           </div>
 
           <button
-            className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+            className="w-full bg-blue-600 text-white py-3 rounded-xl font-medium"
             onClick={handlePassword}
           >
             Login
@@ -176,48 +191,51 @@ export default function ScanPage() {
     );
   }
 
-  // =============== SCANNER UI ===============
+  // ================= SCANNER =================
   return (
-    <div className="min-h-screen w-full flex flex-col items-center bg-gray-50 px-4 pt-20 pb-10">
-
-      <div className="text-center mb-5">
+    <div className="min-h-screen bg-gray-50 px-4 pt-20 pb-10">
+      <div className="text-center mb-4">
         <h1 className="text-2xl font-semibold">Mess Entry Scanner</h1>
-        <p className="text-gray-500 text-sm">Scan student QR codes securely</p>
+        <p className="text-sm text-gray-500">
+          Scan student QR codes securely
+        </p>
       </div>
 
-      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-4">
+      <div className="w-full max-w-md mx-auto bg-white rounded-2xl shadow-lg p-4">
+        {/* CAMERA CONTAINER */}
+        <div className="rounded-xl overflow-hidden bg-black">
+          <div
+            id="reader"
+            className="w-full min-h-[260px] sm:min-h-[320px]"
+          />
+        </div>
 
-        <div
-          id="reader"
-          className="w-full h-[280px] sm:h-[320px] rounded-xl overflow-hidden bg-black"
-        ></div>
-
+        {/* CONTROLS */}
         <div className="flex gap-3 mt-4">
           <button
             onClick={switchCamera}
-            className="flex-1 py-3 rounded-xl bg-gray-900 text-white font-medium hover:bg-gray-800 transition"
+            className="flex-1 py-3 rounded-xl bg-gray-900 text-white font-medium"
           >
             Switch Camera
           </button>
-
           <button
             onClick={toggleTorch}
-            className="flex-1 py-3 rounded-xl bg-gray-200 text-gray-900 font-medium hover:bg-gray-300 transition"
+            className="flex-1 py-3 rounded-xl bg-gray-200 text-gray-900 font-medium"
           >
             {torchOn ? "Torch Off" : "Torch On"}
           </button>
         </div>
 
+        {/* STATUS */}
         <div
-          className={`mt-4 p-3 rounded-xl text-center text-sm font-medium transition ${
-            statusType === "success"
+          className={`mt-4 p-3 rounded-xl text-center text-sm font-medium ${statusType === "success"
               ? "bg-green-100 text-green-700"
               : statusType === "error"
-              ? "bg-red-100 text-red-700"
-              : statusType === "loading"
-              ? "bg-yellow-100 text-yellow-700"
-              : "bg-gray-100 text-gray-600"
-          }`}
+                ? "bg-red-100 text-red-700"
+                : statusType === "loading"
+                  ? "bg-yellow-100 text-yellow-700"
+                  : "bg-gray-100 text-gray-600"
+            }`}
         >
           {status || "Scan QR to continue"}
         </div>
