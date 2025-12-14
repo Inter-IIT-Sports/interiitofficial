@@ -1,6 +1,103 @@
 [
-
   
+  {
+    "Name": "PROF. SHRUTI DUBEY",
+    "Gender": "F",
+    "Position": "CO-AD SPORTS",
+    "uniqueId": "IISMOFFI3",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SS THANUSREE",
+    "Gender": "M",
+    "Position": "JR. EXECUTIVE",
+    "uniqueId": "IISMOFFI16",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MRS. RASHMI UDAY KUMAR",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI30",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DR. REBECCA PUNITHAVALLI B",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI31",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060THAMIZHARASI",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI45",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ARTHI V",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI46",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PRITHIKA",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI47",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KEERTHANA",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI48",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MAHALAKSHMI",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI85",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BOOMIKA",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI86",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SARAVANA R",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI130",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BHARANI",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI131",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SARAVANA",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI142",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SARAVANA",
+    "Gender": "M",
+    "Position": "AUDIO TEAM",
+    "uniqueId": "IISMOFFI161",
+    "IIT": "MADRAS"
+  },
   {
     "Name": "PAKI GUPTA",
     "Gender": "F",
@@ -147,9 +244,7 @@
     "Position": "student",
     "uniqueId": "231136",
     "IIT": "KANPUR"
-  }
-,
-  
+  },
   {
     "Name": "Thamizharasi",
     "Gender": "F",
@@ -226,8 +321,7 @@
     "Position": "Line judge",
     "uniqueId": "IITmadras-lj-011",
     "IIT": "MADRAS"
-  }
-,
+  },
   {
     "Name": "SHARVANEE SONWANE",
     "Gender": "F",

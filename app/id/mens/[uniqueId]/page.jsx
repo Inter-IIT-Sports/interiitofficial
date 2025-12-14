@@ -1,3 +1,4 @@
+// import { s } from "framer-motion/dist/types.d-Cjd591yU";
 import men from "../../../../public/mens.json";
 
 export default async function MenStudentPage({ params }) {
@@ -17,6 +18,7 @@ export default async function MenStudentPage({ params }) {
 
   const student = men.find(
     (s) => s.uniqueId.trim().toLowerCase() === uniqueParam
+
   );
 
   if (!student) {
