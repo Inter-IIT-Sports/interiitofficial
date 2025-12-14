@@ -1,5 +1,53 @@
 [
-  
+  {
+    "Name": "NAMRATA GHOLE",
+    "Gender": "F",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_003",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "PRAPTI SHALUNKHE",
+    "Gender": "F",
+    "Position": "SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_005",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "GARIMA SINGH",
+    "Gender": "F",
+    "Position": "FACULTY MEMBER",
+    "uniqueId": "IISMOFFI_007",
+    "IIT": "DELHI"
+  },
+  {
+    "Name": "SUNITA VERMA",
+    "Gender": "F",
+    "Position": "PTI",
+    "uniqueId": "IISMOFFI_011",
+    "IIT": "BHUBANESWAR"
+  },
+  {
+    "Name": "RUCHI YADAV",
+    "Gender": "F",
+    "Position": "SPORTS OFFICER GR-I",
+    "uniqueId": "IISMOFFI_012",
+    "IIT": "HYDERABAD"
+  },
+  {
+    "Name": "ANITA KUMARI",
+    "Gender": "F",
+    "Position": "OFFICER",
+    "uniqueId": "IISMOFFI_016",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "KEERTHI KUMAR",
+    "Gender": "F",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_021",
+    "IIT": "DHARWAD"
+  },
   {
     "Name": "PROF. SHRUTI DUBEY",
     "Gender": "F",

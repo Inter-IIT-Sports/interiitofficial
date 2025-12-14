@@ -1,4 +1,103 @@
 [
+
+  {
+    "Name": "SOUMEN MONDAL",
+    "Gender": "M",
+    "Position": "SR.SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_001",
+    "IIT": "KHARAGPUR"
+  },
+  {
+    "Name": "DR.SUSANT KUMAR PANDA",
+    "Gender": "M",
+    "Position": "SR.SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_002",
+    "IIT": "KHARAGPUR"
+  },
+  {
+    "Name": "SHELENDRA RASANIYA",
+    "Gender": "M",
+    "Position": "SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_004",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "PROF. SRINIVASAN VENKATARAMAN",
+    "Gender": "M",
+    "Position": "FACULTY MEMBER",
+    "uniqueId": "IISMOFFI_006",
+    "IIT": "DELHI"
+  },
+  {
+    "Name": "PROF. R. GANESH NARAYANAN",
+    "Gender": "M",
+    "Position": "CHAIRPERSON SPORTS",
+    "uniqueId": "IISMOFFI_008",
+    "IIT": "GUWAHATI"
+  },
+  {
+    "Name": "MUKESH CHAUDHARY",
+    "Gender": "M",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_009",
+    "IIT": "ROORKEE"
+  },
+  {
+    "Name": "KODANDA RAM MANGIPUDI",
+    "Gender": "M",
+    "Position": "ASSOCIATE PROFESSOR",
+    "uniqueId": "IISMOFFI_010",
+    "IIT": "BHUBANESWAR"
+  },
+  {
+    "Name": "MR. DEVDEEP CHAKRAVARTY",
+    "Gender": "M",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_013",
+    "IIT": "JODHPUR"
+  },
+  {
+    "Name": "PROF. SANJAY MONDAL",
+    "Gender": "M",
+    "Position": "PROF",
+    "uniqueId": "IISMOFFI_014",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "AVISHEK BAISYA",
+    "Gender": "M",
+    "Position": "OFFICER",
+    "uniqueId": "IISMOFFI_015",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "KARTIK KALINDI",
+    "Gender": "M",
+    "Position": "GROUND STAFF",
+    "uniqueId": "IISMOFFI_017",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "RISSHIKESH NARAYAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_018",
+    "IIT": "GOA"
+  },
+  {
+    "Name": "PRAKHAR CHATURVEDI",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_019",
+    "IIT": "GOA"
+  },
+  {
+    "Name": "ANUP KUSHWAHA",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_020",
+    "IIT": "GOA"
+  },
   {
     "Name": "PROF. SATHYANARAYANA N. GUMADI",
     "Gender": "M",
