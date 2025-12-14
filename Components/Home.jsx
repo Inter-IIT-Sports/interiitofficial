@@ -12,7 +12,18 @@ import FluidGlass from "./FluidGlass";
 export default function HeroSection2025() {
   const [sportsTimeLeft, setSportsTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [aquaticsTimeLeft, setAquaticsTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  
+
+  const mainMeetLiveLinks = {
+    0: null,
+    1: null,
+    2: null,
+    3: null,
+    4: null,
+    5: null,
+    6: null,
+  };
+
+
 
 
   useEffect(() => {
@@ -60,6 +71,10 @@ export default function HeroSection2025() {
     dates: "Sep 30 – Oct 5",
   };
 
+  const mainMeetStart = new Date("December 14, 2025 00:00:00").getTime();
+  const mainMeetEnd = new Date("December 21, 2025 23:59:59").getTime();
+
+
   return (
     <>
       {/* Hero Banner Section */}
@@ -106,15 +121,72 @@ export default function HeroSection2025() {
               58th Inter IIT Sports Meet
             </h2>
 
-            <span className="text-gray-600 mb-2">Event Starts In</span>
-            <div className="flex justify-center gap-4 flex-wrap mb-6">
-              {Object.entries(sportsTimeLeft).map(([unit, value]) => (
-                <div key={unit} className="bg-white border border-gray-300 shadow-md rounded-xl px-4 py-3 w-20 flex flex-col items-center">
-                  <span className="text-2xl md:text-3xl font-bold text-gray-900">{value}</span>
-                  <span className="text-sm md:text-base text-gray-600 capitalize">{unit}</span>
-                </div>
-              ))}
-            </div>
+            {(() => {
+              const now = new Date().getTime();
+
+              // ⏳ Before event
+              if (now < mainMeetStart) {
+                return (
+                  <>
+                    <span className="text-gray-600 mb-2">Event Starts In</span>
+                    <div className="flex justify-center gap-4 flex-wrap mb-6">
+                      {Object.entries(sportsTimeLeft).map(([unit, value]) => (
+                        <div
+                          key={unit}
+                          className="bg-white border border-gray-300 shadow-md rounded-xl px-4 py-3 w-20 flex flex-col items-center"
+                        >
+                          <span className="text-2xl md:text-3xl font-bold text-gray-900">
+                            {value}
+                          </span>
+                          <span className="text-sm md:text-base text-gray-600 capitalize">
+                            {unit}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                );
+              }
+
+              // 🔴 Event ongoing
+              if (now <= mainMeetEnd) {
+                let dayNumber = Math.floor((now - mainMeetStart) / (1000 * 60 * 60 * 24));
+                dayNumber = Math.max(0, Math.min(dayNumber, 6));
+
+                return (
+                  <div className="flex flex-col items-center gap-2 mb-6">
+                    <p className="flex items-center gap-2 text-sky-600 font-semibold text-lg">
+                      <span className="w-2 h-2 bg-sky-500 rounded-full animate-pulse"></span>
+                      Event Ongoing 🎉
+                    </p>
+
+                    <p className="text-gray-800 font-semibold text-lg">
+                      Day {dayNumber}
+                    </p>
+
+                    {/* ✅ Show link ONLY if exists */}
+                    {mainMeetLiveLinks[dayNumber] && (
+                      <a
+                        href={mainMeetLiveLinks[dayNumber]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white bg-sky-600 px-4 py-1 rounded-full text-sm font-medium hover:bg-sky-700 transition-all"
+                      >
+                        Watch Live
+                      </a>
+                    )}
+                  </div>
+                );
+              }
+
+              // ✅ After event
+              return (
+                <p className="text-gray-500 font-medium text-lg mb-6">
+                  Event Concluded ✅
+                </p>
+              );
+            })()}
+
 
             <p className="text-gray-600 font-medium mb-4">Co-hosted by</p>
             <div className="flex flex-wrap justify-center items-center gap-12 mb-4">
