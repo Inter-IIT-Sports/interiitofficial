@@ -1,4 +1,243 @@
 [
+  {
+    "Name": "YUVRAJ VERMA",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25OFFCL001",
+    "IIT": "INDORE"
+  },
+  {
+    "Name": "VEVDEEP CHAKARAVARTHY",
+    "Gender": "M",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISM25OFFCL002",
+    "IIT": "JODHPUR"
+  },
+  {
+    "Name": "HITESH",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25OFFCL003",
+    "IIT": "MANDI"
+  },
+  {
+    "Name": "AMAN CHOWDHURY",
+    "Gender": "M",
+    "Position": "SPORTS OFFICER",
+    "uniqueId": "IISM25OFFCL004",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "RAKESH KUMAR",
+    "Gender": "M",
+    "Position": "TT COACH",
+    "uniqueId": "IISM25OFFCL005",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "ANIRUD KASHYAP",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25OFFCL006",
+    "IIT": "BHUVANESHWAR"
+  },
+  {
+    "Name": "RAGAV DOGRA",
+    "Gender": "M",
+    "Position": "BADMINTON COACH",
+    "uniqueId": "IISM25OFFCL007",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "AJAY RATRA",
+    "Gender": "M",
+    "Position": "TT COACH",
+    "uniqueId": "IISM25OFFCL008",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "GAURAV BHAGAT",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25OFFCL009",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "DEEPAK KUMAR BHIWAR",
+    "Gender": "M",
+    "Position": "STAFF",
+    "uniqueId": "IISM25OFFCL010",
+    "IIT": "BHILAI"
+  },
+  {
+    "Name": "PAVAN KUMAR YEZARLA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KISHOR KAVAN S",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD003",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "NAMAN SHAH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD005",
+    "IIT": "MANDI"
+  },
+  {
+    "Name": "HARSHITH KUMAR SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD006",
+    "IIT": "MANDI"
+  },
+  {
+    "Name": "BHUP SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD007",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "ROOPAM BHUYAM",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD011",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "KAMALPREET SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD012",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "SAHIL",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD014",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "NABIL SURAJ",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD017",
+    "IIT": "BHUVANESHWAR"
+  },
+  {
+    "Name": "UMANG KATARIYA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD018",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "KARANBIR SINGH DINDSA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD019",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "YASHPAL YADAV",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD021",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "YAJAT SHARMA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD026",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "SHUBHAM KUMAR",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD028",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "ALLADA PRANEETH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD029",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "ROHAN GUPTA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD031",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "ARIN GUPTA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD033",
+    "IIT": "GUWAHATI"
+  },
+  {
+    "Name": "YUVAN VANAPALLI",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD034",
+    "IIT": "PATNA"
+  },
+  {
+    "Name": "VISHAL BADGUJAR",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD035",
+    "IIT": ""
+  },
+  {
+    "Name": "ADITYA SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD039",
+    "IIT": "INDORE"
+  },
+  {
+    "Name": "MOHITH KUMAR MEENA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD040",
+    "IIT": "IIT (BHU) VARANASI"
+  },
+  {
+    "Name": "SANJESH",
+    "Gender": "M",
+    "Position": "HOSPITALITY COD",
+    "uniqueId": "IISM25COD001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAM",
+    "Gender": "M",
+    "Position": "HOSPITALITY VOL",
+    "uniqueId": "IISM25VOL002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "CHANDU",
+    "Gender": "M",
+    "Position": "HOSPITALITY COD",
+    "uniqueId": "IISM25COD003",
+    "IIT": "MADRAS"
+  },
+
 
   {
     "Name": "SOUMEN MONDAL",

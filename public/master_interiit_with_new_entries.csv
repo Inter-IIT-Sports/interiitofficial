@@ -1,0 +1,3080 @@
+institute,sport_name,sport_id,gender,user_id,player_name,is_primary,events_raw
+Bombay,Athletics,0,M,1294,Sahastranshu komalangam Kumar,True,Triple Jump
+Bombay,Athletics,0,M,1296,Raj Singh Yadav,True,"4x400 M Relay, 5000 M, 4x400 M Relay ( Mixed ) (R), 1500 M, 800 M"
+Bombay,Athletics,0,M,1304,Tanishq Sahaj,True,"100 M, 4x100 M Relay"
+Bombay,Athletics,0,M,1308,Ranga Pathulothu,True,"Javelin Throw, Long Jump"
+Bombay,Athletics,0,M,1309,Parakh Sharma,True,"1500 M (R), 5000 M"
+Bombay,Athletics,0,M,1312,Sarthak Saran,True,"100 M (R), 4x100 M Relay (R), 200 M (R)"
+Bombay,Athletics,0,M,1316,Ojas Joshi,True,Shot Put
+Bombay,Athletics,0,M,1323,Raunak Shevade,True,Discus Throw
+Bombay,Athletics,0,M,1324,Aditya Somawanshi,True,Pole Vault
+Bombay,Athletics,0,M,1325,Debjyoti Mondal,True,"Long Jump, High Jump"
+Bombay,Athletics,0,M,1328,Ainsley Fernandes,True,"4x100 M Relay, 800 M (R), 4x400 M Relay"
+Bombay,Athletics,0,M,1334,Sunil Kumar,True,"400 M Hurdles, 4x400 M Relay (R), 4x100 M Relay (R)"
+Bombay,Athletics,0,M,1339,Sawan Meena,True,"400 M, 400 M Hurdles (R), 4x400 M Relay ( Mixed ), 4x100 M Relay, 200 M, 4x400 M Relay"
+Bombay,Athletics,0,M,1719,Krishna Nagamwad,True,"400 M Hurdles, 110 M Hurdles"
+Bombay,Athletics,0,M,1721,Aditya Chaudhary,True,High Jump
+Bombay,Athletics,0,M,1723,Shlok Rathi,True,"100 M, 400 M (R), 4x400 M Relay (R), 200 M, 4x100 M Relay"
+Bombay,Athletics,0,M,1724,Amit Kumar,True,"800 M, 4x400 M Relay, 4x400 M Relay ( Mixed ), 400 M, 1500 M"
+Bombay,Athletics,0,M,3408,Chinmay Narote,True,Discus Throw
+Bhubaneswar,Athletics,0,M,268,SARTHAK ANAND,True,"100 M, 4x100 M Relay, 200 M"
+Bhubaneswar,Athletics,0,M,269,GHANSHYAM,True,"100 M, 4x100 M Relay, 200 M"
+Bhubaneswar,Athletics,0,M,270,KANARAM,True,"1500 M, 800 M (R)"
+Bhubaneswar,Athletics,0,M,271,VISHNU MAIDA,True,"800 M, 4x400 M Relay"
+Bhubaneswar,Athletics,0,M,272,DEVARAKONDA ANIL KUMAR,True,Javelin Throw
+Bhubaneswar,Athletics,0,M,337,Gangasani Naga Manikanta Subash Reddy,True,"4x400 M Relay ( Mixed ), 110 M Hurdles, 4x100 M Relay"
+Bhubaneswar,Athletics,0,M,341,R SHIVA KUMAR,True,"4x400 M Relay, 5000 M"
+Bhubaneswar,Athletics,0,M,355,Nenavath vishal Rathod,True,"1500 M, 4x400 M Relay, 5000 M"
+Bhubaneswar,Athletics,0,M,357,CHILLA SAI VASANTH REDDY,True,"Long Jump, 4x400 M Relay"
+Bhubaneswar,Athletics,0,M,557,Gorli Raj vardhan,True,"4x100 M Relay, Long Jump"
+Bhubaneswar,Athletics,0,M,2357,PHANINDRA KUMAR GUDIVADA,True,"800 M, 400 M, 4x400 M Relay (R), 4x400 M Relay ( Mixed )"
+Bhubaneswar,Athletics,0,M,3188,BAJARU CHAKRADHAR,True,"400 M, 110 M Hurdles, 4x100 M Relay (R), 4x400 M Relay ( Mixed ) (R)"
+Bhilai,Athletics,0,M,367,Ramavath Vinayak,False,"Volleyball, Triple Jump, Long Jump"
+Bhilai,Athletics,0,M,394,Devansh Tejwani,False,"4x100 M Relay (R), Football"
+Bhilai,Athletics,0,M,2038,Akash Netam,True,"200 M, 4x400 M Relay, 4x100 M Relay, 400 M"
+Bhilai,Athletics,0,M,2039,Daksh Thakur,True,"200 M, 100 M, 4x100 M Relay (R)"
+Bhilai,Athletics,0,M,2040,Korrapati Karthikeya,True,"800 M, 4x400 M Relay"
+Bhilai,Athletics,0,M,2041,Rahul Kumar Gond,True,"4x100 M Relay, 100 M"
+Bhilai,Athletics,0,M,2042,Rahul sisodiya,True,"4x400 M Relay, 400 M, 800 M, 4x100 M Relay"
+Bhilai,Athletics,0,M,2180,Ankit Rath,True,800 M (R)
+Bhilai,Athletics,0,M,2270,Nitish Kumar,True,"4x400 M Relay, 400 M (R), 200 M, 4x100 M Relay"
+(BHU) Varanasi,Athletics,0,M,941,MOTILAL BHATRA,True,"High Jump (R), Javelin Throw (R), 4x400 M Relay ( Mixed ) (R), 4x100 M Relay, Long Jump, 4x400 M Relay"
+(BHU) Varanasi,Athletics,0,M,952,AMAN GHASTI,True,"800 M, 400 M (R), 4x400 M Relay ( Mixed ), 4x100 M Relay, 4x400 M Relay"
+(BHU) Varanasi,Athletics,0,M,959,LOKENDRA SINGH NINAMA,True,"200 M, 100 M, 4x100 M Relay"
+(BHU) Varanasi,Athletics,0,M,970,SHUBHAM KUMAR,True,"4x400 M Relay (R), 1500 M, 5000 M"
+(BHU) Varanasi,Athletics,0,M,1018,HARSH PRATAP SINGH,True,"Long Jump, High Jump, Triple Jump"
+(BHU) Varanasi,Athletics,0,M,1027,BHASKAR DAS,True,"Javelin Throw, 110 M Hurdles"
+(BHU) Varanasi,Athletics,0,M,1029,VIVEK MAHAR,True,"Triple Jump, 110 M Hurdles (R), High Jump"
+(BHU) Varanasi,Athletics,0,M,1053,HARSH VARDHAN DEVINENI,True,Discus Throw
+(BHU) Varanasi,Athletics,0,M,1057,ANKIT SHARMA,True,"800 M, 1500 M (R)"
+(BHU) Varanasi,Athletics,0,M,1064,ASHISH KUMAR JHA,True,"400 M Hurdles (R), 4x100 M Relay (R), 110 M Hurdles"
+(BHU) Varanasi,Athletics,0,M,1077,AJAY KUMAR,True,"4x100 M Relay (R), 800 M (R), 400 M Hurdles"
+(BHU) Varanasi,Athletics,0,M,1084,ASHISH BALIYAN,True,"Hammer Throw, Shot Put"
+(BHU) Varanasi,Athletics,0,M,1090,ANURAG SINGH,True,Javelin Throw
+(BHU) Varanasi,Athletics,0,M,1091,RAKESH BALARA,True,"4x400 M Relay ( Mixed ), 400 M, 4x400 M Relay, Long Jump (R)"
+(BHU) Varanasi,Athletics,0,M,1106,GAGAN KUMAR,True,"Discus Throw (R), 5000 M"
+(BHU) Varanasi,Athletics,0,M,1113,DIPESH YADAV,True,"400 M, 4x400 M Relay (R)"
+(BHU) Varanasi,Athletics,0,M,1114,SOHAM PATEL,True,"100 M, 200 M, 400 M Hurdles, 4x100 M Relay, 4x400 M Relay"
+(BHU) Varanasi,Athletics,0,M,1127,KESHAV KAUSHIK,True,"1500 M, 5000 M (R)"
+Delhi,Athletics,0,M,2029,Dinkar Siyag,False,"Cricket, Javelin Throw"
+Delhi,Athletics,0,M,2193,Yogesh Meena,True,Javelin Throw
+Delhi,Athletics,0,M,2195,Mohan,True,"High Jump, Triple Jump"
+Delhi,Athletics,0,M,2197,Ravi Charan Yerram,True,"4x400 M Relay ( Mixed ), 4x400 M Relay, 400 M Hurdles, 4x100 M Relay (R), 400 M"
+Delhi,Athletics,0,M,2200,Puneet,True,"4x400 M Relay, 400 M Hurdles"
+Delhi,Athletics,0,M,2203,Robinson,True,"100 M, 4x100 M Relay, 110 M Hurdles"
+Delhi,Athletics,0,M,2207,Sanjay Lohar,True,Pole Vault
+Delhi,Athletics,0,M,2211,Daksh Gupta,True,"800 M, 1500 M, 5000 M"
+Delhi,Athletics,0,M,2220,Madhav Bansal,True,"4x400 M Relay (R), 4x100 M Relay, 110 M Hurdles, 200 M, 100 M"
+Delhi,Athletics,0,M,3237,Sagar Singh,True,"400 M, 200 M, 4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed ) (R)"
+Delhi,Athletics,0,M,3238,Vansh Saini,True,"4x400 M Relay ( Mixed ), 200 M (R), 400 M (R), 4x400 M Relay, 4x100 M Relay"
+Delhi,Athletics,0,M,3239,Akash Kumar Singh,True,"4x400 M Relay (R), 1500 M, 800 M"
+Delhi,Athletics,0,M,3240,Abhishek Rathor,True,High Jump
+Delhi,Athletics,0,M,3241,Kapish Khokhar,True,Long Jump
+Delhi,Athletics,0,M,3242,Gaurav Kumar Kanwar,True,Pole Vault
+Delhi,Athletics,0,M,3243,Daniyal Masoodi,True,"Shot Put, Discus Throw"
+Delhi,Athletics,0,M,3244,Krish Bansal,True,Discus Throw
+Delhi,Athletics,0,M,3304,Ayush Mahapatra,True,Shot Put
+Delhi,Athletics,0,M,3308,Viresh,True,Shot Put (R)
+Dharwad,Athletics,0,M,659,Ayaan Karim,False,"Football, 4x100 M Relay"
+Dharwad,Athletics,0,M,670,Prem V Arkasali,False,"Football, 4x100 M Relay"
+Dharwad,Athletics,0,M,681,Palakurthy Shyam Praveen,False,"4x100 M Relay (R), Football"
+Dharwad,Athletics,0,M,694,Ajay,True,"400 M, 4x400 M Relay"
+Dharwad,Athletics,0,M,700,Guneet Singh,True,"4x400 M Relay, 5000 M, 1500 M"
+Dharwad,Athletics,0,M,703,D.Veera Navadeep,True,"Javelin Throw, 100 M (R), 4x100 M Relay"
+Dharwad,Athletics,0,M,709,Paturi Surya Chaithanya,True,Shot Put
+Dharwad,Athletics,0,M,712,Marella Chandrasekhara Sivasai,True,Shot Put
+Dharwad,Athletics,0,M,715,Himanshu Verma,True,800 M
+Dharwad,Athletics,0,M,716,BODA RAJESH,False,"100 M, 4x400 M Relay (R), 4x100 M Relay, Cricket"
+Dharwad,Athletics,0,M,717,Kuldeep,True,Discus Throw
+Dharwad,Athletics,0,M,731,Divyansh Prakash,True,"5000 M, 1500 M, 4x400 M Relay"
+Dharwad,Athletics,0,M,737,Kedar Kumawat,True,"4x400 M Relay, 800 M"
+Dharwad,Athletics,0,M,3321,Ankit Kumar,True,100 M
+Guwahati,Athletics,0,M,1115,JINAY RAKESH MEHTA,True,"Long Jump, 110 M Hurdles, 4x400 M Relay (R), High Jump"
+Guwahati,Athletics,0,M,1363,SARTHAK NAMDEO KHAWLE,True,"200 M, 4x400 M Relay, 4x100 M Relay"
+Guwahati,Athletics,0,M,1367,UDITANSH RAGHUVANSHI,True,Javelin Throw
+Guwahati,Athletics,0,M,1368,PUSHPESH GOKUL PANT,True,"1500 M, 5000 M, 4x400 M Relay, 800 M"
+Guwahati,Athletics,0,M,1370,ANUSURI HEMANTH,True,"Discus Throw, Hammer Throw, Shot Put"
+Guwahati,Athletics,0,M,1372,SACHIN KUMAR SAROJ,True,"Pole Vault, Long Jump, Triple Jump"
+Guwahati,Athletics,0,M,1375,SOORYA C K,True,"Triple Jump, High Jump, 110 M Hurdles"
+Guwahati,Athletics,0,M,1376,PULICHERU SAHASRAVARUN TEJ,True,"4x100 M Relay (R), 100 M (R)"
+Guwahati,Athletics,0,M,1377,HIMANSHU,True,"400 M, 4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed )"
+Guwahati,Athletics,0,M,1378,SOURABH SAINI,True,"4x100 M Relay, 4x400 M Relay ( Mixed ), 400 M (R), 4x400 M Relay, 400 M Hurdles (R)"
+Guwahati,Athletics,0,M,1380,Mayank Teotia,True,"100 M, 4x100 M Relay, 200 M (R)"
+Guwahati,Athletics,0,M,1381,Kalpajyoti Mazumdar,True,"200 M, 400 M, 4x400 M Relay ( Mixed ) (R), 4x400 M Relay (R), 4x100 M Relay (R), 100 M"
+Gandhinagar,Athletics,0,M,155,Aarav Piyush Malde,True,800 M
+Gandhinagar,Athletics,0,M,156,Abhitej Singh Bhullar,True,"4x100 M Relay, 4x400 M Relay, 400 M Hurdles"
+Gandhinagar,Athletics,0,M,157,Anshul Fenil Mehta,True,Long Jump
+Gandhinagar,Athletics,0,M,158,Chandan Anandrao Samrit,True,"4x100 M Relay (R), 200 M"
+Gandhinagar,Athletics,0,M,159,Divya Rupesh Shah,True,Long Jump
+Gandhinagar,Athletics,0,M,160,Rahul Dungavath Naik,True,Javelin Throw
+Gandhinagar,Athletics,0,M,161,Krishna Sharma,True,Hammer Throw
+Gandhinagar,Athletics,0,M,162,Kshitij Suresh Giri,True,"4x400 M Relay, 200 M, 100 M, 4x100 M Relay"
+Gandhinagar,Athletics,0,M,163,Vinod Kudumula Kumar Reddy,True,"1500 M, 5000 M"
+Gandhinagar,Athletics,0,M,164,Manikanta Uppala Naidu,True,800 M
+Gandhinagar,Athletics,0,M,165,Md Niyaz Ansari,True,Discus Throw
+Gandhinagar,Athletics,0,M,166,Naresh Ram Meena,True,"4x400 M Relay (R), 1500 M, 5000 M"
+Gandhinagar,Athletics,0,M,167,Rohit Kumar Ram,True,"100 M, 4x400 M Relay, 4x100 M Relay"
+Gandhinagar,Athletics,0,M,168,Sayan Bera,True,"400 M, 4x100 M Relay, 4x400 M Relay"
+Gandhinagar,Athletics,0,M,169,Vignesh V,True,Discus Throw
+Goa,Athletics,0,M,126,Kapil Handeriya,True,"4x100 M Relay (R), 4x400 M Relay ( Mixed ), 800 M, 1500 M, 5000 M (R), 4x400 M Relay"
+Goa,Athletics,0,M,127,Satwik Reddy,True,"100 M, 4x100 M Relay, 200 M"
+Goa,Athletics,0,M,128,pranith reddy,True,"4x100 M Relay, 400 M, 4x400 M Relay, 4x400 M Relay ( Mixed )"
+Goa,Athletics,0,M,129,Harsh Desale,True,"4x400 M Relay (R), 200 M, 4x100 M Relay, Long Jump, 100 M"
+Goa,Athletics,0,M,131,Devraj,True,"400 M, 800 M, 4x400 M Relay"
+Goa,Athletics,0,M,132,sahil sawant,True,"800 M (R), 1500 M, 5000 M, 4x400 M Relay ( Mixed ) (R), 4x400 M Relay, 4x100 M Relay"
+Hyderabad,Athletics,0,M,1996,Sai Chandan Mettu,True,"200 M, 4x100 M Relay, 100 M"
+Hyderabad,Athletics,0,M,2004,Edwin Varghese,True,"110 M Hurdles, 200 M, 100 M, 4x100 M Relay"
+Hyderabad,Athletics,0,M,2022,Tulasi Bharadwaj Ganta,True,4x400 M Relay
+Hyderabad,Athletics,0,M,2219,Siddharth Bawa,True,5000 M
+Hyderabad,Athletics,0,M,2221,Joel Mathew James,True,Shot Put (R)
+Hyderabad,Athletics,0,M,2222,Dhruv Sunil Parate,True,"4x100 M Relay, 400 M Hurdles, 110 M Hurdles, 4x400 M Relay"
+Hyderabad,Athletics,0,M,2230,Sonu Anirudha,True,Shot Put
+Hyderabad,Athletics,0,M,2235,Swapnil Rawal,True,"4x100 M Relay, Cricket"
+Hyderabad,Athletics,0,M,2238,Sasa Mardi,True,Pole Vault
+Hyderabad,Athletics,0,M,2242,Guhan Dhanasekharan,True,"100 M (R), 4x100 M Relay (R)"
+Hyderabad,Athletics,0,M,2246,Saishubham Laisetti,True,"1500 M, 4x400 M Relay, 800 M"
+Hyderabad,Athletics,0,M,2248,Shubham Gangwar,True,Javelin Throw
+Hyderabad,Athletics,0,M,2249,Gunala Hemanth,True,"4x400 M Relay, 800 M, 1500 M"
+Hyderabad,Athletics,0,M,2250,Prabhat Anand,True,4x100 M Relay (R)
+Hyderabad,Athletics,0,M,2252,Dillibabu S,True,Javelin Throw
+Hyderabad,Athletics,0,M,2254,Vishnu Banavath,True,Hammer Throw
+Hyderabad,Athletics,0,M,2274,Jagadeeshwaran S,True,"800 M (R), 5000 M, 4x400 M Relay (R), 1500 M (R)"
+Hyderabad,Athletics,0,M,2443,PUNITH S,True,"Discus Throw, Shot Put"
+Indore,Athletics,0,M,763,Gangaram Mourya,True,5000 M
+Indore,Athletics,0,M,766,Arka Biswas,True,200 M
+Indore,Athletics,0,M,772,Ravi Ranjan,True,800 M
+Indore,Athletics,0,M,774,Sanjay S,True,"100 M, 200 M"
+Indore,Athletics,0,M,778,Krishan Kumar Choudhary,True,Javelin Throw
+Indore,Athletics,0,M,781,Mudavath Sunil,True,Long Jump
+Indore,Athletics,0,M,784,Vishwajeet Bharti,True,Javelin Throw
+Indore,Athletics,0,M,790,Saurav Kumar Raushan,True,Discus Throw
+Indore,Athletics,0,M,793,Kaviarasu P,True,400 M
+Indore,Athletics,0,M,794,Mukul Raj Ghunawat,True,"100 M, 110 M Hurdles"
+Indore,Athletics,0,M,797,Bhukya Suresh,True,"400 M, Long Jump"
+Indore,Athletics,0,M,802,Ayush Kumar,True,Discus Throw
+Indore,Athletics,0,M,932,Jagrit,True,"400 M Hurdles, High Jump"
+Jodhpur,Athletics,0,M,2294,Ajay Kumar,True,"Shot Put, Discus Throw"
+Jodhpur,Athletics,0,M,2295,Kunal Jangid,True,"High Jump, 110 M Hurdles, Javelin Throw"
+Jodhpur,Athletics,0,M,2296,Anil Kumar Mina,True,800 M
+Jodhpur,Athletics,0,M,2297,Banavath chandra Mouli naik,True,"4x100 M Relay, 100 M, 200 M"
+Jodhpur,Athletics,0,M,2299,Shivam,True,"800 M, 400 M Hurdles, 1500 M"
+Jodhpur,Athletics,0,M,2300,Iftikhar Alam,True,"4x400 M Relay (R), 200 M, Long Jump, 4x100 M Relay (R)"
+Jodhpur,Athletics,0,M,2301,Vikash Meena,True,"4x400 M Relay, 4x100 M Relay (R), 400 M Hurdles, 400 M"
+Jodhpur,Athletics,0,M,2302,Nishant Poonia,True,"4x400 M Relay, 4x100 M Relay, 110 M Hurdles, Triple Jump"
+Jodhpur,Athletics,0,M,2303,Sachin Choudhary,True,Javelin Throw
+Jodhpur,Athletics,0,M,2304,Ankush Choudhary,True,"4x400 M Relay ( Mixed ), 400 M, 4x400 M Relay, 4x100 M Relay"
+Jodhpur,Athletics,0,M,2306,Dibyaranjan Parida,True,"100 M, Long Jump, High Jump, 4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed )"
+Jodhpur,Athletics,0,M,2307,Aryan Krishan,True,"1500 M, 4x400 M Relay ( Mixed ) (R), 4x400 M Relay (R), 5000 M"
+Jodhpur,Athletics,0,M,2308,Banoth Mallesh,True,"Javelin Throw (R), Hammer Throw"
+Jodhpur,Athletics,0,M,2310,Herschelle Sharma,True,"Shot Put, Discus Throw"
+Jammu,Athletics,0,M,453,QAMARUZ ZAMAN KHAKI,False,"Shot Put, Cricket"
+Jammu,Athletics,0,M,457,PRINCE DUGGAL,True,"4x400 M Relay, 800 M (R), 1500 M, 5000 M, 4x400 M Relay ( Mixed )"
+Jammu,Athletics,0,M,463,SUMIT,True,"4x400 M Relay, 4x400 M Relay ( Mixed ), 1500 M (R), 800 M, 400 M"
+Jammu,Athletics,0,M,478,SANDEEP,True,"5000 M, 800 M, 1500 M, 4x400 M Relay (R)"
+Jammu,Athletics,0,M,482,RISHABH KUMAR JHA,True,"4x100 M Relay, 400 M Hurdles, 110 M Hurdles, 4x400 M Relay (R)"
+Jammu,Athletics,0,M,485,PRASANNA,True,"4x100 M Relay, 4x400 M Relay (R), 400 M (R), 200 M"
+Jammu,Athletics,0,M,490,Venu Naik Sugali,True,"Javelin Throw (R), Shot Put"
+Jammu,Athletics,0,M,493,Bagla Badal Anilkumar,True,Discus Throw
+Jammu,Athletics,0,M,498,Jatothu Jeevan Tej,True,"100 M, 200 M, 4x100 M Relay"
+Jammu,Athletics,0,M,499,Amit Kumar Saini,True,"Triple Jump, Long Jump"
+Jammu,Athletics,0,M,504,Vikrant Lalhal,True,"Long Jump, 4x100 M Relay, 100 M"
+Jammu,Athletics,0,M,507,Kabir Singh,True,Javelin Throw
+Jammu,Athletics,0,M,509,Aaryan,True,"4x400 M Relay ( Mixed ) (R), 4x400 M Relay, 4x100 M Relay (R), 100 M (R), 400 M"
+Jammu,Athletics,0,M,1303,MANISH KUMAR,True,Javelin Throw
+Kanpur,Athletics,0,M,321,Chandra Bhan,True,"Discus Throw (R), Javelin Throw, Hammer Throw"
+Kanpur,Athletics,0,M,324,Madhav Kumar,True,"Javelin Throw (R), Shot Put"
+Kanpur,Athletics,0,M,326,Navjot Singh,True,"Shot Put, Hammer Throw (R), Discus Throw"
+Kanpur,Athletics,0,M,328,Amimay Pandey,True,Javelin Throw
+Kanpur,Athletics,0,M,331,Nitish,True,"Shot Put (R), Discus Throw"
+Kanpur,Athletics,0,M,335,Dhananjoy De,True,"1500 M, 5000 M, 4x400 M Relay, 800 M"
+Kanpur,Athletics,0,M,338,Sanjay Khara,True,"1500 M, 800 M (R), 5000 M"
+Kanpur,Athletics,0,M,340,Sujal Kumar Sahani,True,"800 M, 1500 M (R), 5000 M (R)"
+Kanpur,Athletics,0,M,345,Nirbhay Keshavji Kachhatiya,True,"Triple Jump, High Jump, Long Jump"
+Kanpur,Athletics,0,M,351,Anuj Kumar Gupta,True,"4x400 M Relay, 4x400 M Relay ( Mixed ), 4x100 M Relay, 400 M Hurdles, 110 M Hurdles (R)"
+Kanpur,Athletics,0,M,352,Shreyansh Dewangan,True,"4x400 M Relay (R), 100 M, 200 M, 4x100 M Relay"
+Kanpur,Athletics,0,M,353,Anukalp Rai,True,"4x400 M Relay, 4x100 M Relay, 110 M Hurdles, 200 M, 4x400 M Relay ( Mixed ), 400 M (R)"
+Kanpur,Athletics,0,M,354,Yuvraj Singh Kharte,True,"4x400 M Relay, 4x100 M Relay, 4x400 M Relay ( Mixed ) (R), 110 M Hurdles, 400 M Hurdles"
+Kanpur,Athletics,0,M,356,P Tagore Naik,True,"200 M (R), 100 M, Long Jump, 4x100 M Relay (R)"
+Kanpur,Athletics,0,M,358,Abhay Shivhare,True,"High Jump, 100 M (R), 400 M"
+Kanpur,Athletics,0,M,359,Pushpendra Singh,True,Pole Vault
+Kanpur,Athletics,0,M,360,Hemant Jangid,True,Hammer Throw
+Kanpur,Athletics,0,M,361,Tanishq Kundara,True,"400 M, 4x100 M Relay (R), 400 M Hurdles (R), 4x400 M Relay (R)"
+Kharagpur,Athletics,0,M,1532,Rohan N,True,"100 M, 4x100 M Relay, 4x400 M Relay, 200 M, 4x400 M Relay ( Mixed ) (R)"
+Kharagpur,Athletics,0,M,1535,Gnaneshwar Munoth,True,"4x400 M Relay, 4x100 M Relay, 4x400 M Relay ( Mixed ), 400 M Hurdles, 800 M (R), 400 M"
+Kharagpur,Athletics,0,M,1537,Indrajeet Kumar,True,"Pole Vault, 4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed ), 400 M, 400 M Hurdles"
+Kharagpur,Athletics,0,M,1539,Gutti Chinna Chandrudu,True,"4x100 M Relay (R), Hammer Throw (R), Javelin Throw"
+Kharagpur,Athletics,0,M,1540,Sagar K P,True,"4x400 M Relay (R), 800 M, 1500 M, 5000 M (R)"
+Kharagpur,Athletics,0,M,1542,Zaid MD,True,"200 M, 100 M, 4x100 M Relay"
+Kharagpur,Athletics,0,M,1546,G L Lohith,True,"400 M Hurdles (R), High Jump, 110 M Hurdles"
+Kharagpur,Athletics,0,M,1548,Rode Utkarsh Prakash,True,"1500 M (R), 5000 M"
+Kharagpur,Athletics,0,M,1552,Patnam Sairam,True,"Pole Vault, Javelin Throw (R)"
+Kharagpur,Athletics,0,M,1557,Arghyajyoti Ghosh,True,"Long Jump, Triple Jump"
+Kharagpur,Athletics,0,M,1559,Rahul,True,"Triple Jump, 110 M Hurdles, Long Jump (R)"
+Kharagpur,Athletics,0,M,1564,Divyansh Singh Tomar,True,"Hammer Throw, Discus Throw, Shot Put"
+Kharagpur,Athletics,0,M,1566,Malyank Verma,True,"4x400 M Relay, 800 M, 110 M Hurdles (R), 400 M (R)"
+Kharagpur,Athletics,0,M,1569,Pawan Bishnoi,True,"Discus Throw, Shot Put (R)"
+Kharagpur,Athletics,0,M,1571,Dheeraj M. Revankar,True,"Triple Jump (R), Long Jump"
+Kharagpur,Athletics,0,M,1572,Dhruv Sharma,True,"Hammer Throw, Discus Throw (R)"
+Kharagpur,Athletics,0,M,1611,Mayank Singh,True,"100 M (R), 200 M, 4x400 M Relay (R), 4x100 M Relay (R)"
+Kharagpur,Athletics,0,M,1613,Purushottam Kumar,True,Javelin Throw
+Kharagpur,Athletics,0,M,2279,Abinash Anand,True,1500 M
+Kharagpur,Athletics,0,M,2280,Sudanshu,True,5000 M
+Madras,Athletics,0,M,2660,Himanshu Ranjan,True,"High Jump, Triple Jump (R)"
+Madras,Athletics,0,M,2661,Gunashekhar M,True,"400 M, Javelin Throw (R), 4x400 M Relay, 4x400 M Relay ( Mixed ) (R), 4x100 M Relay, 400 M Hurdles (R)"
+Madras,Athletics,0,M,2662,Vetrichelvan,True,"Triple Jump, High Jump (R), Long Jump"
+Madras,Athletics,0,M,2663,Karry Datta Sai,True,"100 M (R), 4x400 M Relay (R), 4x100 M Relay (R), 200 M (R)"
+Madras,Athletics,0,M,2664,Kamal Boro,True,Pole Vault
+Madras,Athletics,0,M,2878,K.CHANDRAN,True,"4x400 M Relay (R), 400 M (R), 100 M, 200 M, 4x100 M Relay"
+Madras,Athletics,0,M,2879,SANJEET,True,110 M Hurdles
+Madras,Athletics,0,M,2880,SHANKAR T,True,"1500 M, 400 M Hurdles, 800 M, 4x400 M Relay"
+Madras,Athletics,0,M,2881,GAURAV YADAV,True,"Long Jump (R), 400 M Hurdles, 4x100 M Relay, Pole Vault, 4x400 M Relay, 4x400 M Relay ( Mixed )"
+Madras,Athletics,0,M,2882,BHANUPRAKASH BANOTH,True,High Jump
+Madras,Athletics,0,M,2883,KRUTHARTH R,True,Javelin Throw
+Madras,Athletics,0,M,2884,NIRANJAN B,True,Javelin Throw
+Madras,Athletics,0,M,2890,RAKESH,True,"Discus Throw, Shot Put"
+Madras,Athletics,0,M,2891,DHIVYADARSHAN A,True,"110 M Hurdles, Long Jump, 4x100 M Relay (R), Triple Jump"
+Madras,Athletics,0,M,2892,VISWESHWAR SHANKAR,True,"4x400 M Relay ( Mixed ), 100 M, 200 M, 4x100 M Relay, 4x400 M Relay, 400 M"
+Madras,Athletics,0,M,2894,SUNIL KUMAR,True,"5000 M, 800 M, 1500 M"
+Mandi,Athletics,0,M,2403,Nishant Prashar,True,"5000 M, 4x400 M Relay, 1500 M"
+Mandi,Athletics,0,M,2404,Yashodeep Gadale,True,"200 M (R), 100 M, 400 M (R), 4x100 M Relay, 4x400 M Relay (R)"
+Mandi,Athletics,0,M,2405,Harsh Rana,True,"Long Jump, 4x100 M Relay (R), 4x400 M Relay, 200 M"
+Mandi,Athletics,0,M,2407,Dev Pratap Singh Baghel,True,"4x100 M Relay (R), 400 M, 5000 M (R), 800 M"
+Mandi,Athletics,0,M,2408,Trayambkesh Tripathi,True,"4x100 M Relay, 4x400 M Relay (R), High Jump, 110 M Hurdles, 400 M Hurdles"
+Mandi,Athletics,0,M,2410,Manav,True,"4x100 M Relay, 100 M"
+Mandi,Athletics,0,M,2412,Dhruva Rathore,True,"4x100 M Relay, 100 M (R), 4x400 M Relay, 200 M, 400 M"
+Mandi,Athletics,0,M,2416,Deepesh Tripathi,True,"Long Jump, 1500 M (R), 800 M"
+Mandi,Athletics,0,M,2552,Gourav Chaudhary,True,"4x400 M Relay, 800 M, 1500 M, 5000 M"
+Patna,Athletics,0,M,1179,SANTOSH YADAV,True,"4x400 M Relay, 400 M, 4x400 M Relay ( Mixed )"
+Patna,Athletics,0,M,1180,MANDEEP SINGH,True,5000 M
+Patna,Athletics,0,M,1181,PRINCE YADAV,True,"100 M, 200 M (R), 4x100 M Relay"
+Patna,Athletics,0,M,1182,RAJ KUMAR,True,"Discus Throw, Shot Put"
+Patna,Athletics,0,M,1183,AAYUSH ARYAN,True,"4x100 M Relay (R), 400 M, 4x400 M Relay (R)"
+Patna,Athletics,0,M,1184,AMAN KUMAR,True,"Long Jump, Triple Jump, 4x100 M Relay"
+Patna,Athletics,0,M,1185,BALA ADHITYA BOORA,True,"1500 M (R), 800 M (R)"
+Patna,Athletics,0,M,1187,YAJAT LAAD,True,5000 M
+Patna,Athletics,0,M,1188,SUMIT KUMAR,True,"Shot Put, Javelin Throw, Discus Throw"
+Patna,Athletics,0,M,1189,SAURABH KUMAR,True,"4x400 M Relay, 800 M, 1500 M, 4x400 M Relay ( Mixed ) (R)"
+Patna,Athletics,0,M,1191,DHANESH VETTI,True,"800 M, 1500 M, 4x400 M Relay"
+Patna,Athletics,0,M,1193,ARUN NAYAK,True,"Triple Jump, Long Jump"
+Patna,Athletics,0,M,1194,SURENDRA,True,"4x400 M Relay (R), 4x100 M Relay, 200 M, 100 M"
+Patna,Athletics,0,M,1227,ANURAG SEMWAL,True,"400 M (R), 4x100 M Relay, 100 M (R), 4x400 M Relay ( Mixed ), 200 M, 4x400 M Relay"
+Patna,Athletics,0,M,3121,Krishna Kant,True,5000 M (R)
+Palakkad,Athletics,0,M,603,Sainath P,True,"Long Jump, 200 M (R), 4x400 M Relay, 4x100 M Relay, 100 M"
+Palakkad,Athletics,0,M,605,Ajul Muhammed S S,True,"200 M, 100 M, 4x400 M Relay, 4x100 M Relay"
+Palakkad,Athletics,0,M,607,Kishore Malaka,True,"100 M (R), 4x400 M Relay, 200 M, 4x100 M Relay"
+Palakkad,Athletics,0,M,608,Rajesh B,True,"400 M, 4x100 M Relay, 4x400 M Relay, 400 M Hurdles"
+Palakkad,Athletics,0,M,609,Ajay Kumar Jena,True,"Hammer Throw, Shot Put (R), Discus Throw"
+Palakkad,Athletics,0,M,610,Prichand,True,"1500 M, 800 M, 4x400 M Relay (R), 4x100 M Relay (R)"
+Palakkad,Athletics,0,M,612,Tej Pattan Shetty,True,"4x100 M Relay (R), 110 M Hurdles, 4x400 M Relay (R)"
+Palakkad,Athletics,0,M,613,Rajan,True,"Discus Throw, Hammer Throw (R), Shot Put"
+Palakkad,Athletics,0,M,615,CH Akshay,True,"Hammer Throw, Shot Put, Discus Throw (R)"
+Roorkee,Athletics,0,M,558,Neritya Kumar Singh,True,"Shot Put, Hammer Throw, Discus Throw"
+Roorkee,Athletics,0,M,559,Rachit Baliyan,True,"High Jump, Shot Put, Discus Throw"
+Roorkee,Athletics,0,M,561,Abhishek,True,"Hammer Throw, Shot Put (R), Discus Throw (R)"
+Roorkee,Athletics,0,M,563,Amgoth Ganesh,True,Javelin Throw
+Roorkee,Athletics,0,M,564,Raghav Yadav,True,"Javelin Throw, Triple Jump (R)"
+Roorkee,Athletics,0,M,568,Raushan Yadav,True,"Triple Jump, Long Jump, Javelin Throw (R)"
+Roorkee,Athletics,0,M,569,Ayush Dhibar,True,"4x400 M Relay (R), 1500 M, 5000 M, 800 M"
+Roorkee,Athletics,0,M,571,Mantavya,True,"Triple Jump, Long Jump, High Jump (R)"
+Roorkee,Athletics,0,M,574,Rudra Beniwal,True,High Jump
+Roorkee,Athletics,0,M,575,Mohith Reddy,True,"4x400 M Relay, 200 M, 100 M, 4x100 M Relay"
+Roorkee,Athletics,0,M,578,Suraj Choudhary,True,"Pole Vault, Long Jump (R)"
+Roorkee,Athletics,0,M,580,Amit Danga,True,"4x400 M Relay ( Mixed ), 4x400 M Relay, 800 M, 400 M, 1500 M"
+Roorkee,Athletics,0,M,583,Rakesh Rathia,True,Pole Vault
+Roorkee,Athletics,0,M,586,Kumar Akarshan,True,"200 M (R), 4x100 M Relay, 4x400 M Relay ( Mixed ), 400 M, 4x400 M Relay, 400 M Hurdles"
+Roorkee,Athletics,0,M,589,Barathvel M,True,"5000 M (R), 100 M, 4x100 M Relay, 110 M Hurdles (R), 4x400 M Relay (R)"
+Roorkee,Athletics,0,M,594,Shiv Kumar Meena,True,"100 M (R), 200 M, 110 M Hurdles, 4x100 M Relay, 1500 M (R)"
+Roorkee,Athletics,0,M,597,Naveen,True,"400 M Hurdles, 400 M (R), 4x400 M Relay ( Mixed ) (R), 4x100 M Relay (R), 4x400 M Relay, 110 M Hurdles"
+Ropar,Athletics,0,M,432,Sandharagiri Shivakshar,True,"400 M, 4x400 M Relay, 4x100 M Relay"
+Ropar,Athletics,0,M,433,Xshitiz Chahal,True,Shot Put
+Ropar,Athletics,0,M,434,Sandesh Jadhav,True,"Triple Jump, 4x100 M Relay (R)"
+Ropar,Athletics,0,M,435,Jadav Nagachaitanya,True,"4x400 M Relay (R), 200 M, 4x100 M Relay"
+Ropar,Athletics,0,M,437,pendyala saisiddartha,True,"4x400 M Relay, Long Jump"
+Ropar,Athletics,0,M,438,Eslavath Srishanth,True,"Triple Jump, 4x400 M Relay (R), Long Jump"
+Ropar,Athletics,0,M,439,Sayed Musaraf Ali,True,"4x400 M Relay, 100 M, 4x100 M Relay"
+Ropar,Athletics,0,M,440,Kartik Madavi,True,"200 M, 4x100 M Relay, 100 M, 4x400 M Relay"
+Ropar,Athletics,0,M,458,Dhananjay Dhayal,True,Shot Put
+Ropar,Athletics,0,M,461,Wajahat Ibni Rashid,True,"1500 M, 5000 M"
+Tirupati,Athletics,0,M,1790,MAYANK DHYAWANA,False,"Triple Jump, Football, High Jump, 4x100 M Relay (R), Volleyball"
+Tirupati,Athletics,0,M,1800,BOGGU NAVEEN NAIDU,True,800 M
+Tirupati,Athletics,0,M,1808,GURJULA PRATAP,True,"4x100 M Relay, Triple Jump, Long Jump"
+Tirupati,Athletics,0,M,1814,NENAVATH NARAHARI,True,"Javelin Throw, Long Jump (R), 4x100 M Relay (R)"
+Tirupati,Athletics,0,M,1817,S.SRIDHARSHAN,True,"400 M, 4x100 M Relay, 200 M"
+Tirupati,Athletics,0,M,1818,BEZAWADA RAAKIN,True,"Discus Throw, Shot Put"
+Tirupati,Athletics,0,M,1841,PRAKHAR DIXIT,True,5000 M
+Tirupati,Athletics,0,M,1843,M YESHWANTH SAI,True,"Triple Jump (R), Long Jump, 4x100 M Relay"
+Tirupati,Athletics,0,M,1844,SHAIK ASHIQ AHMAD,True,"4x100 M Relay, Javelin Throw, Volleyball, Cricket"
+Bombay,Athletics,0,F,1217,VIJAYALAKSHMI,True,Shot Put
+Bombay,Athletics,0,F,1221,Krisha Biradar,True,"4x100 M Relay, 200 M (R), 100 M (R), 4x400 M Relay ( Mixed ), 4x400 M Relay, 400 M"
+Bombay,Athletics,0,F,1226,Samiksha Shelke,True,"400 M, 4x400 M Relay, 200 M, 4x100 M Relay (R), 4x400 M Relay ( Mixed ) (R), Long Jump"
+Bombay,Athletics,0,F,1242,Riddhi Yeola,True,"4x100 M Relay, 100 M, 4x400 M Relay (R)"
+Bombay,Athletics,0,F,1271,Shambhavi Jaiswal,True,"4x100 M Relay (R), 1500 M, 800 M, 400 M (R), 4x400 M Relay (R)"
+Bombay,Athletics,0,F,1280,Arya Gaikwad,True,"High Jump, Discus Throw"
+Bombay,Athletics,0,F,1711,Maneesha Saisree Tunuguntla,True,"4x400 M Relay, Javelin Throw, 4x100 M Relay, Shot Put, 4x400 M Relay ( Mixed ), Discus Throw"
+Bombay,Athletics,0,F,1714,Shreya Paliwal,True,Javelin Throw
+Bombay,Athletics,0,F,3409,Devangi Chaudhary,True,"200 M, 100 M, 4x400 M Relay, 4x100 M Relay"
+Bhubaneswar,Athletics,0,F,347,BHAVYA BANSAL,True,"4x100 M Relay, Long Jump, 200 M, 400 M, 4x400 M Relay ( Mixed )"
+Bhubaneswar,Athletics,0,F,348,Kotha Kuruva Jyothirmai,True,"400 M, 800 M, 4x100 M Relay"
+Bhubaneswar,Athletics,0,F,349,MADUGUNDU SOUMYA SREE,True,"100 M, 4x400 M Relay ( Mixed ), 4x100 M Relay"
+Bhubaneswar,Athletics,0,F,350,MERIN JOSSY,True,"4x100 M Relay (R), 1500 M, 800 M"
+Bhubaneswar,Athletics,0,F,3189,RIIDHI SANJAY BAGADE,True,"100 M, 200 M, 4x100 M Relay, 4x400 M Relay ( Mixed ) (R), Long Jump"
+Bhilai,Athletics,0,F,2036,sanjani kumari,True,"200 M, 100 M"
+Bhilai,Athletics,0,F,2037,Kollati Devi Chandrika,True,"100 M, Long Jump"
+(BHU) Varanasi,Athletics,0,F,930,JIGMAT TSOMO,True,"4x100 M Relay, 1500 M, 4x400 M Relay ( Mixed ), 400 M, 4x400 M Relay, 800 M"
+(BHU) Varanasi,Athletics,0,F,931,NITISHA,True,"4x400 M Relay, 4x400 M Relay ( Mixed ), 200 M, 100 M, 4x100 M Relay, Long Jump"
+(BHU) Varanasi,Athletics,0,F,938,KRITIKA BANSAL,True,"4x400 M Relay, 200 M, 100 M, 100 M Hurdles, 4x100 M Relay"
+(BHU) Varanasi,Athletics,0,F,954,DIVYA CHAUDARY,True,"100 M (R), 400 M, 200 M (R), 4x400 M Relay ( Mixed ), 4x100 M Relay, 4x400 M Relay"
+(BHU) Varanasi,Athletics,0,F,981,LOHITA SAHITHI,True,"Shot Put, Discus Throw, Javelin Throw"
+(BHU) Varanasi,Athletics,0,F,991,ANJANI KUMARI,True,"Discus Throw, High Jump"
+(BHU) Varanasi,Athletics,0,F,999,KANISHKA SAKUNIA,True,"Javelin Throw, Discus Throw (R)"
+Delhi,Athletics,0,F,2152,Sanha Sigger,True,"4x400 M Relay ( Mixed ) (R), 4x100 M Relay (R), 4x400 M Relay, Discus Throw, Javelin Throw"
+Delhi,Athletics,0,F,2156,Nanita Basumatary,True,"400 M (R), 4x100 M Relay, 4x400 M Relay ( Mixed ), 4x400 M Relay, 100 M, 200 M"
+Delhi,Athletics,0,F,2173,Khushi Rulaniya,True,"400 M, 4x100 M Relay, 200 M (R), 100 M (R)"
+Delhi,Athletics,0,F,2175,Aayvi Saini,True,"1500 M, 800 M, 4x400 M Relay"
+Delhi,Athletics,0,F,2177,Ananya Singhal,True,"Long Jump, 4x400 M Relay (R), 4x100 M Relay"
+Delhi,Athletics,0,F,2178,Payal,True,"800 M, 4x400 M Relay (R), 1500 M"
+Delhi,Athletics,0,F,2181,Ananya Yadav,True,"Discus Throw, Shot Put"
+Delhi,Athletics,0,F,2184,Pooja H M,True,"100 M Hurdles, High Jump, 4x100 M Relay (R)"
+Delhi,Athletics,0,F,2185,Khushi Jorwal,True,"Javelin Throw, Shot Put"
+Delhi,Athletics,0,F,2188,Kriti Sharma,True,"200 M, 400 M (R), 4x400 M Relay ( Mixed ), 100 M, 4x400 M Relay, 4x100 M Relay"
+Dharwad,Athletics,0,F,747,GOUTHAMEE REDDY DUMPALA,False,"Volleyball, 100 M"
+Dharwad,Athletics,0,F,762,Veeksha Nagaraj,False,"Shot Put, Volleyball"
+Guwahati,Athletics,0,F,1379,PRAMILA MEENA,True,"800 M, 400 M, 4x100 M Relay, 4x400 M Relay ( Mixed ), 200 M, 4x400 M Relay"
+Guwahati,Athletics,0,F,1383,KEERTHANA MAHESH,True,"Long Jump, High Jump, 4x100 M Relay (R), 4x400 M Relay (R), Shot Put"
+Guwahati,Athletics,0,F,1384,SPOORTHI,True,"4x400 M Relay, 100 M, 4x400 M Relay ( Mixed ), 4x100 M Relay, 200 M (R)"
+Guwahati,Athletics,0,F,1385,ARYA BHAGCHAND KHAPEKAR,True,"4x400 M Relay ( Mixed ) (R), 4x400 M Relay, 100 M, 4x100 M Relay, 200 M"
+Guwahati,Athletics,0,F,1386,JENNITA RACHEL A,True,"1500 M, 4x100 M Relay, 4x400 M Relay, 800 M"
+Gandhinagar,Athletics,0,F,170,V S Shakthi Devi,True,100 M
+Gandhinagar,Athletics,0,F,171,Shivangi Paresh Thaker,True,"200 M, 100 M"
+Gandhinagar,Athletics,0,F,172,Kanika Chauhan,True,Javelin Throw
+Goa,Athletics,0,F,133,ankita kumari,True,"200 M, 100 M, 400 M, 4x400 M Relay ( Mixed )"
+Goa,Athletics,0,F,134,Benade Snehal Vijay,True,Shot Put
+Goa,Athletics,0,F,135,dunisha jalwal,True,"100 M, 4x400 M Relay ( Mixed ) (R), Long Jump"
+Goa,Athletics,0,F,136,pranathi hemanth,True,"800 M, 400 M (R), 4x400 M Relay ( Mixed )"
+Hyderabad,Athletics,0,F,2256,Sri Lekha O.V,True,Discus Throw
+Hyderabad,Athletics,0,F,2257,Mirudulla M,True,Javelin Throw
+Hyderabad,Athletics,0,F,2260,Pratibha Verma,True,"Volleyball, Shot Put"
+Hyderabad,Athletics,0,F,2266,Jangili Sravanthi,True,"4x100 M Relay, 200 M, 100 M"
+Hyderabad,Athletics,0,F,2275,Sugirtha Gayathri,True,Shot Put
+Hyderabad,Athletics,0,F,2276,Nisha Srinivas,True,4x100 M Relay (R)
+Hyderabad,Athletics,0,F,2277,Dindima Mudadla,True,4x100 M Relay
+Hyderabad,Athletics,0,F,2445,Safa Fathima Rafeek,True,"4x100 M Relay, 100 M"
+Hyderabad,Athletics,0,F,2483,Shreya Ratnagiri,True,"4x100 M Relay, 800 M, 400 M"
+Indore,Athletics,0,F,811,Prachi Singh,True,"100 M Hurdles, 100 M, 200 M"
+Indore,Athletics,0,F,814,Sangeetha A,True,"Long Jump, 400 M"
+Jodhpur,Athletics,0,F,2326,Anushka Singh,True,"200 M, 4x100 M Relay"
+Jodhpur,Athletics,0,F,2331,Swasti Singhal,True,"High Jump, 100 M Hurdles, 4x100 M Relay"
+Jodhpur,Athletics,0,F,2334,Susmita Mondal,True,"4x400 M Relay ( Mixed ), Shot Put, 4x100 M Relay, 100 M, High Jump"
+Jodhpur,Athletics,0,F,2337,Jaya Maurya,True,"4x100 M Relay (R), 1500 M, 800 M"
+Jodhpur,Athletics,0,F,2339,Apurva Borkar,True,"800 M, 4x100 M Relay (R), 400 M, 4x400 M Relay ( Mixed ) (R)"
+Jodhpur,Athletics,0,F,2340,Poorvie Choudhary,True,"4x400 M Relay ( Mixed ), 100 M, Long Jump, 4x100 M Relay, 200 M"
+Jammu,Athletics,0,F,512,AKSHITA SAXENA,True,"400 M, 1500 M, 4x100 M Relay, 4x400 M Relay ( Mixed ), 800 M"
+Jammu,Athletics,0,F,513,Vennela Pathipaka,True,"4x400 M Relay ( Mixed ) (R), 100 M, 4x100 M Relay"
+Jammu,Athletics,0,F,516,Eslavath Anupriya Pamar,True,"Long Jump, 200 M, 4x100 M Relay, Javelin Throw"
+Jammu,Athletics,0,F,518,Kanika Gupta,True,"100 M, Long Jump, 4x400 M Relay ( Mixed ), 4x100 M Relay"
+Kanpur,Athletics,0,F,323,Samiera R Nair,True,"400 M, 4x100 M Relay (R), 4x400 M Relay, 100 M Hurdles, 800 M"
+Kanpur,Athletics,0,F,325,Movika Premkumar,True,"200 M, 100 M, 4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed ) (R)"
+Kanpur,Athletics,0,F,330,Monika,True,"Long Jump, 4x400 M Relay (R), 4x100 M Relay (R), High Jump, Javelin Throw"
+Kanpur,Athletics,0,F,333,Karishma Singh,True,"4x100 M Relay, 200 M, Long Jump, 100 M Hurdles, 4x400 M Relay ( Mixed ), 4x400 M Relay"
+Kanpur,Athletics,0,F,334,Priyanshi Meena,True,"4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed ), 100 M (R), 200 M (R), 400 M"
+Kanpur,Athletics,0,F,336,Devyani Dubey,True,"800 M, 400 M (R), 4x400 M Relay (R)"
+Kanpur,Athletics,0,F,339,Aradhana Anantha,True,"100 M, High Jump, 4x100 M Relay"
+Kanpur,Athletics,0,F,342,Korra Sruthi,True,"Discus Throw, Shot Put"
+Kanpur,Athletics,0,F,344,Arpita Verma,True,"Discus Throw, Shot Put (R), Javelin Throw"
+Kanpur,Athletics,0,F,1142,MEENAKSHI MEENA,True,"Discus Throw (R), Javelin Throw (R), Shot Put"
+Kharagpur,Athletics,0,F,1575,Poojitha Jangili,True,"4x400 M Relay ( Mixed ), 400 M (R), 1500 M (R), 4x400 M Relay, 800 M, 4x100 M Relay"
+Kharagpur,Athletics,0,F,1583,Meghana Paligiri,True,"4x400 M Relay ( Mixed ) (R), 4x400 M Relay, 200 M (R), Long Jump, 100 M, 4x100 M Relay"
+Kharagpur,Athletics,0,F,1584,Sanjana Reddy Pochampally,True,"100 M, 4x100 M Relay, 4x400 M Relay, 4x400 M Relay ( Mixed ), 400 M, 200 M"
+Kharagpur,Athletics,0,F,1586,Vani Priya,True,"4x400 M Relay (R), 800 M (R), 4x100 M Relay (R), 1500 M"
+Kharagpur,Athletics,0,F,1589,Yachu Biri,True,"800 M, 4x100 M Relay, 200 M, 400 M, 4x400 M Relay"
+Kharagpur,Athletics,0,F,1590,Sabita Kumari,True,"Long Jump, Javelin Throw, 4x400 M Relay (R)"
+Kharagpur,Athletics,0,F,1593,Nikitha Pavle,True,"100 M Hurdles, High Jump"
+Kharagpur,Athletics,0,F,1595,Sharvari Varpe,True,"High Jump, 100 M Hurdles (R)"
+Kharagpur,Athletics,0,F,1597,Manisha Kumari,True,"100 M Hurdles, High Jump (R), Long Jump (R)"
+Kharagpur,Athletics,0,F,1601,Nandita Datta,True,"Shot Put (R), Javelin Throw"
+Kharagpur,Athletics,0,F,1605,Bhanvi Kumar,True,"Discus Throw (R), Shot Put"
+Kharagpur,Athletics,0,F,1607,Meenu Singh,True,Discus Throw
+Kharagpur,Athletics,0,F,2020,Medara Sanjana,True,"Shot Put, Javelin Throw (R), Discus Throw"
+Kharagpur,Athletics,0,F,2021,Rithika Venkatesan,True,"4x100 M Relay (R), 1500 M, 100 M (R)"
+Madras,Athletics,0,F,2603,Arohi Bhave,False,"Volleyball, 200 M (R), 4x100 M Relay (R), 4x400 M Relay (R)"
+Madras,Athletics,0,F,2885,SAGA BIJU LONA,True,"4x400 M Relay, 100 M Hurdles, 4x100 M Relay, High Jump, Long Jump, 4x400 M Relay ( Mixed )"
+Madras,Athletics,0,F,2886,ANNE MARTIN,True,"1500 M, 800 M (R)"
+Madras,Athletics,0,F,2887,KEERTHANA BRIJESH,True,"4x400 M Relay ( Mixed ), 4x100 M Relay, 4x400 M Relay, 400 M, 800 M"
+Madras,Athletics,0,F,2888,RITISHA,True,"4x400 M Relay, 200 M, 4x100 M Relay, 100 M"
+Madras,Athletics,0,F,2889,FAZEENA AFRIN F,True,"Long Jump, 4x100 M Relay, 4x400 M Relay (R), 100 M"
+Madras,Athletics,0,F,2893,MEENAKASHI DEVI,True,"Discus Throw, Javelin Throw"
+Madras,Athletics,0,F,2895,D PRABHANJANA,True,"4x400 M Relay, 100 M Hurdles, 4x100 M Relay (R), 1500 M, 800 M, 4x400 M Relay ( Mixed ) (R)"
+Madras,Athletics,0,F,2897,CHAITANYA MEHROTRA,True,"Javelin Throw, Discus Throw, Shot Put"
+Madras,Athletics,0,F,2898,P.Niharika,True,"400 M, 200 M, Javelin Throw (R)"
+Mandi,Athletics,0,F,2360,Gagandep Kaur,False,"4x100 M Relay, Javelin Throw, Volleyball"
+Mandi,Athletics,0,F,2413,Devarala Naga Durga,True,"High Jump, 100 M, 4x100 M Relay, 100 M Hurdles"
+Mandi,Athletics,0,F,2414,Malavika S Nair,True,"100 M, 200 M, 4x100 M Relay"
+Mandi,Athletics,0,F,2782,Anvesha Karwa,True,"800 M, 4x100 M Relay, 1500 M"
+Patna,Athletics,0,F,1166,LOSMIN SAHOO,True,"4x100 M Relay, 100 M, 200 M, 4x400 M Relay"
+Patna,Athletics,0,F,1167,PREETI KUMARI,True,"400 M, 4x100 M Relay, 1500 M, 800 M, 4x400 M Relay ( Mixed ), 4x400 M Relay"
+Patna,Athletics,0,F,1168,SAUMYA TYAGI,True,"200 M (R), 4x400 M Relay (R), 4x100 M Relay (R), 100 M (R), Long Jump"
+Patna,Athletics,0,F,1169,MAANYA AGRAWAL,True,"400 M, 4x400 M Relay ( Mixed ), 4x100 M Relay, 4x400 M Relay, 100 M, 200 M"
+Patna,Athletics,0,F,1254,SWATI YADAV,True,"Discus Throw, Javelin Throw, Shot Put, 4x400 M Relay, 4x100 M Relay, 4x400 M Relay ( Mixed ) (R)"
+Palakkad,Athletics,0,F,617,IRENE SABU,True,"200 M, 100 M, 400 M"
+Palakkad,Athletics,0,F,618,Prasanna,True,"100 M, 200 M, 400 M"
+Roorkee,Athletics,0,F,577,Golla Sahithi,True,"100 M Hurdles (R), High Jump, Long Jump"
+Roorkee,Athletics,0,F,582,Vanshmeet Kour,True,"Shot Put, Javelin Throw"
+Roorkee,Athletics,0,F,587,Himani,True,"Shot Put (R), High Jump (R), Discus Throw"
+Roorkee,Athletics,0,F,591,Harneet Kaur,True,"Javelin Throw (R), Discus Throw (R), Shot Put"
+Roorkee,Athletics,0,F,593,Nishi Urvashi Tudu,True,"Discus Throw, Long Jump (R), Javelin Throw"
+Roorkee,Athletics,0,F,596,Anjum Janu,True,"High Jump, Long Jump"
+Roorkee,Athletics,0,F,598,Mahak Meena,True,"4x400 M Relay ( Mixed ), 200 M (R), 400 M, 800 M, 4x100 M Relay, 4x400 M Relay"
+Roorkee,Athletics,0,F,599,Samudhrala Renuka Sree,True,"4x400 M Relay ( Mixed ), 100 M (R), 200 M, 400 M, 4x100 M Relay, 4x400 M Relay"
+Roorkee,Athletics,0,F,600,Pooja Choudhary,True,"100 M Hurdles, 800 M, 4x400 M Relay, 4x400 M Relay ( Mixed ) (R), 4x100 M Relay"
+Roorkee,Athletics,0,F,602,Saneh Hiteshi,True,"4x400 M Relay, 100 M, 200 M, 100 M Hurdles, 800 M (R), 400 M (R), 4x100 M Relay"
+Roorkee,Athletics,0,F,604,Aadya Kollipara,True,"1500 M, 100 M (R), 4x400 M Relay (R), 4x100 M Relay (R)"
+Roorkee,Athletics,0,F,606,Shalini Yadav,True,"4x100 M Relay (R), 4x400 M Relay (R), 1500 M"
+Ropar,Athletics,0,F,441,Harjas Kaur,True,"200 M, 100 M, Long Jump, 4x100 M Relay, 4x400 M Relay"
+Ropar,Athletics,0,F,443,Deepshikha Bagri,True,"4x100 M Relay (R), 4x400 M Relay, 400 M"
+Ropar,Athletics,0,F,444,Alina Zubair,True,"800 M, 400 M, 4x100 M Relay, 4x400 M Relay"
+Ropar,Athletics,0,F,447,Jaspreet Kaur,True,"1500 M, 800 M, 4x400 M Relay (R), 4x100 M Relay (R)"
+Ropar,Athletics,0,F,477,Ruhani Adlakha,True,"Discus Throw, Shot Put, Javelin Throw"
+Ropar,Athletics,0,F,487,Sri vaishnavi B,True,"4x100 M Relay, Javelin Throw, 4x400 M Relay"
+Ropar,Athletics,0,F,492,Divyamshi Koppu,True,"Long Jump, 4x100 M Relay, 4x400 M Relay (R), 100 M"
+Tirupati,Athletics,0,F,1846,SANAGAPALLI MEGHANA VYSHNAVI,True,100 M
+Bombay,Volleyball,10,M,1298,ARUN BABU,True,Hitter
+Bombay,Volleyball,10,M,1306,Bharadwaj,True,hitter
+Bombay,Volleyball,10,M,1211,Ghanshyam Choudhary,True,Hitter
+Bombay,Volleyball,10,M,1256,Ishtiyaq ahmad khatana,True,libero
+Bombay,Volleyball,10,M,1326,Neeraj Bajiya,True,Hitter
+Bombay,Volleyball,10,M,1581,Ram Charan Maloth,True,hitter
+Bombay,Volleyball,10,M,1313,RUDRA SHANKER,True,middle blocker
+Bombay,Volleyball,10,M,1279,Sai Pranay Kumar,True,libero
+Bombay,Volleyball,10,M,1196,SUNIL KASWAN,True,Hitter
+Bombay,Volleyball,10,M,1265,Vagvala Jitendra Kumar,True,hitter
+Bombay,Volleyball,10,M,1604,Vipin Surendran,True,hitter
+Bombay,Volleyball,10,M,1580,Rohit,True,hitter
+Bhubaneswar,Volleyball,10,M,1273,AMGOTH BHANU,True,libero
+Bhubaneswar,Volleyball,10,M,2356,Bathula Bliss Joel Hamilton,True,attacker
+Bhubaneswar,Volleyball,10,M,1293,DASARI GUNAVARDHAN,True,attacker
+Bhubaneswar,Volleyball,10,M,1268,ISHAN CHAUHAN,True,attacker
+Bhubaneswar,Volleyball,10,M,1285,KOPPULA LAKSHMI CHARAN,True,setter
+Bhubaneswar,Volleyball,10,M,1263,MAJJI BHARGAV RAM,True,attacker
+Bhubaneswar,Volleyball,10,M,1282,M SANTOSH NAIK,True,libero
+Bhubaneswar,Volleyball,10,M,1270,NIDAMANURI AJAY KUMAR,True,setter
+Bhubaneswar,Volleyball,10,M,1276,SATLAPALLY PRANITH RAJ,True,attacker
+Bhubaneswar,Volleyball,10,M,1266,UNDRAJAVARAPU JOE SAMUEL PREETHAM,True,attacker
+Bhubaneswar,Volleyball,10,M,1278,VEERAVALLI AVINASH,True,attacker
+Bhubaneswar,Volleyball,10,M,1288,V PAVAN KUMAR,True,attacker
+Bhilai,Volleyball,10,M,422,Chandra Sekhar,True,Libero
+Bhilai,Volleyball,10,M,378,Niket Tamrakar,True,Attacker
+Bhilai,Volleyball,10,M,373,Nukala Devi Sai Ganesh,True,Middle Blocker
+Bhilai,Volleyball,10,M,369,Palla Siddharth,True,Libero
+Bhilai,Volleyball,10,M,380,Prashant Sharma,True,Setter
+Bhilai,Volleyball,10,M,368,Puneti Hemanth Kumar Reddy,True,Middle Blocker
+Bhilai,Volleyball,10,M,367,Ramavath Vinayak,True,Attacker
+Bhilai,Volleyball,10,M,381,Ravish Singh,True,Middle Blocker
+Bhilai,Volleyball,10,M,372,Tarigopula Dharshan Reddy,True,Middle Blocker
+Bhilai,Volleyball,10,M,376,Tharun Nalike,True,Attacker
+Bhilai,Volleyball,10,M,371,Dosapati Ashirvadhan,True,Attacker
+Bhilai,Volleyball,10,M,370,Ethamukkala Snehal,True,Setter
+(BHU) Varanasi,Volleyball,10,M,284,ANKIT KESHARIYA,True,LIBERO
+(BHU) Varanasi,Volleyball,10,M,949,ANKUR,True,ATTACKER
+(BHU) Varanasi,Volleyball,10,M,1006,ARYAN,True,SETTER
+(BHU) Varanasi,Volleyball,10,M,1002,BANOTH RAJASHEKAR,True,SETTER
+(BHU) Varanasi,Volleyball,10,M,990,M ANJAN KUMAR,True,ATTACKER
+(BHU) Varanasi,Volleyball,10,M,942,P BHASKAR NAIK,True,LIBERO
+(BHU) Varanasi,Volleyball,10,M,987,P HARISH SAI,True,MIDDLE ATTACKER
+(BHU) Varanasi,Volleyball,10,M,977,PRIYANSHU JAISWAL,True,SETTER
+(BHU) Varanasi,Volleyball,10,M,964,RAJAT KUMAR,True,MIDDLE ATTACKER
+(BHU) Varanasi,Volleyball,10,M,972,ROHIT KUMAR,True,UNIVERSAL
+(BHU) Varanasi,Volleyball,10,M,958,SANKALP KUMAR,True,MIDDLE ATTACKER
+(BHU) Varanasi,Volleyball,10,M,982,SOURAV LAMBA,True,ATTACKER
+Delhi,Volleyball,10,M,2107,Aravind,True,
+Delhi,Volleyball,10,M,2056,Anil Kumar Meena,True,
+Delhi,Volleyball,10,M,2055,Ankit Chaudhary,True,
+Delhi,Volleyball,10,M,2059,Ayush Negi,True,
+Delhi,Volleyball,10,M,2109,Dheeraj Lothia,True,
+Delhi,Volleyball,10,M,2060,Himanshu,True,
+Delhi,Volleyball,10,M,2073,Nenavath Ganesh,True,
+Delhi,Volleyball,10,M,2108,Surendra,True,
+Delhi,Volleyball,10,M,2058,Surendra Bhati,True,
+Delhi,Volleyball,10,M,2057,Yuvraj Singh Shekhawat,True,
+Delhi,Volleyball,10,M,2062,Kaustubh,True,
+Delhi,Volleyball,10,M,2064,Sudheer Kumar Bhalothia,True,
+Dharwad,Volleyball,10,M,752,A M Ravi Chandra,True,Counter Attacker
+Dharwad,Volleyball,10,M,719,Amogh Adarsh Pai,True,All rounder
+Dharwad,Volleyball,10,M,732,Ankush Kumar,True,Libero
+Dharwad,Volleyball,10,M,721,D.Mukhesh Das,True,Setter
+Dharwad,Volleyball,10,M,744,Harsh Sharma,True,Middle blocker
+Dharwad,Volleyball,10,M,738,KATRAVATH SRIRAM,True,All rounder
+Dharwad,Volleyball,10,M,723,Kavya Padha,True,Middle blocker
+Dharwad,Volleyball,10,M,726,Manav Rajendra Shinde,True,Libero
+Dharwad,Volleyball,10,M,748,Mohammad Arshad,True,Counter Attacker
+Dharwad,Volleyball,10,M,728,Srinivas Naik Ramavath,True,All rounder
+Dharwad,Volleyball,10,M,734,VARSHITH AITHE,True,Counter Attacker
+Dharwad,Volleyball,10,M,739,Vivek,True,Middle blocker
+Guwahati,Volleyball,10,M,1094,Arup Kumar Mohapatra,True,Setter
+Guwahati,Volleyball,10,M,1074,Chaitanya Putcha,True,Spiker
+Guwahati,Volleyball,10,M,1085,Gowtham Reddy Doma,True,Libero
+Guwahati,Volleyball,10,M,1080,Harshath Nagabattula,True,Spiker
+Guwahati,Volleyball,10,M,1063,PHANIDHAR VAKKANTHULA,True,Spiker
+Guwahati,Volleyball,10,M,1071,Rohit Bishnoi,True,Spiker
+Guwahati,Volleyball,10,M,1075,SATYA NEERAJ GOGINENI,True,Spiker
+Guwahati,Volleyball,10,M,1101,Sri Ram Rishandra Gadde,True,Spiker
+Guwahati,Volleyball,10,M,1087,Sri Sai Shivighn Gutti,True,Setter
+Guwahati,Volleyball,10,M,1068,Surendra  Mund,True,Spiker
+Guwahati,Volleyball,10,M,1070,Yoga Venkata Sai Charan Bodddapati,True,Spiker
+Guwahati,Volleyball,10,M,1108,Yognanda Reddy Gangavaram,True,Spiker
+Gandhinagar,Volleyball,10,M,241,Aryan Kumar,True,Libero
+Gandhinagar,Volleyball,10,M,250,Aniruddh Reddy Mamilla,True,Opposite spiker
+Gandhinagar,Volleyball,10,M,249,Dushyant Dabhi,True,Opposite spiker
+Gandhinagar,Volleyball,10,M,247,Kavya Jigneshkumar Parmar,True,Outside Hitter
+Gandhinagar,Volleyball,10,M,244,Mit Parmar,True,Middle Blocker
+Gandhinagar,Volleyball,10,M,246,Nishant Dhankhar,True,Outside Hitter
+Gandhinagar,Volleyball,10,M,248,Vivek sharma,True,Middle Blocker
+Gandhinagar,Volleyball,10,M,245,Keshav Sobania,True,Outside Hitter
+Gandhinagar,Volleyball,10,M,239,Akshay,True,Opposite spiker
+Gandhinagar,Volleyball,10,M,240,Omkar Rajeev Prabhu,True,Setter
+Gandhinagar,Volleyball,10,M,243,Sriram Srinivasan,True,Setter
+Gandhinagar,Volleyball,10,M,242,Vishal Ishvarbhai Rathod,True,Libero
+Goa,Volleyball,10,M,108,Rahul Kumar Saini,True,
+Goa,Volleyball,10,M,110,Aniket Singh,True,
+Goa,Volleyball,10,M,100,Chirag M Nayak,True,
+Goa,Volleyball,10,M,84,Dinesh Singh Shekhawat,True,
+Goa,Volleyball,10,M,102,Hanmant  Kendre ,True,
+Goa,Volleyball,10,M,104,Hari Chandra,True,
+Goa,Volleyball,10,M,95,Mukul Chauhan,True,
+Goa,Volleyball,10,M,116,Neet Lahoti,True,
+Goa,Volleyball,10,M,114,Saathvik Atiketi,True,
+Goa,Volleyball,10,M,106,Sajjad  Hussain,True,
+Goa,Volleyball,10,M,113,Sasi Bhushanrao,True,
+Goa,Volleyball,10,M,111,Viraj Tidke,True,
+Hyderabad,Volleyball,10,M,3040,Banoth Premsagar,True,
+Hyderabad,Volleyball,10,M,3041,Gottapu Narasingarao,True,
+Hyderabad,Volleyball,10,M,3042,Keerthan,True,
+Hyderabad,Volleyball,10,M,3043,KRISHNA KOUSHIK VARJA,True,
+Hyderabad,Volleyball,10,M,3039,Muhammed Shamil,True,1
+Hyderabad,Volleyball,10,M,3044,Mukul Kumar,True,
+Hyderabad,Volleyball,10,M,3046,Murali Duddi,True,
+Hyderabad,Volleyball,10,M,3047,Sai dhanush,True,
+Hyderabad,Volleyball,10,M,3048,Shaik P Parvez,True,
+Hyderabad,Volleyball,10,M,3049,Shashank,True,
+Hyderabad,Volleyball,10,M,3051,Simhadri Nayak Ramavath,True,
+Hyderabad,Volleyball,10,M,3052,Soham Bhar,True,
+Indore,Volleyball,10,M,1132,Abhishek Kumar,True,Setter
+Indore,Volleyball,10,M,1123,Aman,True,Middle Blocker
+Indore,Volleyball,10,M,1141,Anshul Naukarkar,True,Libero
+Indore,Volleyball,10,M,1149,Arjun Pawar,True,Middle Blocker
+Indore,Volleyball,10,M,1145,Chintala Sasidhar,True,Libero
+Indore,Volleyball,10,M,1138,Chitturi Yashwanth Sri Sai,True,Outside Hitter
+Indore,Volleyball,10,M,1143,Kethavath Rahul,True,Outside Hitter
+Indore,Volleyball,10,M,1147,Pathlavath Takur,True,Setter
+Indore,Volleyball,10,M,1129,Piyush Tiwari,True,Universal
+Indore,Volleyball,10,M,1135,Pramod,True,Middle Blocker
+Indore,Volleyball,10,M,1148,Silmala Rishikesh,True,Outside Hitter
+Indore,Volleyball,10,M,1146,Vimal Pranav S,True,Universal
+Jodhpur,Volleyball,10,M,2438,Aditya,True,Setter
+Jodhpur,Volleyball,10,M,2436,Amrutanshu Sahoo,True,Setter
+Jodhpur,Volleyball,10,M,2456,Dasari Karunya,True,Attacker
+Jodhpur,Volleyball,10,M,2433,Devraj Singh,True,Center Blocker
+Jodhpur,Volleyball,10,M,2439,Jalendhar Palthyavath,True,Center Blocker
+Jodhpur,Volleyball,10,M,2432,Kuldeep,True,Universal
+Jodhpur,Volleyball,10,M,2430,Raj Khedkar,True,Center Blocker
+Jodhpur,Volleyball,10,M,2435,S. Krupa Rao,True,Libero
+Jodhpur,Volleyball,10,M,2437,Vansh Tomar,True,Counter Attacker
+Jodhpur,Volleyball,10,M,2429,Vikrant Singh,True,Setter
+Jodhpur,Volleyball,10,M,2434,Vishal Meena,True,Universal
+Jodhpur,Volleyball,10,M,2431,Yejjala Venkata Suryaprashad,True,Counter Attacker
+Jammu,Volleyball,10,M,489,Ashutosh Kunzru,True,Setter
+Jammu,Volleyball,10,M,470,Ayush Chauhan,True,Setter
+Jammu,Volleyball,10,M,455,Bure Chidvilas Naidu,True,Libero
+Jammu,Volleyball,10,M,481,Dev Kaushik,True,Counter
+Jammu,Volleyball,10,M,465,Gaurav Singh,True,Counter
+Jammu,Volleyball,10,M,479,Harsh Baisoya,True,Middle Blocker
+Jammu,Volleyball,10,M,494,Namburi Kevin,True,Middle Blocker
+Jammu,Volleyball,10,M,446,Peerzada Aazam Fayaz,True,Counter
+Jammu,Volleyball,10,M,472,Prashant Yadav,True,Middle Blocker
+Jammu,Volleyball,10,M,483,Sourabh,True,Counter
+Jammu,Volleyball,10,M,459,Sourav Khajuria,True,Setter
+Jammu,Volleyball,10,M,450,Tushar Kumar,True,Universal
+Kanpur,Volleyball,10,M,289,Thamesh Kumar Patra,True,Libero
+Kanpur,Volleyball,10,M,79,Sankarsan Das,True,Setter
+Kanpur,Volleyball,10,M,97,Ashish,True,Middle Blocker
+Kanpur,Volleyball,10,M,89,Aman,True,Opposite
+Kanpur,Volleyball,10,M,82,Ayaz Mumtaz Ansari,True,Setter/Defensive Specialist
+Kanpur,Volleyball,10,M,83,Ayush Bharat Gaud,True,Libero
+Kanpur,Volleyball,10,M,119,Dev Prakash,True,Outside Hitter
+Kanpur,Volleyball,10,M,96,Praneel B Satare,True,Middle Blocker
+Kanpur,Volleyball,10,M,99,Pratyush Buradkar,True,Defensive Specialist
+Kanpur,Volleyball,10,M,91,Shlok Sunil Misar,True,Middle Blocker
+Kanpur,Volleyball,10,M,93,Suhail Ahmad Bhat,True,Middle Blocker
+Kanpur,Volleyball,10,M,86,Vijay Chauhan,True,Outside Hitter
+Kharagpur,Volleyball,10,M,1598,Akash Pulidindi,True,player
+Kharagpur,Volleyball,10,M,1596,Aryan Lamba,True,player
+Kharagpur,Volleyball,10,M,1582,B Fredy Naik,True,player
+Kharagpur,Volleyball,10,M,1594,Dheeraj Yeddula,True,player
+Kharagpur,Volleyball,10,M,1731,Gyan Prakash Bishi,True,player
+Kharagpur,Volleyball,10,M,1600,Jyotheeraditya,True,player
+Kharagpur,Volleyball,10,M,1588,Ketan patre,True,player
+Kharagpur,Volleyball,10,M,1591,Mule Tejas,True,player
+Kharagpur,Volleyball,10,M,1585,Rehan Khan,True,player
+Kharagpur,Volleyball,10,M,1587,Sahil,True,player
+Kharagpur,Volleyball,10,M,1592,Thota prasanth,True,player
+Madras,Volleyball,10,M,2594,Adithya Vijaya Raghavan,True,
+Madras,Volleyball,10,M,2609,Alphen Kriston,True,
+Madras,Volleyball,10,M,2591,Bora Appalanaidu,True,
+Madras,Volleyball,10,M,2610,Dadala Ashok Kumar,True,
+Madras,Volleyball,10,M,2595,Gurukiran B A,True,
+Madras,Volleyball,10,M,2596,Keerthi Bhushan Kumar,True,
+Madras,Volleyball,10,M,2589,Krishna Chaithanya,True,
+Madras,Volleyball,10,M,2587,Nitin Kumar,True,
+Madras,Volleyball,10,M,2593,Om Butani,True,
+Madras,Volleyball,10,M,2588,Rakshan V P,True,
+Madras,Volleyball,10,M,2592,Samrudh Raaj S,True,
+Madras,Volleyball,10,M,2590,Venu,True,
+Mandi,Volleyball,10,M,2394,Akhil Rawat,True,Universal
+Mandi,Volleyball,10,M,2381,Chirag,True,Middle Blocker
+Mandi,Volleyball,10,M,2504,Neil Bakshi,True,Counter attacker
+Mandi,Volleyball,10,M,2346,Premendra Gujar,True,Middle blocker
+Mandi,Volleyball,10,M,2345,REVANTH. B,True,Middle blocker
+Mandi,Volleyball,10,M,2419,Ritesh Raj Sahu,True,Setter
+Mandi,Volleyball,10,M,2332,Sagar,True,Libero
+Mandi,Volleyball,10,M,2374,Vishal Sevada,True,Counter attacker
+Mandi,Volleyball,10,M,2505,Vivek Kumar Bais,True,Universal
+Mandi,Volleyball,10,M,2347,Vyas,True,Counter Attacker
+Mandi,Volleyball,10,M,2366,Zaheen Bhardwaj,True,Setter
+Patna,Volleyball,10,M,851,ADITYA KUMAR,True,middle blocker
+Patna,Volleyball,10,M,858,ANISH KUMAR JUGNU,True,spiker
+Patna,Volleyball,10,M,864,ANUJ KUMAR,True,libero
+Patna,Volleyball,10,M,869,DHEERAVATH DEEPAK NAIK,True,setter
+Patna,Volleyball,10,M,857,K HEMANTH KUMAR,True,middle blocker
+Patna,Volleyball,10,M,855,MANISH KUMAR,True,spiker
+Patna,Volleyball,10,M,861,MAYANK SINGH,True,libero
+Patna,Volleyball,10,M,871,MURALI KARTHIKEYA,True,spiker
+Patna,Volleyball,10,M,865,RAHUL GOND,True,spiker
+Patna,Volleyball,10,M,872,SASVANTH T,True,setter
+Patna,Volleyball,10,M,868,UDAY SHROTRIYA,True,spiker
+Patna,Volleyball,10,M,850,YUVRAJ,True,spiker
+Palakkad,Volleyball,10,M,299,Rakesh Rayavarapu,True,Player
+Palakkad,Volleyball,10,M,294,Yashwanth Mori,True,Player
+Palakkad,Volleyball,10,M,296,Ajith U K Nair,True,Player
+Palakkad,Volleyball,10,M,297,Seelam venkata gopi chand,True,Player
+Palakkad,Volleyball,10,M,298,Tupe Sanskar Suraj,True,Player
+Palakkad,Volleyball,10,M,300,Kursam Jay Vardhan Dora,True,Player
+Palakkad,Volleyball,10,M,301,Sanjay N,True,Player
+Palakkad,Volleyball,10,M,302,Pratham s murthy,True,Player
+Palakkad,Volleyball,10,M,311,Teja Pingula,True,Player
+Palakkad,Volleyball,10,M,295,M.Bharath Kumar Reddy,True,Player
+Roorkee,Volleyball,10,M,1158,A. A Naidu,True,Spiker
+Roorkee,Volleyball,10,M,722,Aditya Poonia,True,Setter
+Roorkee,Volleyball,10,M,704,Ajay kumar,True,Libero
+Roorkee,Volleyball,10,M,854,Amandeep,True,Attacker
+Roorkee,Volleyball,10,M,701,Anurag Kohli,True,Libero
+Roorkee,Volleyball,10,M,702,Arun,True,Attacker
+Roorkee,Volleyball,10,M,673,Harpreet Singh,True,Middle
+Roorkee,Volleyball,10,M,693,Harsh Choudhary,True,Middle
+Roorkee,Volleyball,10,M,680,Lokesh Kumar,True,Attacker
+Roorkee,Volleyball,10,M,686,Mohd Kaif,True,Attacker
+Roorkee,Volleyball,10,M,875,Pratham Yadav,True,Attacker
+Roorkee,Volleyball,10,M,863,Shivam Bhist,True,Setter
+Ropar,Volleyball,10,M,1297,Abhishek Kumar,True,Main Spiker
+Ropar,Volleyball,10,M,1239,ADITYA,True,SPIKER
+Ropar,Volleyball,10,M,1350,Deo Dev,True,Setter
+Ropar,Volleyball,10,M,1310,Hari bhagwan charan,True,Spiker
+Ropar,Volleyball,10,M,1291,Irfan Ahmed Fani,True,spiker
+Ropar,Volleyball,10,M,1261,Kartik,True,spiker
+Ropar,Volleyball,10,M,1300,Kishor Kumar,True,spiker
+Ropar,Volleyball,10,M,1275,Mudavath prabhas,True,spiker
+Ropar,Volleyball,10,M,1283,Penaka Nandikeswar nived sai,True,spiker
+Ropar,Volleyball,10,M,1289,Rakesh Pradhan,True,spiker
+Ropar,Volleyball,10,M,1272,Rohan Yadav,True,Spiker
+Ropar,Volleyball,10,M,1290,Venkat Kommina,True,SPIKER
+Tirupati,Volleyball,10,M,1844,SHAIK ASHIQ AHMAD,False,
+Tirupati,Volleyball,10,M,1790,MAYANK DHYAWANA,True,ATTACKER
+Tirupati,Volleyball,10,M,1853,D ARAVIND NENAVATH NARAHARI,True,Attacker
+Tirupati,Volleyball,10,M,1857,JANAGANI KARUNAKAR,True,Universal
+Tirupati,Volleyball,10,M,1860,KEMBURU MOKSHA JNANENDRA,True,Libero
+Tirupati,Volleyball,10,M,1851,KOTHA SAI SHIVA MANEESH REDDY,True,Universal
+Tirupati,Volleyball,10,M,1849,KOTTI LOKESH,True,Blocker
+Tirupati,Volleyball,10,M,1848,M DINESH REDDY,True,Blocker
+Tirupati,Volleyball,10,M,1850,M SAI KUMAR,True,Setter
+Tirupati,Volleyball,10,M,1888,P CHARAN,True,Setter
+Tirupati,Volleyball,10,M,1863,SAAI CHARAN B R,True,Blocker
+Tirupati,Volleyball,10,M,1868,SREEMAN,True,Attacker
+Bombay,Volleyball,10,F,1301,Anshika Tripathi,True,libero
+Bombay,Volleyball,10,F,1307,Indrani Sahu,True,libero
+Bombay,Volleyball,10,F,1576,Makvana Krishnaben Kiritkumar,True,libero
+Bombay,Volleyball,10,F,1608,Nisoombha Soodhani,True,hitter
+Bombay,Volleyball,10,F,1295,Saily Kumari,True,Attacker
+Bombay,Volleyball,10,F,1578,Samruddhi Sagar Magadum,True,setter
+Bombay,Volleyball,10,F,1577,Shreelakshmi C R,True,Attacker
+Bombay,Volleyball,10,F,1305,Shruti Tejaswi,True,libero
+Bombay,Volleyball,10,F,1299,Trisha Bhure,True,libero
+Bombay,Volleyball,10,F,1574,Chandra Prabha R,True,setter
+Bombay,Volleyball,10,F,1286,Ashritha K,True,libero
+Bombay,Volleyball,10,F,1579,Kajal Gupta,True,setter
+Bhubaneswar,Volleyball,10,F,1238,ANKITHA NUNAVATH,True,attacker
+Bhubaneswar,Volleyball,10,F,1224,Bollineni Sri Hasree,True,libero
+Bhubaneswar,Volleyball,10,F,1247,DINGUM KADU,True,attacker
+Bhubaneswar,Volleyball,10,F,1235,Hema Sri Lasya Kongarapu,True,attacker
+Bhubaneswar,Volleyball,10,F,1223,Justa Tirkey,True,setter
+Bhubaneswar,Volleyball,10,F,1222,Kandivanam Manaswi Reddy,True,setter
+Bhubaneswar,Volleyball,10,F,1232,KHUSHBOO SANGOD,True,attacker
+Bhubaneswar,Volleyball,10,F,1229,MUNAVATH CHITHRANJALI,True,attacker
+Bhubaneswar,Volleyball,10,F,1251,SHAMBHAVI SINGH,True,attacker
+Bhubaneswar,Volleyball,10,F,1244,Shreyanshi Maturkar,True,attacker
+Bhubaneswar,Volleyball,10,F,1240,Swatilekha Baksi,True,setter
+Bhubaneswar,Volleyball,10,F,1207,VESALAPU VARSHITHA,True,attacker
+Bhilai,Volleyball,10,F,383,Nandyala Vaishnavi,True,Attacker
+Bhilai,Volleyball,10,F,388,Rishika Malve,True,Attacker
+Bhilai,Volleyball,10,F,384,Shalvi Chaudary,True,Attacker
+Bhilai,Volleyball,10,F,374,V Suneetha,True,setter
+Bhilai,Volleyball,10,F,377,Vuppalapati Deepika Lakshmi Bhargavi,True,setter
+Bhilai,Volleyball,10,F,382,Adem Gangaiahgari Neha Reddy,True,Libero
+Bhilai,Volleyball,10,F,391,G Neeharika,True,Attacker
+Bhilai,Volleyball,10,F,379,Gurrala Hansika,True,Attacker
+Bhilai,Volleyball,10,F,385,Jeevana Gaddala,True,Libero
+Bhilai,Volleyball,10,F,387,Malraju Srinayana,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1054,Aishwarya Arabati,True,Setter
+(BHU) Varanasi,Volleyball,10,F,1026,Akhila Mudavath,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1009,Anita Murmu,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1015,Anuradha Uikey,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1035,Anushka Shah,True,Libero
+(BHU) Varanasi,Volleyball,10,F,1044,Bhagyalaxmi Ramavath,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1028,Karam Geetha,True,Libero
+(BHU) Varanasi,Volleyball,10,F,1041,Karam Srilatha,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1038,Rajeswari Dharamsoth,True,Attacker
+(BHU) Varanasi,Volleyball,10,F,1023,Sugali Thulasi Bai,True,Setter
+(BHU) Varanasi,Volleyball,10,F,1016,Susmitha Nenavath,True,Setter
+(BHU) Varanasi,Volleyball,10,F,1049,Swastika Nodiya,True,Setter
+Delhi,Volleyball,10,F,2065,Alka Lothia,True,
+Delhi,Volleyball,10,F,2067,Bhavana Meena,True,
+Delhi,Volleyball,10,F,2063,Khushi Yadav,True,
+Delhi,Volleyball,10,F,2069,Lovey,True,
+Delhi,Volleyball,10,F,3236,Neha Maurya,True,
+Delhi,Volleyball,10,F,2066,Nenawat Pallavi,True,
+Delhi,Volleyball,10,F,2130,Priya Kumari,True,
+Delhi,Volleyball,10,F,2072,Ishika Singh,True,
+Delhi,Volleyball,10,F,2071,Ashna,True,
+Delhi,Volleyball,10,F,2070,Prisha Goyla,True,
+Delhi,Volleyball,10,F,2068,Vaishnavi Waghale,True,
+Dharwad,Volleyball,10,F,747,GOUTHAMEE REDDY DUMPALA,True,Libero
+Dharwad,Volleyball,10,F,729,Akkala Srinidhi Varma,True,All rounder
+Dharwad,Volleyball,10,F,724,Akshata Channabasappa Shivannavar,True,libro
+Dharwad,Volleyball,10,F,765,Dhurve Sakshi Madhukar,True,Defence
+Dharwad,Volleyball,10,F,753,MANASA ANGOTH,True,ATTACKER
+Dharwad,Volleyball,10,F,769,Maneesha Baigella,True,Defence
+Dharwad,Volleyball,10,F,768,Manushree I R,True,Attacker
+Dharwad,Volleyball,10,F,767,Pravallika Manne,True,Defence
+Dharwad,Volleyball,10,F,761,Sanjana Katireddy,True,setter
+Dharwad,Volleyball,10,F,725,Vaishnavi Anand Kamble,True,Setter
+Dharwad,Volleyball,10,F,762,Veeksha Nagaraj,True,ATTACKER
+Guwahati,Volleyball,10,F,1039,Aashi Sharma,True,Setter
+Guwahati,Volleyball,10,F,1060,Aradhya,True,Spiker
+Guwahati,Volleyball,10,F,1043,Ayusee,True,Spiker
+Guwahati,Volleyball,10,F,1052,Diksha Poonia,True,Spiker
+Guwahati,Volleyball,10,F,1048,Nandini Banoth,True,Spiker
+Guwahati,Volleyball,10,F,1033,Nandita Nupur,True,Spiker
+Guwahati,Volleyball,10,F,1019,PRINCI VERMA,True,Setter
+Guwahati,Volleyball,10,F,1022,SARJEETA,True,Libero
+Guwahati,Volleyball,10,F,1030,Shimpi,True,Libero
+Guwahati,Volleyball,10,F,1007,Shubhangini Singh Verma,True,Spiker
+Guwahati,Volleyball,10,F,1056,Sonal Dhan,True,Spiker
+Gandhinagar,Volleyball,10,F,253,Lakshika Vinod Aswal,True,Attacker
+Gandhinagar,Volleyball,10,F,251,Madhvika Vasava,True,Attacker
+Gandhinagar,Volleyball,10,F,260,Anshika,True,Attacker
+Gandhinagar,Volleyball,10,F,262,Ayushi Meena,True,Setter
+Gandhinagar,Volleyball,10,F,254,Madhu Dhayal,True,Libero
+Gandhinagar,Volleyball,10,F,255,Manasvi Choudhary,True,Attacker
+Gandhinagar,Volleyball,10,F,256,Neha Budhani,True,Attacker
+Gandhinagar,Volleyball,10,F,259,Pinki Saini,True,Attacker
+Gandhinagar,Volleyball,10,F,257,Reha Panigrahi,True,Attacker
+Gandhinagar,Volleyball,10,F,261,Sejal Jaysing Sharbidre,True,Attacker
+Gandhinagar,Volleyball,10,F,252,Toshika Kumawat,True,Attacker
+Gandhinagar,Volleyball,10,F,258,Vishva Sunilbhai Parmar,True,Setter
+Hyderabad,Volleyball,10,F,2260,Pratibha Verma,False,
+Hyderabad,Volleyball,10,F,3053,Durga Nandini Athmuri,True,
+Hyderabad,Volleyball,10,F,3054,Eshaani,True,
+Hyderabad,Volleyball,10,F,3055,Homa Harshitha .V,True,
+Hyderabad,Volleyball,10,F,3056,Jeyashree K,True,
+Hyderabad,Volleyball,10,F,3057,Kavita Kundal,True,
+Hyderabad,Volleyball,10,F,3058,Mannepalli Namitha,True,
+Hyderabad,Volleyball,10,F,3060,Revati Chougule,True,
+Hyderabad,Volleyball,10,F,3062,Rubleen Khosa,True,
+Hyderabad,Volleyball,10,F,3063,Smita Sontakke,True,
+Hyderabad,Volleyball,10,F,3064,Somalaraju Bhavya Shloka,True,
+Hyderabad,Volleyball,10,F,3065,Yasaswini,True,
+Indore,Volleyball,10,F,1161,Aarushi Prajapati,True,Libero
+Indore,Volleyball,10,F,1150,Devarapalli Nissi,True,Outside Attacker
+Indore,Volleyball,10,F,1157,Hasini Bhairam,True,Outside Attacker
+Indore,Volleyball,10,F,1153,Jyoti Kanoje,True,Middle Blocker
+Indore,Volleyball,10,F,1152,Madhusmita Dungdung,True,Outside Attacker
+Indore,Volleyball,10,F,1156,Mane Manaswi,True,Setter
+Indore,Volleyball,10,F,1159,Piyushi,True,Libero
+Indore,Volleyball,10,F,1151,Siddhi Shashikant Borase,True,Setter
+Indore,Volleyball,10,F,1160,Srushti K,True,Universal
+Indore,Volleyball,10,F,1154,Surabhi Pal,True,Universal
+Indore,Volleyball,10,F,3026,Tamanna Singh,True,
+Indore,Volleyball,10,F,1155,Tanishka Sihara,True,Middle Blocker
+Jodhpur,Volleyball,10,F,2448,Daidu Smithasri,True,Attacker
+Jodhpur,Volleyball,10,F,2455,Dhanavath Pavani,True,Attacker
+Jodhpur,Volleyball,10,F,2450,Hrishita,True,Attacker
+Jodhpur,Volleyball,10,F,3190,Jyothsna,True,Attacker
+Jodhpur,Volleyball,10,F,2453,Jyoti,True,Attacker
+Jodhpur,Volleyball,10,F,2441,Manogna Swayampakula,True,Attacker
+Jodhpur,Volleyball,10,F,2449,Niki,True,Attacker
+Jodhpur,Volleyball,10,F,2447,Prachi Krushant Patil,True,Attacker
+Jodhpur,Volleyball,10,F,2457,Ritu Anil Bhosale,True,Attacker
+Jodhpur,Volleyball,10,F,2451,Sangeeta,True,Attacker
+Jodhpur,Volleyball,10,F,2444,Sidhhi Anil Suryawanshi,True,Attacker
+Jodhpur,Volleyball,10,F,2442,Tanisha,True,Setter
+Jammu,Volleyball,10,F,524,Aditi Kondal,True,Attacker
+Jammu,Volleyball,10,F,515,Banala Nakshatra,True,Setter
+Jammu,Volleyball,10,F,525,Bhogama Pavani,True,attacker
+Jammu,Volleyball,10,F,514,Garima Choudhary,True,Setter
+Jammu,Volleyball,10,F,523,Jameela Ashraf,True,Attacker
+Jammu,Volleyball,10,F,502,Khushboo,True,Attacker
+Jammu,Volleyball,10,F,508,Khushi verma,True,attacker
+Jammu,Volleyball,10,F,505,Kunjan Bansal,True,defender
+Jammu,Volleyball,10,F,501,Nidhi Naik,True,attacker
+Jammu,Volleyball,10,F,510,Pari Khanna,True,Attacker
+Jammu,Volleyball,10,F,519,Payal Sharma,True,attacker
+Jammu,Volleyball,10,F,521,Simple Dhillon,True,Defender
+Kanpur,Volleyball,10,F,73,Akshita,True,Libero
+Kanpur,Volleyball,10,F,75,Anushka Srivastava,True,Attacker
+Kanpur,Volleyball,10,F,72,Dixya Lamba,True,Attacker
+Kanpur,Volleyball,10,F,71,Smruti  Sahoo,True,Setter
+Kanpur,Volleyball,10,F,78,Devyani Vijayasarathy,True,Attacker
+Kanpur,Volleyball,10,F,80,Shreya Pazare,True,Attacker
+Kanpur,Volleyball,10,F,77,Yashika Choudhary,True,Attacker
+Kanpur,Volleyball,10,F,92,Angel Gouri,True,Attacker
+Kanpur,Volleyball,10,F,90,Bhargavi Arun Borse,True,Setter
+Kanpur,Volleyball,10,F,2954,Shruti Sharma,True,Attacker
+Kanpur,Volleyball,10,F,87,Srinithi,True,Attacker
+Kharagpur,Volleyball,10,F,1712,Akriti Mishra,True,
+Kharagpur,Volleyball,10,F,1713,Arunima Singhal,True,
+Kharagpur,Volleyball,10,F,1668,Ashwini Tayade,True,
+Kharagpur,Volleyball,10,F,1705,Gagna Gopi,True,
+Kharagpur,Volleyball,10,F,1707,Harshita Katara,True,
+Kharagpur,Volleyball,10,F,1710,Himani Shah,True,
+Kharagpur,Volleyball,10,F,1706,Nandini Sanavda,True,
+Kharagpur,Volleyball,10,F,1708,Snehal Sanjay Katale,True,
+Kharagpur,Volleyball,10,F,1704,Tanuja Kumari Bhuyan,True,
+Madras,Volleyball,10,F,2606,Aravapalli Lola Hasini A,True,
+Madras,Volleyball,10,F,2603,Arohi Bhave,True,
+Madras,Volleyball,10,F,2602,Devi Pithani,True,
+Madras,Volleyball,10,F,2608,Elakkiya Senthil Kumar,True,
+Madras,Volleyball,10,F,2605,M Monica,True,
+Madras,Volleyball,10,F,2601,Pooja Singh Tomar,True,
+Madras,Volleyball,10,F,2604,Prinal Kumat,True,
+Madras,Volleyball,10,F,2598,Ramavath Shirisha,True,
+Madras,Volleyball,10,F,2600,Sagarika U M,True,
+Madras,Volleyball,10,F,2599,Sathwika,True,
+Madras,Volleyball,10,F,2607,Siri Harshitha,True,
+Madras,Volleyball,10,F,2597,Varsithaa Shri R,True,
+Mandi,Volleyball,10,F,2360,Gagandep Kaur,True,Attacker/Defender
+Mandi,Volleyball,10,F,2380,Jahanvi Singh,True,Attacker
+Mandi,Volleyball,10,F,2370,Jasmini Godaba,True,Defender
+Mandi,Volleyball,10,F,2401,Kamlesh Rajput,True,Defender
+Mandi,Volleyball,10,F,2418,Nishi Kumari,True,Defender
+Mandi,Volleyball,10,F,2415,Pratibha Mathur,True,Attacker
+Mandi,Volleyball,10,F,2417,Ravina Sodhi,True,Attacker
+Mandi,Volleyball,10,F,2411,Sai Shivani Katta,True,Setter
+Mandi,Volleyball,10,F,2382,Shaik Amsheera,True,defender/attacker
+Mandi,Volleyball,10,F,2284,SRAVYA SANDELA,True,Setter
+Mandi,Volleyball,10,F,2369,Vaishali Karanwal,True,Defender
+Mandi,Volleyball,10,F,2420,Vedika Morchhale,True,Defender
+Patna,Volleyball,10,F,880,ANVISHA,True,spiker
+Patna,Volleyball,10,F,896,BADAVATH MADHULATHA,True,setter
+Patna,Volleyball,10,F,891,DEEPALI MEENA,True,spiker
+Patna,Volleyball,10,F,901,DIVYA,True,libero
+Patna,Volleyball,10,F,890,JYOTI,True,spiker
+Patna,Volleyball,10,F,903,K. SRAVYA REDDY,True,spiker
+Patna,Volleyball,10,F,899,KOMAL KUMARI,True,spiker
+Patna,Volleyball,10,F,898,MAANYA AGRAWAL,True,spiker
+Patna,Volleyball,10,F,893,RITVIKA SHARMA,True,spiker
+Patna,Volleyball,10,F,878,SNEHA BHASKAR,True,spiker
+Patna,Volleyball,10,F,884,SNEHA LATHA,True,setter
+Patna,Volleyball,10,F,886,VARSHA RANI,True,spiker
+Palakkad,Volleyball,10,F,303,M KEERTHANA,True,Player
+Palakkad,Volleyball,10,F,304,Harshitha Beere,True,Player
+Palakkad,Volleyball,10,F,305,THOTA KHYATHI,True,Player
+Palakkad,Volleyball,10,F,306,Nenavath Sri Ganga,True,Player
+Palakkad,Volleyball,10,F,307,Bhavana sri,True,Player
+Palakkad,Volleyball,10,F,308,Poola Dathasree Geethika,True,Player
+Palakkad,Volleyball,10,F,309,Bavanamrutha,True,Player
+Palakkad,Volleyball,10,F,310,Simma Hemani,True,Player
+Roorkee,Volleyball,10,F,751,ANUSHKA,True,ATTACKER
+Roorkee,Volleyball,10,F,757,JAGRITI SINGH,True,ATTACKER
+Roorkee,Volleyball,10,F,749,MANVI NEHARA,True,ATTACKER
+Roorkee,Volleyball,10,F,745,MUSKAN,True,ATTACKER
+Roorkee,Volleyball,10,F,736,NIDHI TOMAR,True,SETTER
+Roorkee,Volleyball,10,F,764,POOJA,True,DEFENDER
+Roorkee,Volleyball,10,F,743,PRIYANKA MEENA,True,ATTACKER
+Roorkee,Volleyball,10,F,750,SHAGUN CHANDRA,True,ATTACKER
+Roorkee,Volleyball,10,F,760,SHIVANI SINGH,True,DEFENDER
+Roorkee,Volleyball,10,F,758,SRIJAL,True,DEFENDER
+Roorkee,Volleyball,10,F,741,VIDHI RATHOD,True,ATTACKER
+Roorkee,Volleyball,10,F,756,VISHESHTA SHAKYA,True,DEFENDER
+Ropar,Volleyball,10,F,314,Lavanya Sharma,True,defence
+Ropar,Volleyball,10,F,315,Shivani Chandra,True,setter
+Ropar,Volleyball,10,F,293,Kshama Jadaun,True,defence
+Ropar,Volleyball,10,F,995,Tanisha Nagar,True,Defence
+Ropar,Volleyball,10,F,292,Ayushi Raut,True,setter
+Ropar,Volleyball,10,F,318,Nikita Choudhary,True,defence
+Ropar,Volleyball,10,F,290,Priya Meena,True,Defence
+Ropar,Volleyball,10,F,317,Riya Thakur,True,defence
+Ropar,Volleyball,10,F,316,Shivani Semwal,True,defence
+Ropar,Volleyball,10,F,291,Teena Ghoslya,True,Attacker
+Tirupati,Volleyball,10,F,1881,BARMAVATHU LAVANYA NENAVATH NARAHARI,True,Attacker
+Tirupati,Volleyball,10,F,1882,MADDI SRI VARSHINI,True,Attacker
+Tirupati,Volleyball,10,F,1885,NIMMAKAYALA SINDHURI,True,Setter
+Tirupati,Volleyball,10,F,1877,PEDDIREDDY MOUNI SREELATHA,True,Attacker
+Tirupati,Volleyball,10,F,1887,SHIVANI,True,Universal
+Tirupati,Volleyball,10,F,1883,SMATY VIGNAPIKA,True,Universal
+Tirupati,Volleyball,10,F,1884,TEJAVATH SINDHU,True,Setter
+Bombay,Cricket,4,M,1215,Gaurav Mahla,True,Batsman
+Bombay,Cricket,4,M,1202,Aamir Yousuf,True,Batsman
+Bombay,Cricket,4,M,1260,Aniruddha Shelke,True,All-Rounder
+Bombay,Cricket,4,M,1225,Atharva Bomle,True,Bowler
+Bombay,Cricket,4,M,1204,Deep Agrawal,True,Bowler
+Bombay,Cricket,4,M,1219,Divyanshu Dwivedi,True,All-Rounder
+Bombay,Cricket,4,M,1236,Eswar Savalapurapu,True,Batsman
+Bombay,Cricket,4,M,1514,Harsh Purohit,True,All-Rounder
+Bombay,Cricket,4,M,1213,Kaleem Masood Khan,True,All-Rounder
+Bombay,Cricket,4,M,1262,Param Shilu,True,Bowler
+Bombay,Cricket,4,M,1245,Piyush Sharma,True,Bowler
+Bombay,Cricket,4,M,1209,Pravas Chiluka,True,All-Rounder
+Bombay,Cricket,4,M,1230,Rambabu Nimma,True,Batsman
+Bombay,Cricket,4,M,1218,Shivam Shaligram,True,Batsman
+Bombay,Cricket,4,M,1199,Tanishq Khaire,True,Batsman
+Bombay,Cricket,4,M,1311,Swadhin Behera,True,Batsman
+Bhubaneswar,Cricket,4,M,1082,Adhyan Kumar,True,All-rounder
+Bhubaneswar,Cricket,4,M,1032,Ajjay Raja,True,batsman
+Bhubaneswar,Cricket,4,M,1069,Anish Patwardhan,True,bowler
+Bhubaneswar,Cricket,4,M,1086,A. Sanjeev Nayak,True,batsman
+Bhubaneswar,Cricket,4,M,1076,Harshit Maheswari,True,All-rounder
+Bhubaneswar,Cricket,4,M,1058,N. Madhu Sri Harsha Vardhan,True,All-rounder
+Bhubaneswar,Cricket,4,M,1036,Pankaj Kumar,True,batsman
+Bhubaneswar,Cricket,4,M,1072,Prem Raj,True,bowler
+Bhubaneswar,Cricket,4,M,1062,Rejaul Karim Laskar,True,batsman
+Bhubaneswar,Cricket,4,M,1081,SARANSH KUSHWAHA,True,All-rounder
+Bhubaneswar,Cricket,4,M,1021,Soham Kulal,True,Captain
+Bhubaneswar,Cricket,4,M,1100,SONTI KIRAN BHARGAV,True,batsman
+Bhubaneswar,Cricket,4,M,1047,Tangudu Komaleshwar,True,vice-captain
+Bhubaneswar,Cricket,4,M,1093,Tanish Rawat,True,All-rounder
+Bhubaneswar,Cricket,4,M,1096,Yallati Varsith Shankar,True,batsman
+Bhubaneswar,Cricket,4,M,1098,Aaditya Singh,True,bowler
+Bhilai,Cricket,4,M,416,ADITYA RAJ,True,Bowler
+Bhilai,Cricket,4,M,420,Amarjeet,True,All rounder
+Bhilai,Cricket,4,M,415,Anurag Hazra,True,Wicket keeper
+Bhilai,Cricket,4,M,419,Boby Bhati,True,All rounder
+Bhilai,Cricket,4,M,414,Gourav Gour,True,Bowler
+Bhilai,Cricket,4,M,2255,Harsh Prajapati,True,Batsman
+Bhilai,Cricket,4,M,412,Harshit Kumawat,True,Batsman
+Bhilai,Cricket,4,M,2471,Pushan Kumar,True,Batsman
+Bhilai,Cricket,4,M,410,Samardeep singh kohli,True,All rounder
+Bhilai,Cricket,4,M,405,Satyam Singh,True,Batsman
+Bhilai,Cricket,4,M,411,Saurav,True,Bowler
+Bhilai,Cricket,4,M,418,Saurav Kumar,True,Bowler
+Bhilai,Cricket,4,M,408,Suraj Satish Deshmukh,True,Batsman
+Bhilai,Cricket,4,M,406,Vishvjeet kumar munakhiya,True,Batsman
+Bhilai,Cricket,4,M,417,Donga Shanmukha siva venkata sai,True,Bowler
+Bhilai,Cricket,4,M,413,Jessy,True,Wicket Keeper
+(BHU) Varanasi,Cricket,4,M,1031,Aashish Choudhary,True,Bowler
+(BHU) Varanasi,Cricket,4,M,1014,Abhishek Sharma,True,Bowler
+(BHU) Varanasi,Cricket,4,M,1005,Abhishek,True,All-Rounder
+(BHU) Varanasi,Cricket,4,M,1025,Abhishrey Mishra,True,Bowler
+(BHU) Varanasi,Cricket,4,M,967,Arpit Pal,True,Batsman
+(BHU) Varanasi,Cricket,4,M,1198,Ashish Jangid,True,Batsman
+(BHU) Varanasi,Cricket,4,M,961,Chandraveer Singh,True,VC / WK
+(BHU) Varanasi,Cricket,4,M,1020,Lalit Choudhary,True,Batsman
+(BHU) Varanasi,Cricket,4,M,996,Mohit Gadhavi,True,Batsman
+(BHU) Varanasi,Cricket,4,M,1037,Parth Antriksh,True,All-Rounder
+(BHU) Varanasi,Cricket,4,M,1010,Piyush Shakya,True,All-Rounder
+(BHU) Varanasi,Cricket,4,M,984,Preet Sharaf,True,Bowler
+(BHU) Varanasi,Cricket,4,M,948,Srinivas Jampani,True,Captain
+(BHU) Varanasi,Cricket,4,M,992,Sushank Yadav,True,Batsman
+(BHU) Varanasi,Cricket,4,M,988,Tanish Jangir,True,Batsman
+(BHU) Varanasi,Cricket,4,M,976,Vaibhav Jain,True,Batsman
+Delhi,Cricket,4,M,2044,Aaqib Qureshi,True,
+Delhi,Cricket,4,M,2050,Aman Nohwal,True,
+Delhi,Cricket,4,M,2029,Dinkar Siyag,True,
+Delhi,Cricket,4,M,2043,Ilyas Yousuf Mir,True,
+Delhi,Cricket,4,M,2047,Lakshman Nayak,True,
+Delhi,Cricket,4,M,2051,Mir Hanan,True,
+Delhi,Cricket,4,M,2045,Naman Nirwan,True,
+Delhi,Cricket,4,M,2049,Naman Khatana,True,
+Delhi,Cricket,4,M,2046,Rishit Ojha,True,
+Delhi,Cricket,4,M,2054,Shashank Kumar,True,
+Delhi,Cricket,4,M,2052,Shaurya Raj,True,
+Delhi,Cricket,4,M,2031,Sparsh Agarwal,True,
+Delhi,Cricket,4,M,2030,Talin Sharma,True,
+Delhi,Cricket,4,M,2053,Vishwas Lamba,True,
+Delhi,Cricket,4,M,2048,Vivek Gusain,True,
+Delhi,Cricket,4,M,2061,Prajjwal Yadav,True,
+Dharwad,Cricket,4,M,710,ABHINAY KUMAR B,True,Wicket-Keeper
+Dharwad,Cricket,4,M,690,ANANDHAKRISHNAN R K,True,All-Rounder
+Dharwad,Cricket,4,M,735,ARNAV RAJMANE,True,Bowler
+Dharwad,Cricket,4,M,714,ARYAWARDHANSINGH SOLANKI,True,All-Rounder
+Dharwad,Cricket,4,M,716,BODA RAJESH,True,All-Rounder
+Dharwad,Cricket,4,M,730,FAIZAN SHAFI,True,All-Rounder
+Dharwad,Cricket,4,M,727,J.AKHIL KUMAR,True,Bowler
+Dharwad,Cricket,4,M,733,KRISHNANSHU YADAV,True,Wicket-Keeper
+Dharwad,Cricket,4,M,705,MUDAVATH VAMSHI,True,Batsman
+Dharwad,Cricket,4,M,698,Nilesh Kumar,True,Batsman
+Dharwad,Cricket,4,M,720,PIYUSH MORE,True,Batsman
+Dharwad,Cricket,4,M,718,PRIYANSHU JHA,True,Bowler
+Dharwad,Cricket,4,M,711,SAPTARSHI DEY,True,All-Rounder
+Dharwad,Cricket,4,M,740,SHIVAM TIWARY,True,All-Rounder
+Dharwad,Cricket,4,M,708,VINUKONDA JASHWANTH SAI,True,Bowler
+Guwahati,Cricket,4,M,912,ABHIMANYU SINGH,True,LEFT HAND BATSMAN
+Guwahati,Cricket,4,M,902,ADITYA BHAWAL,True,RIGHT ARM LEG SPIN
+Guwahati,Cricket,4,M,881,AKASH DEV ROSHAN,True,BATTING ALL ROUNDER
+Guwahati,Cricket,4,M,906,AMIT MEENA,True,BATTING ALL ROUNDER
+Guwahati,Cricket,4,M,904,ANUJ VISHWAKARMA,True,WICKET KEEPER BATSMAN
+Guwahati,Cricket,4,M,907,ARNAV TIKU,True,WICKET KEEPER BATSMAN
+Guwahati,Cricket,4,M,894,Atharv Madan,True,RIGHT ARM LEG SPIN
+Guwahati,Cricket,4,M,914,AYUSH TIWARI,True,RIGHT HAND BATSMAN
+Guwahati,Cricket,4,M,887,MEKALA ANIL KUMAR,True,BATTING ALL ROUNDER
+Guwahati,Cricket,4,M,909,RAVI MISHRA,True,RIGHT HAND BATSMAN
+Guwahati,Cricket,4,M,888,SAHASTRANSH MANDHANA,True,RIGHT ARM MEDIUM
+Guwahati,Cricket,4,M,911,SHUBHAM,True,RIGHT ARM FAST
+Guwahati,Cricket,4,M,900,SOURAV KUMAR,True,BATTING ALL ROUNDER
+Guwahati,Cricket,4,M,877,Vatsal D Patel,True,Left Arm Off Spin
+Guwahati,Cricket,4,M,895,VISHNU G,True,RIGHT HAND BATSMAN
+Guwahati,Cricket,4,M,897,VISHWANATH YADAV,True,Left Arm Off Spin
+Gandhinagar,Cricket,4,M,187,Faizan Yousuf Bhat,True,Batsman
+Gandhinagar,Cricket,4,M,188,Hansin Rakesh Shah,True,Wicket Keeper
+Gandhinagar,Cricket,4,M,191,Aditya  Jain,True,Bowler
+Gandhinagar,Cricket,4,M,176,Ankit Kumar,True,All-Rounder
+Gandhinagar,Cricket,4,M,177,Arpit Sigotiya,True,Bowler
+Gandhinagar,Cricket,4,M,186,Ayush Abhi,True,Batsman
+Gandhinagar,Cricket,4,M,178,Dhairya Shah,True,Batsman
+Gandhinagar,Cricket,4,M,179,Digvijay Singh Parihar,True,Bowler
+Gandhinagar,Cricket,4,M,180,Jatin Nama,True,Batsman
+Gandhinagar,Cricket,4,M,189,Nitesh Nayak,True,Bowler
+Gandhinagar,Cricket,4,M,190,Rahul Pandey,True,All-Rounder
+Gandhinagar,Cricket,4,M,181,Rathod Nithesh,True,Wicket Keeper
+Gandhinagar,Cricket,4,M,183,Sakib Ahmad Dar,True,Batsman
+Gandhinagar,Cricket,4,M,182,Shrawan Kumar,True,Bowler
+Gandhinagar,Cricket,4,M,184,Shubh Tripathy,True,Batsman
+Gandhinagar,Cricket,4,M,185,Vaibhav Mishra,True,Bowler
+Goa,Cricket,4,M,74,Vaibhav Sidana,True,All rounder
+Goa,Cricket,4,M,98,Chava Hansik Sai,True,Wicket keeper
+Goa,Cricket,4,M,107,Purab  kumar Choudhary ,True,Bowler
+Goa,Cricket,4,M,115,SWATANTRA  KUMAR PATEL,True,Bowler
+Goa,Cricket,4,M,76,Soham Shrinagar,True,All rounder
+Goa,Cricket,4,M,81,Yash Jadhav,True,Batsman
+Goa,Cricket,4,M,125,Yash Maroo,True,Bowler
+Goa,Cricket,4,M,103,Aayush Vats,True,Batsman
+Goa,Cricket,4,M,88,Akash Singh,True,Batsman
+Goa,Cricket,4,M,112,AneeshSai  Eruganti ,True,Batsman
+Goa,Cricket,4,M,94,Ashok Ravula,True,Batsman
+Goa,Cricket,4,M,85,Bharadwaj Chakka,True,Bowler
+Goa,Cricket,4,M,101,Deval Gawas,True,All rounder
+Goa,Cricket,4,M,105,Hrithik Bansal,True,Bowler
+Goa,Cricket,4,M,109,Lokesh Jangra,True,Bowler
+Goa,Cricket,4,M,117,Shyam Taraviya,True,Bowler
+Hyderabad,Cricket,4,M,2235,Swapnil Rawal,False,
+Hyderabad,Cricket,4,M,2468,Adhiraj Shinde,True,WK Batsman
+Hyderabad,Cricket,4,M,2466,Alapati Gurumurari,True,Bowler
+Hyderabad,Cricket,4,M,2465,Amar Pal,True,Batting allrounder
+Hyderabad,Cricket,4,M,3133,Ashmit Singh,True,Bowling Alrounder
+Hyderabad,Cricket,4,M,2464,Bisen Nikhil Digambar,True,Bowler
+Hyderabad,Cricket,4,M,3124,Deepak Sharma,True,Batsman
+Hyderabad,Cricket,4,M,3128,Harsh Bokil,True,Batting Alrounder
+Hyderabad,Cricket,4,M,3126,Lakshya Soni,True,Batsman
+Hyderabad,Cricket,4,M,3129,MD EMAD UDDIN,True,Bowler
+Hyderabad,Cricket,4,M,2467,Pattika Vamsi,True,Batsman
+Hyderabad,Cricket,4,M,3130,Raghuveer Supur,True,WK Batsman
+Hyderabad,Cricket,4,M,3125,Ramu Rathlavath,True,Bowling Alrounder
+Hyderabad,Cricket,4,M,3131,S Danish Bashir,True,Bowling Alrounder
+Hyderabad,Cricket,4,M,3127,Sunny Kumar Patel,True,Bowler
+Hyderabad,Cricket,4,M,3132,Tribhuvan Prasad Yadav,True,Batsman
+Indore,Cricket,4,M,1040,Anurag Krishanan,True,Bowler
+Indore,Cricket,4,M,1097,Ashish Meena,True,Batsman
+Indore,Cricket,4,M,997,Chandra Siddhartha Raavi,True,"Wk,Batsman"
+Indore,Cricket,4,M,1004,Dikeshwar Halba,True,Batsman
+Indore,Cricket,4,M,1092,Gaurav Sharma,True,Batsman
+Indore,Cricket,4,M,1055,Jitendra Kumar Prajapati,True,All rounder
+Indore,Cricket,4,M,1012,Manish Sharma,True,Bowler
+Indore,Cricket,4,M,1067,Monik Dodiya,True,Batsman
+Indore,Cricket,4,M,1078,Om Shukla,True,Batsman
+Indore,Cricket,4,M,1083,Prayag Mukeshbhai Lakhani,True,Bowler
+Indore,Cricket,4,M,1045,Rahul Raj,True,Bowler
+Indore,Cricket,4,M,1059,Santosh Yadav,True,Batsman
+Indore,Cricket,4,M,1017,Sanyam Babel,True,Bowler
+Indore,Cricket,4,M,985,Sonu Jaiswal,True,All rounder
+Indore,Cricket,4,M,1024,Utkarsh Sharma,True,Batsman
+Indore,Cricket,4,M,1008,Yogesh Patidar,True,"Wk,Batsman"
+Jodhpur,Cricket,4,M,3407,Rohith Bhukya,True,Bowler
+Jodhpur,Cricket,4,M,2423,Akhilesh Kumar Meena,True,Bowler
+Jodhpur,Cricket,4,M,2343,Ankit Dalal,True,Allrounder
+Jodhpur,Cricket,4,M,2342,Chandrapal Singh Inda,True,Allrounder
+Jodhpur,Cricket,4,M,2352,Dipanshu Yadav,True,Bowler
+Jodhpur,Cricket,4,M,2350,Hari Om Jangir,True,Bowler
+Jodhpur,Cricket,4,M,2353,Manish Kumar,True,Bowler
+Jodhpur,Cricket,4,M,2428,Nikhil Yadav,True,Allrounder
+Jodhpur,Cricket,4,M,2421,Nikhil Kag,True,Allrounder
+Jodhpur,Cricket,4,M,2426,Sachin Rathod,True,Batsman
+Jodhpur,Cricket,4,M,2425,Siddharth Bhagat,True,Batsman
+Jodhpur,Cricket,4,M,2427,Sudhanshu Tamhankar,True,Allrounder
+Jodhpur,Cricket,4,M,2349,Utkarsh Ranjan,True,Allrounder
+Jodhpur,Cricket,4,M,2422,Vaibhav Singh,True,Bowler
+Jodhpur,Cricket,4,M,2348,Vikash Choudhary,True,Bowler
+Jodhpur,Cricket,4,M,2351,Zafar Om Hossain,True,Wicketkeeper -Batsman
+Jammu,Cricket,4,M,454,AADIL AHMAD KHAN,True,Batsman
+Jammu,Cricket,4,M,445,A B RAUOOF,True,All rounder
+Jammu,Cricket,4,M,473,ADWAIT ADITYA,True,Batsman
+Jammu,Cricket,4,M,468,ANKIT VERMA,True,All Rounder
+Jammu,Cricket,4,M,442,Kanhiya Agrawal,True,batsman & (wk)
+Jammu,Cricket,4,M,448,MUQEET,True,Batsman
+Jammu,Cricket,4,M,436,MURTAZA WAHEED,True,All rounder
+Jammu,Cricket,4,M,466,NAVNEET,True,Bowler
+Jammu,Cricket,4,M,476,Nishant,True,batsman
+Jammu,Cricket,4,M,453,QAMARUZ ZAMAN KHAKI,True,Batsman
+Jammu,Cricket,4,M,474,RISHABH SHARMA,True,Bowler
+Jammu,Cricket,4,M,452,SAMRADH YADAV,True,Batsman & Wicket keeper
+Jammu,Cricket,4,M,464,SAURABH PATHAK,True,Bowler
+Jammu,Cricket,4,M,471,SHAMS,True,All Rounder
+Jammu,Cricket,4,M,467,SUMIT MEENA,True,Bowler
+Jammu,Cricket,4,M,460,UMMER RASID DAR,True,Bowler
+Kanpur,Cricket,4,M,139,Ashlesh Prakash Dahake,True,Batsman
+Kanpur,Cricket,4,M,147,Daksh Nandan Singh,True,Left arm orthodox bowler
+Kanpur,Cricket,4,M,149,Karan Pratap Lohiya,True,Bowler
+Kanpur,Cricket,4,M,140,Sayar Ahmad Dar,True,Bowler
+Kanpur,Cricket,4,M,144,Abhay Singh,True,wicket keeper/Batsman
+Kanpur,Cricket,4,M,142,Ankul Kumar,True,Batsman
+Kanpur,Cricket,4,M,138,Bharat Kumar,True,Left arm orthodox bowler
+Kanpur,Cricket,4,M,145,Chaitanya Dhawan,True,Batsman
+Kanpur,Cricket,4,M,137,Dinesh Dewasi,True,Bowler
+Kanpur,Cricket,4,M,143,Kuldeep Yadav,True,ALL ROUNDER
+Kanpur,Cricket,4,M,175,Medhasai Arun Arun Deshineni,True,Bowler
+Kanpur,Cricket,4,M,151,Mohit Sharma,True,ALL ROUNDER
+Kanpur,Cricket,4,M,146,Raj,True,Batsman
+Kanpur,Cricket,4,M,150,Regal Singh,True,ALL ROUNDER
+Kanpur,Cricket,4,M,148,Shahil Kumar,True,Batsman
+Kanpur,Cricket,4,M,141,Sudama,True,ALL ROUNDER
+Kharagpur,Cricket,4,M,1442,Akshat Priyadarshi,True,Wicketkeeper
+Kharagpur,Cricket,4,M,1444,Ankit Dwivedi,True,Bowler
+Kharagpur,Cricket,4,M,1441,Ankit Kumar Meena,True,All rounder
+Kharagpur,Cricket,4,M,1345,Binod Kumar Yadav,True,All rounder
+Kharagpur,Cricket,4,M,1447,Harsh Anand Anand,True,All rounder
+Kharagpur,Cricket,4,M,1448,Kempegowda,True,All rounder
+Kharagpur,Cricket,4,M,1346,MD Misbah Ur Rahman,True,Batsman
+Kharagpur,Cricket,4,M,1522,Mukund Raghuraman,True,Bowler
+Kharagpur,Cricket,4,M,1364,Rahul Raj Sharma,True,BOWLER
+Kharagpur,Cricket,4,M,1450,Samik Amit Kadam,True,Bowler
+Kharagpur,Cricket,4,M,1445,Sarthak Choudhury,True,All rounder
+Kharagpur,Cricket,4,M,1449,Shashidhar Kuragayala,True,All rounder
+Kharagpur,Cricket,4,M,1446,Shivam Meena,True,Bowler
+Kharagpur,Cricket,4,M,1347,Sushant Pandey,True,All rounder
+Kharagpur,Cricket,4,M,1443,Utkarsh sonpipre,True,All rounder
+Madras,Cricket,4,M,2618,Aatman Vashi,True,
+Madras,Cricket,4,M,2615,Aayush Ranjan,True,
+Madras,Cricket,4,M,2614,Akshath M,True,
+Madras,Cricket,4,M,2612,Aravindan,True,
+Madras,Cricket,4,M,2557,Dev Joshi,True,
+Madras,Cricket,4,M,2624,Dillen Joe P,True,
+Madras,Cricket,4,M,2623,G Bhavish Sriram,True,
+Madras,Cricket,4,M,2625,Kathari Karunakar,True,
+Madras,Cricket,4,M,2611,Praveen Kumar S,True,
+Madras,Cricket,4,M,2619,Rankireddy Vijaya Lakshmana Manikanta,True,
+Madras,Cricket,4,M,2621,R. Manoranjan,True,
+Madras,Cricket,4,M,2620,Shaurya Sharan,True,
+Madras,Cricket,4,M,2613,Sourabh Dahiya,True,
+Madras,Cricket,4,M,2616,Sowmiyanarayanan,True,
+Madras,Cricket,4,M,2617,Vedant mudras,True,
+Madras,Cricket,4,M,2622,Vishal,True,
+Mandi,Cricket,4,M,2363,Abhimanyu Singh,True,Player
+Mandi,Cricket,4,M,2378,Abhishek,True,Player
+Mandi,Cricket,4,M,2372,Aditya Chaudhary,True,Player
+Mandi,Cricket,4,M,2387,Akshay Gahlawt,True,Player
+Mandi,Cricket,4,M,2371,Alok Kumar,True,Player
+Mandi,Cricket,4,M,2383,Atul Singh Pathania,True,Player
+Mandi,Cricket,4,M,2361,Devom Garg,True,Player
+Mandi,Cricket,4,M,2375,Dheer Dhaker,True,Player
+Mandi,Cricket,4,M,2368,Dishant Rawat,True,Player
+Mandi,Cricket,4,M,2373,Manjeet Rai,True,Player
+Mandi,Cricket,4,M,2385,Meghavath Sharath,True,Player
+Mandi,Cricket,4,M,2384,Pranav Patidar,True,Player
+Mandi,Cricket,4,M,2388,Shubham Ashwani,True,Player
+Mandi,Cricket,4,M,2367,Suveer Kumawat,True,Player
+Mandi,Cricket,4,M,2376,Vishal Sharma,True,Player
+Mandi,Cricket,4,M,2364,Yash Taneja,True,Captain
+Patna,Cricket,4,M,780,AAYUSH SHETH,True,Bowler
+Patna,Cricket,4,M,791,ANKIT SINGH,True,All Rounder
+Patna,Cricket,4,M,806,ARYAN JAIN,True,Bowling All Rounder
+Patna,Cricket,4,M,779,ASHOK BARHOI,True,Bowler
+Patna,Cricket,4,M,801,AYUSH KUMAR,True,Batsman
+Patna,Cricket,4,M,798,JAFFAR ALI,True,All Rounder
+Patna,Cricket,4,M,800,MD SAIF,True,Bowler
+Patna,Cricket,4,M,783,MOBASSIR AHMAD,True,"Wicket-keeper, Batsman"
+Patna,Cricket,4,M,789,NISHANT KUMAR,True,All Rounder
+Patna,Cricket,4,M,786,PRASHANT KUMAR,True,Batsman
+Patna,Cricket,4,M,807,PRASHANT,True,Batsman
+Patna,Cricket,4,M,776,RAHUL KUMAR,True,All rounder
+Patna,Cricket,4,M,782,RAMANDEEP SINGH MALHOTRA,True,All Rounder
+Patna,Cricket,4,M,792,RISHIK ARYA,True,Bowling All Rounder
+Patna,Cricket,4,M,796,SAOOD KHAN,True,Bowler
+Patna,Cricket,4,M,785,SUDHIR KUMAR,True,Batsman
+Palakkad,Cricket,4,M,625,SIDDHARDH MURAHARISETTY,True,BOWLER
+Palakkad,Cricket,4,M,631,GOKUL KRISHNAN M U,True,BATSMAN
+Palakkad,Cricket,4,M,601,ABHAY VAIDYA,True,BATSMAN
+Palakkad,Cricket,4,M,620,ANKIT,True,ALL ROUNDER
+Palakkad,Cricket,4,M,2770,CHANDU CHUNDI,True,BOWLER
+Palakkad,Cricket,4,M,639,GOWTHAM CHOWDARY GOGINENI,True,ALL ROUNDER
+Palakkad,Cricket,4,M,641,JOTIPRIYA DAS,True,WICKET KEEPER BATSMAN
+Palakkad,Cricket,4,M,633,MONISH REDDY CHENNAREDDY,True,ALL ROUNDER
+Palakkad,Cricket,4,M,622,PAVAN SAI AMULURU,True,ALL ROUNDER
+Palakkad,Cricket,4,M,644,PRATHAM HASMUKHBHAI KATHIRIA,True,BATSMAN
+Palakkad,Cricket,4,M,643,SAKET INGLE,True,BOWLER
+Palakkad,Cricket,4,M,638,SANAL KUMAR K,True,BATSMAN
+Palakkad,Cricket,4,M,636,SANJIV KUMAR,True,BOWLER
+Palakkad,Cricket,4,M,642,STALIN YARRA,True,BOWLER
+Palakkad,Cricket,4,M,619,SUMIT KUMAR GAUTAM,True,BATSMAN
+Palakkad,Cricket,4,M,635,TRILOCHAN,True,WICKET KEEPER BATSMAN
+Roorkee,Cricket,4,M,532,Arun Kaarthikeyan,True,All Rounder
+Roorkee,Cricket,4,M,522,Ayush Kumar Poddar,True,All Rounder
+Roorkee,Cricket,4,M,527,Chanderdeep Brar,True,Batsman
+Roorkee,Cricket,4,M,534,Het Suthar,True,Bowler
+Roorkee,Cricket,4,M,517,Hitarth Singh,True,All Rounder
+Roorkee,Cricket,4,M,535,Karan Sharma,True,All Rounder
+Roorkee,Cricket,4,M,531,Musaibh Farooq Dar,True,Batsman(WK)
+Roorkee,Cricket,4,M,541,Naveen Rawat,True,All Rounder
+Roorkee,Cricket,4,M,539,Nishant,True,All Rounder
+Roorkee,Cricket,4,M,528,Nitin,True,All Rounder
+Roorkee,Cricket,4,M,530,Rahul Deopa,True,Batsman
+Roorkee,Cricket,4,M,526,Sajal Singh,True,All Rounder
+Roorkee,Cricket,4,M,533,Shreyanshu Singh,True,All Rounder
+Roorkee,Cricket,4,M,529,Sudhanshu Goyal,True,Batsman
+Roorkee,Cricket,4,M,538,Vishal Meena,True,All Rounder
+Roorkee,Cricket,4,M,536,Yash,True,Batsman(WK)
+Ropar,Cricket,4,M,543,Aditya Meena,True,All-Rounder
+Ropar,Cricket,4,M,537,Aditya Bharadwaj,True,Batsman
+Ropar,Cricket,4,M,551,Angad Singh,True,Batsman
+Ropar,Cricket,4,M,555,Aryan Kalra,True,Wicketkeeper
+Ropar,Cricket,4,M,549,Chinmay dadhich,True,Bowler
+Ropar,Cricket,4,M,547,Harsh Yadav,True,Bowler
+Ropar,Cricket,4,M,552,Inderjeet,True,Bowler
+Ropar,Cricket,4,M,548,Lavudya Sai Mani Chaitanya,True,Bowler
+Ropar,Cricket,4,M,542,Muzamil Majeed,True,All-Rounder
+Ropar,Cricket,4,M,545,Nishant Patel,True,Batsman
+Ropar,Cricket,4,M,540,Rahul Bhuriya,True,Batsman
+Ropar,Cricket,4,M,546,Ravi Chauhan,True,All-Rounder
+Ropar,Cricket,4,M,554,Shrey Raizada,True,Batsman
+Ropar,Cricket,4,M,553,Tanmoy Kumar Nayek,True,All-Rounder
+Ropar,Cricket,4,M,544,Vivek Deepak,True,All-Rounder
+Ropar,Cricket,4,M,550,Yash Jiyani,True,Bowler
+Tirupati,Cricket,4,M,1844,SHAIK ASHIQ AHMAD,False,Attacker
+Tirupati,Cricket,4,M,1909,BAMMIDI VENKATESH,True,BATSMEN
+Tirupati,Cricket,4,M,1907,BANAVATH RAJESH NAYAK NENAVATH NARAHARI,True,All-Rounder
+Tirupati,Cricket,4,M,1915,EEDUPALLI MANIKANTA KUMAR,True,All-Rounder
+Tirupati,Cricket,4,M,1910,GUGULOTH VISHNU,True,BATSMEN
+Tirupati,Cricket,4,M,1919,GUTTA PHANI SATHVIK,True,All-Rounder
+Tirupati,Cricket,4,M,1906,HIMANISH,True,BOWLER
+Tirupati,Cricket,4,M,1902,JAISWAR SHIVAM RAJBAHADUR,True,BOWLER
+Tirupati,Cricket,4,M,1911,KODI SAI KIRAN,True,All-Rounder
+Tirupati,Cricket,4,M,1904,KONETI SUJANTH,True,BOWLER
+Tirupati,Cricket,4,M,1912,MANMOHAN MEENA,True,BATSMEN
+Tirupati,Cricket,4,M,1913,PAVAN KUMAR MATSA,True,BOWLER
+Tirupati,Cricket,4,M,1920,PRANAV ARUNACHALAM,True,BATSMEN
+Tirupati,Cricket,4,M,1905,PRINCE KUMAR,True,BATSMEN
+Tirupati,Cricket,4,M,1914,SATYAM SHUKLA,True,BATSMEN
+Tirupati,Cricket,4,M,1916,SIDDHARTH NAGRALE,True,All-Rounder
+Bombay,Football,5,M,2344,Abin Bijumon,True,Defence
+Bombay,Football,5,M,1216,Arjun Toraskar,True,Defence
+Bombay,Football,5,M,1518,Arnav Srivastav,True,Defence
+Bombay,Football,5,M,1197,Aryan Katiyar,True,Defence
+Bombay,Football,5,M,2075,Devansh Jain,True,Midfield
+Bombay,Football,5,M,1212,Naorem Ronaldo,True,Midfield
+Bombay,Football,5,M,2079,Nikhil Thejesh Venkataramana,True,Midfield
+Bombay,Football,5,M,1521,Rajwardhan Toraskar,True,Midfield
+Bombay,Football,5,M,1214,Sandeep Patra,True,Midfield
+Bombay,Football,5,M,1205,Shamsher Raza,True,Center Forward
+Bombay,Football,5,M,1520,Sparsh Gupta,True,Midfield
+Bombay,Football,5,M,1519,Vivaan Shah,True,Midfield
+Bombay,Football,5,M,1200,Vivek P,True,Wing
+Bombay,Football,5,M,2077,Jyotishman Deori,True,Midfield
+Bombay,Football,5,M,1517,Yash Krunal Shah,True,Winger
+Bombay,Football,5,M,1220,Arjun Chaudhary,True,Center Forward
+Bhubaneswar,Football,5,M,592,Al-Amir Haruna Saleh,True,striker
+Bhubaneswar,Football,5,M,567,Anugrah Gupta,True,Defender
+Bhubaneswar,Football,5,M,585,Avijit Majhi,True,striker
+Bhubaneswar,Football,5,M,595,Dhananjay Sharma,True,Mid field
+Bhubaneswar,Football,5,M,560,Gabriel Vanlalbera,True,Mid field
+Bhubaneswar,Football,5,M,581,Labanya K Kar,True,Mid field
+Bhubaneswar,Football,5,M,566,Md Anjum Rameez Reza,True,striker
+Bhubaneswar,Football,5,M,584,Penumala Navadeep,True,Defender
+Bhubaneswar,Football,5,M,576,Pravit Rawat,True,Mid field
+Bhubaneswar,Football,5,M,572,Ritesh Varma,True,striker
+Bhubaneswar,Football,5,M,590,Saurabh Nandan,True,striker
+Bhubaneswar,Football,5,M,573,Shaswata Rath,True,Defender
+Bhubaneswar,Football,5,M,588,Spandan Mondal,True,Defender
+Bhubaneswar,Football,5,M,579,Ujjwal Singh,True,Defender
+Bhubaneswar,Football,5,M,570,Vishal Singh,True,Defender
+Bhubaneswar,Football,5,M,562,Anshul Gahlawt,True,Goal keeper
+Bhilai,Football,5,M,397,Aditya Prakash,True,Defender
+Bhilai,Football,5,M,398,Adwaith Anoop,True,Defender
+Bhilai,Football,5,M,401,Bedanga Das,True,Mid Fielder
+Bhilai,Football,5,M,403,Birendra Gurung,True,Mid Fielder
+Bhilai,Football,5,M,396,Chaitanya Menghal,True,Mid Fielder
+Bhilai,Football,5,M,402,Chingkheinganba Saikhom,True,Defender
+Bhilai,Football,5,M,392,Daksh,True,Attacker
+Bhilai,Football,5,M,394,Devansh Tejwani,True,Mid Fielder
+Bhilai,Football,5,M,400,Ketan Rakesh,True,Defender
+Bhilai,Football,5,M,395,Lavudya Abhishek,True,Goal keeper
+Bhilai,Football,5,M,399,Nikam Bagang,True,Mid Fielder
+Bhilai,Football,5,M,404,Om patidar,True,Defender
+Bhilai,Football,5,M,386,Pravar Gupta,True,Attacker
+Bhilai,Football,5,M,389,Rudra Patel,True,Attacker
+Bhilai,Football,5,M,393,Sarthak Dhandhania,True,Goal keeper
+Bhilai,Football,5,M,390,Vijay Kumar,True,Attacker
+(BHU) Varanasi,Football,5,M,940,AADI JAIN,True,LB
+(BHU) Varanasi,Football,5,M,928,ADIT SHINMAR,True,CDM
+(BHU) Varanasi,Football,5,M,933,ARSHIT KANWAR,True,LM
+(BHU) Varanasi,Football,5,M,946,CHANDAN KUMAR BARMAN,True,ST
+(BHU) Varanasi,Football,5,M,916,CHIRAG MEME,True,RW
+(BHU) Varanasi,Football,5,M,951,HARDIK NAMDEO,True,RW
+(BHU) Varanasi,Football,5,M,963,HARSH RAJ,True,LB
+(BHU) Varanasi,Football,5,M,943,KRISHNA KUSHWAH,True,ST/CM
+(BHU) Varanasi,Football,5,M,979,MAYANK MEHRA,True,CB
+(BHU) Varanasi,Football,5,M,937,MAYANK KUMAR,True,RB
+(BHU) Varanasi,Football,5,M,922,MAYANK RAJ,True,RM
+(BHU) Varanasi,Football,5,M,918,ROHAN SINGH LEISHANGTHEM,True,CB
+(BHU) Varanasi,Football,5,M,969,ROHAN KUMAR NASKAR,True,GK
+(BHU) Varanasi,Football,5,M,973,SHASHWAT VINAYAK SINHA,True,GK
+(BHU) Varanasi,Football,5,M,924,SOHAM NANDY,True,LW
+(BHU) Varanasi,Football,5,M,957,VARUN BARVE,True,RB
+Delhi,Football,5,M,2261,Amish,True,
+Delhi,Football,5,M,2163,Aryan Meena,True,
+Delhi,Football,5,M,2269,Ashish Shewale,True,
+Delhi,Football,5,M,2146,Deepak Meena,True,
+Delhi,Football,5,M,2259,Gokul,True,
+Delhi,Football,5,M,2262,Kashief,True,
+Delhi,Football,5,M,2164,Kavya Kumar,True,
+Delhi,Football,5,M,2144,Krish Goswami,True,
+Delhi,Football,5,M,2268,Partha Akiri,True,
+Delhi,Football,5,M,2142,Pritish Mitra,True,
+Delhi,Football,5,M,2151,Samarth Singla,True,
+Delhi,Football,5,M,2258,Siddhant Vernekar,True,
+Delhi,Football,5,M,2263,Sidhan VV,True,
+Delhi,Football,5,M,2267,Vaibhav Singh,True,
+Delhi,Football,5,M,2150,Yengkhom Barnibash Singh,True,
+Delhi,Football,5,M,2265,Yugdev Chauhan,True,
+Dharwad,Football,5,M,1000,Ashish Kumar,True,Left Back
+Dharwad,Football,5,M,659,Ayaan Karim,True,Center Back
+Dharwad,Football,5,M,677,Barath Selvam P,True,Right Midfielder
+Dharwad,Football,5,M,754,Dhruv Pani Chandra,True,Center Forward
+Dharwad,Football,5,M,672,Jayesh Sudhir Thawkar,True,Defender
+Dharwad,Football,5,M,675,Karandeep Singh Kandiara,True,Left Out
+Dharwad,Football,5,M,668,Kaushal Kailash Chavan,True,Midfielder
+Dharwad,Football,5,M,667,Navin Ram S,True,Winger
+Dharwad,Football,5,M,664,Nipun Gupta,True,Goalkeeper
+Dharwad,Football,5,M,681,Palakurthy Shyam Praveen,True,Right Out
+Dharwad,Football,5,M,670,Prem V Arkasali,True,Left Midfielder
+Dharwad,Football,5,M,676,Rishabh J Sansi,True,Goalkeeper
+Dharwad,Football,5,M,691,Satwik Girish Samant,True,Center Midfielder
+Dharwad,Football,5,M,688,Shivam Sharma,True,Right Back
+Dharwad,Football,5,M,683,Shivtej Ghorpade,True,Center Back
+Dharwad,Football,5,M,671,Tanveer Rafiq Shaik,True,Right Midfielder
+Guwahati,Football,5,M,1124,Pratik BAYANWAR,True,Striker
+Guwahati,Football,5,M,1136,BHUPEN BARO,True,Forward
+Guwahati,Football,5,M,1126,HARSHIT ANAND MEHTA,True,Defender
+Guwahati,Football,5,M,1134,JYOTISHMAN BARO,True,Defender
+Guwahati,Football,5,M,1117,NILANJAN DAS,True,Goalkeeper
+Guwahati,Football,5,M,1137,RAIHAN SALEEM,True,Goalkeeper
+Guwahati,Football,5,M,1144,RISHI KIRAN,True,Midfielder
+Guwahati,Football,5,M,1130,Ritupan Pegu,True,Forward
+Guwahati,Football,5,M,1128,SANJAY G,True,Defender
+Guwahati,Football,5,M,1131,SATYAM KUMAR,True,Midfielder
+Guwahati,Football,5,M,1140,SUCCESSFUL KHLEM,True,Midfielder
+Guwahati,Football,5,M,1133,SWAPNIL SAIKIA,True,Forward
+Guwahati,Football,5,M,1139,VISHNU K,True,Defender
+Guwahati,Football,5,M,1122,Rushinath LAPTHAISA,True,Midfielder
+Guwahati,Football,5,M,1121,Sushruta BHADRA,True,striker
+Guwahati,Football,5,M,1125,ARAVIND R,True,Striker
+Gandhinagar,Football,5,M,226,Evan Keinz  Joy,True,LB
+Gandhinagar,Football,5,M,227,Ganivada Lalith ,True,CB
+Gandhinagar,Football,5,M,228,Hriday Tejasbhai Pandya,True,GK
+Gandhinagar,Football,5,M,229,Jagroop Singh,True,LW
+Gandhinagar,Football,5,M,230,Kunal  Khichi,True,GK
+Gandhinagar,Football,5,M,231,Kushal Bhavesh Rathod,True,RB
+Gandhinagar,Football,5,M,234,Prajas Kulkarni,True,ST
+Gandhinagar,Football,5,M,232,Mohamed  Shibin P,True,RW
+Gandhinagar,Football,5,M,236,Tathagata  Kar,True,CM
+Gandhinagar,Football,5,M,233,Mustansir Biscuit Wala,True,RW
+Gandhinagar,Football,5,M,235,Sumedh Vijay Wankhede,True,CM
+Gandhinagar,Football,5,M,221,Aayush Amit More,True,CM
+Gandhinagar,Football,5,M,222,Adwaith  P,True,CM
+Gandhinagar,Football,5,M,223,Akash K P,True,CB
+Gandhinagar,Football,5,M,224,Arjun  K reju,True,CAM
+Gandhinagar,Football,5,M,225,Divisht,True,CB
+Hyderabad,Football,5,M,3421,Satyadarshi Das,True,Attack
+Hyderabad,Football,5,M,1869,PANKAJ RATHOUR,True,Midfield
+Hyderabad,Football,5,M,1875,SHEIKH MUMIN MURTAZA,True,Midfield
+Hyderabad,Football,5,M,2461,THARUN NAYAK,True,Attack
+Hyderabad,Football,5,M,1878,AADARSH PATIDAR,True,Attack
+Hyderabad,Football,5,M,1873,ABHINAV SHYAM,True,Midfield
+Hyderabad,Football,5,M,1828,AKSHITH MANTHA,True,Goal-Keeper
+Hyderabad,Football,5,M,1832,Ayush Prakash Satish Jhori,True,Defender
+Hyderabad,Football,5,M,1862,DEBANGA BORKAKOTY,True,Defender
+Hyderabad,Football,5,M,1865,JOEL J NELLIKKUNNEL,True,Defender
+Hyderabad,Football,5,M,1833,KARTHISHVAR AIYYAR,True,Defender
+Hyderabad,Football,5,M,1876,MEHUL RAMESH,True,Midfield
+Hyderabad,Football,5,M,2462,MUSTHAFA MUHAMMED,True,Attack
+Hyderabad,Football,5,M,1867,MUZAAN MOHAMMED,True,Defender
+Hyderabad,Football,5,M,1872,NEERAJ RAMACHANDRAN,True,Midfield
+Hyderabad,Football,5,M,1830,OJAS KURUNDKAR,True,Goal-Keeper
+Indore,Football,5,M,885,Aniket Baskey,True,Mid Field
+Indore,Football,5,M,1104,Anshul Ponappa,True,Mid Field
+Indore,Football,5,M,867,Aromal P,True,Goalkeeper
+Indore,Football,5,M,852,Digvijay Singh Pundir,True,Defender
+Indore,Football,5,M,892,Digvijaysingh Sastiya,True,Mid Field
+Indore,Football,5,M,883,George Francis,True,Mid Field
+Indore,Football,5,M,870,Jerry Jones David,True,Striker
+Indore,Football,5,M,848,Lakshya Shukla,True,Defender
+Indore,Football,5,M,874,Muhamed Nihal,True,Striker
+Indore,Football,5,M,841,Pranshul Jain,True,Defender
+Indore,Football,5,M,862,Sachin Sharma,True,Striker
+Indore,Football,5,M,879,Sai Prakul Parepalli,True,Mid Field
+Indore,Football,5,M,889,Saketh Biradhar,True,Goalkeeper
+Indore,Football,5,M,860,Santanu Maity,True,Striker
+Indore,Football,5,M,856,Shivam Sharma,True,Defender
+Indore,Football,5,M,847,Vardhan Bhalgat,True,Defender
+Jodhpur,Football,5,M,2112,Advait Gaur,True,Left Medd
+Jodhpur,Football,5,M,2125,Aishik Pal,True,Right Wing
+Jodhpur,Football,5,M,2123,Alan Joy Puthur,True,Goalkeeper
+Jodhpur,Football,5,M,2122,Aman Shaikh,True,ST
+Jodhpur,Football,5,M,2120,Aryan Kumar Khot,True,st
+Jodhpur,Football,5,M,2135,Hardik Pal Singh,True,Right Back
+Jodhpur,Football,5,M,2117,Hitesh Kumar Parihar,True,"Center Meed, Left Wing"
+Jodhpur,Football,5,M,2136,Jaswant Pal Singh,True,"Left Back, Center  Back"
+Jodhpur,Football,5,M,2129,Pratyush Pal,True,Left Back
+Jodhpur,Football,5,M,2118,Progyan Kumar Boruah,True,"Left Back, Center Meed"
+Jodhpur,Football,5,M,2141,Pushkin Pal Dugam,True,Center Back
+Jodhpur,Football,5,M,2131,Shivam Pal Sachan,True,Right Back
+Jodhpur,Football,5,M,2115,Shivansh Yadav,True,"RM, RW"
+Jodhpur,Football,5,M,2145,Shivender Pal Thapa,True,"Left wing, CAM"
+Jodhpur,Football,5,M,2137,Tushar Pal Bhatt,True,Left Wing
+Jodhpur,Football,5,M,2143,Vinit Pal Thakur,True,Center Back
+Jammu,Football,5,M,469,Aditya Salvam,True,Midfielder
+Jammu,Football,5,M,975,Anand Patel,True,Defender
+Jammu,Football,5,M,475,Ashad Mansoori,True,Defender
+Jammu,Football,5,M,480,Ashish Bariwal,True,Midfielder
+Jammu,Football,5,M,520,Gourang Parihar,True,Striker
+Jammu,Football,5,M,503,Goutham G A,True,Defender
+Jammu,Football,5,M,495,Harsh,True,Goalkeeper
+Jammu,Football,5,M,462,Hemant Raina,True,Goalkeeper
+Jammu,Football,5,M,994,Ian Bhaskar Urade,True,Defender
+Jammu,Football,5,M,956,Naveen Kulhari,True,Defender
+Jammu,Football,5,M,1001,Nitesh Kumar Dhale,True,Midfielder
+Jammu,Football,5,M,484,Roopraj Murmu,True,Midfielder
+Jammu,Football,5,M,500,Roshan Meena,True,Defender
+Jammu,Football,5,M,968,Santanu Das,True,Defender
+Jammu,Football,5,M,486,Shresth Thapa,True,Midfielder
+Jammu,Football,5,M,511,Umair Bin Farooq,True,Striker
+Kanpur,Football,5,M,57,Danny Dilip George,True,Mid
+Kanpur,Football,5,M,122,Shiva Ranjan,True,Mid
+Kanpur,Football,5,M,49,Piyush  Kumar Utkarsh,True,Defense
+Kanpur,Football,5,M,42,Ritwik Shankar,True,Mid
+Kanpur,Football,5,M,45,Abhinav Goel,True,Forward
+Kanpur,Football,5,M,43,Akhil Joseph,True,Forward
+Kanpur,Football,5,M,46,Saksham Parihar,True,Forward
+Kanpur,Football,5,M,58,Aashay Harshit,True,Defense
+Kanpur,Football,5,M,55,Fwilao Basumatary,True,Goalkeeper
+Kanpur,Football,5,M,50,Navdeep Singh,True,Defense
+Kanpur,Football,5,M,69,Nihal Anwar,True,Mid
+Kanpur,Football,5,M,54,Prajwal  Sinha,True,Forward
+Kanpur,Football,5,M,67,Raihan Kakkat,True,Defense
+Kanpur,Football,5,M,68,Rajvardhan Beniwal,True,Forward
+Kanpur,Football,5,M,66,Varnit Digarwal,True,Defense
+Kanpur,Football,5,M,123,Pranat Gupta,True,Defense
+Kharagpur,Football,5,M,1523,AGAMJOT SINGH BAINS,True,
+Kharagpur,Football,5,M,1560,AKSHAY KUMAR DHOK,True,
+Kharagpur,Football,5,M,1553,ARYAN GHATTI,True,
+Kharagpur,Football,5,M,2278,ASHISH KUMAR,True,
+Kharagpur,Football,5,M,1556,AYAN SINGHA,True,
+Kharagpur,Football,5,M,1549,KALING TAYENG,True,
+Kharagpur,Football,5,M,1547,LIYANTHUNG NGULLIE,True,
+Kharagpur,Football,5,M,1561,NABEEL,True,
+Kharagpur,Football,5,M,1550,PRANIT CHAUDHARY,True,
+Kharagpur,Football,5,M,2028,PRANSHU DASGUPTA,True,
+Kharagpur,Football,5,M,1541,RAJAT RAJ MISHRA,True,
+Kharagpur,Football,5,M,1545,RAMESH RATHOD,True,
+Kharagpur,Football,5,M,1554,REESH,True,
+Kharagpur,Football,5,M,1558,REJOY BESRA,True,
+Kharagpur,Football,5,M,1563,SANJIB MIDYA,True,
+Kharagpur,Football,5,M,1544,SHASHI BHUSHAN EKKA,True,
+Madras,Football,5,M,2570,Abhinand Valsaraj C,True,DEFENDER
+Madras,Football,5,M,2582,Deep Antrolia,True,FORWARD
+Madras,Football,5,M,2578,Fazal Rahman,True,MIDFIELDER
+Madras,Football,5,M,2574,G VENKATA RAJA NANDA KISHOR,True,MIDFIELDER
+Madras,Football,5,M,2572,Maanas Sidhiqu,True,MIDFIELDER
+Madras,Football,5,M,2576,Muhammad Mujeeb,True,MIDFIELDER
+Madras,Football,5,M,2571,Muhammed Sahal V,True,MIDFIELDER
+Madras,Football,5,M,2565,Muhammed Fiyas,True,GOALKEEPER
+Madras,Football,5,M,2569,Muhammed Naveed  E,True,DEFENDER
+Madras,Football,5,M,2584,Pulin Taye,True,FORWARD
+Madras,Football,5,M,2583,Rafad Abdul Rasheed,True,FORWARD
+Madras,Football,5,M,2567,Shreyas Kancharla,True,DEFENDER
+Madras,Football,5,M,2566,S Nishaanth,True,DEFENDER
+Madras,Football,5,M,2579,Taral Munot,True,MIDFIELDER
+Madras,Football,5,M,2585,Thomas kuli,True,FORWARD
+Madras,Football,5,M,2568,Zachary Langstieh,True,DEFENDER
+Mandi,Football,5,M,2293,Akshat Pandey,True,Winger
+Mandi,Football,5,M,2393,Akshat Mishra,True,Center Back
+Mandi,Football,5,M,2281,AKSHAY DEVIDAS CHAUDHARI,True,Right Back
+Mandi,Football,5,M,2282,Alvin Binoj,True,Winger
+Mandi,Football,5,M,2399,Aman Kumar,True,Midfielder
+Mandi,Football,5,M,2365,Ashutosh Mishra,True,GOAL KEEPER
+Mandi,Football,5,M,2396,Ayush Kumar,True,Midfielder
+Mandi,Football,5,M,2362,Gaurang Jalan,True,Centre Back
+Mandi,Football,5,M,2556,Jatin Prasad,True,Goal Keeper
+Mandi,Football,5,M,2305,KRITIK BALAYEN,True,CENTRAL MIDFIELDER
+Mandi,Football,5,M,2298,Mohit Kumar,True,Fullback
+Mandi,Football,5,M,2359,MOHIT KUMAR,True,Centre Back
+Mandi,Football,5,M,2517,Molik Tyagi,True,Ring Winger
+Mandi,Football,5,M,2406,Muhammed Rayeez,True,Striker
+Mandi,Football,5,M,2391,Shibshankar Karmakar,True,Striker
+Mandi,Football,5,M,2321,Varun Joshi,True,Striker
+Patna,Football,5,M,837,ABHISHEK ROY,True,Midfielder
+Patna,Football,5,M,840,ADITYA MEHROTRA,True,Defender
+Patna,Football,5,M,813,AMAN MISHRA,True,Forward
+Patna,Football,5,M,817,AMIT KUMAR RAJAK,True,Defender
+Patna,Football,5,M,846,ANDRI MAULANA,True,Midfielder
+Patna,Football,5,M,830,ANIKET KUMAR,True,Defender
+Patna,Football,5,M,826,AVINASH DEV,True,Defender
+Patna,Football,5,M,844,D B KARTHIK,True,Goalkeeper
+Patna,Football,5,M,828,DEVANARAYANAN J,True,Midfielder
+Patna,Football,5,M,836,DEVYANSH PANDEY,True,Forward
+Patna,Football,5,M,838,KAUSTUBH KUMAR,True,Forward
+Patna,Football,5,M,834,KIRIT GUPTA,True,Midfielder
+Patna,Football,5,M,843,NILESH MAZUMDAR,True,Defender
+Patna,Football,5,M,809,PRABHU SUMAN,True,Midfielder
+Patna,Football,5,M,832,RAVISH BENIWAL,True,Forward
+Patna,Football,5,M,842,SHUBHAM PRAKASH,True,Defender
+Palakkad,Football,5,M,649,Sooryanarayanan G,True,goalkeeper
+Palakkad,Football,5,M,647,Abhinand M K,True,forward
+Palakkad,Football,5,M,632,Akshay K K,True,Centre Back
+Palakkad,Football,5,M,657,D Anand Praveen,True,forward
+Palakkad,Football,5,M,654,Gazal S,True,forward
+Palakkad,Football,5,M,637,Joyal Joseph,True,midfielder
+Palakkad,Football,5,M,650,Kevin Jim Roy,True,forward
+Palakkad,Football,5,M,648,Nikhil S Thomas,True,defender
+Palakkad,Football,5,M,634,Pranav M,True,forward
+Palakkad,Football,5,M,623,punit yadav,True,MID Feilder
+Palakkad,Football,5,M,651,Shazil Mohammad Iqbal,True,defender
+Palakkad,Football,5,M,655,Sreyas Biju,True,defender
+Palakkad,Football,5,M,646,Tatenda Darlington Nhika,True,defender
+Palakkad,Football,5,M,628,Teswin Tharian,True,forward
+Palakkad,Football,5,M,652,Vishwaa P S,True,goalkeeper
+Palakkad,Football,5,M,645,Yazeed Nassar,True,forward
+Roorkee,Football,5,M,816,Abhinav Swaran Singh,True,Right Back
+Roorkee,Football,5,M,825,Akankunda Gerald,True,Left Wing
+Roorkee,Football,5,M,820,Albert Tugumisirize,True,Midfield
+Roorkee,Football,5,M,803,Ayush Kumar Yadav,True,Center Back
+Roorkee,Football,5,M,833,Bhavya Jain,True,Right Back
+Roorkee,Football,5,M,821,Darshan Kumar Deora,True,Left Back
+Roorkee,Football,5,M,829,Dhwrwmchar Basumatary,True,Center Forward
+Roorkee,Football,5,M,831,Kamugisha Emmanuel,True,Midfield
+Roorkee,Football,5,M,824,Khrawboklang Kharsyiemiong,True,Midfield
+Roorkee,Football,5,M,819,Manav Kakra,True,Right Back
+Roorkee,Football,5,M,808,Manu Thalwal,True,Midfield
+Roorkee,Football,5,M,822,Parv Khanna,True,Goal Keeper
+Roorkee,Football,5,M,810,Rishabh Didel,True,Goal Keeper
+Roorkee,Football,5,M,815,Shibin P,True,Center Back
+Roorkee,Football,5,M,812,Sobhan Pattajoshi,True,Right Wing
+Roorkee,Football,5,M,827,Yashaditya Barsain,True,Left Wing
+Ropar,Football,5,M,329,Aditya Kumar,True,Defender
+Ropar,Football,5,M,427,Arshit Singh Bhati,True,Forward
+Ropar,Football,5,M,426,Danish Maqbool,True,Midfielder
+Ropar,Football,5,M,656,Devender Kumar Yadav,True,Goalkeeper
+Ropar,Football,5,M,3246,Harshit kulshrestha,True,Forward
+Ropar,Football,5,M,658,Madhvan Samnotra,True,Midfielder
+Ropar,Football,5,M,660,Mann Sharma,True,Defender
+Ropar,Football,5,M,425,Manubolu Venkata DharanidharNaidu,True,Forward
+Ropar,Football,5,M,429,Minaksh Sharma,True,Forward
+Ropar,Football,5,M,430,Muhammad Mansur Haruna,True,Midfielder
+Ropar,Football,5,M,327,Mukund Varshney,True,Midfielder
+Ropar,Football,5,M,322,Ojas Shelake,True,Forward
+Ropar,Football,5,M,424,Rishabh Rawat,True,Midfielder
+Ropar,Football,5,M,428,Shreyas Manak,True,Defender
+Ropar,Football,5,M,423,Shubham Sharma,True,Forward
+Ropar,Football,5,M,662,Sunil Kumar,True,Defender
+Tirupati,Football,5,M,1768,ARMANKI WAR,True,FORWARD
+Tirupati,Football,5,M,1777,AYUSH NAGLE,True,DEFENDER
+Tirupati,Football,5,M,1773,CHIRAG PATIL,True,MIDFIELDER
+Tirupati,Football,5,M,1766,GLORY NARJINARY,True,MIDFIELDER
+Tirupati,Football,5,M,1767,GOVIND KUMAR SINGH,True,FORWARD
+Tirupati,Football,5,M,1754,MAHIDHAR REDDY DONTI REDDY,True,FORWARD
+Tirupati,Football,5,M,1790,MAYANK DHYAWANA,True,DEFENDER
+Tirupati,Football,5,M,1757,PRASHANTA BAURI,True,DEFENDER
+Tirupati,Football,5,M,1789,ROKTUTPAL BORAH,True,MIDFIELDER
+Tirupati,Football,5,M,1746,SHASHIKANT YADAV,True,Goalkeeper
+Tirupati,Football,5,M,1771,SHRIYANSH SHARMA,True,MIDFIELDER
+Tirupati,Football,5,M,1787,SRIKAR VILAS DONUR,True,FORWARD
+Tirupati,Football,5,M,1769,S SURENDRA,True,DEFENDER
+Tirupati,Football,5,M,1751,THAMARAIKGANI MUDHALIYAR,True,FORWARD
+Tirupati,Football,5,M,1785,VARAD MOHOLKAR,True,MIDFIELDER
+Tirupati,Football,5,M,1786,YASH SOLANKI,True,DEFENDER
+Bombay,Hockey,6,M,3416,Diljith,True,
+Bombay,Hockey,6,M,3415,Jayakrishnan,True,
+Bombay,Hockey,6,M,3414,Rehan,True,
+Bombay,Hockey,6,M,3412,Sumit Laddha,True,
+Bombay,Hockey,6,M,3411,Deshank Pratap Singh,True,
+Bombay,Hockey,6,M,3413,Kartik U C,True,
+Bombay,Hockey,6,M,3410,Utkarsh Godwal,True,
+Bombay,Hockey,6,M,1284,Arnav Deshmukh,True,Midfield
+Bombay,Hockey,6,M,1257,Ashutosh Tiwari,True,Forward
+Bombay,Hockey,6,M,1267,Chirag Khandelwal,True,Defence
+Bombay,Hockey,6,M,1281,Devendra Verma,True,Midfield
+Bombay,Hockey,6,M,1264,Divakar Kumar,True,Defence
+Bombay,Hockey,6,M,1274,Divyraj Malviya,True,Midfield
+Bombay,Hockey,6,M,2322,Khushal Kumawat Kumawat,True,
+Bombay,Hockey,6,M,1269,Pranav Narute,True,Defence
+Bombay,Hockey,6,M,1277,Vedant Dodke,True,Midfield
+(BHU) Varanasi,Hockey,6,M,960,ABHISHEK KUMAR,True,FULL BACK
+(BHU) Varanasi,Hockey,6,M,983,AMAN MEENA,True,GOALKEEPER
+(BHU) Varanasi,Hockey,6,M,965,ASHOK MANDAWAT,True,RIGHT FORWARD
+(BHU) Varanasi,Hockey,6,M,1011,AYUSH CHAURASIA,True,RIGHT HALF
+(BHU) Varanasi,Hockey,6,M,989,BHAVESH MEENA,True,FULL BACK
+(BHU) Varanasi,Hockey,6,M,1003,HARDIK SOOD,True,GOALKEEPER
+(BHU) Varanasi,Hockey,6,M,953,HIMANSHU RAJPOOT,True,CENTER HALF
+(BHU) Varanasi,Hockey,6,M,947,HIMANSHU TOMAR,True,CENTER HALF
+(BHU) Varanasi,Hockey,6,M,980,JANGAM RISHI PRANEETH,True,LEFT FORWARD
+(BHU) Varanasi,Hockey,6,M,974,NIRANJAN KUMAR,True,LEFT FORWARD
+(BHU) Varanasi,Hockey,6,M,998,PRAVEEN KUMAR MEENA,True,LEFT HALF
+(BHU) Varanasi,Hockey,6,M,993,SIYARAM MEENA,True,RIGHT FORWARD
+(BHU) Varanasi,Hockey,6,M,971,SUMIT KUMAR INDLIA,True,FULL BACK
+(BHU) Varanasi,Hockey,6,M,934,SUNNY SANKHALA,True,RIGHT FORWARD
+(BHU) Varanasi,Hockey,6,M,944,VARUN KRISHNA KUNJAM,True,CENTER FORWARD
+(BHU) Varanasi,Hockey,6,M,936,YASH GUPTA,True,RIGHT HALF
+Delhi,Hockey,6,M,2096,Anuj Bishnoi,True,
+Delhi,Hockey,6,M,2088,Abhishek Singh Dangi,True,
+Delhi,Hockey,6,M,2090,Chayan Kumar Mahato,True,
+Delhi,Hockey,6,M,2099,Dheeraj,True,
+Delhi,Hockey,6,M,2086,Gaurav Raju Shende,True,
+Delhi,Hockey,6,M,2083,Jagveer Meena,True,
+Delhi,Hockey,6,M,2104,Jaydeep Sadangi,True,
+Delhi,Hockey,6,M,2110,Manish Kumar,True,
+Delhi,Hockey,6,M,2092,Nakul Raghuvanshi,True,
+Delhi,Hockey,6,M,2205,Ravindra Khoja,True,
+Delhi,Hockey,6,M,2085,Khemraj Newar,True,
+Delhi,Hockey,6,M,2093,Ansh Gautam,True,
+Delhi,Hockey,6,M,2097,Avinash Nishad,True,
+Delhi,Hockey,6,M,2087,Mohit Kumar Gautam,True,
+Delhi,Hockey,6,M,2102,Siddharth Runkh,True,
+Delhi,Hockey,6,M,2101,Vipin Kumar Meena,True,
+Guwahati,Hockey,6,M,926,ABHIJEET PUNIA,True,MIDFIELDER
+Guwahati,Hockey,6,M,935,Amireddy Eshanth Reddy,True,GOALKEEPER
+Guwahati,Hockey,6,M,919,ARNAV JAIN,True,Mid Fielder
+Guwahati,Hockey,6,M,920,ARYAN TRIPATHI,True,FORWARD
+Guwahati,Hockey,6,M,962,ATUL SINGH,True,GOALKEEPER
+Guwahati,Hockey,6,M,945,CHINMAY KALO,True,DEFENDER
+Guwahati,Hockey,6,M,927,DEEPAK KUMAR,True,FORWARD
+Guwahati,Hockey,6,M,966,DISHANT KUMAR,True,DEFENDER
+Guwahati,Hockey,6,M,929,GARVE ATTRI,True,FORWARD
+Guwahati,Hockey,6,M,939,Harsh Vardhan Singh Bhati,True,FORWARD
+Guwahati,Hockey,6,M,925,JAGJOT SINGH,True,MIDFIELDER
+Guwahati,Hockey,6,M,978,KRISHNA GOPAL,True,MIDFIELDER
+Guwahati,Hockey,6,M,986,Kunal Singh Shekhawat,True,DEFENDER
+Guwahati,Hockey,6,M,955,MANOJ SURESH RAUT,True,FORWARD
+Guwahati,Hockey,6,M,923,SATHIYAN ANAND SINHA,True,FORWARD
+Guwahati,Hockey,6,M,950,Shaurya Pratap Singh,True,FORWARD
+Hyderabad,Hockey,6,M,3010,A Vikas,True,
+Hyderabad,Hockey,6,M,3011,Avinash Naramu,True,
+Hyderabad,Hockey,6,M,3012,Chanti,True,
+Hyderabad,Hockey,6,M,3013,G.C.V.Sai Kumar Reddy,True,
+Hyderabad,Hockey,6,M,3014,Jagapathi Rao,True,
+Hyderabad,Hockey,6,M,3015,Jaideep Singh Kaler,True,
+Hyderabad,Hockey,6,M,3016,Kowsith,True,
+Hyderabad,Hockey,6,M,3018,Mudit Wadhwa,True,
+Hyderabad,Hockey,6,M,3024,Pritam Hemant Bagle,True,
+Hyderabad,Hockey,6,M,3019,Ritesh Kumar,True,
+Hyderabad,Hockey,6,M,3020,Siddhu,True,
+Hyderabad,Hockey,6,M,3027,SUNNY,True,
+Hyderabad,Hockey,6,M,3021,Suraj Kumar,True,
+Hyderabad,Hockey,6,M,3022,Vikas Hitendrasinh Rathod,True,
+Hyderabad,Hockey,6,M,3180,Y. Akhilesh,True,
+Hyderabad,Hockey,6,M,3023,Yashwant Narra,True,
+Jodhpur,Hockey,6,M,2103,Abhishek Akash Sharma,True,Midfielder
+Jodhpur,Hockey,6,M,2105,Banothu Thomas Sharma,True,Forward
+Jodhpur,Hockey,6,M,2095,Deepak Kumar Mashyal,True,Goal Keeper
+Jodhpur,Hockey,6,M,2091,Deepanshu Kumar Nehra,True,Goal Keeper
+Jodhpur,Hockey,6,M,2074,Dhiraj Raj,True,Forward
+Jodhpur,Hockey,6,M,2078,Gautam Kumar,True,Midfielder
+Jodhpur,Hockey,6,M,2081,Harsh Kumar,True,Defender
+Jodhpur,Hockey,6,M,2089,Manish Kumar Nehra,True,Defender
+Jodhpur,Hockey,6,M,2094,Manthan Kumar Nayak,True,Forward
+Jodhpur,Hockey,6,M,2076,Mayank Kumar,True,Midfielder
+Jodhpur,Hockey,6,M,2084,Prince Chahar,True,Forward
+Jodhpur,Hockey,6,M,2080,Sachin Kumar Kumar,True,Defender
+Jodhpur,Hockey,6,M,2100,Shishuranjan Akash Kumar,True,Forward
+Jodhpur,Hockey,6,M,2082,Sourav Chahar,True,Midfielder
+Jodhpur,Hockey,6,M,2106,Sunny Kumar Chahar,True,Midfielder
+Jodhpur,Hockey,6,M,2098,Vankadoth Akash Mashyal,True,Forward
+Kanpur,Hockey,6,M,237,arun rana,True,attacker
+Kanpur,Hockey,6,M,41,sachin,True,captain
+Kanpur,Hockey,6,M,44,adhyatm  singh,True,striker
+Kanpur,Hockey,6,M,48,anjan das,True,striker
+Kanpur,Hockey,6,M,53,ankit,True,defender
+Kanpur,Hockey,6,M,59,anshu sharma,True,half
+Kanpur,Hockey,6,M,61,devansh yadav,True,defender
+Kanpur,Hockey,6,M,62,nitish saroj,True,defender
+Kanpur,Hockey,6,M,60,prince pathak,True,half
+Kanpur,Hockey,6,M,64,rohit r k,True,half
+Kanpur,Hockey,6,M,56,surya vardhan banavath,True,striker
+Kanpur,Hockey,6,M,65,tanay narendra pathode,True,half
+Kanpur,Hockey,6,M,70,vishesh bhardwaj,True,vice captain
+Kanpur,Hockey,6,M,47,yash  bhardwaj,True,goalkeeper
+Kanpur,Hockey,6,M,51,azad bharti ahirwar,True,striker
+Kanpur,Hockey,6,M,52,rohith kumar mutaka,True,striker
+Kharagpur,Hockey,6,M,1420,Abhinav,True,MIDFIELDER
+Kharagpur,Hockey,6,M,1401,Ramesh Mohan,True,GOALKEEPER
+Kharagpur,Hockey,6,M,1437,Ajay kumar Gurjar,True,FORWARD
+Kharagpur,Hockey,6,M,1434,Attadarshi Meshram,True,FORWARD
+Kharagpur,Hockey,6,M,1416,Avenish Srivastava,True,FORWARD
+Kharagpur,Hockey,6,M,1412,Baloji Naik Mudavath,True,FORWARD
+Kharagpur,Hockey,6,M,1409,GUNDLA SANJEEV SANJEEV,True,DEFENDER
+Kharagpur,Hockey,6,M,1431,GURDEEP SINGH,True,FORWARD
+Kharagpur,Hockey,6,M,1435,Harsh Vardhan Gupta,True,DEFENDER
+Kharagpur,Hockey,6,M,1393,Karthikeya Nari,True,DEFENDER
+Kharagpur,Hockey,6,M,1427,Mayank Ujjwal,True,GOALKEEPER
+Kharagpur,Hockey,6,M,1424,Obilesh Sai,True,MIDFIELDER
+Kharagpur,Hockey,6,M,1397,Sake Jaswanth,True,MIDFIELDER
+Kharagpur,Hockey,6,M,1429,Sanjeev,True,MIDFIELDER
+Kharagpur,Hockey,6,M,1908,Shobhit,True,FORWARD
+Madras,Hockey,6,M,2633,Anukalp Raj,True,
+Madras,Hockey,6,M,2637,Balaji Kurakula,True,
+Madras,Hockey,6,M,2635,Daksh Fulzele,True,
+Madras,Hockey,6,M,2564,ESLAVATH PAVAN KUMAR,True,
+Madras,Hockey,6,M,2638,Ishant Dumane,True,
+Madras,Hockey,6,M,2640,Karthikeyan R,True,
+Madras,Hockey,6,M,2641,Lokesh,True,
+Madras,Hockey,6,M,2632,Mahendra Reddy,True,
+Madras,Hockey,6,M,2581,Mogilipalem Adithya Sri Pavan,True,
+Madras,Hockey,6,M,2639,P Girinath,True,
+Madras,Hockey,6,M,2573,Prashant Kumar,True,
+Madras,Hockey,6,M,2575,Prashant Singh,True,
+Madras,Hockey,6,M,2577,Shlok,True,
+Madras,Hockey,6,M,2634,Sisirkantha Singh,True,
+Madras,Hockey,6,M,2580,Sunil Malviya,True,
+Madras,Hockey,6,M,2636,uma maheswara rao,True,
+Mandi,Hockey,6,M,2868,Aayush Raj,True,Left Out
+Mandi,Hockey,6,M,2857,Adithyan C R,True,Goal Keeper
+Mandi,Hockey,6,M,2392,Arsh,True,Left Half
+Mandi,Hockey,6,M,2395,Aryan Shisodiya,True,Right Out
+Mandi,Hockey,6,M,2866,Devprakash Bhagel,True,Left In
+Mandi,Hockey,6,M,2377,Dhruv Kumar Singh,True,Full Back
+Mandi,Hockey,6,M,2553,Divyanshu Raj,True,Center Forward
+Mandi,Hockey,6,M,2386,Harmandeep Singh,True,Full Back
+Mandi,Hockey,6,M,2389,Narendra Meena,True,Right/Left Half
+Mandi,Hockey,6,M,2854,Om Litoriya,True,Right Out
+Mandi,Hockey,6,M,2397,Piyush Yadav,True,Left Out
+Mandi,Hockey,6,M,2860,Rupinder Singh,True,Centre half
+Mandi,Hockey,6,M,2400,Sanyam Dhiman,True,Right Out
+Mandi,Hockey,6,M,2863,Tushar Verma,True,Mid-Fielder
+Mandi,Hockey,6,M,2390,Utsav,True,Full Back
+Mandi,Hockey,6,M,2398,Vaibhav Jain,True,Right Half
+Roorkee,Hockey,6,M,876,Aditya Bhandari,True,Goal-Keeper
+Roorkee,Hockey,6,M,713,Amrendra Kumar Singh,True,Forward
+Roorkee,Hockey,6,M,873,Anurag Sain,True,Forward
+Roorkee,Hockey,6,M,695,Ashok Netra,True,Forward
+Roorkee,Hockey,6,M,669,Ayush Girhay,True,Right-Half
+Roorkee,Hockey,6,M,682,Dheerajpreet Singh,True,Center-Back
+Roorkee,Hockey,6,M,663,Dinesh Choudhary,True,Left Back
+Roorkee,Hockey,6,M,839,Gaurav Jain,True,Center-Forward
+Roorkee,Hockey,6,M,706,Kudumula Sri Kiran,True,Right-Back
+Roorkee,Hockey,6,M,845,Laxmi Narayan Sahu,True,Forward
+Roorkee,Hockey,6,M,849,Mohd Iqbal,True,Forward
+Roorkee,Hockey,6,M,882,Nishchal Agrawal,True,Right-Half
+Roorkee,Hockey,6,M,859,Shashank Prajapati,True,Center-Back
+Roorkee,Hockey,6,M,853,Srikant Kumar,True,Right-Half
+Roorkee,Hockey,6,M,696,Vaibhav Kumar,True,Left-Half
+Roorkee,Hockey,6,M,665,Yadav Abhishek Pardeep,True,Goal-Keeper
+Ropar,Hockey,6,M,281,Akshit Choudhary,True,defence
+Ropar,Hockey,6,M,282,Ambati Gowtham Kumar,True,Forward
+Ropar,Hockey,6,M,275,Chaitanya,True,Forward
+Ropar,Hockey,6,M,274,Krish,True,Goal Keeper
+Ropar,Hockey,6,M,273,Shubham Singh,True,Mid-field
+Ropar,Hockey,6,M,279,Sagnik Bhattacharyya,True,Mid-field
+Ropar,Hockey,6,M,364,Hapavath Shiva Kumar,True,Forward
+Ropar,Hockey,6,M,365,Harendra Fageriya,True,Mid-field
+Ropar,Hockey,6,M,154,Hemant Yadav,True,Defence
+Ropar,Hockey,6,M,277,Krishna Sharma,True,Forward
+Ropar,Hockey,6,M,276,Kush Kumar,True,Forward
+Ropar,Hockey,6,M,366,Manshu,True,defence
+Ropar,Hockey,6,M,278,MiteshKumar MOIRANGTHEM,True,Forward
+Ropar,Hockey,6,M,280,Naveen Kumar,True,Mid-field
+Ropar,Hockey,6,M,363,Tanuj,True,Forward
+Ropar,Hockey,6,M,362,Yogendra Singh,True,Mid-field
+Dhanbad,Athletics,0,M,1461,NIKHIL KUMAR,True,"110 M Hurdles, 4x400 M Relay ( Mixed ), 4x100 M Relay, 200 M, 100 M"
+Dhanbad,Athletics,0,M,1465,RAMRATAN CHABRAL,True,"400 M Hurdles, Triple Jump, 4x400 M Relay, 400 M"
+Dhanbad,Athletics,0,M,1470,DEVENDER PRATAP MALL,True,"100 M, 400 M Hurdles (R), 4x100 M Relay, 200 M"
+Dhanbad,Athletics,0,M,1472,GOPAL TUDU,True,"4x100 M Relay, 200 M, 100 M (R)"
+Dhanbad,Athletics,0,M,1475,HARIOM PAL,True,"400 M (R), 4x100 M Relay (R), 800 M, 4x400 M Relay ( Mixed ) (R), 4x400 M Relay, 1500 M"
+Dhanbad,Athletics,0,M,1478,RAVIKANT KUMAR,True,"400 M, 4x400 M Relay ( Mixed ), 400 M Hurdles (R), 4x400 M Relay"
+Dhanbad,Athletics,0,M,1479,ABHINAV SAINI,True,"4x400 M Relay, 1500 M (R), 800 M"
+Dhanbad,Athletics,0,M,1480,Ravi Kumar,True,"Long Jump, 4x400 M Relay ( Mixed ) (R), 4x100 M Relay (R), 4x400 M Relay, 1500 M, 800 M (R)"
+Dhanbad,Athletics,0,M,1483,Lakshmisha g,True,"5000 M, 4x400 M Relay"
+Dhanbad,Athletics,0,M,1484,Manish Mundel,True,5000 M
+Dhanbad,Athletics,0,M,1485,Lalchhanhima,True,"Long Jump, 4x100 M Relay, 110 M Hurdles, High Jump"
+Dhanbad,Athletics,0,M,1488,Yashvardhan Tripathi,True,Shot Put
+Dhanbad,Athletics,0,M,1489,Ayush Babukumar,True,"Shot Put, Discus Throw (R)"
+Dhanbad,Athletics,0,M,1491,Aayush,True,Javelin Throw
+Dhanbad,Athletics,0,M,1492,Ayush Rai,True,Javelin Throw
+Dhanbad,Athletics,0,M,1493,Mahadev Kumar,True,"Triple Jump, Javelin Throw (R)"
+Dhanbad,Athletics,0,M,1496,Vishnu Abiram N,True,Hammer Throw
+Dhanbad,Athletics,0,M,1498,Himanshu Singh,True,Discus Throw
+Dhanbad,Athletics,0,M,1500,Shivam Sharma,True,"Hammer Throw (R), Discus Throw"
+Dhanbad,Athletics,0,M,1501,R Ranjith Kumar,True,"Hammer Throw, Shot Put (R)"
+Dhanbad,Athletics,0,F,1482,Kotana Lohitha,False,"Javelin Throw, Volleyball, 1500 M, Long Jump, 4x100 M Relay"
+Dhanbad,Athletics,0,F,1502,Riddhi Sukumar N,True,"100 M, 400 M, 4x400 M Relay ( Mixed ), 4x100 M Relay, 200 M"
+Dhanbad,Athletics,0,F,1503,Anjali Kumari,True,"100 M Hurdles, 4x400 M Relay ( Mixed ), 4x100 M Relay, 200 M, Long Jump"
+Dhanbad,Athletics,0,F,1508,Vadla Sravani,True,"Shot Put, Discus Throw"
+Dhanbad,Athletics,0,F,1510,Shretima Garg,True,"Shot Put, Discus Throw"
+Dhanbad,Athletics,0,F,1511,K Kalpana,True,"4x100 M Relay (R), Javelin Throw"
+Dhanbad,Athletics,0,F,1527,palak SINGH,True,"4x100 M Relay, Discus Throw (R), 100 M"
+Dhanbad,Volleyball,10,M,1454,Ritik Kumar,True,Receiver Attacker
+Dhanbad,Volleyball,10,M,1455,Anush Sharma,True,Libero
+Dhanbad,Volleyball,10,M,1452,Atif Sahzad,True,Receiver Attacker
+Dhanbad,Volleyball,10,M,1456,Chirag Yadav,True,Center Blocker
+Dhanbad,Volleyball,10,M,1499,Harsh Choubey,True,Center Blocker
+Dhanbad,Volleyball,10,M,1453,Harshit Mathur,True,Libero
+Dhanbad,Volleyball,10,M,1494,Kunwar Gaurav Singh,True,Receiver Attacker
+Dhanbad,Volleyball,10,M,1495,Mehul Kumar Agarwal,True,opposite Attacker
+Dhanbad,Volleyball,10,M,1451,Mukesh Sharma,True,Setter
+Dhanbad,Volleyball,10,M,1458,Sai Sandeep Dabbada,True,Setter
+Dhanbad,Volleyball,10,M,1497,Sudhanshu Singh,True,Center Blocker
+Dhanbad,Volleyball,10,M,1457,Yash Durge,True,Receiver Attacker
+Dhanbad,Volleyball,10,F,1469,Abhilasha Kumari,True,Setter
+Dhanbad,Volleyball,10,F,1462,Anisha Bisht,True,Attacker
+Dhanbad,Volleyball,10,F,1468,Dhanavath Lavanya,True,Attacker
+Dhanbad,Volleyball,10,F,1459,Errabelli Akshara Rao,True,Attacker
+Dhanbad,Volleyball,10,F,1482,Kotana Lohitha,True,Attacker
+Dhanbad,Volleyball,10,F,1473,Nishi Sharma,True,Attacker
+Dhanbad,Volleyball,10,F,1474,Punam Tabri,True,Attacker
+Dhanbad,Volleyball,10,F,1467,Ranjeeta Uikey,True,Attacker
+Dhanbad,Volleyball,10,F,1471,Ritika,True,Attacker
+Dhanbad,Volleyball,10,F,1463,S R Aruna,True,Setter
+Dhanbad,Volleyball,10,F,1466,Shivangi Shandilya,True,Attacker
+Dhanbad,Volleyball,10,F,1460,Undrathi Shakeena Mahima,True,Setter
+Dhanbad,Cricket,4,M,1423,AADITYA KUMAR RAI,True,cricketer
+Dhanbad,Cricket,4,M,1417,AYUSH VIKRAM SINGH,True,cricket
+Dhanbad,Cricket,4,M,1414,KAUSTUBH SUDHAKAR,True,cricketer
+Dhanbad,Cricket,4,M,1399,KRISH GUPTA,True,Cricket
+Dhanbad,Cricket,4,M,1388,MANOHAR MUNIPALA,True,cricketer
+Dhanbad,Cricket,4,M,1406,MRITYUNJAY TIWARI,True,cricketer
+Dhanbad,Cricket,4,M,1421,NISHANT GUPTA,True,cricket
+Dhanbad,Cricket,4,M,1410,PARNEET NAINN,True,cricketer
+Dhanbad,Cricket,4,M,1403,RANVEER TECKCHANDANI,True,cricketer
+Dhanbad,Cricket,4,M,1402,RISHIT DAS,True,cricketer
+Dhanbad,Cricket,4,M,1418,SHERSINGH MINA,True,cricketer
+Dhanbad,Cricket,4,M,1390,SUBHAJIT SARKAR,True,cricketer
+Dhanbad,Cricket,4,M,1394,SUCHETAN MAJUMDAR,True,cricketer
+Dhanbad,Cricket,4,M,1426,TANISHQ UNHALE,True,cricketer
+Dhanbad,Cricket,4,M,1396,VAIBHAV ANAND,True,cricketer
+Dhanbad,Cricket,4,M,1392,VIKASH KUMAR,True,cricketer
+Dhanbad,Football,5,M,1400,ARZOO YADAV,True,DEFENDER
+Dhanbad,Football,5,M,1405,TANAY RAJ,True,MIDFIELDER
+Dhanbad,Football,5,M,1407,STANZIN NAMGAIL,True,MIDFIELDER
+Dhanbad,Football,5,M,1404,LALSIEM THANG,True,MIDFIELDER
+Dhanbad,Football,5,M,1398,AMARTYA SINGH,True,DEFENDER
+Dhanbad,Football,5,M,1387,CHINMAY AMBAWALE,True,GOALKEEPER
+Dhanbad,Football,5,M,1413,MALINGPAM JAJO,True,MIDFIELDER
+Dhanbad,Football,5,M,1573,Pallab SING,True,CENTER_BACK
+Dhanbad,Football,5,M,1422,PUKHO EBENEZER,True,ATTACKER
+Dhanbad,Football,5,M,1428,RASHMI RANJAN PING,True,ATTACKER
+Dhanbad,Football,5,M,1389,SATYAM TIWARI,True,DEFENDER
+Dhanbad,Football,5,M,1425,SHIVA CHEDA,True,DEFENDER
+Dhanbad,Football,5,M,1415,SHUBHAM SINGH,True,MIDFIELDER
+Dhanbad,Football,5,M,1395,SK ABU SAMAD,True,DEFENDER
+Dhanbad,Football,5,M,1430,SOURAV SAGAR SAY,True,ATTACKER
+Dhanbad,Football,5,M,1419,V LALTLANZOVA,True,MIDFIELDER
+Dhanbad,Hockey,6,M,1095,AMIT MEENA,True,MIDFIELDER
+Dhanbad,Hockey,6,M,1111,ANUP KUMAR,True,DEFENDER
+Dhanbad,Hockey,6,M,905,Himanshu Singh,True,GOALKEEPER
+Dhanbad,Hockey,6,M,1079,KOTA SHABAREESH,True,FORWARD
+Dhanbad,Hockey,6,M,1089,Lavudya Arjun,True,FORWARD
+Dhanbad,Hockey,6,M,1061,Param Chaudhary,True,FORWARD
+Dhanbad,Hockey,6,M,1066,PIYUSH YADAV,True,FORWARD
+Dhanbad,Hockey,6,M,1102,Raghav Agarwal,True,FORWARD
+Dhanbad,Hockey,6,M,1099,RAVISHANKAR SAHU,True,DEFENDER
+Dhanbad,Hockey,6,M,1109,Rohit Raj,True,MIDFIELDER
+Dhanbad,Hockey,6,M,1105,Saundarya Narayan Kashyap,True,MIDFIELDER
+Dhanbad,Hockey,6,M,1112,Scaria Anil,True,FORWARD
+Dhanbad,Hockey,6,M,1103,SONAM KUMAR,True,DEFENDER
+Dhanbad,Hockey,6,M,1110,Thummala Thivikram,True,DEFENDER
+Dhanbad,Hockey,6,M,1107,TILAK S A,True,DEFENDER
+Dhanbad,Hockey,6,M,1088,TRILOK MEENA,True,FORWARD
+Delhi,Badminton,1,M,3422,Aditya Agarwal,True,
+Delhi,Badminton,1,M,3423,Aditya Yadav,True,
+Delhi,Badminton,1,M,3424,Amit Singh Nitharwal,True,
+Delhi,Badminton,1,M,3425,Krithik Eeswar S,True,
+Delhi,Badminton,1,M,3426,Rohan Savakar,True,
+Delhi,Badminton,1,F,3427,Ruchika Meel,True,
+Delhi,Badminton,1,F,3428,Saumya Tayal,True,
+Delhi,Basketball,2,M,3429,Aneesh Lathwal,True,
+Delhi,Basketball,2,M,3430,Aniket Anand,True,
+Delhi,Basketball,2,M,3431,Atharva Goutam Revankar,True,
+Delhi,Basketball,2,M,3432,Dushyant Soni,True,
+Delhi,Basketball,2,M,3433,Harsh Agarwal,True,
+Delhi,Basketball,2,M,3434,Mehul Kundu,True,
+Delhi,Basketball,2,M,3435,Soham Gupta,True,
+Delhi,Basketball,2,M,3436,Tatsam Ranjan Sharma,True,
+Delhi,Basketball,2,M,3437,Vaibhav Verma,True,
+Delhi,Basketball,2,M,3438,Vasu Singh,True,
+Delhi,Basketball,2,M,3439,Venkat Aravind Bose Vanthala,True,
+Delhi,Basketball,2,M,3440,Vihaan Vineet Luhariwala,True,
+Delhi,Basketball,2,F,3441,Anuvesha Singh,True,
+Delhi,Basketball,2,F,3442,Disha Sehgal,True,
+Delhi,Basketball,2,F,3443,Divya Gupta,True,
+Delhi,Basketball,2,F,3444,Harsaavarshini M,True,
+Delhi,Basketball,2,F,3445,Jagarapu Shreemayi,True,
+Delhi,Basketball,2,F,3446,Mahima Chotiya,True,
+Delhi,Basketball,2,F,3447,Nandani Choudhary,True,
+Delhi,Basketball,2,F,3448,Radhika Arora,True,
+Delhi,Basketball,2,F,3449,Shreya Chandan Munot,True,
+Delhi,Basketball,2,F,3450,Tannu Shree,True,
+Delhi,Basketball,2,F,3451,Vartika Dharmak,True,
+Delhi,Basketball,2,F,3452,Yukti Yadav,True,
+Delhi,Squash,7,M,3453,Harshit Bansal,True,
+Delhi,Squash,7,M,3454,Keshav Taparia,True,
+Delhi,Squash,7,M,3455,Piyush Dahiya,True,
+Delhi,Squash,7,M,3456,Rohan Gupta,True,
+Delhi,Squash,7,F,3457,Anshika Prajapati,True,
+Delhi,Squash,7,F,3458,Lisha Goel,True,
+Delhi,Squash,7,F,3459,Niharika Bansal,True,
+Delhi,Squash,7,F,3460,Urvi,True,
+Delhi,Table Tennis,8,M,3461,Akash,True,
+Delhi,Table Tennis,8,M,3462,Archit Kumar Behera,True,
+Delhi,Table Tennis,8,M,3463,Arnav Garg,True,
+Delhi,Table Tennis,8,M,3464,Patel Vivek Ashvin,True,
+Delhi,Table Tennis,8,F,3465,Divija Motwani,True,
+Delhi,Table Tennis,8,F,3466,Priyesha Jha,True,
+Delhi,Table Tennis,8,F,3467,Vaishali Anand,True,
+Ropar,Table Tennis,8,F,3468,Kanika Nagar,True,
+Ropar,Table Tennis,8,F,3469,Sakshi Meena,True,
+Ropar,Table Tennis,8,F,3470,Vaishnavi Pal,True,
+Ropar,Table Tennis,8,M,3471,Kushagra Gupta,True,
+Ropar,Table Tennis,8,M,3472,Akshit Kumar,True,
+Ropar,Table Tennis,8,M,3473,Karan,True,
+Ropar,Table Tennis,8,M,3474,Devesh Dalal,True,
+Ropar,Basketball,2,F,3475,Navvya Suryakant Saini,True,
+Ropar,Basketball,2,F,3476,Tanushree Pan,True,
+Ropar,Basketball,2,F,3477,Prapti Borkar,True,
+Ropar,Basketball,2,F,3478,Deepika Garg,True,
+Ropar,Basketball,2,F,3479,Reeta Sharma,True,
+Ropar,Basketball,2,F,3480,Hazel Garg,True,
+Ropar,Basketball,2,F,3481,Khushi Shinde,True,
+Ropar,Basketball,2,F,3482,Khushi Singh,True,
+Ropar,Basketball,2,F,3483,Seerat Mehta,True,
+Ropar,Basketball,2,F,3484,Himanshi,True,
+Ropar,Basketball,2,F,3485,Tanisha,True,
+Ropar,Basketball,2,F,3486,Vanshika Singh,True,
+Ropar,Basketball,2,M,3487,Vedant Nagpal,True,
+Ropar,Basketball,2,M,3488,Saurabh Maurya,True,
+Ropar,Basketball,2,M,3489,Priyanshu Kajal,True,
+Ropar,Basketball,2,M,3490,Arav Raj,True,
+Ropar,Basketball,2,M,3491,Ayush Singh,True,
+Ropar,Basketball,2,M,3492,Mudit Sharma,True,
+Ropar,Basketball,2,M,3493,Aarav Singh,True,
+Ropar,Basketball,2,M,3494,Pratham Bhanoo,True,
+Ropar,Basketball,2,M,3495,Hemant,True,
+Ropar,Basketball,2,M,3496,Mandeep Chaudhary,True,
+Ropar,Basketball,2,M,3497,Lakshman Kumar,True,
+Ropar,Basketball,2,M,3498,Ayush Tiwari,True,
+Ropar,Badminton,1,M,3499,Rathlavath Jashvanth,True,
+Ropar,Badminton,1,M,3500,Hrishikesh Paul,True,
+Ropar,Badminton,1,M,3501,Alam Baham,True,
+Ropar,Badminton,1,M,3502,V. Bhanu Varshith,True,
+Ropar,Badminton,1,M,3503,Hardik Rangi,True,
+Ropar,Badminton,1,F,3504,Amrutha Kommina,True,
+Ropar,Badminton,1,F,3505,M. Siri Chandana,True,
+Ropar,Badminton,1,F,3506,Aditi Jain,True,
+Bhilai,Badminton,1,M,3507,Amit Rana,True,
+Bhilai,Badminton,1,M,3508,Ramavath Dheemanth,True,
+Bhilai,Badminton,1,M,3509,Ayush K Gothwal,True,
+Bhilai,Badminton,1,M,3510,Sanidhya Bharti,True,
+Bhilai,Badminton,1,M,3511,Pralhad Chakurkar,True,
+Bhilai,Basketball,2,M,3512,Vedant Chandak,True,
+Bhilai,Basketball,2,M,3513,Parth Pugalia,True,
+Bhilai,Basketball,2,M,3514,Akshat Tiwari,True,
+Bhilai,Basketball,2,M,3515,Aayush,True,
+Bhilai,Basketball,2,M,3516,Ganta Srujan,True,
+Bhilai,Basketball,2,M,3517,Omendra Kumar Upadhyay,True,
+Bhilai,Basketball,2,M,3518,Gaurav Yogi,True,
+Bhilai,Basketball,2,M,3519,Parth Nitinkumar Bhosale,True,
+Bhilai,Basketball,2,M,3520,Pavan Kumar Meena,True,
+Bhilai,Basketball,2,M,3521,Velamuri Vijay Bhushan,True,
+Bhilai,Basketball,2,M,3522,Rishabh Sahu,True,
+Bhilai,Basketball,2,M,3523,Bhargav Sharma,True,
+Bhilai,Table Tennis,8,M,3524,Mohd Haisam Khan,True,
+Bhilai,Table Tennis,8,M,3525,Prince,True,
+Bhilai,Table Tennis,8,M,3526,Adarsh Panjwani,True,
+Bhilai,Table Tennis,8,M,3527,Utkarsh Kumar,True,
+Bhilai,Badminton,1,F,3528,Sreya Chitluru,True,
+Bhilai,Badminton,1,F,3529,Shaoni Mistry,True,
+Bhilai,Badminton,1,F,3530,Ramdeni Divya Teja,True,
+Bhilai,Basketball,2,F,3531,Gauri Rathi,True,
+Bhilai,Basketball,2,F,3532,Himani Jain,True,
+Bhilai,Basketball,2,F,3533,Anjil Gupta,True,
+Bhilai,Basketball,2,F,3534,Sonali Singh,True,
+Bhilai,Basketball,2,F,3535,Isha,True,
+Bhilai,Basketball,2,F,3536,Anu Yadav,True,
+Bhilai,Basketball,2,F,3537,Arushi Rawat,True,
+Bhilai,Basketball,2,F,3538,Jiya Mehta,True,
+Bhilai,Table Tennis,8,F,3539,Mansi Ambwani,True,
+Bhilai,Table Tennis,8,F,3540,Sumedha Mummigatti,True,
+Bhilai,Table Tennis,8,F,3541,Siddhi Singh,True,
+Bhilai,Basketball,2,F,3542,Siddhi Singh,True,
+Guwahati,Badminton,1,F,3543,Dhairvy,True,
+Guwahati,Badminton,1,F,3544,Shravya Chowdary G,True,
+Guwahati,Badminton,1,M,3545,Ajay Kumar Chhantyal,True,
+Guwahati,Badminton,1,M,3546,Maanik Bhardwaj,True,
+Guwahati,Badminton,1,M,3547,Mahip Banchhor,True,
+Guwahati,Badminton,1,M,3548,Piyush Sharma,True,
+Guwahati,Badminton,1,M,3549,Pourush Jalan,True,
+Guwahati,Basketball,2,M,3550,Siddhanta Nanda,True,
+Guwahati,Basketball,2,M,3551,Amaresh,True,
+Guwahati,Basketball,2,M,3552,Daksh Kumar Dhaka,True,
+Guwahati,Basketball,2,M,3553,Hrimaan Karigapsa,True,
+Guwahati,Basketball,2,M,3554,Kushal Tiwari,True,
+Guwahati,Basketball,2,M,3555,Nithin M,True,
+Guwahati,Basketball,2,M,3556,R. Akash,True,
+Guwahati,Basketball,2,M,3557,Surya Narayan,True,
+Guwahati,Basketball,2,M,3558,Suraj Jat,True,
+Guwahati,Basketball,2,M,3559,Arya Kulkarni,True,
+Guwahati,Basketball,2,M,3560,Bhairu Singh Kanawat,True,
+Guwahati,Basketball,2,M,3561,Manas Raj Hans,True,
+Guwahati,Basketball,2,F,3562,Amirthavarshini,True,
+Guwahati,Basketball,2,F,3563,K Laxmi Sanjana,True,
+Guwahati,Basketball,2,F,3564,Riya,True,
+Guwahati,Basketball,2,F,3565,Ritika Sahu,True,
+Guwahati,Basketball,2,F,3566,Mridu Rohi,True,
+Guwahati,Basketball,2,F,3567,Gauri Sharan,True,
+Guwahati,Basketball,2,F,3568,Tanushree Rao Inna,True,
+Guwahati,Basketball,2,F,3569,Anushka Jha,True,
+Guwahati,Basketball,2,F,3570,Rushdha Borkar,True,
+Guwahati,Basketball,2,F,3571,Srishti,True,
+Guwahati,Squash,7,F,3572,Aryan Musale,True,
+Guwahati,Squash,7,F,3573,Ayush Agarwal,True,
+Guwahati,Squash,7,F,3574,Nooka Chandra Mouli,True,
+Guwahati,Squash,7,F,3575,Paarth Minear,True,
+Guwahati,Squash,7,F,3576,Avani Goyal,True,
+Guwahati,Squash,7,F,3577,Disha Gokhale,True,
+Guwahati,Squash,7,F,3578,Ketaki Raje,True,
+Guwahati,Squash,7,F,3579,Lakshita Agarwalla,True,
+Guwahati,Table Tennis,8,M,3580,Rushil Lakdawala,True,
+Guwahati,Table Tennis,8,M,3581,Zubayr Arshad Baruah,True,
+Guwahati,Table Tennis,8,M,3582,Varunan Balasubramanian,True,
+Guwahati,Table Tennis,8,M,3583,B Srishanth,True,
+Guwahati,Table Tennis,8,F,3584,Shreya B,True,
+Guwahati,Table Tennis,8,F,3585,Shalu Kumari,True,
+Guwahati,Table Tennis,8,F,3586,Shikha Sinha,True,
+Dharwad,Badminton,1,M,3587,Neelpramatha K K,True,
+Dharwad,Badminton,1,M,3588,Krunal Patel,True,
+Dharwad,Badminton,1,M,3589,Harshwardhan Prabhakar,True,
+Dharwad,Badminton,1,M,3590,Rupak Ratnapal Ramteke,True,
+Dharwad,Badminton,1,M,3591,Veer Anup Doshi,True,
+Dharwad,Basketball,2,F,3592,Shreya Arun Kumar Kumathalli,True,
+Dharwad,Basketball,2,F,3593,Anju Farswan,True,
+Dharwad,Basketball,2,F,3594,Seepana Rishita,True,
+Dharwad,Basketball,2,F,3595,Prakriti Tripathi,True,
+Dharwad,Basketball,2,F,3596,Chagam Bhavana,True,
+Dharwad,Basketball,2,F,3597,D Anushri,True,
+Dharwad,Basketball,2,F,3598,Preksha Patange,True,
+Dharwad,Basketball,2,F,3599,Mhadgut Gayatri Rajendra,True,
+Dharwad,Basketball,2,F,3600,Tiyasa Das,True,
+Dharwad,Basketball,2,F,3601,Meegada Sai Sindhuja,True,
+Dharwad,Basketball,2,F,3602,Gajjela Medha Shivani,True,
+Dharwad,Table Tennis,8,M,3603,Arnav,True,
+Dharwad,Table Tennis,8,M,3604,Ajitesh Manan Jha,True,
+Dharwad,Table Tennis,8,M,3605,Aadhi Shankar,True,
+Dharwad,Table Tennis,8,M,3606,Aditya Raj Singh Digari,True,
+Dharwad,Table Tennis,8,F,3607,Aayushi Singh,True,
+Dharwad,Table Tennis,8,F,3608,Siya Paliwal,True,
+Dharwad,Table Tennis,8,F,3609,Aditi Soukar,True,
+Gandhinagar,Table Tennis,8,M,3610,Kavya Patel,True,
+Gandhinagar,Table Tennis,8,M,3611,Kanan Chawla,True,
+Gandhinagar,Table Tennis,8,M,3612,Kunal Dhamapurkar,True,
+Gandhinagar,Table Tennis,8,M,3613,Kshitij Kasodkar,True,
+Gandhinagar,Table Tennis,8,F,3614,Nandinii Biswal,True,
+Gandhinagar,Table Tennis,8,F,3615,Saanvi Mundra,True,
+Gandhinagar,Table Tennis,8,F,3616,Jannat Johal,True,
+Gandhinagar,Badminton,1,M,3617,Budagum Keerthan Varma,True,
+Gandhinagar,Badminton,1,M,3618,Shriniket Behera,True,
+Gandhinagar,Badminton,1,M,3619,Chaitanya Chaudhary,True,
+Gandhinagar,Badminton,1,M,3620,Pranav Ram,True,
+Gandhinagar,Badminton,1,M,3621,Manav Satyendra Karadahalli,True,
+Gandhinagar,Badminton,1,F,3622,Aanchal Sharma,True,
+Gandhinagar,Badminton,1,F,3623,Nakshatra Kailash Lad,True,
+Gandhinagar,Badminton,1,F,3624,Yashasvi Rao,True,
+Gandhinagar,Squash,7,M,3625,Nimitt,True,
+Gandhinagar,Squash,7,M,3626,Dewansh Singh Chandel,True,
+Gandhinagar,Squash,7,M,3627,Raj Amit Modi,True,
+Gandhinagar,Squash,7,M,3628,Aayush Kuloor,True,
+Gandhinagar,Squash,7,F,3629,Suhani,True,
+Gandhinagar,Squash,7,F,3630,Khushboo Sahrawat,True,
+Gandhinagar,Squash,7,F,3631,Niyati Samji Siju,True,
+Gandhinagar,Squash,7,F,3632,Khushi Priyen Shah,True,
+Gandhinagar,Basketball,2,M,3633,Aditya Kumar,True,
+Gandhinagar,Basketball,2,M,3634,Siddharth Verma,True,
+Gandhinagar,Basketball,2,M,3635,Kowel P Laloo,True,
+Gandhinagar,Basketball,2,M,3636,Hemcharan Varma,True,
+Gandhinagar,Basketball,2,M,3637,Atharva Dapse,True,
+Gandhinagar,Basketball,2,M,3638,Ayush Alhat,True,
+Gandhinagar,Basketball,2,M,3639,Gulshan Kumar,True,
+Gandhinagar,Basketball,2,M,3640,Yash Choudhary,True,
+Gandhinagar,Basketball,2,M,3641,Divyanshu Chandani,True,
+Gandhinagar,Basketball,2,M,3642,Ankit Joshi,True,
+Gandhinagar,Basketball,2,M,3643,Abhinav Rana,True,
+Gandhinagar,Basketball,2,M,3644,Yuvraj Godara,True,
+Gandhinagar,Basketball,2,F,3645,K K Gayatri Priyadarsini,True,
+Gandhinagar,Basketball,2,F,3646,Prerna Sawane,True,
+Gandhinagar,Basketball,2,F,3647,Harshita Singh,True,
+Gandhinagar,Basketball,2,F,3648,Ankita Mohanpuriya,True,
+Gandhinagar,Basketball,2,F,3649,Raima Rao,True,
+Gandhinagar,Basketball,2,F,3650,Bhoomi Agrawal,True,
+Gandhinagar,Basketball,2,F,3651,Divya Saini,True,
+Gandhinagar,Basketball,2,F,3652,Siya Patil,True,
+Goa,Badminton,1,M,3653,Yash Pawar,True,
+Goa,Badminton,1,M,3654,Kartik Pasari,True,
+Goa,Badminton,1,M,3655,Jaswanth Rudrubati,True,
+Goa,Badminton,1,M,3656,Pranjal Patil,True,
+Goa,Badminton,1,M,3657,Vivek Kandpal,True,
+Goa,Basketball,2,M,3658,Ayush,True,
+Goa,Basketball,2,M,3659,Daksh Yadav,True,
+Goa,Basketball,2,M,3660,Aryan Dachepally,True,
+Goa,Basketball,2,M,3661,Shanmukha Regidi,True,
+Goa,Basketball,2,M,3662,Harsh Dinesh Bhoir,True,
+Goa,Basketball,2,M,3663,Rahul Kagdiyal,True,
+Goa,Basketball,2,M,3664,Dhruv Kamal Rohra,True,
+Goa,Basketball,2,M,3665,Jash Ketan Shah,True,
+Goa,Basketball,2,M,3666,Abhinav Kumar,True,
+Goa,Basketball,2,M,3667,Parv Garg,True,
+Goa,Basketball,2,M,3668,Harsh Bhavsar,True,
+Goa,Basketball,2,M,3669,Pankaj Thapen,True,
+Goa,Table Tennis,8,M,3670,Joy Galani,True,
+Goa,Table Tennis,8,M,3671,Netanel Leo,True,
+Goa,Table Tennis,8,M,3672,Atharva Shinde,True,
+Goa,Table Tennis,8,M,3673,Nischay Sharma,True,
+Goa,Table Tennis,8,F,3674,Sanjana Baid,True,
+Goa,Table Tennis,8,F,3675,G Sai Keerthna,True,
+Goa,Table Tennis,8,F,3676,Gresha Saxena,True,
+Jodhpur,Badminton,1,M,3677,Ishan Sharma,True,
+Jodhpur,Badminton,1,M,3678,Shlok Agarwal,True,
+Jodhpur,Badminton,1,M,3679,Tanay Bhatt,True,
+Jodhpur,Badminton,1,M,3680,Manas Chechani,True,
+Jodhpur,Badminton,1,M,3681,Devansh Panchal,True,
+Jodhpur,Badminton,1,F,3682,Kanika,True,
+Jodhpur,Badminton,1,F,3683,Mugdha Ghodke,True,
+Jodhpur,Badminton,1,F,3684,Alankrita,True,
+Jodhpur,Basketball,2,M,3685,Guglavath Vaman Rao,True,
+Jodhpur,Basketball,2,M,3686,Pranjal Shukla,True,
+Jodhpur,Basketball,2,M,3687,Anshul Jain,True,
+Jodhpur,Basketball,2,M,3688,Vedansh Manish Buchasia,True,
+Jodhpur,Basketball,2,M,3689,Jaenil Parekh,True,
+Jodhpur,Basketball,2,M,3690,Rehyansh S Naidu,True,
+Jodhpur,Basketball,2,M,3691,Yug Rajeshbhai Kamalia,True,
+Jodhpur,Basketball,2,M,3692,Dhruv Kumar Singh,True,
+Jodhpur,Basketball,2,M,3693,Aryaveer Singh,True,
+Jodhpur,Basketball,2,M,3694,Vipul Ranjan,True,
+Jodhpur,Basketball,2,M,3695,Abhinav Naithani,True,
+Jodhpur,Basketball,2,M,3696,Om Chandra Sharma,True,
+Jodhpur,Basketball,2,F,3697,Ananta Kapoor,True,
+Jodhpur,Basketball,2,F,3698,Purnima Pardhe,True,
+Jodhpur,Basketball,2,F,3699,Saloni Walvekar,True,
+Jodhpur,Basketball,2,F,3700,Khyati Mankar,True,
+Jodhpur,Basketball,2,F,3701,Shagun Suryavanshi,True,
+Jodhpur,Basketball,2,F,3702,Harshita Bohra,True,
+Jodhpur,Basketball,2,F,3703,Yogita Mundankar,True,
+Jodhpur,Basketball,2,F,3704,Kalpana Yadav,True,
+Jodhpur,Basketball,2,F,3705,Hanshika Misra,True,
+Jodhpur,Basketball,2,F,3706,Aarohi Dharmadhikari,True,
+Jodhpur,Basketball,2,F,3707,Rudri Jani,True,
+Jodhpur,Basketball,2,F,3708,Garvita,True,
+Jodhpur,Squash,7,M,3709,Shubham Vaishnav,True,
+Jodhpur,Squash,7,M,3710,Mohd Uzair,True,
+Jodhpur,Squash,7,M,3711,Harsh Vardhan,True,
+Jodhpur,Squash,7,M,3712,Pujit Jha,True,
+Jodhpur,Squash,7,F,3713,Madhulika Rathore,True,
+Jodhpur,Squash,7,F,3714,Komal,True,
+Jodhpur,Squash,7,F,3715,Nisha Paliwal,True,
+Jodhpur,Squash,7,F,3716,Alankrita,True,
+Jodhpur,Table Tennis,8,M,3717,Arkajyoti Das,True,
+Jodhpur,Table Tennis,8,M,3718,Priyansh Bhavsar,True,
+Jodhpur,Table Tennis,8,M,3719,Yashvabhav Bhardwaj,True,
+Jodhpur,Table Tennis,8,M,3720,Manas Methi,True,
+Jodhpur,Table Tennis,8,F,3721,Kanmani Rao,True,
+Jodhpur,Table Tennis,8,F,3722,Ankita Patra,True,
+Jodhpur,Table Tennis,8,F,3723,Stuti Chandwani,True,
+Kharagpur,Basketball,2,M,3724,Harshit Singh,True,
+Kharagpur,Basketball,2,M,3725,Priyanshu Shaw,True,
+Kharagpur,Basketball,2,M,3726,Sai Malikarjun Galipelli,True,
+Kharagpur,Basketball,2,M,3727,Aditya Vishwanath Golewar,True,
+Kharagpur,Basketball,2,M,3728,Shaurya Pratap Singh,True,
+Kharagpur,Basketball,2,M,3729,Rishikesh Meena,True,
+Kharagpur,Basketball,2,M,3730,Manupati Jayanth,True,
+Kharagpur,Basketball,2,M,3731,Pranjal Kanodia,True,
+Kharagpur,Basketball,2,M,3732,Daksh Dadeech,True,
+Kharagpur,Basketball,2,M,3733,Dhruv Singh,True,
+Kharagpur,Basketball,2,M,3734,Rishith Susarla,True,
+Kharagpur,Basketball,2,M,3735,Nilay Aditya Khemka,True,
+Kharagpur,Table Tennis,8,M,3736,Sreevarsan T N,True,
+Kharagpur,Table Tennis,8,M,3737,Prasangik Kundu,True,
+Kharagpur,Table Tennis,8,M,3738,Muhammadh Umar N,True,
+Kharagpur,Table Tennis,8,M,3739,Anarva Kamdar,True,
+Kharagpur,Table Tennis,8,F,3740,Monika Sharma,True,
+Kharagpur,Table Tennis,8,F,3741,Pranjali Nema,True,
+Kharagpur,Table Tennis,8,F,3742,Anushka Girange,True,
+Kharagpur,Squash,7,M,3743,Gaurav Milind Kulkarni,True,
+Kharagpur,Squash,7,M,3744,Ishan Agrawal,True,
+Kharagpur,Squash,7,M,3745,Chinmay Gupta,True,
+Kharagpur,Squash,7,M,3746,Shashwat Pundir,True,
+Kharagpur,Squash,7,F,3747,Kanika Guleria,True,
+Kharagpur,Squash,7,F,3748,Rifat Ara Khatu,True,
+Kharagpur,Squash,7,F,3749,Amala Ouseph,True,
+Kharagpur,Squash,7,F,3750,Sumansmita Rout,True,
+Kharagpur,Basketball,2,F,3751,Shreeya Singhal,True,
+Kharagpur,Basketball,2,F,3752,Lalnunl Feli,True,
+Kharagpur,Basketball,2,F,3753,Sharwari Muley,True,
+Kharagpur,Basketball,2,F,3754,Shreya Das,True,
+Kharagpur,Basketball,2,F,3755,Thanu Sri Pyarasani,True,
+Kharagpur,Basketball,2,F,3756,Anamika,True,
+Kharagpur,Basketball,2,F,3757,Shrusti Mhatre,True,
+Kharagpur,Basketball,2,F,3758,Sangeeta Kumari Mandal,True,
+Kharagpur,Basketball,2,F,3759,Akanksha Kushwaha,True,
+Kharagpur,Basketball,2,F,3760,Manasvi Bhatnagar,True,
+Kharagpur,Badminton,1,M,3761,Kamlesh Behera,True,
+Kharagpur,Badminton,1,M,3762,Anmol Dureja,True,
+Kharagpur,Badminton,1,M,3763,Maadhav Goel,True,
+Kharagpur,Badminton,1,M,3764,Deepansh Agnihotri,True,
+Kharagpur,Badminton,1,M,3765,Hardik Jagga,True,
+Kharagpur,Badminton,1,F,3766,Stuti Jain,True,
+Kharagpur,Badminton,1,F,3767,Naina Misra,True,
+Kharagpur,Badminton,1,F,3768,Kritanya R,True,
+Patna,Badminton,1,M,3769,Vansh,True,
+Patna,Badminton,1,M,3770,Garvit,True,
+Patna,Badminton,1,M,3771,Yuvan,True,
+Patna,Badminton,1,M,3772,Arnav,True,
+Patna,Badminton,1,M,3773,Saurav,True,
+Patna,Badminton,1,F,3774,Shrika,True,
+Patna,Badminton,1,F,3775,Nandini,True,
+Patna,Basketball,2,M,3776,Rituparan Singh Parihar,True,
+Patna,Basketball,2,M,3777,Anirudh Singh,True,
+Patna,Basketball,2,M,3778,Ashutosh Tiwari,True,
+Patna,Basketball,2,M,3779,Manu Kushwah,True,
+Patna,Basketball,2,M,3780,Mohit Joshi,True,
+Patna,Basketball,2,M,3781,Akash Moharana,True,
+Patna,Basketball,2,M,3782,Kushagra Pandey,True,
+Patna,Basketball,2,M,3783,Aditya Patil,True,
+Patna,Basketball,2,M,3784,Harsh Singh Baghel,True,
+Patna,Basketball,2,M,3785,Pushpendra Pal Singh Panwar,True,
+Patna,Basketball,2,M,3786,Rishabh Singraur,True,
+Patna,Basketball,2,M,3787,Mohit Patil,True,
+Patna,Basketball,2,F,3788,Pragya Patni,True,
+Patna,Basketball,2,F,3789,Lavanya Bhadani,True,
+Patna,Basketball,2,F,3790,Krittika Kiran Das,True,
+Patna,Basketball,2,F,3791,Mehal Srivastava,True,
+Patna,Basketball,2,F,3792,Pallvi,True,
+Patna,Basketball,2,F,3793,Dhruvi Patel,True,
+Patna,Basketball,2,F,3794,Thanmayi Potanapalli,True,
+Patna,Basketball,2,F,3795,Pachava Shalini,True,
+Patna,Basketball,2,F,3796,Shivani Parmar,True,
+Patna,Squash,7,M,3797,Jatin Aggarwal,True,
+Patna,Squash,7,M,3798,Om Ronte,True,
+Patna,Squash,7,M,3799,Mayank Sharma,True,
+Patna,Squash,7,M,3800,Ankur Raj,True,
+Patna,Squash,7,F,3801,Rajnandani Singh,True,
+Patna,Squash,7,F,3802,Aarushi Bhargava,True,
+Patna,Squash,7,F,3803,Khushi Verma,True,
+Patna,Squash,7,F,3804,Mahi Shrivastava,True,
+Patna,Table Tennis,8,M,3805,Akshat Agrawal,True,
+Patna,Table Tennis,8,M,3806,Rathod Rudra,True,
+Patna,Table Tennis,8,M,3807,Gowtham Pendyala,True,
+Patna,Table Tennis,8,M,3808,Mantra Khandelwal,True,
+Patna,Table Tennis,8,F,3809,Aarohi Kumari,True,
+Patna,Table Tennis,8,F,3810,Sana Samreen,True,
+Roorkee,Chess,3,M,3811,Prakul Balaji,True,
+Roorkee,Chess,3,M,3812,Arpit Singh,True,
+Roorkee,Chess,3,M,3813,Ninad Bhat,True,
+Roorkee,Chess,3,M,3814,Shivang Sharma,True,
+Roorkee,Chess,3,M,3815,Shyam Agarwal,True,
+Roorkee,Chess,3,M,3816,Avneesh Kumar Satija,True,
+Roorkee,Tennis,9,M,3817,Siddharth Gupta,True,
+Roorkee,Tennis,9,M,3818,Aakash Gupta,True,
+Roorkee,Tennis,9,M,3819,Kushal Rakesh Shah,True,
+Roorkee,Tennis,9,M,3820,Madhuram Vatsal,True,
+Roorkee,Tennis,9,F,3821,Harshita Gill,True,
+Roorkee,Tennis,9,F,3822,Himani Mendira,True,
+Roorkee,Tennis,9,F,3823,Anushka Shinde,True,
+Roorkee,Tennis,9,F,3824,Aashita Sheetal Sunil Jadhav,True,
+Roorkee,Weightlifting,11,M,3825,Muansonlian Naulak,True,
+Roorkee,Weightlifting,11,M,3826,Aditya Jain,True,
+Roorkee,Weightlifting,11,M,3827,Abhishek Kumar,True,
+Roorkee,Weightlifting,11,M,3828,Sagar Baruah,True,
+Roorkee,Weightlifting,11,M,3829,Das Anup Kumar,True,
+Roorkee,Weightlifting,11,M,3830,Gaveesh Nama,True,
+Roorkee,Weightlifting,11,M,3831,Mayur Arya,True,
+Roorkee,Weightlifting,11,M,3832,Veeru Singh,True,
+Roorkee,Weightlifting,11,M,3833,Thota Sivasai,True,
+Roorkee,Weightlifting,11,M,3834,Aman Kumar Gautam,True,
+Dhanbad,Badminton,1,M,3835,Ayan Baruah,True,
+Dhanbad,Badminton,1,M,3836,Vishal Kumar,True,
+Dhanbad,Badminton,1,M,3837,Bighneswar Behera,True,
+Dhanbad,Badminton,1,M,3838,Aniket Kumar,True,
+Dhanbad,Badminton,1,M,3839,Sanoj Kumar Bharti,True,
+Dhanbad,Badminton,1,F,3840,Debanjali Bagchi,True,
+Dhanbad,Badminton,1,F,3841,Ashika Singh,True,
+Dhanbad,Badminton,1,F,3842,Dakshta Wadibhasme,True,
+Dhanbad,Basketball,2,M,3843,Shriballabha Mahapatra,True,
+Dhanbad,Basketball,2,M,3844,Rishit Mantri,True,
+Dhanbad,Basketball,2,M,3845,Uttam Yadav,True,
+Dhanbad,Basketball,2,M,3846,Yash Yadav,True,
+Dhanbad,Basketball,2,M,3847,Ankit Kumar,True,
+Dhanbad,Basketball,2,M,3848,Tushar Sharma,True,
+Dhanbad,Basketball,2,M,3849,Prithvi Raj Singh,True,
+Dhanbad,Basketball,2,M,3850,Nikhil Kumar Niraj,True,
+Dhanbad,Basketball,2,M,3851,Shresth Bansal,True,
+Dhanbad,Basketball,2,M,3852,Animesh Kerketta,True,
+Dhanbad,Basketball,2,M,3853,Anurag Jha,True,
+Dhanbad,Basketball,2,M,3854,Dishant Prashant Sawwalakhe,True,
+Dhanbad,Basketball,2,F,3855,Ananya Kastiya,True,
+Dhanbad,Basketball,2,F,3856,Osheen Donger,True,
+Dhanbad,Basketball,2,F,3857,Saranya Prathipati,True,
+Dhanbad,Basketball,2,F,3858,Sneha Jadav,True,
+Dhanbad,Basketball,2,F,3859,Shweta Kushwaha,True,
+Dhanbad,Basketball,2,F,3860,Kalivarapu Swathi,True,
+Dhanbad,Basketball,2,F,3861,Sneha Gupta,True,
+Dhanbad,Basketball,2,F,3862,Vemulapalli Geethika,True,
+Dhanbad,Basketball,2,F,3863,Priyanka Kumari,True,
+Dhanbad,Basketball,2,F,3864,Moupali Mukherjee,True,
+Dhanbad,Basketball,2,F,3865,Anjali Bharti,True,
+Dhanbad,Basketball,2,F,3866,Prity Kumari,True,
+Dhanbad,Squash,7,M,3867,Priyansh Kedia,True,
+Dhanbad,Squash,7,M,3868,Ankur Sharma,True,
+Dhanbad,Squash,7,M,3869,Antariksh Gwal,True,
+Dhanbad,Squash,7,M,3870,Sahil Ranjan,True,
+Dhanbad,Squash,7,F,3871,Prerna Lala,True,
+Dhanbad,Squash,7,F,3872,Shreya Gupta,True,
+Dhanbad,Squash,7,F,3873,Prisha Anand,True,
+Dhanbad,Squash,7,F,3874,Suhani Gupta,True,
+Dhanbad,Table Tennis,8,M,3875,Meetesh Shastri,True,
+Dhanbad,Table Tennis,8,M,3876,Vikas Hisaria,True,
+Dhanbad,Table Tennis,8,M,3877,Yash Agashe,True,
+Dhanbad,Table Tennis,8,M,3878,Prince Antriksh,True,
+Dhanbad,Table Tennis,8,F,3879,Manvi Choudhary,True,
+Dhanbad,Table Tennis,8,F,3880,Shruti Yadav,True,
+Dhanbad,Table Tennis,8,F,3881,Anwita Chaudhary,True,
+(BHU) Varanasi,Badminton,1,M,3882,Gv Ritesh Raman,True,
+(BHU) Varanasi,Badminton,1,M,3883,Prakhar Singh,True,
+(BHU) Varanasi,Badminton,1,M,3884,Areen Ansuman Prusty,True,
+(BHU) Varanasi,Badminton,1,M,3885,Parth Sanjaykumar Randar,True,
+(BHU) Varanasi,Badminton,1,M,3886,Divyam Mangal,True,
+(BHU) Varanasi,Badminton,1,F,3887,Surabhi Madan,True,
+(BHU) Varanasi,Badminton,1,F,3888,Diya Singh Sachdeva,True,
+(BHU) Varanasi,Badminton,1,F,3889,Nishita Aterya,True,
+(BHU) Varanasi,Basketball,2,M,3890,Prashant Tomar,True,
+(BHU) Varanasi,Basketball,2,M,3891,Aryan Rai,True,
+(BHU) Varanasi,Basketball,2,M,3892,Kanishk Rajput,True,
+(BHU) Varanasi,Basketball,2,M,3893,Mayank Mehta,True,
+(BHU) Varanasi,Basketball,2,M,3894,Shashwat Desai,True,
+(BHU) Varanasi,Basketball,2,M,3895,Ayush Mishra,True,
+(BHU) Varanasi,Basketball,2,M,3896,Chaityana Negi,True,
+(BHU) Varanasi,Basketball,2,M,3897,Raju Kumar,True,
+(BHU) Varanasi,Basketball,2,M,3898,Dev Kumar,True,
+(BHU) Varanasi,Basketball,2,M,3899,Prakhar Bajpai,True,
+(BHU) Varanasi,Basketball,2,M,3900,Lakshya Kohli,True,
+(BHU) Varanasi,Basketball,2,M,3901,Atharv Raj Singh,True,
+(BHU) Varanasi,Basketball,2,F,3902,Yuti,True,
+(BHU) Varanasi,Basketball,2,F,3903,Tanisha Agarwal,True,
+(BHU) Varanasi,Basketball,2,F,3904,Vanshika Agarwal,True,
+(BHU) Varanasi,Basketball,2,F,3905,Pragya Singh,True,
+(BHU) Varanasi,Basketball,2,F,3906,Akshata,True,
+(BHU) Varanasi,Basketball,2,F,3907,Ranvi Prarthy,True,
+(BHU) Varanasi,Basketball,2,F,3908,Tanvi Manish Kulkarni,True,
+(BHU) Varanasi,Basketball,2,F,3909,Anika Sachan,True,
+(BHU) Varanasi,Basketball,2,F,3910,Rashi Jyotish,True,
+(BHU) Varanasi,Basketball,2,F,3911,Aarushi Gupta,True,
+(BHU) Varanasi,Basketball,2,F,3912,Neharika Garg,True,
+(BHU) Varanasi,Basketball,2,F,3913,Ann Rita Kishore,True,
+(BHU) Varanasi,Squash,7,M,3914,Dhruv Yadav,True,
+(BHU) Varanasi,Squash,7,M,3915,Harsh Kadyan,True,
+(BHU) Varanasi,Squash,7,M,3916,Raghvendra Mishra,True,
+(BHU) Varanasi,Squash,7,M,3917,Rakshbendra Singh,True,
+(BHU) Varanasi,Squash,7,F,3918,Ghanishta Satish Chavare,True,
+(BHU) Varanasi,Squash,7,F,3919,Harshita Tankala,True,
+(BHU) Varanasi,Squash,7,F,3920,Arindma Bhatnagar,True,
+(BHU) Varanasi,Squash,7,F,3921,Chandni Chinta,True,
+(BHU) Varanasi,Table Tennis,8,M,3922,Prakhar Srivastava,True,
+(BHU) Varanasi,Table Tennis,8,M,3923,Jaydeep Pokhariya,True,
+(BHU) Varanasi,Table Tennis,8,M,3924,Jai Pasrari,True,
+(BHU) Varanasi,Table Tennis,8,M,3925,Siva Sathyaseelan,True,
+(BHU) Varanasi,Table Tennis,8,F,3926,Julie Sagar Deshpande,True,
+(BHU) Varanasi,Table Tennis,8,F,3927,Atreyee Nandy,True,
+(BHU) Varanasi,Table Tennis,8,F,3928,Ashrirani Mazumder,True,
+Bhubaneswar,Badminton,1,M,3929,Manish Joshi,True,
+Bhubaneswar,Badminton,1,M,3930,Y Chandra Sekhar,True,
+Bhubaneswar,Badminton,1,M,3931,Sarin Ts,True,
+Bhubaneswar,Badminton,1,M,3932,A Akhil Reddy,True,
+Bhubaneswar,Badminton,1,M,3933,V Sai Santhosh,True,
+Bhubaneswar,Badminton,1,F,3934,Shivangi Kalpana,True,
+Bhubaneswar,Badminton,1,F,3935,Ajaapa Prarusha Sree,True,
+Bhubaneswar,Badminton,1,F,3936,D Keerthi Vijetha,True,
+Bhubaneswar,Basketball,2,M,3937,Tanuj Kumar Gupta,True,
+Bhubaneswar,Basketball,2,M,3938,Mayank Raj,True,
+Bhubaneswar,Basketball,2,M,3939,Pruthviraj Rameshwar Potbhare,True,
+Bhubaneswar,Basketball,2,M,3940,Abhishek Jakhar,True,
+Bhubaneswar,Basketball,2,M,3941,Malsawmzuala Khangte,True,
+Bhubaneswar,Basketball,2,M,3942,Shivam Prajapati,True,
+Bhubaneswar,Basketball,2,M,3943,Yash Singh,True,
+Bhubaneswar,Basketball,2,M,3944,Dibyajeet Mohapatra,True,
+Bhubaneswar,Basketball,2,M,3945,Abhijit Sahani,True,
+Bhubaneswar,Basketball,2,M,3946,Abhijun J Gowda,True,
+Bhubaneswar,Basketball,2,M,3947,Dharavath Dileep,True,
+Bhubaneswar,Basketball,2,M,3948,Saksham Singal,True,
+Bhubaneswar,Basketball,2,F,3949,Samiksha Patil,True,
+Bhubaneswar,Basketball,2,F,3950,M Pragna,True,
+Bhubaneswar,Basketball,2,F,3951,Ranjita Patra,True,
+Bhubaneswar,Basketball,2,F,3952,Kekhrieleno Khruomo,True,
+Bhubaneswar,Basketball,2,F,3953,Radhika Singh Chauhan,True,
+Bhubaneswar,Basketball,2,F,3954,Mahima Verma,True,
+Bhubaneswar,Basketball,2,F,3955,Yasaswini,True,
+Bhubaneswar,Basketball,2,F,3956,Disha Kumari,True,
+Bhubaneswar,Basketball,2,F,3957,Anjali Salvi,True,
+Bhubaneswar,Basketball,2,F,3958,Varri Navya,True,
+Bhubaneswar,Basketball,2,F,3959,Rhutika Kshirsagar,True,
+Bhubaneswar,Basketball,2,F,3960,Chagam Krishnaja,True,
+Bhubaneswar,Squash,7,M,3961,Tolety Srikanth,True,
+Bhubaneswar,Squash,7,M,3962,Vikas Kumar Maurya,True,
+Bhubaneswar,Squash,7,M,3963,Suraj Ratre,True,
+Bhubaneswar,Squash,7,M,3964,Paarth Bawse,True,
+Bhubaneswar,Table Tennis,8,M,3965,Palash Jain,True,
+Bhubaneswar,Table Tennis,8,M,3966,Dhruv Vinay Bhattani,True,
+Bhubaneswar,Table Tennis,8,M,3967,Jatin Yadav,True,
+Bhubaneswar,Table Tennis,8,M,3968,Devanshu Dangi,True,
+Bhubaneswar,Table Tennis,8,F,3969,Gowri Sriralamelu Dhara,True,
+Bhubaneswar,Table Tennis,8,F,3970,Kruti Lolla,True,
+Bhubaneswar,Table Tennis,8,F,3971,Ayushi Verma,True,
+Bombay,Badminton,1,M,3972,Elsakkary Ibrahim,True,
+Bombay,Badminton,1,M,3973,Isaac Gurban,True,
+Bombay,Badminton,1,M,3974,Arnav Gokish,True,
+Bombay,Badminton,1,M,3975,Arjun Gokish,True,
+Bombay,Badminton,1,M,3976,Praseer Nvas Shai,True,
+Bombay,Badminton,1,F,3977,Sharavee Sonkare,True,
+Bombay,Badminton,1,F,3978,Stiva Nalkar,True,
+Bombay,Badminton,1,F,3979,Rachel Singhal,True,
+Bombay,Basketball,2,M,3980,Akassh Sanju,True,
+Bombay,Basketball,2,M,3981,Akssher,True,
+Bombay,Basketball,2,M,3982,Vupal Shankar,True,
+Bombay,Basketball,2,M,3983,Rajeep,True,
+Bombay,Basketball,2,M,3984,Hebru Kasehnal,True,
+Bombay,Basketball,2,M,3985,Kabir Prakash,True,
+Bombay,Basketball,2,M,3986,Prithvi Sangam,True,
+Bombay,Basketball,2,M,3987,Sanah,True,
+Bombay,Basketball,2,M,3988,Eshankumar Gadeh,True,
+Bombay,Basketball,2,M,3989,Sankrit Baronda,True,
+Bombay,Basketball,2,M,3990,Piyush Raj,True,
+Bombay,Basketball,2,F,3991,Anshu Arora,True,
+Bombay,Basketball,2,F,3992,Antera Paret,True,
+Bombay,Basketball,2,F,3993,Pallas Sandhya,True,
+Bombay,Basketball,2,F,3994,Harrera,True,
+Bombay,Basketball,2,F,3995,Muskan Main,True,
+Bombay,Basketball,2,F,3996,Mankali Rakera,True,
+Bombay,Basketball,2,F,3997,Tanvi,True,
+Bombay,Basketball,2,F,3998,Neha Sathie,True,
+Bombay,Basketball,2,F,3999,Anjot Vijay,True,
+Bombay,Basketball,2,F,4000,Prapya Dnascann,True,
+Bombay,Basketball,2,F,4001,Siddhi Benna,True,
+Bombay,Basketball,2,F,4002,Jasmine Kaur,True,
+Bombay,Squash,7,M,4003,May Votwani,True,
+Bombay,Squash,7,M,4004,Varun Votwani,True,
+Bombay,Squash,7,M,4005,Aditya Agrawal,True,
+Bombay,Squash,7,M,4006,Mantra Gohil,True,
+Bombay,Squash,7,F,4007,Jasmine Kaur,True,
+Bombay,Squash,7,F,4008,Nina S Chibral,True,
+Bombay,Squash,7,F,4009,Praobi Desai,True,
+Bombay,Squash,7,F,4010,Sardine Kaur,True,
+Bombay,Table Tennis,8,M,4011,Sanatan,True,
+Bombay,Table Tennis,8,M,4012,Arjun Gupta,True,
+Bombay,Table Tennis,8,M,4013,Samar Chopra,True,
+Bombay,Table Tennis,8,M,4014,Anikesh Nagelra,True,
+Bombay,Table Tennis,8,F,4015,Harshaal Jadhav,True,
+Bombay,Table Tennis,8,F,4016,Hebani Chapra,True,
+Bombay,Table Tennis,8,F,4017,Debini Nair,True,
+Hyderabad,Badminton,1,M,4018,Atharv Kochar,True,
+Hyderabad,Badminton,1,M,4019,Ishfaq,True,
+Hyderabad,Badminton,1,M,4020,Md Azhaan,True,
+Hyderabad,Badminton,1,M,4021,Ojas Varshney,True,
+Hyderabad,Badminton,1,M,4022,Balaji B,True,
+Hyderabad,Badminton,1,F,4023,Adithi Yellai,True,
+Hyderabad,Badminton,1,F,4024,Mihika Swanand Sahasrabuddhe,True,
+Hyderabad,Badminton,1,F,4025,Solangi Mohanty,True,
+Hyderabad,Basketball,2,M,4026,Anandu RS,True,
+Hyderabad,Basketball,2,M,4027,Lokesh Bucchimngari,True,
+Hyderabad,Basketball,2,M,4028,Sameer Kendal,True,
+Hyderabad,Basketball,2,M,4029,Vildaan Ahmed,True,
+Hyderabad,Basketball,2,M,4030,Yash,True,
+Hyderabad,Basketball,2,M,4031,Aditya,True,
+Hyderabad,Basketball,2,M,4032,Akshaya Tharun C,True,
+Hyderabad,Basketball,2,M,4033,Arnav Mathishi,True,
+Hyderabad,Basketball,2,M,4034,Chaudhary Varun,True,
+Hyderabad,Basketball,2,M,4035,Kshitij Pankaj Agarkar,True,
+Hyderabad,Basketball,2,M,4036,Mathew M Philip,True,
+Hyderabad,Basketball,2,M,4037,Neeraj Balachandar,True,
+Hyderabad,Basketball,2,F,4038,Alisha Lavania,True,
+Hyderabad,Basketball,2,F,4039,Arundhati Sonawane,True,
+Hyderabad,Basketball,2,F,4040,Geethanjali V,True,
+Hyderabad,Basketball,2,F,4041,Anjali Ukey,True,
+Hyderabad,Basketball,2,F,4042,Devananda Ashokan,True,
+Hyderabad,Basketball,2,F,4043,Lata Kaushik,True,
+Hyderabad,Basketball,2,F,4044,Palavelli Srija,True,
+Hyderabad,Basketball,2,F,4045,Renuka Anil Sonawane,True,
+Hyderabad,Basketball,2,F,4046,Yaashi Mallik,True,
+Hyderabad,Basketball,2,F,4047,Samanga Dwivedi,True,
+Hyderabad,Basketball,2,F,4048,Greeshmika,True,
+Hyderabad,Basketball,2,F,4049,Durva Nitin Chaudhary,True,
+Hyderabad,Squash,7,M,4050,Jaswant Singh,True,
+Hyderabad,Squash,7,M,4051,Saurav Arya,True,
+Hyderabad,Squash,7,M,4052,Shashi Prakash,True,
+Hyderabad,Squash,7,M,4053,Soham Sinha,True,
+Hyderabad,Squash,7,F,4054,Helga,True,
+Hyderabad,Squash,7,F,4055,S Preethi,True,
+Hyderabad,Squash,7,F,4056,Tanaya Rewatkar,True,
+Hyderabad,Table Tennis,8,M,4057,Adimalla Shri Kaushik,True,
+Hyderabad,Table Tennis,8,M,4058,Omkar Rasal,True,
+Hyderabad,Table Tennis,8,M,4059,Divyansh Gupta,True,
+Hyderabad,Table Tennis,8,M,4060,Siddharth Singh,True,
+Hyderabad,Table Tennis,8,F,4061,Banavathu Damayanthi,True,
+Hyderabad,Table Tennis,8,F,4062,Ankita Somani,True,
+Hyderabad,Table Tennis,8,F,4063,Anushka Agrawal,True,
+Indore,Badminton,1,M,4064,Anusuhak R,True,
+Indore,Badminton,1,M,4065,Azeer Hasan,True,
+Indore,Badminton,1,M,4066,Aryan,True,
+Indore,Badminton,1,M,4067,Danish Kari,True,
+Indore,Badminton,1,M,4068,Sudhan,True,
+Indore,Badminton,1,F,4069,Kala Yadav,True,
+Indore,Badminton,1,F,4070,Sai Chaitra Am,True,
+Indore,Badminton,1,F,4071,Sharanya S Vijay,True,
+Indore,Basketball,2,M,4072,Rahul Kumar,True,
+Indore,Basketball,2,M,4073,Hershal Shinde,True,
+Indore,Basketball,2,M,4074,Aditya Singh,True,
+Indore,Basketball,2,M,4075,Kartik Raghav,True,
+Indore,Basketball,2,M,4076,Vineesh Chourasia,True,
+Indore,Basketball,2,M,4077,Sanket Pophal,True,
+Indore,Basketball,2,M,4078,Aman,True,
+Indore,Basketball,2,M,4079,Tafer Sundara,True,
+Indore,Basketball,2,M,4080,Hemant Singh,True,
+Indore,Basketball,2,M,4081,Abhiruchi Gautam,True,
+Indore,Basketball,2,M,4082,Bhuvan Stephanson Mark,True,
+Indore,Basketball,2,M,4083,Ankit Kumar Ranjan,True,
+Indore,Basketball,2,F,4084,Isha Sharma,True,
+Indore,Basketball,2,F,4085,Anusha S,True,
+Indore,Basketball,2,F,4086,Chandrasha Racho Kona,True,
+Indore,Basketball,2,F,4087,Ashleya Bath,True,
+Indore,Basketball,2,F,4088,Inbitra Chodetar,True,
+Indore,Basketball,2,F,4089,Pratiksha Rai,True,
+Indore,Basketball,2,F,4090,Sheti Anshi,True,
+Indore,Basketball,2,F,4091,Debansi Agrawal,True,
+Indore,Basketball,2,F,4092,Bhavya Sethia,True,
+Indore,Basketball,2,F,4093,Payal Ogman,True,
+Indore,Basketball,2,F,4094,Anusha Singh,True,
+Indore,Basketball,2,F,4095,Chandrasha Chakravoma,True,
+Indore,Basketball,2,F,4096,Ashika Parva,True,
+Indore,Basketball,2,F,4097,Anisha Rath,True,
+Indore,Basketball,2,F,4098,Hiba Choudhary,True,
+Indore,Squash,7,M,4099,Bhay Kanak,True,
+Indore,Squash,7,M,4100,Ankit Kumar,True,
+Indore,Squash,7,M,4101,Sanket Sharma,True,
+Indore,Squash,7,M,4102,Prakarsa Venkti Pran,True,
+Indore,Squash,7,F,4103,Kala Yadav,True,
+Indore,Squash,7,F,4104,Praire Kanak,True,
+Indore,Squash,7,F,4105,Ishee Sharma,True,
+Indore,Squash,7,F,4106,Yta Sheera,True,
+Indore,Table Tennis,8,M,4107,Kushagra Shreeramde,True,
+Indore,Table Tennis,8,M,4108,Sidharth,True,
+Indore,Table Tennis,8,M,4109,Anmendra,True,
+Indore,Table Tennis,8,M,4110,Sirjalaj,True,
+Indore,Table Tennis,8,F,4111,Sarodi Deese Anjana,True,
+Indore,Table Tennis,8,F,4112,Anushri Ramesh,True,
+Indore,Table Tennis,8,F,4113,Arura Dinesh Chippe,True,
+Jammu,Basketball,2,F,4114,Kritika Patidar,True,
+Jammu,Basketball,2,F,4115,Jitya Varshney,True,
+Jammu,Basketball,2,F,4116,Kusha Chauhan,True,
+Jammu,Basketball,2,F,4117,Manjot Kaur,True,
+Jammu,Basketball,2,F,4118,Manogana Bandaru,True,
+Jammu,Basketball,2,F,4119,Kashish,True,
+Jammu,Basketball,2,F,4120,Anushka,True,
+Jammu,Basketball,2,F,4121,Tanvi,True,
+Jammu,Basketball,2,F,4122,Kundanapally Keerthana,True,
+Jammu,Badminton,1,M,4123,Subhasis Malik,True,
+Jammu,Badminton,1,M,4124,Vardan Joshi,True,
+Jammu,Badminton,1,M,4125,Shivam Yadav,True,
+Jammu,Badminton,1,M,4126,Shivam Arora,True,
+Jammu,Badminton,1,M,4127,Tanishq Sheoran,True,
+Jammu,Badminton,1,F,4128,Sneha Hansrajani,True,
+Jammu,Badminton,1,F,4129,Anuja Kaushik,True,
+Jammu,Badminton,1,F,4130,Sachi Singh,True,
+Jammu,Basketball,2,M,4131,Satyajay Shaili,True,
+Jammu,Basketball,2,M,4132,Ashish Goswami,True,
+Jammu,Basketball,2,M,4133,Ashwini Khodre,True,
+Jammu,Basketball,2,M,4134,Akshay Malwey,True,
+Jammu,Basketball,2,M,4135,Rohit Gautam,True,
+Jammu,Basketball,2,M,4136,Pranjal Parmar,True,
+Jammu,Basketball,2,M,4137,Ratanveer Singh,True,
+Jammu,Basketball,2,M,4138,Karanbir Singh Dhindsa,True,
+Jammu,Basketball,2,M,4139,R. Rahul Das,True,
+Jammu,Basketball,2,M,4140,Anil,True,
+Jammu,Basketball,2,M,4141,Umang Kataria,True,
+Jammu,Basketball,2,M,4142,Yogesh Kumawat,True,
+Jammu,Squash,7,M,4143,Hrishanya Singh Verma,True,
+Jammu,Squash,7,M,4144,Suhan Salim Tamboli,True,
+Jammu,Squash,7,M,4145,Ayush Jha,True,
+Jammu,Table Tennis,8,M,4146,Rachit,True,
+Jammu,Table Tennis,8,M,4147,Pranjal,True,
+Jammu,Table Tennis,8,M,4148,Garvya Chauhan,True,
+Jammu,Table Tennis,8,F,4149,Shresha,True,
+Jammu,Table Tennis,8,F,4150,Hisana,True,
+Jammu,Table Tennis,8,F,4151,Tanmaya,True,
+Kanpur,Badminton,1,M,4152,Amritmay Biswas,True,
+Kanpur,Badminton,1,M,4153,Maibram Brajaman Singh,True,
+Kanpur,Badminton,1,M,4154,Pradeep Kumar Saini,True,
+Kanpur,Badminton,1,M,4155,Aadi Ajmera,True,
+Kanpur,Badminton,1,M,4156,Pranay Saxena,True,
+Kanpur,Badminton,1,F,4157,Paki Gupta,True,
+Kanpur,Badminton,1,F,4158,Madnoorkar Avanee Nagesh,True,
+Kanpur,Badminton,1,F,4159,Devanjali Sharma,True,
+Kanpur,Basketball,2,M,4160,Chirayu Choudhary,True,
+Kanpur,Basketball,2,M,4161,Kshitij Bagga,True,
+Kanpur,Basketball,2,M,4162,Prithvi Mehta,True,
+Kanpur,Basketball,2,M,4163,Magesvar V R,True,
+Kanpur,Basketball,2,M,4164,Anirudh Kosley,True,
+Kanpur,Basketball,2,M,4165,Rohit Horo,True,
+Kanpur,Basketball,2,M,4166,Prabhanshu,True,
+Kanpur,Basketball,2,M,4167,Vidit Parmar,True,
+Kanpur,Basketball,2,M,4168,Mukul Saini,True,
+Kanpur,Basketball,2,M,4169,Chandrabhan Ahiirwar,True,
+Kanpur,Basketball,2,M,4170,Ekansh Bajpai,True,
+Kanpur,Basketball,2,M,4171,Rohit Vinod Atkurkar,True,
+Kanpur,Basketball,2,F,4172,Dharvi Singhal,True,
+Kanpur,Basketball,2,F,4173,Nandini Vaid,True,
+Kanpur,Basketball,2,F,4174,Shruti Ramchandra Dalvi,True,
+Kanpur,Basketball,2,F,4175,Sreeja Srinivasan,True,
+Kanpur,Basketball,2,F,4176,Akshita Singh,True,
+Kanpur,Basketball,2,F,4177,Namya Jarag,True,
+Kanpur,Basketball,2,F,4178,Ria Ashish Inchekar,True,
+Kanpur,Basketball,2,F,4179,Mishka Gupta,True,
+Kanpur,Basketball,2,F,4180,Muskan Meena,True,
+Kanpur,Basketball,2,F,4181,Lavanaya Singh,True,
+Kanpur,Basketball,2,F,4182,Dishita Bajaj,True,
+Kanpur,Squash,7,M,4183,Harshit,True,
+Kanpur,Squash,7,M,4184,Harshi Siraj,True,
+Kanpur,Squash,7,M,4185,Dipendra Pratap Singh,True,
+Kanpur,Squash,7,M,4186,Soubhagya Raja,True,
+Kanpur,Squash,7,F,4187,Manasvi Indugala,True,
+Kanpur,Squash,7,F,4188,Nidhi Rawat,True,
+Kanpur,Squash,7,F,4189,Anishya Maurya,True,
+Kanpur,Squash,7,F,4190,Riddhi Shingte,True,
+Kanpur,Table Tennis,8,M,4191,Shreyas Chogalkonkar,True,
+Kanpur,Table Tennis,8,M,4192,Mridul Agarwal,True,
+Kanpur,Table Tennis,8,M,4193,Dhruv Buldhedge,True,
+Kanpur,Table Tennis,8,M,4194,Jyotish Singha,True,
+Kanpur,Table Tennis,8,F,4195,Pragya,True,
+Kanpur,Table Tennis,8,F,4196,Nupur Sehgal,True,
+Kanpur,Table Tennis,8,F,4197,Vedika Taparia,True,
+Bhilai,Chess,3,M,3001,SHUBHAM JHA,True,
+Bhilai,Chess,3,M,3002,ROHIT J PILLAI,True,
+Bhilai,Chess,3,M,3003,SHIVAM SRIVASTAVA,True,
+Bhilai,Chess,3,M,3004,ISHAN SINGH ANAND,True,
+Bhilai,Chess,3,M,3005,SANIL SAHA,True,
+Bhilai,Chess,3,M,3006,ABHINAV SURYA TEJ,True,
+(BHU) Varanasi,Weightlifting,11,M,3007,HASI SONKAR,True,
+(BHU) Varanasi,Weightlifting,11,M,3008,ANMOL UPADHYAY,True,
+(BHU) Varanasi,Weightlifting,11,M,3009,ADITYA YADAV,True,
+(BHU) Varanasi,Weightlifting,11,M,3010,HIMANSHU MEENA,True,
+(BHU) Varanasi,Weightlifting,11,M,3011,ANANT SINGH,True,
+(BHU) Varanasi,Weightlifting,11,M,3012,PARMESH RANA,True,
+(BHU) Varanasi,Weightlifting,11,M,3013,NEELESH ATHIYA,True,
+(BHU) Varanasi,Weightlifting,11,M,3014,ANURAG SINGH,True,
+(BHU) Varanasi,Weightlifting,11,M,3015,SACHIN YADAV,True,
+(BHU) Varanasi,Weightlifting,11,M,3016,SAHIL SAREKH,True,
+(BHU) Varanasi,Chess,3,M,3017,BHAVYAY GUPTA,True,
+(BHU) Varanasi,Chess,3,M,3018,AMAN KUMAR SINGH,True,
+(BHU) Varanasi,Chess,3,M,3019,ADITYA RAWAT,True,
+(BHU) Varanasi,Chess,3,M,3020,AARAV MEHTA,True,
+(BHU) Varanasi,Chess,3,M,3021,SIDHARTH A KUMAR,True,
+(BHU) Varanasi,Chess,3,M,3022,KARTIKEY THAKUR,True,
+(BHU) Varanasi,Tennis,9,F,3023,SAYANHA MONDAL,True,
+(BHU) Varanasi,Tennis,9,F,3024,SHREYA SALHOTRA,True,
+(BHU) Varanasi,Tennis,9,F,3025,VAASTAVI KUMAR,True,
+(BHU) Varanasi,Tennis,9,F,3026,CHARUSMITA GARG,True,
+(BHU) Varanasi,Tennis,9,M,3027,AADITYA AGARWAL,True,
+(BHU) Varanasi,Tennis,9,M,3028,ABHINAV KUMAR SHARMA,True,
+(BHU) Varanasi,Tennis,9,M,3029,CIRIGIRI VIKRAM VEDH,True,
+(BHU) Varanasi,Tennis,9,M,3030,YUVRAAJ KUKREJA,True,
+Bhubaneswar,Chess,3,M,4198,SUMIT KUMAR,True,
+Bhubaneswar,Chess,3,M,4199,CHANDRAPATI VENKATA GOUTHAM AKHIL,True,
+Bhubaneswar,Chess,3,M,4200,SASWAT MALLICK,True,
+Bhubaneswar,Chess,3,M,4201,PRANAV AMAR HALSUR,True,
+Bhubaneswar,Chess,3,M,4202,R SIDDHARTH,True,
+Bhubaneswar,Chess,3,M,4203,PULI ASRITH REDDY,True,
+Bombay,Weightlifting,11,M,4204,PIYUSH TAILOR,True,
+Bombay,Weightlifting,11,M,4205,PRAJWAL PANSARE,True,
+Bombay,Weightlifting,11,M,4206,UTKARSH GANGWAR,True,
+Bombay,Weightlifting,11,M,4207,NIKHILESH SINGH BISHT,True,
+Bombay,Weightlifting,11,M,4208,HARSHIT SINGH BHANDARI,True,
+Bombay,Weightlifting,11,M,4209,ANISH KUMAR SAHU,True,
+Bombay,Weightlifting,11,M,4210,PRATEEK KUMAR BEHERA,True,
+Bombay,Weightlifting,11,M,4211,NIKHIL CHOKKAM,True,
+Bombay,Weightlifting,11,M,4212,ABHISHEK GOWDA,True,
+Bombay,Weightlifting,11,M,4213,NARA MURARI,True,
+Bombay,Chess,3,M,4214,SHREESH KULKARNI,True,
+Bombay,Chess,3,M,4215,OM KADAM,True,
+Bombay,Chess,3,M,4216,YASH PANT,True,
+Bombay,Chess,3,M,4217,VARAD WALDE,True,
+Bombay,Chess,3,M,4218,PRANEET BHATIA,True,
+Bombay,Chess,3,M,4219,AKSHAT KARKAR,True,
+Bombay,Tennis,9,M,4220,YASHWANTH V V S,True,
+Bombay,Tennis,9,M,4221,ATHARVA NAIK,True,
+Bombay,Tennis,9,M,4222,VEDIN SANGAL,True,
+Bombay,Tennis,9,M,4223,MANAN AGARWAL,True,
+Bombay,Tennis,9,F,4224,NEHAL GUPTA,True,
+Bombay,Tennis,9,F,4225,TANVI SHARMA,True,
+Bombay,Tennis,9,F,4226,KOUSHIKA SARAVANAN,True,
+Delhi,Weightlifting,11,M,4227,BHAVESH BANSHIWAL,True,
+Delhi,Weightlifting,11,M,4228,HANEESH BHAGAT,True,
+Delhi,Weightlifting,11,M,4229,HARI OM,True,
+Delhi,Weightlifting,11,M,4230,KAVYA JAIN,True,
+Delhi,Weightlifting,11,M,4231,SARTHAK SINGH,True,
+Delhi,Weightlifting,11,M,4232,TANAY SINGH LODHI,True,
+Delhi,Weightlifting,11,M,4233,VIMAL,True,
+Delhi,Weightlifting,11,M,4234,YUVRAJ DAWAR,True,
+Delhi,Chess,3,M,4235,ARNAV TIWARI,True,
+Delhi,Chess,3,M,4236,ROHAN GUPTA,True,
+Delhi,Chess,3,M,4237,SHOAN ANANDKUMAR RAJ,True,
+Delhi,Chess,3,M,4238,SHOURYA VIR JAIN,True,
+Delhi,Chess,3,M,4239,SOHAM SAMEER PALKAR,True,
+Delhi,Chess,3,M,4240,SUMIT BISWAL,True,
+Delhi,Tennis,9,M,4241,FAIQ AHMED,True,
+Delhi,Tennis,9,M,4242,PADMATI SHASHI PREETHAM,True,
+Delhi,Tennis,9,M,4243,VAIBHAV KRISHNA SRIRAM,True,
+Delhi,Tennis,9,M,4244,YADAV SMART LAXMISHANKAR,True,
+Delhi,Tennis,9,F,4245,APURVA,True,
+Delhi,Tennis,9,F,4246,KHUSHI GUPTA,True,
+Delhi,Tennis,9,F,4247,SAANVI PURWAR,True,
+Delhi,Tennis,9,F,4248,TARA DHONDIYAL,True,
+Dhanbad,Weightlifting,11,M,4249,SATYAM KR GUPTA,True,
+Dhanbad,Weightlifting,11,M,4250,ROHIT KUMAR,True,
+Dhanbad,Weightlifting,11,M,4251,JATIN KR TANWAR,True,
+Dhanbad,Weightlifting,11,M,4252,AYUSH KUMAR,True,
+Dhanbad,Weightlifting,11,M,4253,ANKUSH RAJ,True,
+Dhanbad,Weightlifting,11,M,4254,SAURABH SINGH,True,
+Dhanbad,Weightlifting,11,M,4255,VERMA AASHU,True,
+Dhanbad,Weightlifting,11,M,4256,SUDEEP KUMAR,True,
+Dhanbad,Weightlifting,11,M,4257,P ABBAS SAYYED,True,
+Dhanbad,Weightlifting,11,M,4258,MD RIYAUL HAQUE,True,
+Dhanbad,Chess,3,M,4259,LAKSHAY KUMAR GANDA,True,
+Dhanbad,Chess,3,M,4260,PUNEET KUMAR SINGH,True,
+Dhanbad,Chess,3,M,4261,WALI MOHMMAD,True,
+Dhanbad,Chess,3,M,4262,SAIKRISHNA KRISHNA SETHU,True,
+Dhanbad,Chess,3,M,4263,AARAV GUPTA,True,
+Dhanbad,Chess,3,M,4264,TRIVEDI HARSHKUMAR,True,
+Dhanbad,Tennis,9,M,4265,PRINCE ARYA,True,
+Dhanbad,Tennis,9,M,4266,KEVIN JONATHAN,True,
+Dhanbad,Tennis,9,M,4267,ANSHUL ANAND,True,
+Dhanbad,Tennis,9,M,4268,ALOK KUMAR,True,
+Dhanbad,Tennis,9,F,4269,AKSHARA REDDY,True,
+Dhanbad,Tennis,9,F,4270,RENESA MANDAL,True,
+Dhanbad,Tennis,9,F,4271,YOGITA SINGH,True,
+Dharwad,Weightlifting,11,M,4272,HARSH CHHAPERA,True,
+Dharwad,Weightlifting,11,M,4273,ANUPAM SAGAR,True,
+Dharwad,Weightlifting,11,M,4274,VISHWAS CHOUDHARY,True,
+Dharwad,Weightlifting,11,M,4275,TANISHQ SINGH,True,
+Dharwad,Weightlifting,11,M,4276,KARTIK MEENA,True,
+Dharwad,Weightlifting,11,M,4277,ADITYA RAJ SINGH DIGARI,True,
+Dharwad,Chess,3,M,4278,SRIVATSA BHARADWAJ,True,
+Dharwad,Chess,3,M,4279,PRAKHAR GUPTA,True,
+Dharwad,Chess,3,M,4280,NAVEEN T S,True,
+Dharwad,Chess,3,M,4281,SAMARTH M,True,
+Dharwad,Chess,3,M,4282,HARSHIT PATIL,True,
+Dharwad,Chess,3,M,4283,RITWICK RANJAN DAS,True,
+Gandhinagar,Weightlifting,11,M,4284,RITESH KUMAR,True,
+Gandhinagar,Weightlifting,11,M,4285,SAI SAKETHA,True,
+Gandhinagar,Weightlifting,11,M,4286,SRIMAAN GOVINDU,True,
+Gandhinagar,Weightlifting,11,M,4287,TUSHAR CHAHAL,True,
+Gandhinagar,Weightlifting,11,M,4288,PRAVEEN KUMAR,True,
+Gandhinagar,Weightlifting,11,M,4289,KILARI VENKATESH,True,
+Gandhinagar,Weightlifting,11,M,4290,KUSAL SAI CHARAN,True,
+Gandhinagar,Weightlifting,11,M,4291,RAM CHARAN,True,
+Gandhinagar,Weightlifting,11,M,4292,AMARTYA,True,
+Gandhinagar,Chess,3,M,4293,AKASH GUPTA,True,
+Gandhinagar,Chess,3,M,4294,NEEV PATEL,True,
+Gandhinagar,Chess,3,M,4295,SAMEER VERMA,True,
+Gandhinagar,Chess,3,M,4296,SAHASRANSHU ABHISHEK,True,
+Gandhinagar,Chess,3,M,4297,RUDRAKSH VERMA,True,
+Gandhinagar,Chess,3,M,4298,ABHISHEK TAGALPALLEWAR,True,
+Gandhinagar,Tennis,9,M,4299,SATYAKAM MISHRA,True,
+Gandhinagar,Tennis,9,M,4300,ARYAN LAHOTI,True,
+Gandhinagar,Tennis,9,M,4301,SHIV PATEL,True,
+Gandhinagar,Tennis,9,M,4302,ANIRUDDHA KAMBEKAR,True,
+Gandhinagar,Tennis,9,F,4303,SOHITHA SONALIKA MEKALA,True,
+Gandhinagar,Tennis,9,F,4304,RADHIKA PUROHIT,True,
+Gandhinagar,Tennis,9,F,4305,SOUMYA MISHRA,True,
+Gandhinagar,Tennis,9,F,4306,NOOPUR PALLOD,True,
+Goa,Weightlifting,11,M,4307,VEERERENDRA KOILAKUNTLA,True,
+Goa,Weightlifting,11,M,4308,SAYANTH SUNIL,True,
+Goa,Weightlifting,11,M,4309,ARNAV KILEDAR,True,
+Goa,Tennis,9,M,4310,KIRUBAKARAN C,True,
+Goa,Tennis,9,M,4311,P KARTHIKEYAN,True,
+Goa,Tennis,9,M,4312,SUNNY CHAUHAN,True,
+Guwahati,Weightlifting,11,M,4313,SANDEEP RABHA,True,
+Guwahati,Weightlifting,11,M,4314,ANMOL SAGAR,True,
+Guwahati,Weightlifting,11,M,4315,SAMIM AKHTAR KHAN,True,
+Guwahati,Weightlifting,11,M,4316,AYUSH KUMAR,True,
+Guwahati,Weightlifting,11,M,4317,SIRIGUDI MIDUSH,True,
+Guwahati,Weightlifting,11,M,4318,RUDRA NARAYAN YADAV,True,
+Guwahati,Weightlifting,11,M,4319,KASHIF ALI SHAIKH,True,
+Guwahati,Weightlifting,11,M,4320,JADEN JOSEPH,True,
+Guwahati,Chess,3,M,4321,DEEPIT GUPTA,True,
+Guwahati,Chess,3,M,4322,ARNAV DE,True,
+Guwahati,Chess,3,F,4323,SHARANYA ADANE,True,
+Guwahati,Chess,3,M,4324,SURYA M,True,
+Guwahati,Chess,3,M,4325,JYOTIRADITYA AJIT JADHAV,True,
+Guwahati,Chess,3,M,4326,SWAYAM SAMEER NAIK,True,
+Guwahati,Tennis,9,M,4327,PRANAV PRABHU KUMBLE,True,
+Guwahati,Tennis,9,M,4328,UDIT CHETANKUMAR JETHVA,True,
+Guwahati,Tennis,9,M,4329,SIBI SARAVANAN,True,
+Guwahati,Tennis,9,M,4330,HANS CHAPLOT,True,
+Guwahati,Tennis,9,F,4331,SAI MANGESH EJAGAR,True,
+Guwahati,Tennis,9,F,4332,KRISHNA GUPTA,True,
+Guwahati,Tennis,9,F,4333,IDHAA MRIGESH NARWADKAR,True,
+Guwahati,Tennis,9,F,4334,ANIKA BUTAIL,True,
+Hyderabad,Weightlifting,11,M,4335,OM GODSE,True,
+Hyderabad,Weightlifting,11,M,4336,BIPIN LAL,True,
+Hyderabad,Weightlifting,11,M,4337,HARSH KHATRI,True,
+Hyderabad,Chess,3,M,4338,AILONI SAHASRANSH REDDY,True,
+Hyderabad,Chess,3,M,4339,ALFIEN JESSURUN P,True,
+Hyderabad,Chess,3,M,4340,ANANT MAHESHWARY,True,
+Hyderabad,Chess,3,M,4341,ANIKET MOHAPATRA,True,
+Hyderabad,Chess,3,M,4342,SHIVA CHETHAN HALAMANE,True,
+Hyderabad,Chess,3,M,4343,VEDANT P KUMBAKONAM,True,
+Hyderabad,Tennis,9,M,4344,DIVYESH PANT,True,
+Hyderabad,Tennis,9,M,4345,ANIRUDH BHAT,True,
+Hyderabad,Tennis,9,M,4346,VIVASWAN RAI,True,
+Hyderabad,Tennis,9,M,4347,RISHAB GAUTAM,True,
+Hyderabad,Tennis,9,F,4348,PARIMALA A,True,
+Hyderabad,Tennis,9,F,4349,S.E.ARTHIYA,True,
+Hyderabad,Tennis,9,F,4350,JAITHRI MALLADI,True,
+Indore,Weightlifting,11,M,4351,KANHAIYA LAL NAYAK,True,
+Indore,Weightlifting,11,M,4352,ARYAN RAJ,True,
+Indore,Weightlifting,11,M,4353,PRADEEP SWAMI,True,
+Indore,Weightlifting,11,M,4354,ATUL,True,
+Indore,Weightlifting,11,M,4355,DEENDAYAL SUTHAR,True,
+Indore,Weightlifting,11,M,4356,DEEPAK PANWAR,True,
+Indore,Weightlifting,11,M,4357,YOGENDRA BIHARE,True,
+Indore,Weightlifting,11,M,4358,GOVIND MEENA,True,
+Indore,Weightlifting,11,M,4359,AJAY SONAMANI,True,
+Indore,Chess,3,M,4360,SHRIRAM NAIK,True,
+Indore,Chess,3,M,4361,V. SUJAN KUMAR,True,
+Indore,Chess,3,M,4362,TANUSH PRATAP CHAND,True,
+Indore,Chess,3,M,4363,ADI JAIN,True,
+Indore,Chess,3,M,4364,ARJUN DHAMDHERE,True,
+Indore,Chess,3,M,4365,ANUNAD SINGH,True,
+Indore,Tennis,9,M,4366,ANSHUMAN NEMA,True,
+Indore,Tennis,9,M,4367,KAVIN KRISHNAN S,True,
+Indore,Tennis,9,M,4368,NITIN PREETHAM,True,
+Indore,Tennis,9,M,4369,KATROTH SRIKANTH,True,
+Jammu,Weightlifting,11,M,4351,VISHAL KUMAR,True,
+Jammu,Weightlifting,11,M,4352,SAHIL,True,
+Jammu,Weightlifting,11,M,4353,KISHAN ARYA,True,
+Jammu,Weightlifting,11,M,4354,ABHAY SINGH,True,
+Jammu,Chess,3,M,4355,HARSHIT,True,
+Jammu,Chess,3,M,4356,GARV SIROHI,True,
+Jammu,Chess,3,M,4357,HARSH,True,
+Jammu,Chess,3,M,4358,GURSIMRAN SINGH,True,
+Jammu,Chess,3,M,4359,SHUBHAM KUMAR,True,
+Jodhpur,Weightlifting,11,M,4360,PARVESH JAKHAR,True,
+Jodhpur,Weightlifting,11,M,4361,GNANI PRAKASH,True,
+Jodhpur,Weightlifting,11,M,4362,KORRA SAI SARVAJITH CHOWHAN,True,
+Jodhpur,Weightlifting,11,M,4363,MANVENDRA SINGH,True,
+Jodhpur,Chess,3,M,4364,AUM NIKINJKUMAR DESAI,True,
+Jodhpur,Chess,3,M,4365,YASH GOR,True,
+Jodhpur,Chess,3,M,4366,SHIV SHOME,True,
+Jodhpur,Chess,3,M,4367,RISHI AGARWAL,True,
+Jodhpur,Chess,3,F,4368,PRACHITI CHANDRATREYA,True,
+Jodhpur,Chess,3,F,4369,PRUSHTI THUMAR,True,
+Jodhpur,Tennis,9,M,4370,HARISH BABU BALAJI,True,
+Jodhpur,Tennis,9,M,4371,PRANAV BHANSALI,True,
+Jodhpur,Tennis,9,M,4372,ARADHYA CHHABDI,True,
+Jodhpur,Tennis,9,M,4373,RAHUL SHREEVATSAVAN,True,
+Jodhpur,Tennis,9,F,4374,MANSI MUNESHWAR,True,
+Jodhpur,Tennis,9,F,4375,RHEA DOSHI,True,
+Jodhpur,Tennis,9,F,4376,SHRIYA,True,
+Kanpur,Weightlifting,11,M,4377,HARSH VERMA,True,
+Kanpur,Weightlifting,11,M,4378,KARAN CHAUHAN,True,
+Kanpur,Weightlifting,11,M,4379,HARISH CHOUDHARY,True,
+Kanpur,Weightlifting,11,M,4380,SABAVATH VENKATESH,True,
+Kanpur,Weightlifting,11,M,4381,NILAKANTHA MAHANTA,True,
+Kanpur,Weightlifting,11,M,4382,UTKARSH AMAN,True,
+Kanpur,Weightlifting,11,M,4383,HARSH GARG,True,
+Kanpur,Weightlifting,11,M,4384,DHRUV SHETTY,True,
+Kanpur,Weightlifting,11,M,4385,SHRI SATHAN,True,
+Kanpur,Weightlifting,11,M,4386,HEMANT JANGID,True,
+Kanpur,Chess,3,M,4387,SPANDAN PATI,True,
+Kanpur,Chess,3,M,4388,PRAJWAL,True,
+Kanpur,Chess,3,M,4389,PRATIK,True,
+Kanpur,Chess,3,M,4390,PRITHVIJEET,True,
+Kanpur,Chess,3,M,4391,ABHISHEK,True,
+Kanpur,Chess,3,M,4392,JAYARAMAN,True,
+Kanpur,Tennis,9,M,4393,THEJAS K,True,
+Kanpur,Tennis,9,M,4394,JAYANSH JAIN,True,
+Kanpur,Tennis,9,M,4395,ANIRUDH SAIRAM,True,
+Kanpur,Tennis,9,M,4396,ARADHYA GOEL,True,
+Kanpur,Tennis,9,F,4397,ARNISHA DHINGRA,True,
+Kanpur,Tennis,9,F,4398,ADITY RAJ,True,
+Kanpur,Tennis,9,F,4399,RADHIKA PRASAD,True,
+Kharagpur,Weightlifting,11,M,4400,SUMIT SHIRWA,True,
+Kharagpur,Weightlifting,11,M,4401,HARICHANDRA PRASAD,True,
+Kharagpur,Weightlifting,11,M,4402,KARTIK SHARMA,True,
+Kharagpur,Weightlifting,11,M,4403,ASHISH SITARE,True,
+Kharagpur,Weightlifting,11,M,4404,VISHAL ARORA,True,
+Kharagpur,Weightlifting,11,M,4405,YASH TAILOR,True,
+Kharagpur,Weightlifting,11,M,4406,HARSH RANJAN,True,
+Kharagpur,Weightlifting,11,M,4407,KARN SINGH,True,
+Kharagpur,Weightlifting,11,M,4408,AAYUSH JOSHI,True,
+Kharagpur,Weightlifting,11,M,4409,AKSHAT LADE,True,
+Kharagpur,Chess,3,M,4410,BAIBHAB SINGH,True,
+Kharagpur,Chess,3,M,4411,SANJAY THIRUVENGADAM,True,
+Kharagpur,Chess,3,M,4412,AGNIVO GHOSH,True,
+Kharagpur,Chess,3,M,4413,NIKHIL KALUR,True,
+Kharagpur,Chess,3,M,4414,S. SIDDHARTH,True,
+Kharagpur,Chess,3,M,4415,JYOTISKO SEN GUPTA,True,
+Kharagpur,Tennis,9,M,4416,SWASTIK STITA SIRI SAI PRADHAN,True,
+Kharagpur,Tennis,9,M,4417,PUSHKARAJ VIKRAM JAGTAP,True,
+Kharagpur,Tennis,9,M,4418,AVANEESH SRIVASTAVA,True,
+Kharagpur,Tennis,9,M,4419,PIYUSH JAIN,True,
+Kharagpur,Tennis,9,F,4420,SHATAKKSHI,True,
+Kharagpur,Tennis,9,F,4421,NAVYA ARYA,True,
+Kharagpur,Tennis,9,F,4422,RUHI RAKESH,True,
+Madras,Weightlifting,11,M,4423,JATIN RAJ SINGH,True,
+Madras,Weightlifting,11,M,4424,ELAMBIRAI R,True,
+Madras,Weightlifting,11,M,4425,SIDHANT ROY,True,
+Madras,Weightlifting,11,M,4426,AKASH PB,True,
+Madras,Weightlifting,11,M,4427,M S ANIRUDH,True,
+Madras,Weightlifting,11,M,4428,PRAKASH GOWDA T R,True,
+Madras,Weightlifting,11,M,4429,JOEL,True,
+Madras,Weightlifting,11,M,4430,YOOGISH SAIRAAJ D,True,
+Madras,Weightlifting,11,M,4431,AYUSH RAI,True,
+Madras,Weightlifting,11,M,4432,KARTHIK,True,
+Madras,Chess,3,M,4433,BALAJISAI KANNAN,True,
+Madras,Chess,3,M,4434,CHILUKURI SAI VARSHITH,True,
+Madras,Chess,3,M,4435,CHINMAY KULKARNI,True,
+Madras,Chess,3,F,4436,NARAYANI ADANE,True,
+Madras,Chess,3,M,4437,SIDHARTH MANAKIL,True,
+Madras,Chess,3,M,4438,SOUMIL SHAH,True,
+Madras,Tennis,9,M,4439,AAYUSH DHALWAL,True,
+Madras,Tennis,9,M,4440,GARV MUNDRA,True,
+Madras,Tennis,9,M,4441,DHRUV SACHDEVA,True,
+Madras,Tennis,9,M,4442,PRADYUMNA SINGH TOMAR,True,
+Madras,Tennis,9,F,4443,TRISHA WADHWANI,True,
+Madras,Tennis,9,F,4444,DIVYA SRINIVAS,True,
+Madras,Tennis,9,F,4445,ANUSHKA VENKATESH,True,
+Madras,Tennis,9,F,4446,TISYA JUNEJA,True,
+Mandi,Chess,3,M,B24172,UTKARSH SAHU,True,
+Mandi,Chess,3,M,B24263,OJAS MORE,True,
+Mandi,Chess,3,M,S25064,SUSHANT,True,
+Mandi,Chess,3,M,IM24004,SRIHARI,True,
+Mandi,Chess,3,M,D25011,ATMA PRAKASH,True,
+Mandi,Chess,3,M,B25175,SAURABH,True,
+Mandi,Tennis,9,M,B24280,SAMAGRA SINGHAL,True,
+Mandi,Tennis,9,M,B25297,SHREYANSH,True,
+Mandi,Tennis,9,M,B25065,AMAN MODI,True,
+Mandi,Tennis,9,M,B25203,DEVANSH YADAV,True,
+Palakkad,Weightlifting,11,M,142301014,KALAGANDA PAVAN,True,
+Palakkad,Chess,3,M,112301046,SHREESH AMIT CHEMBETI,True,
+Palakkad,Chess,3,M,112501039,VINEETH NUNNA,True,
+Palakkad,Chess,3,M,202505012,PRANAV P,True,
+Palakkad,Chess,3,M,132301016,JAISSHNUVV K SUBBIAH RAJAH,True,
+Palakkad,Chess,3,M,122301002,ADITYA GUPTA,True,
+Palakkad,Chess,3,M,112301032,SUMIT DNYANESHWAR GARAD,True,
+Patna,Weightlifting,11,M,2303ME03,ADITYA GUPTA,True,
+Patna,Weightlifting,11,M,2401CS63,SAMEER SONKAR,True,
+Patna,Weightlifting,11,M,2401CT29,BADSHAH SINGH BAGEL,True,
+Patna,Weightlifting,11,M,2501PH26,DAVID PRATAP SINGH,True,
+Patna,Chess,3,M,2301CB48,PARTH GANJEWAR,True,
+Patna,Chess,3,M,2301CB57,ANKIT CHATTERJEE,True,
+Patna,Chess,3,M,2502CS04,KARTIK JITENDRA TETWAR,True,
+Patna,Chess,3,M,2403EC01,AYUSH JHA,True,
+Patna,Chess,3,M,2511AI57,AVDHOOT LENDHE,True,
+Patna,Chess,3,M,2301ME44,ROHIT MAKDE,True,
+Patna,Tennis,9,M,2401MM35,HIMANSHU SHEKAR,True,
+Patna,Tennis,9,M,2301ME05,AMAN ARORA,True,
+Patna,Tennis,9,M,2301MC59,PRANSHU DEEP,True,
+Patna,Tennis,9,M,2501PH11,ROHIT PAUL,True,
+Patna,Tennis,9,F,2401ES01,KHWAHISH SHEORAN,True,
+Patna,Tennis,9,F,2301ME51,VARTIKA JOSHI,True,
+Patna,Tennis,9,F,2201ME36,KALPANA KUMARI,True,
+Roorkee,Weightlifting,11,M,23112065,MUANSONLIAN NAULAK,True,
+Roorkee,Weightlifting,11,M,23118005,ADITYA JAIN,True,
+Roorkee,Weightlifting,11,M,21110003,ABHISHEK KUMAR,True,
+Roorkee,Weightlifting,11,M,23116086,SAGAR BARUAH,True,
+Roorkee,Weightlifting,11,M,21324008,DAS ANUP KUMAR,True,
+Roorkee,Weightlifting,11,M,24565007,GAVEESH NAMA,True,
+Roorkee,Weightlifting,11,M,23112058,MAYUR ARYA,True,
+Roorkee,Weightlifting,11,M,25563008,VEERU SINGH,True,
+Roorkee,Weightlifting,11,M,25920023,THOTA SIVASAI,True,
+Roorkee,Weightlifting,11,M,22321008,AMAN KUMAR GAUTAM,True,
+Roorkee,Chess,3,M,23324015,PRAKUL BALAJI,True,
+Roorkee,Chess,3,M,23410007,ARPIT SINGH,True,
+Roorkee,Chess,3,M,25575004,NINAD BHAT,True,
+Roorkee,Chess,3,M,24323038,SHIVANG SHARMA,True,
+Roorkee,Chess,3,M,23116089,SHYAM AGARWAL,True,
+Roorkee,Tennis,9,M,23114093,SIDDHARTH GUPTA,True,
+Roorkee,Tennis,9,M,23116001,AAKASH GUPTA,True,
+Roorkee,Tennis,9,M,24323020,KUSHAL RAKESH SHAH,True,
+Roorkee,Tennis,9,M,24117069,MADHURAM VATSAL,True,
+Roorkee,Tennis,9,F,22113059,HARSHITA GILL,True,
+Roorkee,Tennis,9,F,21916017,HIMANI MENDIRA,True,
+Roorkee,Tennis,9,F,23410006,ANUSHKA SHINDE,True,
+Roorkee,Tennis,9,F,25322020,AASHITA SHEETAL SUNIL JADHAV,True,
+Ropar,Weightlifting,11,M,2023meb1395,UJJAL DAS,True,
+Ropar,Weightlifting,11,M,2024aib1011,HANS NONGMAITHEM,True,
+Ropar,Weightlifting,11,M,2024maz0012,RAHUL ROHILLA,True,
+Ropar,Weightlifting,11,M,2022CHZ0004,ALOK DAS,True,
+Ropar,Weightlifting,11,M,2022meb1342,SAHIL BHARDWAJ,True,
+Ropar,Weightlifting,11,M,2024ceb1046,RITIK,True,
+Ropar,Weightlifting,11,M,2023meb1402,YOGESH RAWAL,True,
+Ropar,Weightlifting,11,M,2024meb1364,LAXMI NIWAS,True,
+Ropar,Weightlifting,11,M,2021CSZ0001,NAPENDRA SOLANKI,True,
+Ropar,Weightlifting,11,M,2022csb1087,KARTIKEY SAHU,True,
+Ropar,Chess,3,M,2022csb1139,Umesh Konduru,True,
+Ropar,Chess,3,M,2025aib1033,Kartik Kumar,True,
+Ropar,Chess,3,M,2023csb1171,Srikrishna Valepe,True,
+Ropar,Chess,3,M,2025mcb1515,Samrat sanjiva,True,
+Ropar,Chess,3,M,2025dab1273,Ashish Giri,True,
+Ropar,Tennis,9,M,2024CEB1053,TANISHQ SINGHAL,True,
+Ropar,Tennis,9,M,2024MEB1391,SIDDHARTHA GUPTA,True,
+Ropar,Tennis,9,M,2025CEB1100,MUDIT SINHA,True,
+Ropar,Tennis,9,M,2025EEB1373,RISHABH BAINS,True,
+Ropar,Tennis,9,F,2022CHB1053,SPURTHY MULA,True,
+Ropar,Tennis,9,F,2024AIB1010,NEHAL ABBOTT,True,
+Ropar,Tennis,9,F,2025EEB1386,SUHAIRA KHAN,True,
+Tirupati,Weightlifting,11,M,EE24B054,KOUSHIK THATAVARTHI,True,
+Tirupati,Weightlifting,11,M,CS24B023,MANN RAVINDRA KAMBLE,True,
+Tirupati,Weightlifting,11,M,ME24M221,CHANDRA SEKHAR,True,
+Tirupati,Weightlifting,11,M,CS24M116,SHASHI MANI,True,
+Tirupati,Weightlifting,11,M,EE22B038,NIKHIL,True,
+Tirupati,Weightlifting,11,M,CS24B004,VISHNU VARDHAN BACHU,True,
+Tirupati,Weightlifting,11,M,CS25S007,SHOVAN JAGADISH MISHRA,True,
+Tirupati,Weightlifting,11,M,EE24B052,TAMILI SETTI SASHANK REDDY,True,
+Tirupati,Weightlifting,11,M,EE24B050,S.ESHWAR VADAN,True,
+Tirupati,Weightlifting,11,M,ME24B049,TANDYALA RAM KUMAR,True,
+Tirupati,Chess,3,M,ME24M202,B NITESH KUMAR,True,
+Tirupati,Chess,3,M,CE24M204,KHANDAVILLI VENKATA SRI RAMA MANOHAR,True,
+Tirupati,Chess,3,M,CS25B042,RAJDEEP SINGH SAHAMBI,True,
+Tirupati,Chess,3,M,ME25B003,ANANTH RAM OMKAR K PRABHU,True,
+Tirupati,Chess,3,M,EE24M304,SIVAPRASATH  R I,True,
+Tirupati,Chess,3,M,CH22B001,AAYUSH SHARMA,True,
+Tirupati,Tennis,9,M,CS22B039,MOHAMMAD AMAAN,True,
+Tirupati,Tennis,9,M,EE23B043,PRAVAL GUPTA,True,
+Tirupati,Tennis,9,M,CH25B001,ABHINAV SUBRAMANIAM P,True,
+Tirupati,Tennis,9,M,EP25B007,RITHUL PRAKASH K,True,
