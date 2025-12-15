@@ -3238,8 +3238,8 @@
   {
     "Name": "Shanmuka Priya Marisetty",
     "Gender": "F",
-    "Position": "AM25B033",
-    "uniqueId": "Volunteer",
+    "Position": "Volunteer",
+    "uniqueId": "AM25B033",
     "IIT": "madras"
   },
   {
@@ -3329,8 +3329,8 @@
   {
     "Name": "Harini Shakthi J",
     "Gender": "F",
-    "Position": "ED23B050",
-    "uniqueId": "Core",
+    "Position": "Core",
+    "uniqueId": "ED23B050",
     "IIT": "madras"
   },
   {
