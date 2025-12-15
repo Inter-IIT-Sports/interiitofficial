@@ -1,4 +1,159 @@
 [
+  
+  {
+    "Name": "SAI PRAVALLIKA K",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAJNANDANI SINGH",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD004",
+    "IIT": "PATNA"
+  },
+  {
+    "Name": "ANISHYA MAURYA",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD008",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "ANSHIKA GAUTAM",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD009",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "SAMANGA DWIVEDI",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD010",
+    "IIT": "HYDERABAD"
+  },
+  {
+    "Name": "PRINCI",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD013",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "GLORY NARZARI",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD015",
+    "IIT": "KHARAGPUR"
+  },
+  {
+    "Name": "NAINA MISRA",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD016",
+    "IIT": "KHARAGPUR"
+  },
+  {
+    "Name": "SAKSHI DHUMALE",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD020",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "UDITI RAYMANGIYA",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD022",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "NIDHI PANDEY",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD023",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "NEHA SHAHU",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD024",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "TEERTHA GANDHI",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD025",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "AARYA PATIL",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD027",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "OSHEEN DONGRE",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD030",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "GARIMA SANJEEV",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD032",
+    "IIT": "GUWAHATI"
+  },
+  {
+    "Name": "AAYUSHI SINGH",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD036",
+    "IIT": "DHARWAD"
+  },
+  {
+    "Name": "PARAKRITI TRIPATHI",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD037",
+    "IIT": "DHARWAD"
+  },
+  {
+    "Name": "DISHA NARANG",
+    "Gender": "F",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD038",
+    "IIT": "DHARWAD"
+  },
+  {
+    "Name": "APARNA SONAI",
+    "Gender": "F",
+    "Position": "HOSPITALITY CORE",
+    "uniqueId": "IISM25WCORE001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RIYA",
+    "Gender": "F",
+    "Position": "HOSPITALITY COD",
+    "uniqueId": "IISM25WCOD002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SHANMUKA PRIYA",
+    "Gender": "F",
+    "Position": "VOL",
+    "uniqueId": "IISM25WVOL003",
+    "IIT": "MADRAS"
+  },
   {
     "Name": "NAMRATA GHOLE",
     "Gender": "F",
