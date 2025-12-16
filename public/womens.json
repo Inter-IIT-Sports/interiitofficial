@@ -1,6 +1,25 @@
 [
 
   {
+    "Name": "SANJANA GARAI",
+    "Gender": "F",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT (BHU) VARANASI"
+  },{
+    "Name": "ADEEB OBAID",
+    "Gender": "F",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT MANDI"
+  },{
+    "Name": "ANCHAL SHARMA",
+    "Gender": "F",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT MANDI"},
+
+  {
     "Name":"Deepika V",
     "Gender":"M",
     "Position":"SQUASH OFFICIAL",

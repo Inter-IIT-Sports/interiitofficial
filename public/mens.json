@@ -1,5 +1,146 @@
 [
   {
+    "Name": "ALLIBILLI AJAY",
+    "Gender": "M",
+    "Position": "BASKETBALL COACH",
+    "uniqueId": "IISM25bbcoach001",
+    "IIT": "IIT TIRUPATI"
+  },
+  {
+    "Name": "ROHIT PATHARIA",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25pti002",
+    "IIT": "IIT HYDERABAD"
+  },
+  {
+    "Name": "MALLIKARJUN",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25pti003",
+    "IIT": "IIT HYDERABAD"
+  },
+  {
+    "Name": "PRAKASH CHANDRA MUDULI",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25pti004",
+    "IIT": "IIT BHUBANESWAR"
+  },
+  {
+    "Name": "RAGHAV DOGRA",
+    "Gender": "M",
+    "Position": "BADMINTON COACH",
+    "uniqueId": "IISM25bmcoach005",
+    "IIT": "IIT JAMMU"
+  },
+  {
+    "Name": "AJAY RATRA",
+    "Gender": "M",
+    "Position": "TT COACH",
+    "uniqueId": "IISM25ttcoach006",
+    "IIT": "IIT JAMMU"
+  },
+  {
+    "Name": "GAURAV BHAGAT",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25ss007",
+    "IIT": "IIT JAMMU"
+  },
+  {
+    "Name": "KAILASH URADE",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25ss008",
+    "IIT": "IIT BOMBAY"
+  },
+  {
+    "Name": "DHAVAL KARNIK ",
+    "Gender": "M",
+    "Position": "TT COACH",
+    "uniqueId": "IISM25ttcoach009",
+    "IIT": "IIT BOMBAY"
+  },
+  {
+    "Name": "DEEPAK V",
+    "Gender": "M",
+    "Position": "BASKETBALL COACH",
+    "uniqueId": "IISM25bbcoach010",
+    "IIT": "IIT PALAKKAD"
+  },
+  {
+    "Name": "SREEHARI KS",
+    "Gender": "M",
+    "Position": "TABLE TENNIS COACH",
+    "uniqueId": "IISM25ttcoach011",
+    "IIT": "IIT PALAKKAD"
+  },
+  {
+    "Name": "BABLI KATHAIT",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25bbcoach012",
+    "IIT": "IIT DELHI"
+  },
+  {
+    "Name": "DEVENDRA DAS",
+    "Gender": "M",
+    "Position": "TABLE TENNIS COACH",
+    "uniqueId": "IISM25ttcoach013",
+    "IIT": "IIT BHILAI"
+  },
+  {
+    "Name": "VIRESHWAR KUMAR",
+    "Gender": "M",
+    "Position": "PRESIDENT BSA",
+    "uniqueId": "IISM25presidentbsacoach014",
+    "IIT": "IIT DELHI"
+  },
+  {
+    "Name": "HITESH",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25pti015",
+    "IIT": "IIT MANDI"
+  },
+  {
+    "Name": "VANESH SHARMA",
+    "Gender": "M",
+    "Position": "STAFF",
+    "uniqueId": "IISM25staff016",
+    "IIT": "IIT MANDI"
+  },
+  {
+    "Name": "GARVIT BAGHEL",
+    "Gender": "M",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT BHUBANESWAR"
+  },
+
+  {
+    "Name": "SHRESTH BANSAL",
+    "Gender": "M",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT DHANBAD"
+  },
+  {
+    "Name": "NAMAN SHAH",
+    "Gender": "M",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT MANDI"
+  },
+  {
+    "Name": "HARSHITH KUMAR SINGH",
+    "Gender": "M",
+    "Position": "STUDENT",
+    "uniqueId": "IISM25STUD0100",
+    "IIT": "IIT MANDI"
+  },
+  {
     "Name": "Dinesh",
     "Gender": "M",
     "Position": "SQUASH OFFICIAL",
