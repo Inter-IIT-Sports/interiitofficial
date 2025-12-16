@@ -113,6 +113,25 @@ const staffCategories = [
     ],
   },
   {
+    title: "Sports Advisors",
+    members: [
+      [
+        {
+          name: "Mr. Arul prakash",
+          image: "/images/Prof. Arul.jpg",
+        },
+        {
+          name: "Mrs. Shruti dubey",
+          image: "/images/Prof. Shruti Dubey.jpg",
+        },
+        {
+          name: "Mr. Sudhakar Chandran",
+          image: "/images/Prof. Sudakar Chandran.jpg",
+        },
+      ],
+    ],
+  },
+  {
     title: "Sports Officers",
     members: [
       [
