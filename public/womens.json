@@ -1,6 +1,13 @@
 [
 
-  
+  {
+    "Name":"Deepika V",
+    "Gender":"M",
+    "Position":"SQUASH OFFICIAL",
+    "uniqueId":"IISM25-SQOFF-009",
+    "IIT":"MADRAS"      
+
+  },
   {
     "Name": "SAI PRAVALLIKA K",
     "Gender": "F",

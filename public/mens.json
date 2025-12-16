@@ -1,5 +1,217 @@
 [
   {
+    "Name": "Dinesh",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Ajay R",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Lokesh S",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-003",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Gopinath K",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-004",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Vijayakumar",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-005",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Vinothkumar",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-006",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Karthi S",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-007",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Jebindran V",
+    "Gender": "M",
+    "Position": "SQUASH OFFICIAL",
+    "uniqueId": "IISM25-SQOFF-008",
+    "IIT": "MADRAS"
+  },
+
+  {
+    "Name": "Mr. K. Ravi Kumar (Chief Referee)",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Michael Ceciline Vino",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. J. Santhanam",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-003",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. S. Ravi Kumar",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-004",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. A. Safiyullah",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-005",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Moorthy",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-006",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. G. V. Yadava Krishnan",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-007",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. G. Sampath",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-008",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Raman",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-009",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Jairamji",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-010",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Ravi Shankar",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-011",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Venkatesh",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-012",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Dee Bala",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-013",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Ajoy Lawrence",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-014",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Deepak Raghavendra",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-015",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Hariharan",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-016",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. M. Jothipandi",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-017",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Juber Ali",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-018",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Mahesh",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-019",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. S. R. Sreenath",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-020",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. James Raja Singh",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-021",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "Mr. Timothy John",
+    "Gender": "M",
+    "Position": "BASKETBALL OFFICIAL",
+    "uniqueId": "IISM25-BBOFF-022",
+    "IIT": "MADRAS"
+  }
+,
+  {
     "Name": "YUVRAJ VERMA",
     "Gender": "M",
     "Position": "PTI",
