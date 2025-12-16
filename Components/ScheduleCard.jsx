@@ -96,10 +96,10 @@ const ScheduleCard = ({ item }) => {
     const winnerResult = item.results?.find(r => r.position?.toLowerCase() === 'winner');
 
     return (
-      <div className="mt-2 space-y-1 text-center md:text-left">
+      <div className="mt-2 space-y-1 text-left">
         {winnerResult ? (
           <>
-            <div className="flex items-center justify-center md:justify-start">
+            <div className="flex items-center justify-start">
               {winnerResult.logo && (
                 <Image src={winnerResult.logo} alt="winner logo" width={40} height={40} className="mr-2" />
               )}
