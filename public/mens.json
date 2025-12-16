@@ -1,5 +1,1408 @@
 [
-  
+  {
+    "Name": "YUVRAJ VERMA",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25OFFCL001",
+    "IIT": "INDORE"
+  },
+  {
+    "Name": "VEVDEEP CHAKARAVARTHY",
+    "Gender": "M",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISM25OFFCL002",
+    "IIT": "JODHPUR"
+  },
+  {
+    "Name": "HITESH",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISM25OFFCL003",
+    "IIT": "MANDI"
+  },
+  {
+    "Name": "AMAN CHOWDHURY",
+    "Gender": "M",
+    "Position": "SPORTS OFFICER",
+    "uniqueId": "IISM25OFFCL004",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "RAKESH KUMAR",
+    "Gender": "M",
+    "Position": "TT COACH",
+    "uniqueId": "IISM25OFFCL005",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "ANIRUD KASHYAP",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25OFFCL006",
+    "IIT": "BHUVANESHWAR"
+  },
+  {
+    "Name": "RAGAV DOGRA",
+    "Gender": "M",
+    "Position": "BADMINTON COACH",
+    "uniqueId": "IISM25OFFCL007",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "AJAY RATRA",
+    "Gender": "M",
+    "Position": "TT COACH",
+    "uniqueId": "IISM25OFFCL008",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "GAURAV BHAGAT",
+    "Gender": "M",
+    "Position": "SUPPORT STAFF",
+    "uniqueId": "IISM25OFFCL009",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "DEEPAK KUMAR BHIWAR",
+    "Gender": "M",
+    "Position": "STAFF",
+    "uniqueId": "IISM25OFFCL010",
+    "IIT": "BHILAI"
+  },
+  {
+    "Name": "PAVAN KUMAR YEZARLA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KISHOR KAVAN S",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD003",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "NAMAN SHAH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD005",
+    "IIT": "MANDI"
+  },
+  {
+    "Name": "HARSHITH KUMAR SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD006",
+    "IIT": "MANDI"
+  },
+  {
+    "Name": "BHUP SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD007",
+    "IIT": "KANPUR"
+  },
+  {
+    "Name": "ROOPAM BHUYAM",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD011",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "KAMALPREET SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD012",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "SAHIL",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD014",
+    "IIT": "ROPAR"
+  },
+  {
+    "Name": "NABIL SURAJ",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD017",
+    "IIT": "BHUVANESHWAR"
+  },
+  {
+    "Name": "UMANG KATARIYA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD018",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "KARANBIR SINGH DINDSA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD019",
+    "IIT": "JAMMU"
+  },
+  {
+    "Name": "YASHPAL YADAV",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD021",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "YAJAT SHARMA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD026",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "SHUBHAM KUMAR",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD028",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "ALLADA PRANEETH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD029",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "ROHAN GUPTA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD031",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "ARIN GUPTA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD033",
+    "IIT": "GUWAHATI"
+  },
+  {
+    "Name": "YUVAN VANAPALLI",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD034",
+    "IIT": "PATNA"
+  },
+  {
+    "Name": "VISHAL BADGUJAR",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD035",
+    "IIT": ""
+  },
+  {
+    "Name": "ADITYA SINGH",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD039",
+    "IIT": "INDORE"
+  },
+  {
+    "Name": "MOHITH KUMAR MEENA",
+    "Gender": "M",
+    "Position": "Student",
+    "uniqueId": "IISM25STUD040",
+    "IIT": "IIT (BHU) VARANASI"
+  },
+  {
+    "Name": "SANJESH",
+    "Gender": "M",
+    "Position": "HOSPITALITY COD",
+    "uniqueId": "IISM25COD001",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAM",
+    "Gender": "M",
+    "Position": "HOSPITALITY VOL",
+    "uniqueId": "IISM25VOL002",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "CHANDU",
+    "Gender": "M",
+    "Position": "HOSPITALITY COD",
+    "uniqueId": "IISM25COD003",
+    "IIT": "MADRAS"
+  },
+
+
+  {
+    "Name": "SOUMEN MONDAL",
+    "Gender": "M",
+    "Position": "SR.SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_001",
+    "IIT": "KHARAGPUR"
+  },
+  {
+    "Name": "DR.SUSANT KUMAR PANDA",
+    "Gender": "M",
+    "Position": "SR.SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_002",
+    "IIT": "KHARAGPUR"
+  },
+  {
+    "Name": "SHELENDRA RASANIYA",
+    "Gender": "M",
+    "Position": "SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_004",
+    "IIT": "BOMBAY"
+  },
+  {
+    "Name": "PROF. SRINIVASAN VENKATARAMAN",
+    "Gender": "M",
+    "Position": "FACULTY MEMBER",
+    "uniqueId": "IISMOFFI_006",
+    "IIT": "DELHI"
+  },
+  {
+    "Name": "PROF. R. GANESH NARAYANAN",
+    "Gender": "M",
+    "Position": "CHAIRPERSON SPORTS",
+    "uniqueId": "IISMOFFI_008",
+    "IIT": "GUWAHATI"
+  },
+  {
+    "Name": "MUKESH CHAUDHARY",
+    "Gender": "M",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_009",
+    "IIT": "ROORKEE"
+  },
+  {
+    "Name": "KODANDA RAM MANGIPUDI",
+    "Gender": "M",
+    "Position": "ASSOCIATE PROFESSOR",
+    "uniqueId": "IISMOFFI_010",
+    "IIT": "BHUBANESWAR"
+  },
+  {
+    "Name": "MR. DEVDEEP CHAKRAVARTY",
+    "Gender": "M",
+    "Position": "ASST. SPORTS OFFICER",
+    "uniqueId": "IISMOFFI_013",
+    "IIT": "JODHPUR"
+  },
+  {
+    "Name": "PROF. SANJAY MONDAL",
+    "Gender": "M",
+    "Position": "PROF",
+    "uniqueId": "IISMOFFI_014",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "AVISHEK BAISYA",
+    "Gender": "M",
+    "Position": "OFFICER",
+    "uniqueId": "IISMOFFI_015",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "KARTIK KALINDI",
+    "Gender": "M",
+    "Position": "GROUND STAFF",
+    "uniqueId": "IISMOFFI_017",
+    "IIT": "DHANBAD"
+  },
+  {
+    "Name": "RISSHIKESH NARAYAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_018",
+    "IIT": "GOA"
+  },
+  {
+    "Name": "PRAKHAR CHATURVEDI",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_019",
+    "IIT": "GOA"
+  },
+  {
+    "Name": "ANUP KUSHWAHA",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI_020",
+    "IIT": "GOA"
+  },
+  {
+    "Name": "PROF. SATHYANARAYANA N. GUMADI",
+    "Gender": "M",
+    "Position": "DOST",
+    "uniqueId": "IISMOFFI1",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. K. ARUL PRAKASH",
+    "Gender": "M",
+    "Position": "AD SPORTS",
+    "uniqueId": "IISMOFFI2",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. C.SUDAKAR CHANDRAN",
+    "Gender": "M",
+    "Position": "CO-AD SPORTS",
+    "uniqueId": "IISMOFFI4",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DR. EDINBROW PAKIARAJ",
+    "Gender": "M",
+    "Position": "ORGANIZING SECRETARY",
+    "uniqueId": "IISMOFFI5",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DR. VASUDEVA RAO",
+    "Gender": "M",
+    "Position": "SPORTS OFFICER",
+    "uniqueId": "IISMOFFI6",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "G JAYAVEL",
+    "Gender": "M",
+    "Position": "PTI GR - I",
+    "uniqueId": "IISMOFFI7",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ASHOK M",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISMOFFI8",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ASHOK SAMARAT YADAV",
+    "Gender": "",
+    "Position": "PTI",
+    "uniqueId": "IISMOFFI9",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAJENDRAN G",
+    "Gender": "M",
+    "Position": "PTI",
+    "uniqueId": "IISMOFFI10",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DHANASEKARAN C",
+    "Gender": "M",
+    "Position": "SPORTS INSTRUCTOR",
+    "uniqueId": "IISMOFFI11",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VEDAN SHATISH RAJ K",
+    "Gender": "M",
+    "Position": "SPORTS INSTRUCTOR",
+    "uniqueId": "IISMOFFI12",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SETHURAMAN",
+    "Gender": "M",
+    "Position": "SENIOR ASSISANT",
+    "uniqueId": "IISMOFFI13",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SARAVANAN",
+    "Gender": "M",
+    "Position": "JR. SUPERINTENDENT",
+    "uniqueId": "IISMOFFI14",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KARTHIKEYAN",
+    "Gender": "M",
+    "Position": "EXECUTIVE ASSOCIATE",
+    "uniqueId": "IISMOFFI15",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "JAYA VISWANATHAN J",
+    "Gender": "M",
+    "Position": "PTA",
+    "uniqueId": "IISMOFFI17",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BOSE RAJESH",
+    "Gender": "M",
+    "Position": "BASKETBALL COACH",
+    "uniqueId": "IISMOFFI18",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "K.KESAVAN",
+    "Gender": "M",
+    "Position": "BASKETBALL COACH",
+    "uniqueId": "IISMOFFI19",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VASANTH VALLAVAN",
+    "Gender": "M",
+    "Position": "BADMINTON COACH",
+    "uniqueId": "IISMOFFI20",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VINOTH KUMAR",
+    "Gender": "M",
+    "Position": "SQUASH COACH",
+    "uniqueId": "IISMOFFI21",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "A VEERA RAGHAVAN",
+    "Gender": "M",
+    "Position": "TABLE TENNIS COACH",
+    "uniqueId": "IISMOFFI22",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "CHRISTOPHER A",
+    "Gender": "M",
+    "Position": "TABLE TENNIS COACH",
+    "uniqueId": "IISMOFFI23",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. PHANIKUMAR G",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI24",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. BALAJI NARASIMHAN",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI25",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. MURUGAIYAN A",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI26",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. SANIYASIRAJU YVSS",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI27",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. SANTHOSH PN",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI28",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. RAMESH GARDAS",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI29",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. ASHWIN MAHALINGAM",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI32",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. STG RAGHUKANTH",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI33",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PROF. PARAG RAVINDRAN",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI34",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MR. JEEVANDOSS C R",
+    "Gender": "M",
+    "Position": "CHAIRPERSON",
+    "uniqueId": "IISMOFFI35",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SOURESH G",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI36",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GUHAN",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI37",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060GOKUL RAJ",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI38",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GOKUL KRISHNA",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI39",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060UMAR FAROOQ",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI40",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060JOSHUA SAMUEL",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI41",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ARAVIND KRISHNA",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI42",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BASVENDRAN",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI43",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "JOHN JOSON",
+    "Gender": "M",
+    "Position": "PHYSIO",
+    "uniqueId": "IISMOFFI44",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "M. VENKATRAMAN",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI49",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "K.R.RAJESH",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI50",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "B.THIYAGARAGAN",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI51",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "K.SENTHIL",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI52",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "K.NITHYA KUMAR",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI53",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "S.PREM KUMAR",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI54",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "K.VIVEK JOHNSON",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI55",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PADIGA ASHOK",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI56",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "S.SATHASIVAM",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI57",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "V.SARAVANAN",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI58",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MANI",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI59",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "INDLA RAMACHANDRUDU",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI60",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "HARIHARAN",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI61",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SRINIVASAN",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI62",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ANNAMALAI",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI63",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "LOGANADHAN",
+    "Gender": "M",
+    "Position": "GROUNDSMAN",
+    "uniqueId": "IISMOFFI64",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DILLI BABU",
+    "Gender": "M",
+    "Position": "LIFEGUARDS",
+    "uniqueId": "IISMOFFI65",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAMESH",
+    "Gender": "M",
+    "Position": "LIFEGUARDS",
+    "uniqueId": "IISMOFFI66",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KARTHICK",
+    "Gender": "M",
+    "Position": "LIFEGUARDS",
+    "uniqueId": "IISMOFFI67",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BHAGAVAT SINGH",
+    "Gender": "M",
+    "Position": "LIFEGUARDS",
+    "uniqueId": "IISMOFFI68",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "T.BALASUNDARAM",
+    "Gender": "M",
+    "Position": "CHIEF REFREE",
+    "uniqueId": "IISMOFFI69",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GURUMOORTHY",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI70",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ARAVIND(KTK)",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI71",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "UDAYA",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI72",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VIJAYAKUMAR",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI73",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ARAVINDJOSEPH",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI74",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GOPI",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI75",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAJENDRAN",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI76",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "LIZY PRATAP",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI77",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GANESAN",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI78",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MOHAN",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI79",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VEERAMANIKANDAN",
+    "Gender": "M",
+    "Position": "UMPIRE",
+    "uniqueId": "IISMOFFI80",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SRIKANT",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI81",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAJESH",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI82",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ABINESH",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI83",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BALAKRISHNAN",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI84",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VETRI",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI87",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MUKESHWARAN",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI88",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MADHU",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI89",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "EBI",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI90",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SATHYAMOORTHY",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI91",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MANISH",
+    "Gender": "M",
+    "Position": "LINE JUDGE",
+    "uniqueId": "IISMOFFI92",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "ARUMUGAM",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI93",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060SUNILGAWASKAR",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI94",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060AMBALAVANAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI95",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060HEMASUNDER",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI96",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VARUNRAJ T",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI97",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060SANJAY S",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI98",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KARUNAKARAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI99",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060KAMARAJ",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI100",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060MOHAN S",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI101",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060RANJITH C",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI102",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "K RAVI KUMAR",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI103",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VINO",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI104",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SANTHANAM",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI105",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SAFIYULLAH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI106",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MOORTHY",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI107",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "YADAVA KRISHNAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI108",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SAMPATH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI109",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MADHUBALA",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI110",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KAMAALDEEN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI111",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAVI KUMAR",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI112",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAVI SHANKAR",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI113",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VENKATESH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI114",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DEEBALA",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI115",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "AJOY LAWRENCE",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI116",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DEEPAK RAGHAVENDRA",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI117",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "HARIHARAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI118",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "JOTHIPANDI",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI119",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "JUBER ALI KHAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI120",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MAGESH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI121",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SREENATH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI122",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DHIVYA PRAKASH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI123",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "\u2060MEYYAPPAN",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI124",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "LOKESH",
+    "Gender": "M",
+    "Position": "OFFICIAL",
+    "uniqueId": "IISMOFFI125",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MUTHU KIRSHNA",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI126",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "NAVIN KUMAR",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI127",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VETASH BABU",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI128",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GOPI",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI129",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GUGHAN",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI132",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RAMESH",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI133",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KESAVAN",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI134",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KANAGARAJ",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI135",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MOGHAN",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI136",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DEEPAK",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI137",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MUTHARASAN",
+    "Gender": "M",
+    "Position": "CAMERA TEAM",
+    "uniqueId": "IISMOFFI138",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SELVAM",
+    "Gender": "M",
+    "Position": "EDITOR",
+    "uniqueId": "IISMOFFI139",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MADHAN",
+    "Gender": "M",
+    "Position": "EDITOR",
+    "uniqueId": "IISMOFFI140",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SIVARAJ",
+    "Gender": "M",
+    "Position": "EDITOR",
+    "uniqueId": "IISMOFFI141",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MUKESH",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI143",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MULLAI VANTHAN",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI144",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PRASANRAJ",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI145",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MANOJ",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI146",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SETHIES",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI147",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GURU MOORTHY",
+    "Gender": "M",
+    "Position": "CAMERA ASSISTANT",
+    "uniqueId": "IISMOFFI148",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "RANJAN",
+    "Gender": "M",
+    "Position": "PHOTOGRAPHER",
+    "uniqueId": "IISMOFFI149",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "BALA",
+    "Gender": "M",
+    "Position": "PHOTOGRAPHER",
+    "uniqueId": "IISMOFFI150",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "PREMANAND",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI151",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "GANESAN",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI152",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SATHYASEELAN",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI153",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DHANASEKAR",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI154",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "MOHAN",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI155",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "NAZHURUDEEN",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI156",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SUBASH",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI157",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "T.M.RAO",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI158",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "KANNAN",
+    "Gender": "M",
+    "Position": "WEBCAST TEAM",
+    "uniqueId": "IISMOFFI159",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "JAI SANKAR",
+    "Gender": "M",
+    "Position": "AUDIO TEAM",
+    "uniqueId": "IISMOFFI160",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "YOGESH",
+    "Gender": "M",
+    "Position": "AUDIO TEAM",
+    "uniqueId": "IISMOFFI162",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SUJITH",
+    "Gender": "M",
+    "Position": "AUDIO TEAM",
+    "uniqueId": "IISMOFFI163",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "SURENDER",
+    "Gender": "M",
+    "Position": "AUDIO TEAM",
+    "uniqueId": "IISMOFFI164",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "DHANUSH",
+    "Gender": "M",
+    "Position": "PHOTOGRAPHER - STUDIO 36",
+    "uniqueId": "IISMOFFI165",
+    "IIT": "MADRAS"
+  },
+  {
+    "Name": "VIJAY",
+    "Gender": "M",
+    "Position": "PHOTOGRAPHER - STUDIO 36",
+    "uniqueId": "IISMOFFI166",
+    "IIT": "MADRAS"
+  },
+
+
   {
     "Name": "AMRITMAY BISWAS",
     "Gender": "M",
@@ -216,8 +1619,7 @@
     "Position": "staff",
     "uniqueId": "iitk-staff-006",
     "IIT": "KANPUR"
-  }
-,
+  },
   {
     "Name": "souresh G",
     "Gender": "M",
@@ -286,13 +1688,6 @@
     "Gender": "M",
     "Position": "Registrar",
     "uniqueId": "IITmadras-registrar-011",
-    "IIT": "MADRAS"
-  },
-  {
-    "Name": "Prof. K. ARUL PRAKASH",
-    "Gender": "M",
-    "Position": "Ad Sports",
-    "uniqueId": "IITmadras-Ad Sports-012",
     "IIT": "MADRAS"
   },
   {
@@ -997,12 +2392,11 @@
   },
   {
     "Name": "Gurumoorthy",
-    "Gender": "Male",
+    "Gender": "M",
     "Position": "Umpire",
-    "uniqueid": "IITmadras-ump-114",
+    "uniqueId": "IITmadras-ump-114",
     "IIT": "MADRAS"
   },
-
   {
     "Name": "PRAKHAR SINGH",
     "Gender": "M",
@@ -1022,13 +2416,6 @@
     "Gender": "M",
     "Position": "student",
     "uniqueId": "NA22B058",
-    "IIT": "MADRAS"
-  },
-  {
-    "Name": "Prof.SATHYANARAYANA N. GUMADI",
-    "Gender": "Male",
-    "Position": "Dean Students",
-    "uniqueid": "IITmadras-ump-113",
     "IIT": "MADRAS"
   },
   {
