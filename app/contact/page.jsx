@@ -246,146 +246,152 @@ const staffCategories = [
 ];
 
 // ----------------------------------------
-// STAFF CARD COMPONENT (REVISED)
+// STAFF CARD COMPONENT
 // ----------------------------------------
 
 function StaffCard({ member }) {
-    // Fallback URL for the avatar if image path is missing
-    const avatar = member.image
-        ? member.image
-        : `https://ui-avatars.com/api/?name=${encodeURIComponent(
-            member.name
-        )}&background=random&color=fff&size=200`;
+  const avatar = member.image
+    ? member.image
+    : `https://ui-avatars.com/api/?name=${encodeURIComponent(
+        member.name
+      )}&background=random&color=fff&size=200`;
 
-    return (
-        // Main container is relative for absolute children
-        <div className="relative h-70 w-60 rounded-2xl item-center overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.03]">
-            {/* 1. Background Image */}
-            <img
-                src={avatar}
-                alt={member.name}
-                className="absolute inset-0 w-full h-full object-cover"
-            />
+  return (
+    // Changes: Added mx-auto for mobile centering, kept specific width but ensured it fits
+    <div className="relative h-70 w-full max-w-[240px] mx-auto rounded-2xl overflow-hidden shadow-xl transition-transform duration-300 hover:scale-[1.03] group">
+      <img
+        src={avatar}
+        alt={member.name}
+        className="absolute inset-0 w-full h-full object-cover"
+      />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 
-            {/* 3. Text Content (Bottom Aligned and CENTERED) */}
-            <div className="absolute bottom-0 p-6 w-full text-center">
-                <h3 className="text-xl font-extrabold text-white leading-tight">
-                    {member.name}
-                </h3>
-                <p className="text-sm font-semibold text-white/90 tracking-wide mt-1 uppercase">
-                    {member.designation}
-                </p>
+      <div className="absolute bottom-0 p-6 w-full text-center">
+        <h3 className="text-xl font-extrabold text-white leading-tight drop-shadow-md">
+          {member.name}
+        </h3>
+        {member.designation && (
+          <p className="text-xs font-semibold text-white/90 tracking-wide mt-1 uppercase">
+            {member.designation}
+          </p>
+        )}
 
-                {/* Contact Icons (Centered) */}
-                <div className="mt-4 flex items-center justify-center gap-3">
-                    {member.phone && (
-                        <a
-                            href={`tel:${member.phone}`}
-                            title={`Call ${member.name}`}
-                            className="p-2 rounded-full bg-white/20 text-white hover:bg-white/40 transition"
-                        >
-                            <Phone className="w-4 h-4" />
-                        </a>
-                    )}
-                    {member.email && (
-                        <a
-                            href={`mailto:${member.email}`}
-                            title={`Email ${member.name}`}
-                            className="p-2 rounded-full bg-white/20 text-white hover:bg-white/40 transition"
-                        >
-                            <Mail className="w-4 h-4" />
-                        </a>
-                    )}
-                </div>
-            </div>
+        {/* Contact Icons */}
+        <div className="mt-4 flex items-center justify-center gap-3">
+          {member.phone && (
+            <a
+              href={`tel:${member.phone}`}
+              className="p-2 rounded-full bg-white/20 backdrop-blur-sm text-white hover:bg-[#2d7f8a] hover:text-white transition shadow-sm"
+              aria-label={`Call ${member.name}`}
+            >
+              <Phone className="w-4 h-4" />
+            </a>
+          )}
+          {member.email && (
+            <a
+              href={`mailto:${member.email}`}
+              className="p-2 rounded-full bg-white/20 backdrop-blur-sm text-white hover:bg-[#2d7f8a] hover:text-white transition shadow-sm"
+              aria-label={`Email ${member.name}`}
+            >
+              <Mail className="w-4 h-4" />
+            </a>
+          )}
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
 // ----------------------------------------
 // MAIN PAGE
 // ----------------------------------------
+
 export default function ContactPage() {
-  // Utility class for the repeating blue/teal bar design
   const TitleBar = ({ title }) => (
-    <div className="flex items-center gap-3 mb-8">
-      <div className="w-2 h-8 bg-[#2d7f8a] rounded-full"></div>
-      <h2 className="text-3xl font-bold text-gray-900">{title}</h2>
+    <div className="flex items-center gap-3 mb-6 md:mb-8 px-2 md:px-0">
+      <div className="w-1.5 h-6 md:w-2 md:h-8 bg-[#2d7f8a] rounded-full shrink-0"></div>
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        {title}
+      </h2>
     </div>
   );
 
   return (
-    <main className="min-h-screen bg-[#f6f7f9] pt-30 relative">
-      <div
-        className="absolute right-0 top-0 w-[40%] h-full bg-no-repeat bg-right opacity-20 pointer-events-none"
-        style={{ backgroundImage: "/sports_1.jpg" }}
-      />
-
-      {/* Main Heading Section */}
-      <section className="relative text-center mb-10">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-[#aa0e0e]">
-          Contact Our Team
-        </h2>
-        <p className="text-gray-600 mt-2 max-w-2xl mx-auto text-lg">
-          Reach out to the Sports Officers and Gymkhana Staff of Inter IIT Sports
-          Meet 2025.
-        </p>
-      </section>
-
-      {/* Gymkhana Office Info Block */}
-      <div className="w-4xl mx-auto px-6 mb-12">
-        <div className="rounded-3xl bg-white/80 backdrop-blur-l shadow-lg border border-gray-200 p-5 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
-            <div className="p-4 rounded-full bg-[#aa0e0e] text-white shadow-md">
-              <MapPin className="w-4 h-4" />
-            </div>
-            <div>
-              <h3 className="text-l font-bold text-gray-900">
-                Office of the Gymkhana
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Indian Institute of Technology Madras, Chennai - 600036
-              </p>
-            </div>
-          </div>
-
-          <a
-            target="_blank"
-            href="https://maps.app.goo.gl/W3GciRchrTKCYrA99"
-            className="px-4 py-3 rounded-xl bg-red-800 hover:bg-red-800 transition text-white font-medium shadow-md flex items-center gap-2"
-          >
-            <MapPin className="w-4 h-4" />
-            View Location
-          </a>
-        </div>
+    // 'relative' here just creates a context for the page flow
+    <main className="min-h-screen relative overflow-x-hidden">
+      
+      <div className="fixed inset-0 -z-10 bg-[#f6f7f9]">
+        <div
+          className="absolute right-0 top-0 w-full h-full bg-no-repeat bg-right-top opacity-10 md:opacity-40 pointer-events-none"
+          style={{ 
+            backgroundImage: "url('/sports_1.jpg')", 
+            backgroundSize: 'cover' 
+          }}
+        />
       </div>
 
-      {/* Staff Categories Section */}
+      <div className="pt-24 md:pt-32 pb-20">
+        
+        {/* Main Heading */}
+        <section className="relative text-center mb-8 md:mb-12 px-4">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-[#aa0e0e] leading-tight">
+            Contact Our Team
+          </h2>
+          <p className="text-gray-600 mt-3 max-w-2xl mx-auto text-base md:text-lg">
+            Reach out to the Sports Officers and Gymkhana Staff of Inter IIT Sports
+            Meet 2025.
+          </p>
+        </section>
 
-      <div className="max-w-7xl mx-auto px-6 pb-20 space-y-16">
-        {staffCategories.map((category, index) => (
-          <section key={index}>
-            <TitleBar title={category.title} />
+        {/* Gymkhana Office Info Block */}
+        <div className="w-full max-w-4xl mx-auto px-4 md:px-6 mb-12 md:mb-16">
+          <div className="rounded-3xl bg-white/80 backdrop-blur-md shadow-lg border border-gray-200 p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 text-center md:text-left">
+            <div className="flex flex-col md:flex-row items-center gap-4">
+              <div className="p-4 rounded-full bg-[#aa0e0e] text-white shadow-md shrink-0">
+                <MapPin className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900">
+                  Office of the Gymkhana
+                </h3>
+              </div>
+            </div>
 
-            {/* Adjusted grid for better use of space */}
-            <div className="flex flex-col items-center gap-10">
-              {category.members.map((group, groupIndex) => (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://maps.google.com" 
+              className="w-full md:w-auto px-6 py-3 rounded-xl bg-red-800 hover:bg-red-900 transition text-white font-medium shadow-md flex items-center justify-center gap-2 whitespace-nowrap"
+            >
+              <MapPin className="w-4 h-4" />
+              View Location
+            </a>
+          </div>
+        </div>
+
+        {/* Staff Categories */}
+        <div className="max-w-7xl mx-auto px-4 md:px-6 space-y-12 md:space-y-16">
+          {staffCategories.map((category, index) => (
+            <section key={index}>
+              <TitleBar title={category.title} />
+              <div className="flex flex-col items-center gap-6 md:gap-10">
+                {category.members.map((group, groupIndex) => (
                   <div
                     key={groupIndex}
-                    className="flex flex-wrap justify-center gap-8"
+                    className="flex flex-wrap justify-center gap-6 md:gap-8 w-full"
                   >
                     {(Array.isArray(group) ? group : [group])
-                      .filter(m => m && m.name)
+                      .filter((m) => m && m.name)
                       .map((member, i) => (
                         <StaffCard key={i} member={member} />
                       ))}
                   </div>
                 ))}
-            </div>
-          </section>
-        ))}
+              </div>
+            </section>
+          ))}
+        </div>
       </div>
     </main>
   );
